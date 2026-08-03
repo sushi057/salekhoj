@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaleKhoj — every Nepali sale, one page</title>
+<meta name="description" content="Live discounts across fashion, electronics, beauty and fitness from Nepali online stores. We check the tags so you don't have to.">
+<link rel="icon" href="favicon.svg">
+<script>
+(function () {
+  var KEY = 'salekhoj-theme';
+  var choice = localStorage.getItem(KEY) || 'auto';
+  function resolve(c) {
+    if (c === 'light' || c === 'dark') return c;
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var mql = window.matchMedia('(prefers-color-scheme: light)');
+    if (mq.matches) return 'dark';
+    if (mql.matches) return 'light';
+    var h = new Date().getHours();
+    return (h >= 19 || h < 6) ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-theme', resolve(choice));
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="home" data-nav="index.html">
+<main id="main">
+  <section class="hero wrap">
+    <span class="live">Checked <span id="updated">today</span></span>
+    <h1>Somebody in Nepal just <span class="hl">cut a price.</span></h1>
+    <p class="lede">
+      We read the price tags at <b id="stat-stores">9</b> Nepali stores every day — fashion,
+      electronics, beauty, fitness — and keep only the ones that actually dropped.
+      <b id="stat-deals">3,500</b> live right now. No sign-up, no cart — just the deal and the door.
+    </p>
+    <div class="hero-cta">
+      <a class="btn" href="deals.html?sort=discount">See the biggest drops</a>
+      <a class="btn ghost" href="brands.html">Browse by store</a>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head">
+      <h2>Steepest cuts</h2>
+      <p>Sorted by how far the price fell.</p>
+      <a class="more" href="deals.html?sort=discount">All deals &rarr;</a>
+    </div>
+    <div class="grid" id="top-deals"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head"><h2>Shop by vertical</h2></div>
+    <div id="vertical-rails"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head"><h2>What are you after?</h2></div>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head">
+      <h2>Under Rs 1,500</h2>
+      <p>Discounted and still cheap.</p>
+      <a class="more" href="deals.html?sort=cheap">More &rarr;</a>
+    </div>
+    <div class="grid" id="under"></div>
+  </section>
+</main>
+</body>
+</html>

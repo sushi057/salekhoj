@@ -1,0 +1,60 @@
+# Laptops / PCs / general computer stores
+infotechsnepal.com.np
+maxnepal.com.np
+itechstore.com.np
+nagmani.com.np
+mudita.com.np
+lds.com.np
+cplanetnp.com
+onin.com.np
+bigbyte.com.np
+alamtech.com.np
+onlineit.com.np
+sthree.tech
+qualitycomputer.com.np
+
+# Peripherals / gaming gear / general gadgets
+khudra.com.np
+neostore.com.np
+exortstore.com
+mobilemandu.com
+makuratech.com
+sajiloshop.com.np
+kinaun.com
+godamonline.com
+itti.com.np
+allureinternational.com.np
+
+# Mobile phones
+fatafatsewa.com
+panchakanyamobile.com.np
+dealayo.com
+brother-mart.com
+
+# Apple / authorized brand resellers
+evostore.com.np
+gnextcom.com
+
+# Cameras / drones
+dslrcameranepal.com
+gndgadgets.com
+dronestorenepal.com
+
+# Gaming consoles
+tronixspace.com
+
+# Power/charging brand store
+ankernepal.com
+
+# CCTV / smart home / security
+nightvision.com.np
+firstaidnepal.com
+
+# Gadget review/price aggregator (kept as candidate - has own storefront)
+gadgetsinnepal.com.np
+
+# General electronics/appliance retailers
+electromandu.com
+yantranepal.com
+estore.com.np
+hardwarepasal.com

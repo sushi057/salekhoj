@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — SaleKhoj</title>
+<meta name="description" content="How SaleKhoj finds Nepali fashion discounts, what counts as a real deal, and how we plan to make money.">
+<link rel="icon" href="favicon.svg">
+<script>
+(function () {
+  var KEY = 'salekhoj-theme';
+  var choice = localStorage.getItem(KEY) || 'auto';
+  function resolve(c) {
+    if (c === 'light' || c === 'dark') return c;
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var mql = window.matchMedia('(prefers-color-scheme: light)');
+    if (mq.matches) return 'dark';
+    if (mql.matches) return 'light';
+    var h = new Date().getHours();
+    return (h >= 19 || h < 6) ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-theme', resolve(choice));
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="about" data-nav="about.html">
+<main id="main" class="wrap section">
+  <div class="prose">
+    <h1>What this is</h1>
+    <p>
+      Nepali shops announce sales on Instagram, then bury them three clicks deep on their own site.
+      SaleKhoj reads the price tags for you: once a day we check every store we track, keep the
+      products whose price actually fell, and put them on one page.
+    </p>
+
+    <h2>What counts as a deal</h2>
+    <p>
+      A product only shows up here if the store publishes <strong>both</strong> a current price and a
+      higher original price, and the gap lands between <strong>5% and 90%</strong>. We never read a
+      "SALE" badge and guess a number. Under 5% is noise; over 90% is almost always a data entry
+      error. Both get dropped rather than shown.
+    </p>
+
+    <h2>Where the prices come from</h2>
+    <p>
+      Straight from each store's own product feed — the same data their website renders. We store the
+      price, the original price, the image and the link, nothing else. We don't repackage their
+      catalogue, we point at it. Prices can change between our check and your click; the store's page
+      is always the truth.
+    </p>
+
+    <h2>How this makes money</h2>
+    <p>
+      Right now, it doesn't. Links are plain outbound links and we take nothing when you buy.
+      Eventually some will become affiliate links, and we'll mark them when they are. We won't
+      re-order the list to favour the ones that pay — the sort you choose is the sort you get.
+    </p>
+
+    <h2>Something wrong?</h2>
+    <p>
+      If you run one of these shops and want your products off the list, say so and they're gone the
+      same day. If a price is stale or a link is dead, tell us which one — that's a bug, not a
+      feature.
+    </p>
+  </div>
+</main>
+</body>
+</html>

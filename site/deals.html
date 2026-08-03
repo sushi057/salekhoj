@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All deals — SaleKhoj</title>
+<meta name="description" content="Filter every live fashion discount in Nepal by store, category, price and how much the price dropped.">
+<link rel="icon" href="favicon.svg">
+<script>
+(function () {
+  var KEY = 'salekhoj-theme';
+  var choice = localStorage.getItem(KEY) || 'auto';
+  function resolve(c) {
+    if (c === 'light' || c === 'dark') return c;
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var mql = window.matchMedia('(prefers-color-scheme: light)');
+    if (mq.matches) return 'dark';
+    if (mql.matches) return 'light';
+    var h = new Date().getHours();
+    return (h >= 19 || h < 6) ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-theme', resolve(choice));
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="deals" data-nav="deals.html">
+<main id="main" class="wrap section">
+  <div class="section-head"><h2>All deals</h2><p>Every price we could verify dropped.</p></div>
+
+  <div class="layout">
+    <details class="filters" id="filters">
+      <summary class="filters-summary">Filters <span class="fcount" id="filter-count"></span></summary>
+      <div class="fgroup">
+        <label for="q">Search</label>
+        <input id="q" type="search" placeholder="kurta, sneakers, bag…"
+               style="width:100%;padding:8px 10px;border:2px solid var(--line);border-radius:8px;background:var(--paper)">
+      </div>
+      <fieldset class="fgroup" style="border:0;padding:0;margin:0">
+        <legend>Vertical</legend>
+        <div class="chips" id="vchips"></div>
+      </fieldset>
+      <fieldset class="fgroup" style="border:0;padding:0;margin:0">
+        <legend>Category</legend>
+        <div class="chips" id="chips"></div>
+      </fieldset>
+      <div class="fgroup">
+        <label for="brand">Store</label>
+        <select id="brand"></select>
+      </div>
+      <div class="fgroup">
+        <label for="min">Minimum discount — <span id="min-out">Any</span></label>
+        <input id="min" type="range" min="0" max="80" step="10" value="0">
+      </div>
+      <div class="fgroup">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="discount">Biggest discount</option>
+          <option value="saving">Most rupees saved</option>
+          <option value="cheap">Cheapest first</option>
+          <option value="dear">Priciest first</option>
+        </select>
+      </div>
+    </details>
+
+    <div>
+      <div class="result-bar"><span class="count" id="count"></span></div>
+      <div class="grid" id="results"></div>
+      <div style="text-align:center;margin-top:32px">
+        <button class="btn ghost" id="more" hidden>Show more</button>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

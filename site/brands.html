@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stores — SaleKhoj</title>
+<meta name="description" content="The Nepali fashion stores we check every day, and how deep their discounts go right now.">
+<link rel="icon" href="favicon.svg">
+<script>
+(function () {
+  var KEY = 'salekhoj-theme';
+  var choice = localStorage.getItem(KEY) || 'auto';
+  function resolve(c) {
+    if (c === 'light' || c === 'dark') return c;
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var mql = window.matchMedia('(prefers-color-scheme: light)');
+    if (mq.matches) return 'dark';
+    if (mql.matches) return 'light';
+    var h = new Date().getHours();
+    return (h >= 19 || h < 6) ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-theme', resolve(choice));
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="brands" data-nav="brands.html">
+<main id="main" class="wrap section">
+  <div class="section-head">
+    <h2>The stores we watch</h2>
+    <p><span id="brand-count">0</span> Nepali shops, checked daily.</p>
+  </div>
+  <div class="chips" id="brand-vchips" style="margin-bottom:20px"></div>
+  <div class="brand-grid" id="brand-grid"></div>
+</main>
+</body>
+</html>
