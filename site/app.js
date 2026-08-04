@@ -31,6 +31,13 @@ const storeName = (domain) => domain
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
   (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+// Cards render thumbs at up to ~190px wide (grid minmax); 400 covers that at 2x DPI.
+// Only cdn.shopify.com honours &width= — other hosts are left untouched (guessable
+// WooCommerce -300x300 suffixes are unreliable; a broken image beats a saved KB).
+const thumb = (url) => url && url.includes('cdn.shopify.com')
+  ? url + (url.includes('?') ? '&' : '?') + 'width=400'
+  : url;
+
 /* Biggest-discount-first alone lets one store own the whole homepage: it's sorted by
    number, and one store's markdowns are always deepest. Cap each store at two on a rail. */
 function spread(products, n, perBrand = 2) {
@@ -48,7 +55,7 @@ function card(p) {
   return `<a class="card" href="${esc(p.url)}" data-brand="${esc(p.brand)}" target="_blank" rel="noopener nofollow sponsored">
     <span class="sticker ${p.discount_pct >= 40 ? 'hot' : ''}">${p.discount_pct}<small>% off</small></span>
     <div class="thumb">${p.image
-      ? `<img src="${esc(p.image)}" alt="" loading="lazy" decoding="async">` : ''}</div>
+      ? `<img src="${esc(thumb(p.image))}" alt="" loading="lazy" decoding="async">` : ''}</div>
     <div class="card-body">
       <span class="card-brand">${esc(storeName(p.brand))}</span>
       <h3 class="card-title">${esc(p.title)}</h3>
@@ -355,7 +362,17 @@ function renderBrand(db) {
     ? `${items.length.toLocaleString()} deals live in ${verticals.join(', ')} &middot;
        <a href="https://${esc(domain)}" target="_blank" rel="noopener nofollow">${esc(domain)}</a>`
     : 'No deals from this store right now.';
-  document.querySelector('#brand-results').innerHTML = items.map(card).join('');
+
+  // Same show-more pattern as renderDeals — a single brand can have 2,000+ items.
+  let shown = PAGE_SIZE;
+  const more = document.querySelector('#brand-more');
+  function paint() {
+    document.querySelector('#brand-results').innerHTML = items.slice(0, shown).map(card).join('');
+    more.hidden = items.length <= shown;
+    more.textContent = `Show ${Math.min(PAGE_SIZE, items.length - shown)} more`;
+  }
+  more.onclick = () => { shown += PAGE_SIZE; paint(); };
+  paint();
 }
 
 const RENDERERS = { home: renderHome, deals: renderDeals, brands: renderBrands, brand: renderBrand };
