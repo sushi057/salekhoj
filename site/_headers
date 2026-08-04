@@ -1,0 +1,16 @@
+# Cloudflare Pages cache rules. Static assets only — see Pages docs on _headers.
+# Nothing here is content-hashed, so max-age stays short enough that a deploy
+# reaches people the same day rather than being pinned in browser caches.
+
+/data.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/*.css
+  Cache-Control: public, max-age=3600
+
+/*.js
+  Cache-Control: public, max-age=3600
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
