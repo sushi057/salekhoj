@@ -1,15 +1,16 @@
-"""Phase 0 steps 3-5: pull products from tier-1 sites, keep only real discounts.
+"""Phase 0 steps 3-5: pull products from tier-1 and tier-2 sites, keep only real discounts.
 
-Two extractors cover every tier-1 site we found:
+Three extractors, no per-site code:
   shopify              -> /products.json          (variants[].compare_at_price)
   woocommerce-store-api-> /wp-json/wc/store/products (prices.regular_price vs sale_price)
+  html (tier 2)        -> sitemap -> product pages (JSON-LD price + struck-out original)
 
 A product is "on sale" only if we parsed BOTH an original and a lower current price
 and the discount lands in [5%, 90%]. Anything else is dropped, never guessed.
 
 Usage: python3 extract.py ../data/sites.json > ../data/products.json
 """
-import json, re, sys, time, html, concurrent.futures as cf, urllib.request
+import json, re, sys, time, html, gzip, concurrent.futures as cf, urllib.request
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"
 TIMEOUT = 30
@@ -63,7 +64,8 @@ FX_TO_NPR = {"NPR": 1, "USD": 141, "INR": 1.6, "EUR": 153, "GBP": 180, "AUD": 92
 # Products that belong to none of our four verticals: groceries, furniture, books, toys...
 DROP_HINT = re.compile(
     r"grocery|furniture|sofa|book\b|stationer|\btoy\b|decor|kitchen(?!.*appliance)|"
-    r"rice.?cooker|utensil|crockery|curtain", re.I)
+    r"rice.?cooker|utensil|crockery|curtain|"
+    r"wrench|screwdriver(?!.*(phone|mobile))|\bplier|spanner|hand tool|\bdrill\b", re.I)
 
 # Each vertical's own-title/category signal. Checked in this order; first match wins
 # UNLESS the site hint disagrees and the match is weak (see classify()).
@@ -73,7 +75,7 @@ VERTICAL_HINTS = {
         r"earbud|headphone|speaker|charger|power ?bank|camera|dslr|drone|console|"
         r"gaming|router|cctv|smartwatch|smart.?watch|gadget|adapter|cable\b|ssd|"
         r"processor|monitor|keyboard|mouse\b|projector|television|\btv\b|appliance|"
-        r"refrigerator|microwave|air ?conditioner|washing machine", re.I),
+        r"refrigerator|microwave|air ?conditioner|washing machine|\bups\b", re.I),
     "Beauty": re.compile(
         r"skincare|skin care|makeup|make-?up|cosmetic|lipstick|foundation|concealer|"
         r"mascara|eyeliner|serum|moisturi[sz]er|sunscreen|cleanser|toner|shampoo|"
@@ -84,11 +86,11 @@ VERTICAL_HINTS = {
         r"treadmill|yoga mat|resistance band|kettlebell|fitness|workout|activewear|"
         r"gymwear|fitness tracker|smartband|shaker\b|exercise", re.I),
     "Fashion": re.compile(
-        r"shirt|t-?shirt|top|dress|skirt|pant|trouser|jean|short|jacket|coat|hoodie|"
+        r"shirt|t-?shirt|\btops?\b|dress|skirt|pant|trouser|jean|short|jacket|coat|hoodie|"
         r"sweater|knit|merino|v-?neck|high-?neck|crew-?neck|turtleneck|blazer|"
-        r"kurta|saree|sari|kurti|lehenga|suit|blouse|legging|sock|shoe|"
+        r"kurta|saree|sari|kurti|lehenga|suit(?!able)|blouse|legging|sock|shoe|"
         r"sneaker|boot|sandal|heel|slipper|footwear|bag|backpack|purse|wallet|belt|"
-        r"cap|hat|beanie|scarf|shawl|glove|accessor|apparel|clothing|wear|outfit|"
+        r"\bcap\b|hat|beanie|scarf|shawl|glove|apparel|clothing|wear|outfit|umbrella|"
         r"unisex|necklace|pendant|earring|bangle|bracelet|mangalsutra|jewel|"
         r"sunglass|eyeglass|optical frame|eyewear", re.I),
 }
@@ -137,24 +139,29 @@ BUCKETS = {
     "Fashion": [
         ("Footwear", r"shoe|sneaker|boot|sandal|heel|slipper|footwear|loafer|flip.?flop"),
         ("Bags",     r"\bbag|backpack|purse|wallet|clutch|luggage|tote"),
-        ("Accessories", r"accessor|cap\b|hat\b|beanie|scarf|shawl|belt|glove|sock|jewel|watch|sunglass"),
         ("Kids",     r"kid|baby|child|boy|girl|infant|toddler"),
+        # Item-type buckets win over the gender fallback, so "Women Diamond Earrings"
+        # files under Jewellery, not Women — same rule Footwear/Bags already followed.
+        ("Jewellery", r"pendant|necklace|earring|bangle|mangalsutra|anklet|nosepin|nose.?pin|jhumka|bracelet|choker"),
+        ("Eyewear",  r"eyeglass|spectacle|optical.?frame|goggle"),
+        ("Accessories", r"accessor|cap\b|hat\b|beanie|scarf|shawl|belt|glove|sock|watch"),
         ("Women",    r"women|ladies|female|dress|skirt|saree|sari|kurti|lehenga|blouse|legging"),
         ("Men",      r"\bmen\b|male|gents"),
+        ("Clothing", r"\bshirt\b|\btee\b|t-?shirt|blazer|jacket|coat|hoodie|sweater|sweatshirt|chino|trouser|pant|jean|\bshort\b|shacket|pajama|pyjama|vest|kurta|suit|jogger|windcheater"),
     ],
     "Electronics": [
         ("Phones",   r"phone|smartphone|mobile"),
         ("Computers", r"laptop|desktop|computer|pc\b|tablet|ipad|keyboard|mouse\b|monitor|ssd|processor"),
         ("Audio",    r"earphone|earbud|headphone|speaker"),
-        ("Cameras",  r"camera|dslr|drone"),
+        ("Cameras",  r"camera|dslr|drone|binocular|monocular|telescope"),
         ("Gaming",   r"gaming|console"),
         ("Home Appliances", r"refrigerator|microwave|air ?conditioner|washing machine|television|\btv\b|appliance"),
         ("Accessories", r"smartwatch|smart.?watch|fitness tracker|smartband|wearable|charger|power ?bank|cable\b|adapter|case\b|cover\b|strap\b|router|cctv"),
     ],
     "Beauty": [
         ("Skincare", r"skincare|skin care|serum|moisturi[sz]er|sunscreen|cleanser|toner|face wash|body lotion"),
-        ("Makeup",   r"makeup|make-?up|cosmetic|lipstick|foundation|concealer|mascara|eyeliner|nail polish"),
-        ("Haircare", r"haircare|hair care|shampoo|conditioner"),
+        ("Makeup",   r"makeup|make-?up|cosmetic|lipstick|foundation|concealer|mascara|eyeliner|eyeshadow|eyebrow|nail polish"),
+        ("Haircare", r"haircare|hair care|shampoo|conditioner|hair.?mask|hair.?clay"),
         ("Fragrance", r"fragrance|perfume|attar|deodorant"),
         ("Grooming", r"grooming|razor|shaving"),
     ],
@@ -220,14 +227,27 @@ def from_shopify(domain):
     return items
 
 
-def from_woo(domain):
-    items = []
-    for page in range(1, MAX_PAGES + 1):
+# Installs with pretty permalinks off only answer the second form.
+WOO_PATHS = ("https://{d}/wp-json/wc/store/products?per_page=100&page={p}",
+             "https://{d}/?rest_route=/wc/store/products&per_page=100&page={p}")
+
+
+def woo_feed(domain, page, path=None):
+    for tmpl in ([path] if path else WOO_PATHS):
         try:
-            data = get_json(f"https://{domain}/wp-json/wc/store/products?per_page=100&page={page}")
+            data = get_json(tmpl.format(d=domain, p=page))
+            if isinstance(data, list) and data:
+                return data, tmpl
         except Exception:
-            break
-        if not isinstance(data, list) or not data:
+            continue
+    return None, path
+
+
+def from_woo(domain):
+    items, path = [], None
+    for page in range(1, MAX_PAGES + 1):
+        data, path = woo_feed(domain, page, path)
+        if data is None:
             break
         for p in data:
             pr = p.get("prices") or {}
@@ -254,11 +274,220 @@ def from_woo(domain):
     return items
 
 
+# ---- tier 2: no feed, prices live in the product page's HTML -----------------
+#
+# One rule for every tier-2 store, no per-site selectors: the CURRENT price comes from
+# the page's own structured markup (JSON-LD Product, or an itemprop/og price meta), and
+# the ORIGINAL comes from whatever the template struck through (<del>/<s>/<strike>, or a
+# class named old/was/regular/compare). Stores render "Rs 5,500" with a line through it
+# precisely so a human reads it as the old price — that's the signal, and it survives
+# template differences the way a CSS selector never does.
+#
+# The current price is deliberately NOT guessed from loose page text. An early version
+# took the smallest price on the page and confidently returned a Rs 100 delivery fee and
+# a EUR 44.72 foreign price as "current". Structured markup or nothing.
+
+HTML_HDRS = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip",
+             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+MAX_HTML_PAGES = 400     # ponytail: per-store page budget; raise if a big store gets truncated
+HTML_WORKERS = 4         # concurrent page fetches per store — these are small shared hosts
+
+# A price with an explicit Nepali currency marker. The marker is required: a bare number
+# is how USD/EUR prices sneak in past the NPR gate.
+NPR_PRICE = re.compile(r"(?:Rs\.?|NPR|रू|रु)\s*([\d,]+(?:\.\d+)?)|([\d,]{3,})\s*(?:Rs\.?|NPR|रू|रु)", re.I)
+STRUCK = re.compile(r"<(del|s|strike)\b[^>]*>(.{0,400}?)</\1>", re.S | re.I)
+OLD_CLASS = re.compile(
+    r'<[^>]+class="[^"]*(?:price[-_]?old|old[-_]?price|was[-_]?price|regular[-_]?price|'
+    r'compare[-_]?at|line-through|strike)[^"]*"[^>]*>(.{0,200}?)<', re.S | re.I)
+
+
+def get_html(url, limit=1_200_000):
+    req = urllib.request.Request(url, headers=HTML_HDRS)
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+        body = r.read(limit)
+        if r.headers.get("Content-Encoding") == "gzip" or url.endswith(".gz"):
+            body = gzip.decompress(body)
+        return body.decode("utf-8", "replace")
+
+
+def npr_amounts(fragment):
+    out = []
+    for m in NPR_PRICE.finditer(fragment):
+        v = money((m.group(1) or m.group(2)).replace(",", ""))
+        if v:
+            out.append(v)
+    return out
+
+
+def sitemap_urls(domain, cap=6000):
+    """Product URLs, straight from the store's own sitemap. Some sitemaps are
+    double-escaped (&amp;amp;) — unescape twice or the URLs 404."""
+    seen, out, queue = set(), [], [f"https://{domain}/sitemap.xml",
+                                   f"https://{domain}/sitemap_index.xml"]
+    while queue and len(out) < cap:
+        u = queue.pop(0)
+        if u in seen:
+            continue
+        seen.add(u)
+        try:
+            body = get_html(u)
+        except Exception:
+            continue
+        locs = [html.unescape(html.unescape(l))
+                for l in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", body)]
+        if "<sitemapindex" in body[:3000]:
+            queue += [l for l in locs if l not in seen][:40]
+        else:
+            out += locs
+    return out
+
+
+NOT_PRODUCT = re.compile(
+    r"/(blog|news|about|contact|faq|policy|terms|privacy|cart|checkout|account|login|"
+    r"category|categories|collections?|brand|tag|author|page|search)(/|$)|"
+    r"\.(jpg|jpeg|png|webp|pdf|xml)$", re.I)
+LOOKS_PRODUCT = re.compile(r"/product|/products/|/p/|/shop/|/item", re.I)
+
+
+def product_urls(domain):
+    urls = [u for u in dict.fromkeys(sitemap_urls(domain)) if not NOT_PRODUCT.search(u)]
+    narrowed = [u for u in urls if LOOKS_PRODUCT.search(u)]
+    # Only trust the narrow "/product" pattern if it actually covers a meaningful chunk of
+    # the sitemap. Stores with pretty-permalink URLs (choicemandu.com/baby-edge-safety-online)
+    # have zero "/product" hits in real product URLs but a stray index.php?route=product link
+    # or two — that used to make "narrowed" look non-empty and silently swallow the whole
+    # real catalogue down to those few strays.
+    use = narrowed if len(narrowed) >= max(10, len(urls) * 0.1) else urls
+    return use[:MAX_HTML_PAGES]
+
+
+def ld_product(page):
+    """The deepest Product node in any JSON-LD block (some stores nest it under @graph)."""
+    found = {}
+    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>',
+                            page, re.S | re.I):
+        try:
+            d = json.loads(block)
+        except Exception:
+            continue
+        pool = list(d) if isinstance(d, list) else [d]
+        if isinstance(d, dict):
+            pool += [n for n in (d.get("@graph") or []) if isinstance(n, dict)]
+        for node in pool:
+            if isinstance(node, dict) and "Product" in str(node.get("@type")):
+                found = node
+    return found
+
+
+def meta_content(page, *names):
+    for n in names:
+        m = re.search(r'<meta[^>]+(?:property|name|itemprop)=["\']%s["\'][^>]+content=["\']([^"\']*)'
+                      % re.escape(n), page, re.I)
+        if m:
+            return html.unescape(m.group(1))
+    return None
+
+
+def window_near(page, now, radius=600):
+    """Text around every place `now`'s value is printed on the page, joined together.
+    Falls back to the whole page if the current price never appears as literal text
+    (e.g. it's only in JSON-LD, injected client-side elsewhere) — better to search too
+    wide than to search nowhere."""
+    n = int(now) if now == int(now) else now
+    needles = {str(n), f"{n:,}"}
+    # (?<!\d) guards against "3,500" matching inside "23,500" — a rail item's price that
+    # happens to end in this product's price is not the same number.
+    spans = [m.start() for needle in needles
+             for m in re.finditer(r"(?<![\d,])" + re.escape(needle) + r"(?!\d)", page)]
+    if not spans:
+        return page
+    return "".join(page[max(0, p - radius):p + radius] for p in spans)
+
+
+def parse_product_page(page, url):
+    """-> item dict, or None if this page isn't a discounted NPR product."""
+    ld = ld_product(page)
+    offers = ld.get("offers") or {}
+    if isinstance(offers, list):
+        offers = offers[0] if offers else {}
+
+    now = money(str(offers.get("price") or offers.get("lowPrice") or "").replace(",", "")) \
+        or money((meta_content(page, "product:price:amount", "og:price:amount", "price") or "").replace(",", ""))
+    if not now:
+        return None
+
+    currency = (offers.get("priceCurrency")
+                or meta_content(page, "product:price:currency", "og:price:currency") or "NPR").upper()
+    if currency != "NPR":
+        return None
+
+    # Restrict the struck-price search to text near where the current price itself is
+    # printed on the page. Without this, a "related products" / "recently viewed" rail
+    # further down the same page contributes its own struck price, which then reads as
+    # THIS product's original (e.g. khudra.com.np: a rail item's Rs 24,000 got picked up
+    # as the original for a Rs 5,500 monitor). The real old-price markup for a product is
+    # always right next to its own current price in the template.
+    near = window_near(page, now)
+    struck = [v for m in STRUCK.finditer(near) for v in npr_amounts(m.group(2))]
+    struck += [v for m in OLD_CLASS.finditer(near) for v in npr_amounts(m.group(1))]
+    # 20x ceiling: a struck number far above the price is a phone number or a spec, not
+    # this product's old price.
+    orig = next((s for s in struck if now < s < now * 20), None)
+    pct = deal(orig, now)
+    if pct is None:
+        return None
+
+    title = clean(ld.get("name")) or clean(meta_content(page, "og:title")) or ""
+    if not title:
+        return None
+    cat = ld.get("category")
+    if isinstance(cat, list):
+        cat = cat[0] if cat else None
+    return {
+        "brand": None, "title": title, "url": url,
+        "image": (ld.get("image")[0] if isinstance(ld.get("image"), list) and ld.get("image")
+                  else ld.get("image")) or meta_content(page, "og:image"),
+        "price": now, "original_price": orig, "discount_pct": pct,
+        "currency": "NPR", "country": "NP",
+        "category": clean(cat) if isinstance(cat, str) else None,
+        "tags": [],
+    }
+
+
+def from_html(domain):
+    urls = product_urls(domain)
+    if not urls:
+        return []
+
+    def one(u):
+        try:
+            return parse_product_page(get_html(u), u)
+        except Exception:
+            return None
+
+    with cf.ThreadPoolExecutor(HTML_WORKERS) as ex:
+        items = [i for i in ex.map(one, urls) if i]
+
+    # Some "stores" are JS apps that serve one identical prerendered page for every URL
+    # (ekjor, evewomens, evanmens). Every product then parses as the same item and the
+    # store looks like its whole catalogue is on sale. One title across many URLs is the
+    # tell — drop the domain rather than publish the same product hundreds of times.
+    if len(items) > 2 and len({i["title"] for i in items}) == 1:
+        return []
+
+    for i in items:
+        i["brand"] = domain
+    return items
+
+
 EXTRACTORS = {"shopify": from_shopify, "woocommerce-store-api": from_woo}
 
 
 def scrape(site):
-    fn = EXTRACTORS.get(site.get("platform"))
+    if site.get("tier") == "2":
+        fn = from_html
+    else:
+        fn = EXTRACTORS.get(site.get("platform"))
     if not fn:
         return site["domain"], [], "no extractor"
     try:
@@ -299,14 +528,76 @@ def demo():
     assert classify({"title": "High-End Portable Jewelry Box Earrings Ring Organizer",
                       "category": None, "tags": []}, hint="Fashion") != "Beauty"
 
+    # real leaks: an "Accessories" tag/category alone must never hard-signal Fashion —
+    # that's what AMBIGUOUS_ACCESSORY + hint is for, not a literal word in the regex.
+    assert classify({"title": "Recci RCS-M01 Space Capsule Wireless Mouse – Bluetooth Wireless Mouse",
+                      "category": "Wireless Mouse",
+                      "tags": ["Gaming Mouse", "Mouse", "Wireless Mouse"]}, hint="Fashion") == "Electronics"
+    assert classify({"title": "MIVI D4", "category": "AI-ENC Earbuds",
+                      "tags": ["earbud", "earbuds", "audio accessories"]}, hint="Fashion") == "Electronics"
+    # hand tools belong to none of the four verticals — drop, don't let a stray
+    # "Accessories" tag file them under whatever the site's own (unreliable) hint is
+    assert classify({"title": "Ingco Adjustable Wrench Industrial – HADW131068 (6″)",
+                      "category": "Hand Tool Parts & Accessories",
+                      "tags": ["Hand Tools", "Tools, DIY & Outdoor"]}, hint="Fitness") is None
+    assert classify({"title": "Prolink 10KVA Rack/Tower Online UPS with LCD (PRO910-ERS)",
+                      "category": "Prolink", "tags": ["Accessories", "UPS"]},
+                     hint="Electronics") == "Electronics"
+    # legitimate fashion must not get caught by the word-boundary fixes above
+    assert classify({"title": "STOCK-European & American Retro Printed One-Piece Swimsuit for Women",
+                      "category": "STOCK WOMEN", "tags": []}) == "Fashion"
+    assert classify({"title": "Winter Thermal Warm Tank Tops Camis",
+                      "category": None, "tags": []}) == "Fashion"
+
     assert bucket({"title": "Running Sneaker", "category": "STOCK MEN", "tags": []}, "Fashion") == "Footwear"
     assert bucket({"title": "Cotton Kurta", "category": "STOCK WOMEN", "tags": []}, "Fashion") == "Women"
     assert bucket({"title": "Plain Tee", "category": "STOCK MEN", "tags": []}, "Fashion") == "Men"
     assert bucket({"title": "Leather Tote Bag", "category": None, "tags": []}, "Fashion") == "Bags"
+    # New buckets: Jewellery, Eyewear, Clothing
+    assert bucket({"title": "Diamond Pendant – DPSP5780", "category": None, "tags": []}, "Fashion") == "Jewellery"
+    assert bucket({"title": "Wedding Necklaces – DNK911", "category": None, "tags": []}, "Fashion") == "Jewellery"
+    assert bucket({"title": "Limitless Noir Square Eyeglass", "category": None, "tags": []}, "Fashion") == "Eyewear"
+    assert bucket({"title": "SETH DOUBLE BREASTED JACKET", "category": None, "tags": []}, "Fashion") == "Clothing"
+    # Verify gendered items take precedence over item-type buckets
+    assert bucket({"title": "Women Cotton Shirt", "category": "STOCK WOMEN", "tags": []}, "Fashion") == "Women"
     assert bucket({"title": "iPhone 13", "category": None, "tags": []}, "Electronics") == "Phones"
     assert bucket({"title": "Whey Protein", "category": None, "tags": []}, "Fitness") == "Supplements"
     assert bucket({"title": "SPF 50 Sunscreen", "category": None, "tags": []}, "Beauty") == "Skincare"
+    # Beauty/Electronics improvements
+    assert bucket({"title": "Dual-Head Eyeshadow Stick", "category": None, "tags": []}, "Beauty") == "Makeup"
+    assert bucket({"title": "Keratin Hair Mask", "category": None, "tags": []}, "Beauty") == "Haircare"
+    assert bucket({"title": "60x60 HD Binoculars", "category": None, "tags": []}, "Electronics") == "Cameras"
     assert bucket({"title": "ZL54CJ Sports Smartwatch", "category": None, "tags": []}, "Electronics") == "Accessories"
+
+    # --- tier-2 HTML parsing. Fixtures are trimmed from the real store templates. ---
+    def page(ld_price="29900", cur="NPR", body='<div class="price"><p><s>NPR 37,000</s></p><p>NPR 29,900</p></div>'):
+        return ('<html><head><script type="application/ld+json">' + json.dumps({
+            "@context": "https://schema.org", "@type": "Product", "name": "AirPods 4",
+            "image": ["https://x/a.png"],
+            "offers": {"@type": "Offer", "price": ld_price, "priceCurrency": cur},
+        }) + "</script></head><body>" + body + "</body></html>")
+
+    got = parse_product_page(page(), "https://evostore.com.np/AirPods4")
+    assert got and got["price"] == 29900 and got["original_price"] == 37000
+    assert got["discount_pct"] == 19 and got["title"] == "AirPods 4"
+    # WooCommerce's own markup: <del> old, <ins> new
+    woo = parse_product_page(page("1199", body="<del><bdi>Rs 2,699</bdi></del><ins><bdi>Rs 1,199</bdi></ins>"), "u")
+    assert woo and woo["discount_pct"] == 55
+    # class-named old price with no strike tag
+    cls = parse_product_page(page("1500", body='<span class="price-old">Rs. 3,000</span>'), "u")
+    assert cls and cls["original_price"] == 3000
+    # no struck price anywhere -> not a deal, never inferred from a "SALE" badge
+    assert parse_product_page(page(body='<div class="price">NPR 29,900</div><b>SALE!</b>'), "u") is None
+    # foreign-currency store (caretobeauty.com prices in EUR) -> dropped at the gate
+    assert parse_product_page(page("44.72", cur="EUR", body="<del>EUR 60.00</del>"), "u") is None
+    # a struck number that isn't a price (phone number, spec) must not become the original
+    assert parse_product_page(page(body="<s>9801234567</s><div>NPR 29,900</div>"), "u") is None
+    # bare numbers with no currency marker are never prices
+    assert npr_amounts("<del>37,000</del>") == [] and npr_amounts("Rs 37,000") == [37000]
+    # struck price below the current price is not an original (relist/upsell rail)
+    assert parse_product_page(page(body="<s>NPR 1,000</s><div>NPR 29,900</div>"), "u") is None
+    # no structured price at all -> None, rather than guessing from page text
+    assert parse_product_page("<html><body>Rs 2,000 <s>Rs 4,000</s></body></html>", "u") is None
     print("ok")
 
 
@@ -317,10 +608,12 @@ def zero_reason(site, err, raw, npr_items, kept):
     tier = site.get("tier")
     if tier == "dead":
         return "dead/unreachable"
-    if tier in ("2", "3"):
-        return f"no structured feed (tier {tier}, extractor not built)"
+    if tier == "3":
+        return "JS-rendered or blocking (tier 3, extractor not built)"
     if err:
         return f"fetch error: {err}"
+    if not raw and tier == "2":
+        return "no sitemap, or no page carried both a structured price and a struck original"
     if not raw:
         return "feed OK but zero discounts right now"
     if not npr_items:
@@ -406,9 +699,12 @@ def main():
 
     all_sites = json.load(open(sys.argv[1]))
     sites_by_domain = {s["domain"]: s for s in all_sites}
-    tier1 = [s for s in all_sites if s.get("tier") == "1"]
+    # Tier 2 is far slower than tier 1 (hundreds of page fetches per store vs. one feed),
+    # so start those first — otherwise the whole run waits on the last one to begin.
+    scrapeable = sorted((s for s in all_sites if s.get("tier") in ("1", "2")),
+                        key=lambda s: s.get("tier") != "2")
     with cf.ThreadPoolExecutor(6) as ex:
-        results = list(ex.map(scrape, tier1))
+        results = list(ex.map(scrape, scrapeable))
 
     # A store that prices in USD/INR/EUR is selling to customers abroad, not to a shopper in
     # Kathmandu — the deal isn't actionable here even when the brand is Nepali. Dropped rather

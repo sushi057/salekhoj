@@ -5,3 +5,6 @@ __pycache__/
 # Intermediate build artifact — build.sh writes it, then copies it to site/data.json.
 # Committing both duplicates ~6MB per refresh. site/data.json is the published one.
 data/products.json
+
+# scrapers/social.py output: generated media + downloaded product image cache
+out/

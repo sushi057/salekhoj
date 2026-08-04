@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "goatcounter": {
+      "command": "uvx",
+      "args": [
+        "--from", "goatcounter-mcp-server",
+        "--with", "fastmcp==2.2.6",
+        "goatcounter-mcp-server"
+      ],
+      "env": {
+        "GOATCOUNTER_CODE": "${GOATCOUNTER_CODE}",
+        "GOATCOUNTER_API_KEY": "${GOATCOUNTER_API_KEY}"
+      }
+    }
+  }
+}

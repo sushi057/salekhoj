@@ -70,17 +70,21 @@ def probe(domain):
                 types.update(t if isinstance(t, list) else [t])
     out["ldjson_types"] = sorted(t for t in types if t)
 
-    # WooCommerce exposes a public REST product endpoint on many installs
-    if out["platform"] in ("woocommerce", "wordpress"):
+    # WooCommerce exposes a public REST product endpoint on many installs. Try it on every
+    # site, not just ones whose homepage said "woocommerce" — the marker often sits past the
+    # 400KB read limit, and the ?rest_route= form is how installs with pretty permalinks
+    # turned off answer. Four stores were sitting in tier 2 purely for those two reasons.
+    for path in ("/wp-json/wc/store/products?per_page=5",
+                 "/?rest_route=/wc/store/products&per_page=5"):
         try:
-            st, body, _ = get(f"{base}/wp-json/wc/store/products?per_page=5")
+            st, body, _ = get(f"{base}{path}")
             wc = json.loads(body)
             if isinstance(wc, list) and wc:
                 sale = sum(1 for p in wc if (p.get("prices") or {}).get("sale_price")
                            != (p.get("prices") or {}).get("regular_price"))
                 out.update(tier="1", platform="woocommerce-store-api",
-                           sample_products=len(wc), variants_with_compare_at=sale,
-                           sample_title=wc[0].get("name"))
+                           store_api_path=path, sample_products=len(wc),
+                           variants_with_compare_at=sale, sample_title=wc[0].get("name"))
                 return out
         except Exception as e:
             out["notes"].append(f"wc-store-api: {type(e).__name__}")

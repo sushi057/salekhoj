@@ -1,5 +1,9 @@
 /* SaleKhoj — one shared script for every page. Data is a static JSON build artifact. */
 
+// GoatCounter: free, cookieless, no consent banner needed. Replace with the real site code
+// after signing up at https://www.goatcounter.com/signup — see ANALYTICS.md.
+const GOATCOUNTER_CODE = 'salekhoj';
+
 const PAGES = [
   ['index.html', 'Home'],
   ['deals.html', 'All deals'],
@@ -41,7 +45,7 @@ function spread(products, n, perBrand = 2) {
 }
 
 function card(p) {
-  return `<a class="card" href="${esc(p.url)}" target="_blank" rel="noopener nofollow sponsored">
+  return `<a class="card" href="${esc(p.url)}" data-brand="${esc(p.brand)}" target="_blank" rel="noopener nofollow sponsored">
     <span class="sticker ${p.discount_pct >= 40 ? 'hot' : ''}">${p.discount_pct}<small>% off</small></span>
     <div class="thumb">${p.image
       ? `<img src="${esc(p.image)}" alt="" loading="lazy" decoding="async">` : ''}</div>
@@ -124,6 +128,22 @@ function chrome(page) {
       <nav>${PAGES.map(([h, l]) => `<a href="${h}">${l}</a>`).join('')}</nav>
     </div></footer>`);
   initThemeToggle();
+}
+
+// Delegated once per page load — 10k+ product cards, never a per-card listener.
+function initOutboundTracking() {
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('.card[data-brand]');
+    if (a) window.goatcounter?.count({ path: 'click-' + a.dataset.brand, event: true });
+  });
+}
+
+function loadGoatCounter() {
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://gc.zgo.at/count.js';
+  s.dataset.goatcounter = `https://${GOATCOUNTER_CODE}.goatcounter.com/count`;
+  document.head.appendChild(s);
 }
 
 async function loadData() {
@@ -343,6 +363,8 @@ const RENDERERS = { home: renderHome, deals: renderDeals, brands: renderBrands, 
 document.addEventListener('DOMContentLoaded', async () => {
   const page = document.body.dataset.page;
   chrome(document.body.dataset.nav || 'index.html');
+  loadGoatCounter();
+  initOutboundTracking();
   const render = RENDERERS[page];
   if (!render) return;
   try {

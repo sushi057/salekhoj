@@ -56,15 +56,21 @@ washer under Fitness and a jewelry box under Beauty.
 | Tier | Meaning | Status |
 |---|---|---|
 | 1 | Shopify `/products.json` or WooCommerce Store API | working, no per-site code |
-| 2 | Prices in HTML, needs selectors | **not built — biggest open lever** |
+| 2 | Prices in HTML: sitemap -> product pages -> JSON-LD price + struck original | working, no per-site selectors |
 | 3 | JS-rendered or blocking, needs a real browser | not built |
 
-Two extractors cover every tier-1 site with zero per-site code. Camoufox was planned and turned
-out to be unnecessary — don't install it without a concrete site that needs it.
+Three extractors cover every tier-1/2 site with zero per-site code. Camoufox was planned for
+tier 3 and turned out to be unnecessary so far — don't install it without a concrete site that
+needs it.
 
-Roughly 100 of 211 domains currently yield nothing *solely* because the tier-2/3 extractor
-doesn't exist (evostore, neostore, fatafatsewa, epharmacy, instylenepal…). Building tier 2 is
-worth more than more site discovery.
+Tier 2 (`from_html` in `extract.py`) trusts only structured markup for the current price
+(JSON-LD `offers.price` or an og/product price meta) and only text struck through
+(`<del>/<s>/<strike>` or an old/was/regular/compare class) for the original — never guessed
+from loose page text. The struck-price search is windowed to text near where the current price
+itself is printed on the page; without that a "related products"/"recently viewed" rail lower
+on the page can contribute its own struck price as if it were this product's original. A
+domain is dropped outright if more than 2 parsed items share one identical title — several
+"stores" are JS apps that serve one identical prerendered page for every product URL.
 
 ## Coverage report
 

@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Skechers GO RUN NOW - REGENT",
+    "sample_title": "The North Face Borealis Backpack",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Skechers GO RUN NOW - REGENT",
+    "sample_title": "The North Face Borealis Backpack",
     "vertical_hint": "Fashion"
   },
   {
@@ -52,9 +52,10 @@
     ],
     "final_url": "https://alamtech.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
-    "sample_title": "Dell 14 Plus 2-in-1 DB04250 Intel Core Ultra 7 256V 16GB LPDDR5 1TB SSD 14-inch WUXGA Touchscreen 2-in-1 Laptop",
+    "sample_title": "MSI MAG 273QP QD-OLED X24 27-inch WQHD 240Hz 0.03ms Gaming Monitor with 99% DCI-P3 HDMI 2.1 and DisplayHDR True Black 400",
     "vertical_hint": "Electronics"
   },
   {
@@ -66,6 +67,7 @@
     ],
     "final_url": "https://www.allattar.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "LATTAFA AL QAIM SILVER 100ML |FOR HIM",
@@ -80,6 +82,7 @@
     ],
     "final_url": "https://www.amaghar.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
     "sample_title": "Hand Carved Wooden Temple Gate with Brass Bell | 46cm",
@@ -105,6 +108,7 @@
     ],
     "final_url": "https://ankernepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Anker Zolo Power Bank (10K, Built-In USB-C and Lightning Cable)",
@@ -119,6 +123,7 @@
     ],
     "final_url": "https://bhutib.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Nepali Rai Fenga — Sleeveless Cotton Jacket for Men",
@@ -133,6 +138,7 @@
     ],
     "final_url": "https://bigbyte.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Apple MacBook Pro 16-inch M5 Pro 24GB RAM 1TB SSD",
@@ -147,6 +153,7 @@
     ],
     "final_url": "https://bishrom.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Palermo Amber Sunglasses",
@@ -161,9 +168,10 @@
     ],
     "final_url": "https://bonjournp.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Purito Seoul Mighty Bamboo Panthenol Cleanser 150ml",
+    "sample_title": "Real Nature Sheet Mask Green Tea The Vert  &#8211; 23ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -183,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 9,
-    "variants_with_compare_at": 6,
-    "sample_title": "Xiaomi Redmi Watch 6 with 2.07-Inch AMOLED Display",
+    "sample_variants": 11,
+    "variants_with_compare_at": 1,
+    "sample_title": "Xiaomi Redmi Buds 8 True Wireless Earbuds Features",
     "vertical_hint": "Fashion"
   },
   {
@@ -197,6 +205,7 @@
     ],
     "final_url": "https://calibershoes.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "ASHFORD 426C &#8211; Coffee Formal Shoes For Men  &#8211; Caliber Shoes Nepal",
@@ -211,6 +220,7 @@
     ],
     "final_url": "https://clothesnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "SHC0343",
@@ -225,6 +235,7 @@
     ],
     "final_url": "https://www.clothinginnepal.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Gheri Summer Jacket Made in Nepal",
@@ -239,6 +250,7 @@
     ],
     "final_url": "https://colorpluscosmetics.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Bellaoggi Moisturising Lotion",
@@ -253,6 +265,7 @@
     ],
     "final_url": "https://cosywearshop.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Party Shoes",
@@ -270,20 +283,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "electromandu.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -294,6 +293,7 @@
     "ldjson_types": [
       "WebSite"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "LG GLB262PPMB.ASEQ 287 Liter Double Door Refrigerator",
@@ -308,9 +308,10 @@
     ],
     "final_url": "https://elevelingerie.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Soft &#038; Comfy Printed Thong  Panty",
+    "sample_title": "Lace Floral Breathable Panties",
     "vertical_hint": "Fashion"
   },
   {
@@ -322,6 +323,7 @@
     ],
     "final_url": "https://fashionlagoon.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "This is testing product for testing",
@@ -350,6 +352,7 @@
       "JewelryStore",
       "WebSite"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Lord Ganesh",
@@ -366,6 +369,7 @@
     "ldjson_types": [
       "BreadcrumbList"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Canon LP-E6P",
@@ -383,6 +387,7 @@
       "BreadcrumbList",
       "ClothingStore"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Blue Racing Inspired Printed T-Shirt – Premium Streetwear for Motorsport Enthusiasts",
@@ -397,6 +402,7 @@
     ],
     "final_url": "https://goldstarshoes.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "G10 L2102",
@@ -411,6 +417,7 @@
     ],
     "final_url": "https://gurkhawatch.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Gurkha Khukuri",
@@ -425,6 +432,7 @@
     ],
     "final_url": "https://handicraftsinnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "Singing Bowls: Sound Healing Collections #1 by Dharmapa",
@@ -450,9 +458,26 @@
     ],
     "final_url": "https://www.hempinnepal.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Handmade Hemp Cotton Sling Bag – Eco-Friendly Boho Crossbody for Everyday Use",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "himalayanbagshop.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://himalayanbagshop.com/en/",
+    "ldjson_types": [],
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Manang Hemp Backpack &#8211; Grey",
     "vertical_hint": "Fashion"
   },
   {
@@ -475,6 +500,7 @@
     ],
     "final_url": "https://humttonepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Humtto Crew Socks Outdoor Athletic Wear",
@@ -489,6 +515,7 @@
     ],
     "final_url": "https://imartnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Ganesh Sarangi",
@@ -503,9 +530,10 @@
     ],
     "final_url": "https://infotechsnepal.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Dell 14 Copilot+ PC (AMD Ryzen AI 5 330 Processor | 16GB RAM | 512GB SSD | AMD Radeon Graphics | 14&#8243; FHD+IPS Display)",
+    "sample_title": "Razer Blade 14 Gaming Copilot+ AI (AMD Ryzen AI 9 365 Processor | 32GB RAM | 1TB SSD | NVIDIA GeForce RTX 5070 8GB Graphics | 14&#8243; 3K (2880 x 1800) 120Hz 100% DCI-P3 OLED Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -517,6 +545,7 @@
     ],
     "final_url": "https://jirihealth.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Optimum Nutrition Gold Standard 100% Whey Isolate 5lb – Double Rich Chocolate",
@@ -531,6 +560,7 @@
     ],
     "final_url": "https://jirinu.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Jiri Nutrition Whey Protein Fusion",
@@ -556,6 +586,7 @@
     ],
     "final_url": "https://kallistodesignsnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Scalloped Stole",
@@ -570,6 +601,7 @@
     ],
     "final_url": "https://kapadaa.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Men&#8217;s Off-White Slim Fit Cotton Twill Chinos",
@@ -581,9 +613,27 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Wicca Whimsical Waist Belt",
+    "sample_title": "Handmade Felt Robin Bird Ornament",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "kobieu.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: TimeoutError"
+    ],
+    "final_url": "https://kobieu.com",
+    "ldjson_types": [
+      "Organization"
+    ],
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Kobieu Aero 30L cap – Ultra-Light Durable Hiking Backpack with High-Comfort Air-Mesh Padding",
     "vertical_hint": "Fashion"
   },
   {
@@ -628,6 +678,7 @@
     ],
     "final_url": "https://lakhey.co",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "oversized Polka dot shirt",
@@ -642,6 +693,7 @@
     ],
     "final_url": "https://lds.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Lenovo LOQ 15IRX9 Gaming i5-13450HX 13th Gen/24GB RAM DDR5/512GB SSD/15.6&#8243; Full HD IPS 144Hz/NVIDIA® GeForce® RTX 3050 6GB/Backlit Keyboard (LUNA GREY)",
@@ -656,9 +708,25 @@
     ],
     "final_url": "https://www.logo-madeinnepal.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Mens Round Neck T-shirt",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "maayus.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: JSONDecodeError"
+    ],
+    "final_url": "https://www.maayus.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Kids Lace-Up Premium Sneakers",
     "vertical_hint": "Fashion"
   },
   {
@@ -670,6 +738,7 @@
     ],
     "final_url": "https://makaluetraders.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Fundango canopy",
@@ -686,6 +755,7 @@
     "ldjson_types": [
       "BreadcrumbList"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Vacuum Storage Space Saver Bags in nepal",
@@ -702,6 +772,7 @@
     "ldjson_types": [
       "Organization"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Blazer with Expandable Flaps",
@@ -718,6 +789,7 @@
     "ldjson_types": [
       "ElectronicsStore"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Microsoft Surface Laptop 1st Edition Snapdragon X Plus | 16GB RAM | 256GB SSD | 13-inch Display | Platinum | Windows 11",
@@ -735,6 +807,7 @@
       "Organization",
       "WebSite"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "ER-814 &#8211; Contemporary Heritage Gold Plated Tiered Bell Dangle Earrings",
@@ -749,6 +822,7 @@
     ],
     "final_url": "https://megashopnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Dreamy World Walking Pad &#8211; 1.75HP Motor &#8211; 10KM/H Speed &#8211; 2 Level Manual Incline",
@@ -763,6 +837,7 @@
     ],
     "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Infinity Pack",
@@ -788,6 +863,7 @@
     ],
     "final_url": "https://www.mydermaearth.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "DermaArth Acnoderm Moisturizer",
@@ -802,6 +878,7 @@
     ],
     "final_url": "https://navigate.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Navigate Two Layer Waterproof Jacket for Men",
@@ -838,6 +915,7 @@
     ],
     "final_url": "https://nepalfitness.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Nepal Cricket World Cup Authentic Fans Jersey",
@@ -852,6 +930,7 @@
     ],
     "final_url": "https://www.nepaliculturalhouse.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Blue mandala art boho tamang cultural coat",
@@ -866,6 +945,7 @@
     ],
     "final_url": "https://nepalitshirt.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Black Hoodies",
@@ -880,6 +960,7 @@
     ],
     "final_url": "https://www.nepalknittingwear.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Warm Handknitted Sherpa Wool Jumper for Winter",
@@ -894,6 +975,7 @@
     ],
     "final_url": "https://www.nepalvisitors.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Global Vacation",
@@ -912,9 +994,10 @@
       "Organization",
       "WebSite"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Professional 8 Inch Garden Pruning Shears | Fruit Tree &#038; Garden Scissors",
+    "sample_title": "Multicolor Waterproof Jar Cover Set for Kitchen Food Storage",
     "vertical_hint": "Fashion"
   },
   {
@@ -950,6 +1033,7 @@
     "ldjson_types": [
       "Store"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Silver Double Bridge Sunglass",
@@ -968,10 +1052,27 @@
       "Organization",
       "Store"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "NV Ratri G11 CCTV Camera",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "nktmen.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://nktmen.com",
+    "ldjson_types": [],
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "tailored straight fit Dark Navy Wash denim Jeans Pant",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "obsessioncosmetics.com",
@@ -982,6 +1083,7 @@
     ],
     "final_url": "https://obsessioncosmetics.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Estée Lauder Double Wear Foundation 2W2 RATTAN 30ml",
@@ -996,6 +1098,7 @@
     ],
     "final_url": "https://onlineit.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Dell Pro 14 Plus 2-in-1 | Core Ultra 7 256V | 16GB LPDDR5x RAM | 1TB NVMe SSD | 14&#8243; WUXGA (1920×1200) Touch Display | Windows 11",
@@ -1021,6 +1124,7 @@
     ],
     "final_url": "https://queensclosetnepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
@@ -1035,6 +1139,7 @@
     ],
     "final_url": "https://rovekidswear.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Weighted Vest (4 &#038; 5 Kg)",
@@ -1049,6 +1154,7 @@
     ],
     "final_url": "https://samayawatch.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Rangi",
@@ -1063,6 +1169,7 @@
     ],
     "final_url": "https://sastoprint.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "Cotton Tshirt Print",
@@ -1080,6 +1187,7 @@
       "JewelryStore",
       "LocalBusiness"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Women Diamond Earrings &#8211; DT6684",
@@ -1116,6 +1224,7 @@
     ],
     "final_url": "https://shadesout.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "Louis Vuitton 1.1 Evidence Square Sunglasses – Full Black Frame &#038; Lenses",
@@ -1127,9 +1236,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 27,
     "variants_with_compare_at": 0,
-    "sample_title": "Rolpa Full Zip Fleece - Light Emerald",
+    "sample_title": "Batsa Long Sleeve Shirt - Arctic Blue",
     "vertical_hint": "Fashion"
   },
   {
@@ -1163,9 +1272,26 @@
     ],
     "final_url": "https://skinknepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Sol De Janerio 68 90ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -1177,6 +1303,7 @@
     ],
     "final_url": "https://sparshaclothing.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Henley Shirt Sky Blue",
@@ -1191,6 +1318,7 @@
     ],
     "final_url": "https://sublime.boutique",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Sublime Handmade Dhaka Family Pasni Set",
@@ -1207,6 +1335,7 @@
     "ldjson_types": [
       "WebSite"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Culture Puzzle Bundle",
@@ -1221,6 +1350,7 @@
     ],
     "final_url": "https://theprintfactorynepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "ParTea All Day Long Crop Top",
@@ -1257,6 +1387,7 @@
     ],
     "final_url": "https://tnnleather.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "DOTI V2 Backpack",
@@ -1271,6 +1402,7 @@
     ],
     "final_url": "https://tronixspace.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Lenovo IdeaPad Slim 3 15ARP10 AMD Ryzen 5 7535HS | 16GB DDR5 | 512GB NVMe SSD | 15.3&#8243; WUXGA Display | 1 year warranty",
@@ -1285,6 +1417,7 @@
     ],
     "final_url": "https://tshirtnepal.com.np",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Dirtywash Sweatshirt",
@@ -1296,9 +1429,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 84,
-    "variants_with_compare_at": 84,
-    "sample_title": "Women’s Dad Sneakers Korean Style Color-Block Casual Shoes",
+    "sample_variants": 87,
+    "variants_with_compare_at": 87,
+    "sample_title": "STOCK - Women's Washed Color Block Denim Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -1310,6 +1443,7 @@
     ],
     "final_url": "https://www.ufonepal.com/",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Basic Tank Top",
@@ -1326,6 +1460,7 @@
     "ldjson_types": [
       "Organization"
     ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Naptocare Glutathione 500mg- 30 Tablets",
@@ -1351,6 +1486,7 @@
     ],
     "final_url": "https://yantranepal.com",
     "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Asus Vivobook S 14 S5406 SA OLED | Intel Core Ultra 7 Processor 258V Processor, 32GB LPDDR5X, 1TB M.2 NVMe™ PCIe® 4.0 SSD, 14.0-inch, WUXGA (1920 x 1200) OLED 100% DCI-P3 Display, 47 Tops AI NPU, Full Metal Body, IR Camera (Neutral Black, 1.3KGs)",
@@ -1361,7 +1497,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://allureinternational.com.np",
     "ldjson_types": [],
@@ -1373,7 +1511,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://aoneleathercraft.com",
     "ldjson_types": [
@@ -1387,7 +1527,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://babyshopnepal.com",
     "ldjson_types": [
@@ -1402,7 +1544,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.beautyhubnepal.com/",
     "ldjson_types": [],
@@ -1414,7 +1558,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.beautynpl.com/",
     "ldjson_types": [],
@@ -1426,7 +1572,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.caretobeauty.com/np/",
     "ldjson_types": [
@@ -1443,7 +1591,9 @@
     "tier": "2",
     "platform": "nuxt/vue",
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
     "ldjson_types": [],
@@ -1455,7 +1605,9 @@
     "tier": "2",
     "platform": "opencart",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://choicemandu.com",
     "ldjson_types": [],
@@ -1467,7 +1619,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://cplanetnp.com",
     "ldjson_types": [
@@ -1482,7 +1636,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.dihho.com/",
     "ldjson_types": [
@@ -1496,7 +1652,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.dreamskinnepal.com/",
     "ldjson_types": [],
@@ -1504,11 +1662,27 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "dronestorenepal.com",
+    "tier": "2",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "ekjor.com",
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.ekjor.com/",
     "ldjson_types": [],
@@ -1520,7 +1694,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.epharmacy.com.np/",
     "ldjson_types": [],
@@ -1532,7 +1708,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://evanmens.com",
     "ldjson_types": [],
@@ -1544,7 +1722,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://evewomens.com",
     "ldjson_types": [],
@@ -1556,7 +1736,9 @@
     "tier": "2",
     "platform": "opencart",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://evostore.com.np",
     "ldjson_types": [],
@@ -1568,7 +1750,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://exortstore.com",
     "ldjson_types": [
@@ -1584,7 +1768,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://fatafatsewa.com",
     "ldjson_types": [],
@@ -1596,7 +1782,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.firstaidnepal.com/",
     "ldjson_types": [
@@ -1611,7 +1799,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://fitlifetraders.com",
     "ldjson_types": [
@@ -1625,7 +1815,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://fragrancenepal.com",
     "ldjson_types": [],
@@ -1638,6 +1830,7 @@
     "platform": "wordpress",
     "notes": [
       "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: HTTPError"
     ],
     "final_url": "https://www.gadgetsinnepal.com.np/",
@@ -1650,7 +1843,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.giftmandu.com/",
     "ldjson_types": [],
@@ -1662,7 +1857,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.godamonline.com/",
     "ldjson_types": [],
@@ -1674,7 +1871,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://hardwarepasal.com",
     "ldjson_types": [],
@@ -1686,7 +1885,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.healme.com.np/",
     "ldjson_types": [
@@ -1701,7 +1902,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://jhoomkanepal.com",
     "ldjson_types": [],
@@ -1713,7 +1916,9 @@
     "tier": "2",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://kbeautynp.com",
     "ldjson_types": [],
@@ -1725,7 +1930,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.khudra.com.np/",
     "ldjson_types": [
@@ -1739,7 +1946,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://koreanbeautypoint.com",
     "ldjson_types": [
@@ -1753,7 +1962,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.lookscart.com/",
     "ldjson_types": [
@@ -1768,7 +1979,9 @@
     "tier": "2",
     "platform": "opencart",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.makuratech.com/",
     "ldjson_types": [
@@ -1782,7 +1995,9 @@
     "tier": "2",
     "platform": "magento",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mudita.com.np",
     "ldjson_types": [],
@@ -1794,7 +2009,9 @@
     "tier": "2",
     "platform": "magento",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://nagmani.com.np",
     "ldjson_types": [
@@ -1810,7 +2027,8 @@
     "platform": "woocommerce",
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "http://www.neostore.com.np/",
     "ldjson_types": [],
@@ -1822,7 +2040,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://nepkids.com",
     "ldjson_types": [],
@@ -1834,7 +2054,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://neshop.com.np",
     "ldjson_types": [
@@ -1847,24 +2069,13 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "nktmen.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://nktmen.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "rhino-leathers.com",
     "tier": "2",
     "platform": "opencart",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://rhino-leathers.com",
     "ldjson_types": [],
@@ -1876,7 +2087,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://sajiloshop.com.np",
     "ldjson_types": [],
@@ -1888,7 +2101,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mega.com.np/",
     "ldjson_types": [
@@ -1902,7 +2117,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://sthree.tech",
     "ldjson_types": [
@@ -1919,6 +2136,7 @@
     "platform": "wordpress",
     "notes": [
       "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: HTTPError"
     ],
     "final_url": "https://suitnepal.com",
@@ -1931,7 +2149,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.suluxcentre.com/",
     "ldjson_types": [
@@ -1946,7 +2166,9 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thriftko.com",
     "ldjson_types": [
@@ -1964,7 +2186,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://affordablethriftstorenepal.com",
     "ldjson_types": [],
@@ -1976,7 +2200,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://aroannepal.com",
     "ldjson_types": [
@@ -1990,7 +2216,9 @@
     "tier": "3",
     "platform": "magento",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.beautynepalshop.com/",
     "ldjson_types": [
@@ -2006,7 +2234,9 @@
     "tier": "3",
     "platform": "wix",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.bigapplenepal.com/",
     "ldjson_types": [
@@ -2021,7 +2251,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.brightsupplements.store/",
     "ldjson_types": [
@@ -2036,7 +2268,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://caravan.com.np",
     "ldjson_types": [],
@@ -2048,7 +2282,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://citystorenepal.com",
     "ldjson_types": [],
@@ -2060,7 +2296,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://craftnepal.com",
     "ldjson_types": [],
@@ -2072,7 +2310,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://creativehandnepal.com",
     "ldjson_types": [],
@@ -2084,7 +2324,9 @@
     "tier": "3",
     "platform": "magento",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2096,7 +2338,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dietnepal.com",
     "ldjson_types": [],
@@ -2108,7 +2352,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dslrcameranepal.com/under-construction.html",
     "ldjson_types": [],
@@ -2120,7 +2366,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://durbarmart.com",
     "ldjson_types": [],
@@ -2132,7 +2380,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://estore.com.np",
     "ldjson_types": [],
@@ -2145,7 +2395,8 @@
     "platform": "woocommerce",
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://eyemartnepal.com",
     "ldjson_types": [],
@@ -2157,7 +2408,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://fitspectrumnepal.com",
     "ldjson_types": [
@@ -2171,7 +2424,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://foreveryng.com",
     "ldjson_types": [],
@@ -2183,7 +2438,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://gahanastores.com",
     "ldjson_types": [],
@@ -2195,7 +2452,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://gnextcom.com",
     "ldjson_types": [],
@@ -2207,7 +2466,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://gorkhaathletic.com",
     "ldjson_types": [],
@@ -2219,7 +2480,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://gym-experts.com",
     "ldjson_types": [],
@@ -2232,6 +2495,7 @@
     "platform": "woocommerce",
     "notes": [
       "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hamroshringar.com/",
@@ -2244,22 +2508,11 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://hempplanetnepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "himalayanbagshop.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://himalayanbagshop.com/en/",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2269,7 +2522,9 @@
     "tier": "3",
     "platform": "wix",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
     "ldjson_types": [
@@ -2284,7 +2539,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://humanfitcraft.com",
     "ldjson_types": [],
@@ -2296,7 +2553,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.instylenepal.com/",
     "ldjson_types": [],
@@ -2308,7 +2567,9 @@
     "tier": "3",
     "platform": "nuxt/vue",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://itechstore.com.np",
     "ldjson_types": [],
@@ -2320,7 +2581,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://itti.com.np",
     "ldjson_types": [
@@ -2334,7 +2597,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://kathmanduclothing.com",
     "ldjson_types": [
@@ -2351,6 +2616,7 @@
     "platform": "woocommerce",
     "notes": [
       "products.json: HTTPError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.kinaun.com/",
@@ -2359,25 +2625,13 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "kobieu.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://kobieu.com",
-    "ldjson_types": [
-      "Organization"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "koselly.com",
     "tier": "3",
     "platform": "shopify",
-    "notes": [],
+    "notes": [
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
     "final_url": "https://www.koselly.com/",
     "ldjson_types": [],
     "price_in_html": false,
@@ -2388,7 +2642,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://ktmcty.com",
     "ldjson_types": [],
@@ -2400,7 +2656,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://lacosmeticsnepal.com",
     "ldjson_types": [],
@@ -2412,7 +2670,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mishisa.com",
     "ldjson_types": [
@@ -2426,7 +2686,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mobilemandu.com",
     "ldjson_types": [],
@@ -2438,7 +2700,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.nepalcan.com/",
     "ldjson_types": [],
@@ -2450,7 +2714,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://onin.com.np",
     "ldjson_types": [],
@@ -2462,7 +2728,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://panchakanyamobile.com.np",
     "ldjson_types": [],
@@ -2474,7 +2742,9 @@
     "tier": "3",
     "platform": "wix",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.purnaa.com/",
     "ldjson_types": [
@@ -2489,7 +2759,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://qualitycomputer.com.np",
     "ldjson_types": [
@@ -2503,7 +2775,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://regencywatch.com.np",
     "ldjson_types": [],
@@ -2515,7 +2789,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://shoesnpl.com",
     "ldjson_types": [
@@ -2525,24 +2801,13 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "swisstimepiecesnepal.com",
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://swisstimepiecesnepal.com",
     "ldjson_types": [],
@@ -2554,7 +2819,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thaili.com.np",
     "ldjson_types": [],
@@ -2566,7 +2833,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thebrandnepal.com",
     "ldjson_types": [],
@@ -2579,6 +2848,7 @@
     "platform": "wordpress",
     "notes": [
       "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: HTTPError"
     ],
     "final_url": "https://thebuzznepal.com",
@@ -2591,7 +2861,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.thekickersnepal.com/",
     "ldjson_types": [],
@@ -2603,7 +2875,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thriftmandu.com",
     "ldjson_types": [],
@@ -2615,7 +2889,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.thriftstorenepal.com/",
     "ldjson_types": [],
@@ -2627,7 +2903,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://tsarmoire.com",
     "ldjson_types": [],
@@ -2639,7 +2917,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://tshirtnepal.com",
     "ldjson_types": [],
@@ -2651,7 +2931,9 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://yara.com.np",
     "ldjson_types": [],
@@ -2663,7 +2945,9 @@
     "tier": "3",
     "platform": "shopify",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://yatrisupply.com/password",
     "ldjson_types": [],
@@ -2701,22 +2985,12 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maayus.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "mystorenepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
+      "products.json: URLError",
+      "home: URLError: <urlopen error _ssl.c:983: The handshake operation timed out>"
     ],
     "vertical_hint": "Fashion"
   },
