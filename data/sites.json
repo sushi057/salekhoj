@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 0,
-    "sample_title": "Adidas Performance CLIMACOOL Low Socks 3-Pack",
+    "sample_variants": 11,
+    "variants_with_compare_at": 2,
+    "sample_title": "Nike Pegasus Trail 5 GORE-TEX M",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 0,
-    "sample_title": "Adidas Performance CLIMACOOL Low Socks 3-Pack",
+    "sample_variants": 11,
+    "variants_with_compare_at": 2,
+    "sample_title": "Nike Pegasus Trail 5 GORE-TEX M",
     "vertical_hint": "Fashion"
   },
   {
@@ -94,9 +94,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 37,
+    "sample_variants": 16,
     "variants_with_compare_at": 0,
-    "sample_title": "KANNO AWASE Top",
+    "sample_title": "New Staple Drape KIMONO",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,8 +192,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "UGREEN 20000mAh 15W Qi2 Wireless Power Bank Overview",
+    "variants_with_compare_at": 3,
+    "sample_title": "BenQ GW2291 FHD Eye-Care Monitor for Optimal Viewing",
     "vertical_hint": "Fashion"
   },
   {
@@ -253,7 +253,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Maybelline Lash Sensational Sky High Waterproof Mascara",
+    "sample_title": "Loreal Professionnel Serie Expert Liss Unlimited Mask",
     "vertical_hint": "Beauty"
   },
   {
@@ -281,6 +281,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "Cotton Janeu (Yajnopavita)",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -394,21 +409,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "goldstarshoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://goldstarshoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "G10 L2102",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "gurkhawatch.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -507,6 +507,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Lenovo ideapad Slim 5i 14 AI PC 2026 (Intel Core Ultra 5 322 Series 3 Processor | 16GB RAM | 512GB SSD | Intel® Graphics | 14″ WUXGA OLED Display)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -583,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
-    "variants_with_compare_at": 14,
-    "sample_title": "Oversized Patchwork Cotton Duster",
+    "sample_variants": 20,
+    "variants_with_compare_at": 13,
+    "sample_title": "Kids Fleece-Lined Cat Winter Gloves",
     "vertical_hint": "Fashion"
   },
   {
@@ -625,7 +640,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "&honey Deep Moist Hair Oil 100ml KPG BEAUTY",
+    "sample_title": "AROMATICA Rosemary Root Enhancer Hair Spray 100ml KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -636,7 +651,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "&honey Deep Moist Hair Oil 100ml KPG BEAUTY",
+    "sample_title": "AROMATICA Rosemary Root Enhancer Hair Spray 100ml KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -655,6 +670,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "lds.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://lds.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "Lenovo LOQ 15IRX9 Gaming i5-13450HX 13th Gen/24GB RAM DDR5/512GB SSD/15.6&#8243; Full HD IPS 144Hz/NVIDIA® GeForce® RTX 3050 6GB/Backlit Keyboard (LUNA GREY)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "logo-madeinnepal.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -670,6 +700,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maayus.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: JSONDecodeError"
+    ],
+    "final_url": "https://www.maayus.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Baby Casual Lace-Up Sneakers",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "makaluetraders.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -682,23 +727,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "LA Sportiva Prodigio Max",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "marknepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.marknepal.com/",
-    "ldjson_types": [
-      "BreadcrumbList"
-    ],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Vacuum Storage Space Saver Bags in nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -1015,6 +1043,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "Bioderma Sensibio Foaming Gel Cleansing 200ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1025,7 +1068,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
+    "variants_with_compare_at": 0,
     "sample_title": "Acer Nitro V16 AI R7BQ | AMD Ryzen 5 240 Processor | RTX 5050 8GB GPU | 16GB DDR5 RAM | 512GB NVME SSD | 16&#8243;WUXGA (1920 x 1200) 180Hz Display  | Win 11",
     "vertical_hint": "Electronics"
   },
@@ -1053,21 +1096,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "rovekidswear.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://rovekidswear.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Weighted Vest (4 &#038; 5 Kg)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1146,9 +1174,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 28,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Beyul 3-Layer Jacket - Evergreen",
+    "sample_title": "Sanu Half Zip Fleece - Peetho/Rust",
     "vertical_hint": "Fashion"
   },
   {
@@ -1235,23 +1263,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "swodeshi.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://swodeshi.com/?v=0b3b97fa6688",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Culture Puzzle Bundle",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "theprintfactorynepal.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1285,7 +1296,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Fastrack Purple Aviator Sunglasses for Men",
+    "sample_title": "Titan Workmode Quartz Analog Pink Dial Stainless Steel Strap Watch For Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -1339,9 +1350,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "STOCK-Spring Autumn White Leggings Sweatpants Men Casuals",
+    "sample_variants": 38,
+    "variants_with_compare_at": 38,
+    "sample_title": "STOCK - Modern Study Desk with Storage Drawers",
     "vertical_hint": "Fashion"
   },
   {
@@ -1495,7 +1506,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://cplanetnp.com",
     "ldjson_types": [
@@ -1504,22 +1515,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "dihho.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.dihho.com/",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "dreamskinnepal.com",
@@ -1550,20 +1545,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "epharmacy.com.np",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.epharmacy.com.np/",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "evanmens.com",
     "tier": "2",
     "platform": null,
@@ -1584,7 +1565,7 @@
     "notes": [
       "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://evewomens.com",
     "ldjson_types": [],
@@ -1653,22 +1634,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "fitlifetraders.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://fitlifetraders.com",
-    "ldjson_types": [
-      "WebPage"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Fitness"
   },
   {
     "domain": "fragrancenepal.com",
@@ -1790,8 +1755,8 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: JSONDecodeError",
+      "products.json: TimeoutError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.khudra.com.np/",
@@ -1808,7 +1773,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://koreanbeautypoint.com",
     "ldjson_types": [
@@ -1851,23 +1816,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "nagmani.com.np",
-    "tier": "2",
-    "platform": "magento",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://nagmani.com.np",
-    "ldjson_types": [
-      "Organization",
-      "WebSite"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "neostore.com.np",
     "tier": "2",
     "platform": "woocommerce",
@@ -1901,7 +1849,7 @@
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "wc-store-api: TimeoutError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://neshop.com.np",
@@ -1975,20 +1923,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "suitnepal.com",
-    "tier": "2",
-    "platform": "wordpress",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://suitnepal.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "suluxcentre.com",
@@ -2099,7 +2033,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://www.bigapplenepal.com/",
     "ldjson_types": [
@@ -2181,20 +2115,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dealayo.com",
-    "tier": "3",
-    "platform": "magento",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://dealayo.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "dermaconceptnepal.com",
@@ -2395,20 +2315,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "hubanepal.com",
-    "tier": "3",
-    "platform": "wix",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "humanfitcraft.com",
     "tier": "3",
     "platform": null,
@@ -2423,20 +2329,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2449,20 +2341,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "itechstore.com.np",
-    "tier": "3",
-    "platform": "nuxt/vue",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://itechstore.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "kathmanduclothing.com",
@@ -2524,20 +2402,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "lacosmeticsnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://lacosmeticsnepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "mishisa.com",
     "tier": "3",
     "platform": "next.js",
@@ -2568,6 +2432,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2596,21 +2474,18 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "purnaa.com",
+    "domain": "panchakanyamobile.com.np",
     "tier": "3",
-    "platform": "wix",
+    "platform": null,
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.purnaa.com/",
-    "ldjson_types": [
-      "LocalBusiness",
-      "WebSite"
-    ],
+    "final_url": "https://panchakanyamobile.com.np",
+    "ldjson_types": [],
     "price_in_html": false,
-    "vertical_hint": "Fashion"
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "qualitycomputer.com.np",
@@ -2835,14 +2710,64 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "dronestorenepal.com",
+    "domain": "dealayo.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "dihho.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
+      "home: TimeoutError: The read operation timed out"
     ],
-    "vertical_hint": "Electronics"
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "epharmacy.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "fitlifetraders.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "goldstarshoes.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "hubanepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 429: Too Many Requests"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "imartnepal.com",
@@ -2853,6 +2778,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "itechstore.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "itti.com.np",
@@ -2875,22 +2810,22 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "lds.com.np",
+    "domain": "lacosmeticsnepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
-    "vertical_hint": "Electronics"
+    "vertical_hint": "Beauty"
   },
   {
-    "domain": "maayus.com",
+    "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2905,14 +2840,14 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
+    "domain": "nagmani.com.np",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
+      "products.json: HTTPError",
       "home: TimeoutError: The read operation timed out"
     ],
-    "vertical_hint": "Fashion"
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "naviforce-watch.com",
@@ -2925,32 +2860,32 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error timed out>"
-    ],
-    "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "panchakanyamobile.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "plussizenepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "purnaa.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 429: Too Many Requests"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "rovekidswear.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error timed out>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2971,6 +2906,26 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "suitnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "swodeshi.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
