@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 2,
-    "sample_title": "Nike Pegasus Trail 5 GORE-TEX M",
+    "sample_variants": 25,
+    "variants_with_compare_at": 0,
+    "sample_title": "Nike-Blazer Low '77 Premium",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 2,
-    "sample_title": "Nike Pegasus Trail 5 GORE-TEX M",
+    "sample_variants": 25,
+    "variants_with_compare_at": 0,
+    "sample_title": "Nike-Blazer Low '77 Premium",
     "vertical_hint": "Fashion"
   },
   {
@@ -180,9 +180,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "CAMPUS BLUR",
+    "sample_title": "DICE FANNY BAG",
     "vertical_hint": "Fashion"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "BenQ GW2291 FHD Eye-Care Monitor for Optimal Viewing",
+    "sample_variants": 9,
+    "variants_with_compare_at": 1,
+    "sample_title": "Samsung Galaxy Z Fold8 Ultra 5G Smartphone",
     "vertical_hint": "Fashion"
   },
   {
@@ -283,6 +283,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "dronestorenepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "electromandu.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -298,6 +313,21 @@
     "variants_with_compare_at": 5,
     "sample_title": "LG GLB262PPMB.ASEQ 287 Liter Double Door Refrigerator",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "elevelingerie.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://elevelingerie.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Wireless Strapless Seamless Tube Top Bra",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "fashionlagoon.com",
@@ -492,21 +522,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Acer Aspire Lite 14 2025 (Ryzen 3 5400U | 8GB RAM | 256GB SSD | Radeon Graphics | 14″ WUXGA)",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -583,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
-    "variants_with_compare_at": 4,
-    "sample_title": "Bunny Kids Winter Gloves with Fleece Lining",
+    "sample_variants": 17,
+    "variants_with_compare_at": 2,
+    "sample_title": "Heart-Shaped Faux Leather Waist Belt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1028,21 +1043,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Bioderma Sensibio Foaming Gel Cleansing 200ml",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1081,21 +1081,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "rovekidswear.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: TimeoutError"
-    ],
-    "final_url": "https://rovekidswear.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Weighted Vest (4 &#038; 5 Kg)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1367,9 +1352,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 113,
-    "variants_with_compare_at": 113,
-    "sample_title": "STOCK-Men’s Slim-Fit Vintage Jeans – Trendy Spring Autumn Pants",
+    "sample_variants": 69,
+    "variants_with_compare_at": 69,
+    "sample_title": "Luxury Tassel Jewelry Set | Water Drop Necklace & Earrings",
     "vertical_hint": "Fashion"
   },
   {
@@ -1469,7 +1454,7 @@
       "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.beautyhubnepal.com/",
+    "final_url": "https://beautyhubnepal.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
@@ -1562,20 +1547,6 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "ekjor.com",
@@ -2295,20 +2266,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "elevelingerie.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: TimeoutError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: TimeoutError"
-    ],
-    "final_url": "https://elevelingerie.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "estore.com.np",
     "tier": "3",
     "platform": null,
@@ -2482,6 +2439,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2494,6 +2465,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "itechstore.com.np",
+    "tier": "3",
+    "platform": "nuxt/vue",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://itechstore.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "kathmanduclothing.com",
@@ -2627,6 +2612,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onin.com.np",
     "tier": "3",
     "platform": null,
@@ -2680,6 +2679,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://regencywatch.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "rovekidswear.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://rovekidswear.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2885,16 +2898,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "itechstore.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "itti.com.np",
