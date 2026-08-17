@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike-Blazer Low '77 Premium",
+    "sample_title": "Nike Heritage Waistpack (3L)",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike-Blazer Low '77 Premium",
+    "sample_title": "Nike Heritage Waistpack (3L)",
     "vertical_hint": "Fashion"
   },
   {
@@ -180,9 +180,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
+    "sample_variants": 13,
     "variants_with_compare_at": 0,
-    "sample_title": "DICE FANNY BAG",
+    "sample_title": "BROCADE OPEN HEART RING",
     "vertical_hint": "Fashion"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 9,
-    "variants_with_compare_at": 1,
-    "sample_title": "Samsung Galaxy Z Fold8 Ultra 5G Smartphone",
+    "sample_variants": 13,
+    "variants_with_compare_at": 0,
+    "sample_title": "Samsung Galaxy Z Flip8 5G Innovative Foldable Smartphone",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Bhutan Style Winter Jacket – Polar Fleece Lined, Handmade in Nepal",
+    "sample_title": "Fair Trade Bhutan Style Cotton Winter Jacket – Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -281,21 +281,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -598,9 +583,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
-    "variants_with_compare_at": 2,
-    "sample_title": "Heart-Shaped Faux Leather Waist Belt",
+    "sample_variants": 25,
+    "variants_with_compare_at": 18,
+    "sample_title": "Hand Knitted Wool Blend Long Scarfs",
     "vertical_hint": "Fashion"
   },
   {
@@ -965,7 +950,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Hollywood Style LED Vanity Mirror Lights with 10 Dimmable Bulbs",
+    "sample_title": "Wireless Electric Breast Massager with Portable Relaxation Massage Function",
     "vertical_hint": "Fashion"
   },
   {
@@ -1003,7 +988,7 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 0,
     "sample_title": "Marcus Limitless Shiny Black Sunglass",
     "vertical_hint": "Fashion"
   },
@@ -1053,7 +1038,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
+    "variants_with_compare_at": 5,
     "sample_title": "Acer Nitro V16 AI R7BQ | AMD Ryzen 5 240 Processor | RTX 5050 8GB GPU | 16GB DDR5 RAM | 512GB NVME SSD | 16&#8243;WUXGA (1920 x 1200) 180Hz Display  | Win 11",
     "vertical_hint": "Electronics"
   },
@@ -1081,6 +1066,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "rovekidswear.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://rovekidswear.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Weighted Vest (4 &#038; 5 Kg)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1122,9 +1122,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
-    "variants_with_compare_at": 1,
-    "sample_title": "Angora Sweater Men's One-Quarter Zipper Neck",
+    "sample_variants": 10,
+    "variants_with_compare_at": 9,
+    "sample_title": "Men's Faux Mohair Sweaters - Crewneck with Reverse-Knit Stitching",
     "vertical_hint": "Fashion"
   },
   {
@@ -1298,7 +1298,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Quartz Analog White Dial Stainless Steel Strap Watch for Men",
+    "sample_title": "Titan Raga Mother of Pearl Dial Metal Strap Analog Watch for Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -1352,9 +1352,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 69,
-    "variants_with_compare_at": 69,
-    "sample_title": "Luxury Tassel Jewelry Set | Water Drop Necklace & Earrings",
+    "sample_variants": 35,
+    "variants_with_compare_at": 35,
+    "sample_title": "STOCK-Non-Printed Cotton Single-Piece Bed Cover Three-Piece Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -1483,20 +1483,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2112,7 +2098,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.bigapplenepal.com/",
     "ldjson_types": [
@@ -2417,10 +2403,7 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [
-      "LocalBusiness",
-      "WebSite"
-    ],
+    "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2654,6 +2637,23 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "purnaa.com",
+    "tier": "3",
+    "platform": "wix",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.purnaa.com/",
+    "ldjson_types": [
+      "LocalBusiness",
+      "WebSite"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "qualitycomputer.com.np",
     "tier": "3",
     "platform": null,
@@ -2679,20 +2679,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://regencywatch.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "rovekidswear.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://rovekidswear.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2890,6 +2876,26 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "imartnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2956,16 +2962,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "purnaa.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 429: Too Many Requests"
     ],
     "vertical_hint": "Fashion"
   },
