@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 27,
+    "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike-Court Vapor Lite 2 HC",
+    "sample_title": "Nike Big Low Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 27,
+    "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike-Court Vapor Lite 2 HC",
+    "sample_title": "Nike Big Low Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -85,7 +85,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
-    "sample_title": "Hand Carved Wooden Temple Gate with Brass Bell | 46cm",
+    "sample_title": "Seto Bagh (सेतो बाघ) by Diamond Shumsher Rana – Nepali Historical Novel",
     "vertical_hint": "Fashion"
   },
   {
@@ -181,8 +181,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 13,
-    "variants_with_compare_at": 0,
-    "sample_title": "BROCADE OPEN HEART RING",
+    "variants_with_compare_at": 5,
+    "sample_title": "BUTTER Essential ’26 Tee",
     "vertical_hint": "Fashion"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 27,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Xiaomi REDMI 17 4G Smartphone with Impressive Battery Life",
+    "sample_title": "Honor X5d Smartphone with 90Hz Eye-Comfort Display",
     "vertical_hint": "Fashion"
   },
   {
@@ -208,7 +208,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "CARBON 579C &#8211; White/Black Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "VITTORIO 427G &#8211; Coffee Formal Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -759,8 +759,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Microsoft Surface Laptop 1st Edition Snapdragon X Plus | 16GB RAM | 256GB SSD | 13-inch Display | Platinum | Windows 11",
+    "variants_with_compare_at": 2,
+    "sample_title": "Acer Aspire C24B All-in-One Desktop | Intel Core Ultra 7 255U | 16GB RAM | 512GB SSD | Windows 11",
     "vertical_hint": "Electronics"
   },
   {
@@ -795,6 +795,21 @@
     "variants_with_compare_at": 3,
     "sample_title": "Dreamy World Walking Pad &#8211; 1.75HP Motor &#8211; 10KM/H Speed &#8211; 2 Level Manual Incline",
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "mheecha.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.mheecha.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Infinity Pack",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "muscleblaze.com.np",
@@ -854,9 +869,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 16,
-    "variants_with_compare_at": 1,
-    "sample_title": "Brass Mini Tortoise Statue 1\"",
+    "sample_variants": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "925 Silver Tibetan Ghau with Gold Plating - Vajrapani & Amoghasiddhi",
     "vertical_hint": "Fashion"
   },
   {
@@ -950,7 +965,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "VGR V-322 Men&#8217;s Electric Shaver with 3 Floating Rotary Heads",
+    "sample_title": "Foldable PU Leather Travel Sunglasses Organizer Case",
     "vertical_hint": "Fashion"
   },
   {
@@ -1128,7 +1143,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Women Diamond Earrings &#8211; DT6499",
+    "sample_title": "Diamond Bracelets &#8211; DLBR826",
     "vertical_hint": "Fashion"
   },
   {
@@ -1295,7 +1310,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Raga Mother of Pearl Dial Metal Strap Analog Watch for Women",
+    "sample_title": "Fastrack Brown Wayfarer Sunglasses for Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -1349,9 +1364,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
-    "variants_with_compare_at": 23,
-    "sample_title": "STOCK-Samsung S22 Plus Mobile Phone Case – Protective & Stylish",
+    "sample_variants": 117,
+    "variants_with_compare_at": 117,
+    "sample_title": "STOCK - Men’s European Stretch Jeans – Stylish & Comfortable",
     "vertical_hint": "Fashion"
   },
   {
@@ -1485,6 +1500,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "cplanetnp.com",
     "tier": "2",
     "platform": null,
@@ -1495,8 +1524,7 @@
     ],
     "final_url": "https://cplanetnp.com",
     "ldjson_types": [
-      "ItemList",
-      "Product"
+      "ItemList"
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
@@ -1917,7 +1945,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://rhino-leathers.com",
     "ldjson_types": [],
@@ -2587,7 +2615,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://onin.com.np",
     "ldjson_types": [],
@@ -2831,16 +2859,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2887,16 +2905,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "mheecha.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 525: <none>"
     ],
     "vertical_hint": "Fashion"
   },
