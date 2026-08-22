@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Air Max SC Leather Men's Shoes",
+    "sample_title": "Nike Revolution 7 M Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Air Max SC Leather Men's Shoes",
+    "sample_title": "Nike Revolution 7 M Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -54,8 +54,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Brother HL-1110 Monochrome Laser Printer 20ppm A4 USB Single Function",
+    "variants_with_compare_at": 4,
+    "sample_title": "ASUS TUF A15 FA506NCQ AMD Ryzen 7 170 RTX 3050 4GB 16GB DDR5 512GB SSD 15.6-inch FHD 144Hz Gaming Laptop",
     "vertical_hint": "Electronics"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Velvet Hippie Ladies Long Coat",
+    "sample_title": "Hippie Boho Cotton Fleece Jacket – Patchwork Design with Warm Polar Fleece Lining",
     "vertical_hint": "Fashion"
   },
   {
@@ -283,21 +283,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "electromandu.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -340,8 +325,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Run Shoes Double Buckle Brown Loafers (2289)",
+    "variants_with_compare_at": 0,
+    "sample_title": "Goldstar G10 Sunlite-04 Men&#8217;s Walking Shoes (Full Black) Comfortable Sports &amp; Casual Wear",
     "vertical_hint": "Fashion"
   },
   {
@@ -532,8 +517,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Lenovo LOQ 15IRX10 (Intel Core i7 14th Gen 14700HX Processor | 16GB RAM | 1TB SSD | NVIDIA GeForce RTX 5050 8GB Graphics | 15.6&#8243; FHD (1920 x 1080) 144Hz 100% sRGB IPS DIsplay)",
+    "variants_with_compare_at": 4,
+    "sample_title": "Ryze 19″ LED Monitor RYZ-L190M (1440×900 | 75Hz | HDMI + VGA)",
     "vertical_hint": "Electronics"
   },
   {
@@ -572,9 +557,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 36,
+    "sample_variants": 43,
     "variants_with_compare_at": 0,
-    "sample_title": "Bond Street Men's Gray & Black Casual Sneakers GS172",
+    "sample_title": "S-STEP Classic Low-Top Casual Sneakers GS174",
     "vertical_hint": "Fashion"
   },
   {
@@ -613,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 28,
-    "variants_with_compare_at": 22,
-    "sample_title": "Flowy Long Kaftan Dress",
+    "sample_variants": 32,
+    "variants_with_compare_at": 12,
+    "sample_title": "Hand Knit Wool Winter Beanie",
     "vertical_hint": "Fashion"
   },
   {
@@ -774,8 +759,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Acer Aspire C24B All-in-One Desktop | Intel Core Ultra 7 255U | 16GB RAM | 512GB SSD | Windows 11",
+    "variants_with_compare_at": 1,
+    "sample_title": "Acer Predator Helios 18 AI | Intel Core Ultra 9 275HX | 64GB RAM | 1TB SSD | NVIDIA GeForce RTX 5080 16GB GDDR7 | 18″ WQXGA IPS Display | 3 Years Authorized Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -793,7 +778,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "ER-814 &#8211; Contemporary Heritage Gold Plated Tiered Bell Dangle Earrings",
+    "sample_title": "BA-149 &#8211; Classic Gold Plated Traditional Ethnic Bangle For Festive Occasion",
     "vertical_hint": "Fashion"
   },
   {
@@ -818,7 +803,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1042,22 +1027,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "nktmen.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://nktmen.com",
-    "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "tailored straight fit Dark Navy Wash denim Jeans Pant",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "obsessioncosmetics.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1178,9 +1147,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 26,
-    "variants_with_compare_at": 26,
-    "sample_title": "Women's Green Silk Chiffon Embellished Kurta With Pant And Dupatta",
+    "sample_variants": 54,
+    "variants_with_compare_at": 54,
+    "sample_title": "Women's Chikankari Embroidered Ethnic Motif Sequined Kurti",
     "vertical_hint": "Fashion"
   },
   {
@@ -1204,9 +1173,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 6,
-    "sample_title": "Neha T-Shirt - Rosie Peacock",
+    "sample_variants": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "Prayer Flags (5 pack)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1244,6 +1213,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Sol De Janerio 68 90ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -1327,7 +1311,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Horizon Quartz Analog Pink Dial Stainless Steel Strap Watch For Women",
+    "sample_title": "Siler Aviator Men Sunglasses",
     "vertical_hint": "Fashion"
   },
   {
@@ -1381,9 +1365,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 91,
-    "variants_with_compare_at": 91,
-    "sample_title": "STOCK-Men's Premium Summer Workwear Ripped Denim Shorts",
+    "sample_variants": 9,
+    "variants_with_compare_at": 8,
+    "sample_title": "STOCK - Unisex Floral Print Baseball Cap",
     "vertical_hint": "Fashion"
   },
   {
@@ -1400,6 +1384,23 @@
     "variants_with_compare_at": 0,
     "sample_title": "Slim Fit Athleisure Jacket",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "vitaminepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://vitaminepal.com",
+    "ldjson_types": [
+      "Organization"
+    ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Naptocare Glutathione 500mg- 30 Tablets",
+    "vertical_hint": "Fitness"
   },
   {
     "domain": "woven-nepal.com",
@@ -1572,6 +1573,34 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "evanmens.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://evanmens.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "evewomens.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://evewomens.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "evostore.com.np",
@@ -1925,6 +1954,22 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "socheko.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mega.com.np/",
+    "ldjson_types": [
+      "WebPage"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "sthree.tech",
     "tier": "2",
     "platform": null,
@@ -2233,34 +2278,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "evanmens.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://evanmens.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "evewomens.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://evewomens.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "eyemartnepal.com",
     "tier": "3",
     "platform": "woocommerce",
@@ -2555,7 +2572,7 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: TimeoutError",
+      "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
@@ -2653,20 +2670,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2795,22 +2798,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "vitaminepal.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://vitaminepal.com",
-    "ldjson_types": [
-      "Organization"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Fitness"
-  },
-  {
     "domain": "yara.com.np",
     "tier": "3",
     "platform": "next.js",
@@ -2867,6 +2854,16 @@
       "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "imartnepal.com",
@@ -2929,6 +2926,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nktmen.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nktmen.com'. (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "plussizenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2965,16 +2972,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "socheko.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 521: <none>"
     ],
     "vertical_hint": "Fashion"
   },
