@@ -7,7 +7,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Revolution 7 M Road Running Shoes",
+    "sample_title": "NIKE PRO 1/2 ZIP RUNNING HOODED JACKET",
     "vertical_hint": "Fashion"
   },
   {
@@ -18,7 +18,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Revolution 7 M Road Running Shoes",
+    "sample_title": "NIKE PRO 1/2 ZIP RUNNING HOODED JACKET",
     "vertical_hint": "Fashion"
   },
   {
@@ -326,7 +326,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Goldstar G10 Sunlite-04 Men&#8217;s Walking Shoes (Full Black) Comfortable Sports &amp; Casual Wear",
+    "sample_title": "Goldstar G10 Sunlite-04 Men&#8217;s Walking Shoes (Black) – Comfortable Sports &amp; Casual Wear (Copy)",
     "vertical_hint": "Fashion"
   },
   {
@@ -337,7 +337,7 @@
     "sample_products": 5,
     "sample_variants": 6,
     "variants_with_compare_at": 6,
-    "sample_title": "Rudraksha Bracelet",
+    "sample_title": "Keychain",
     "vertical_hint": "Fashion"
   },
   {
@@ -797,21 +797,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "mheecha.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.mheecha.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Infinity Pack",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "muscleblaze.com.np",
     "tier": "1",
     "platform": "shopify",
@@ -1127,7 +1112,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Diamond Bracelets &#8211; DLBR826",
+    "sample_title": "Women Diamond Rings &#8211; DLR13784",
     "vertical_hint": "Fashion"
   },
   {
@@ -1341,7 +1326,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Dell Inspiron 7440 2-in-1 Laptop (14th Generation Intel Core 5 120U Processor | 16GB RAM | 1TB SSD Storage | Intel Graphics | 14&#8243; FHD+ (1920 x 1200) Touch IPS Display |Ice Blue Windows 11 | 1 Year Warranty)",
+    "sample_title": "BenQ GW2490 24-Inch FHD IPS Monitor (100Hz, 99% sRGB, Dual HDMI, Built-in Speakers)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1496,6 +1481,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2254,9 +2253,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://durbarmart.com",
     "ldjson_types": [],
@@ -2568,20 +2567,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2846,16 +2831,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2906,6 +2881,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "mheecha.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 525: <none>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2914,6 +2899,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
