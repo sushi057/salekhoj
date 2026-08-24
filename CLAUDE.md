@@ -32,6 +32,11 @@ every link and asset reference must stay relative — no leading `/`).
 - `scrapers/gate.py` — refuses to publish a collapsed build (floors: 70% of last-good deals,
   80% of last-good contributing domains). `data/last-good.json` is the baseline. `--force`
   overrides. Tested against simulated collapses; keep it that way.
+- **No `push` trigger, on purpose.** CI does not commit `site/data.json`, so a
+  push-triggered deploy would publish the frozen committed copy and roll live prices back
+  until the next nightly run. Re-scraping on every push would instead hammer 211 stores and
+  could retrigger itself, since the refresh commits to `master`. After a UI change, dispatch
+  the workflow manually: `gh workflow run refresh.yml`.
 
 Two traps worth knowing:
 

@@ -144,6 +144,17 @@ Re-run with `force: true` when a drop turns out to be real.
 daily would add ~300 MB/year of git history. CI builds it fresh and ships it straight to Pages
 as an artifact.
 
+
+Deploys are tied to the refresh workflow — there is deliberately **no `push` trigger**.
+`site/data.json` is not committed by CI, so a push-triggered deploy would publish the
+repo's frozen copy and silently roll the live site back to stale prices until the next
+nightly run. A push trigger that re-scrapes instead would hammer 211 stores on every
+commit and, since the refresh itself commits to `master`, risk retriggering itself.
+
+So: **after a UI change, run the workflow manually** (Actions -> Refresh deals -> Run
+workflow, or `gh workflow run refresh.yml`). It rebuilds fresh data and deploys in one go.
+Otherwise the change goes live at the next nightly run.
+
 ## Tests
 
 ```sh
