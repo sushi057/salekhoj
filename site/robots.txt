@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://sushi057.github.io/salekhoj/sitemap.xml

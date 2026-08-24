@@ -4,7 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>All deals — SaleKhoj</title>
-<meta name="description" content="Filter every live fashion discount in Nepal by store, category, price and how much the price dropped.">
+<meta name="description" content="Filter thousands of live discounts from Nepali online stores by category, store, price and how far the price actually dropped.">
+<link rel="canonical" href="https://sushi057.github.io/salekhoj/deals.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SaleKhoj">
+<meta property="og:locale" content="en_NP">
+<meta property="og:title" content="All deals — SaleKhoj">
+<meta property="og:description" content="Filter thousands of live discounts from Nepali online stores by category, store, price and how far the price actually dropped.">
+<meta property="og:url" content="https://sushi057.github.io/salekhoj/deals.html">
+<meta property="og:image" content="https://sushi057.github.io/salekhoj/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SaleKhoj — every Nepali sale, one page">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131110" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="favicon.svg">
 <script>
 (function () {
@@ -22,45 +36,56 @@
   document.documentElement.setAttribute('data-theme', resolve(choice));
 })();
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sushi057.github.io/salekhoj/" },
+    { "@type": "ListItem", "position": 2, "name": "All deals", "item": "https://sushi057.github.io/salekhoj/deals.html" }
+  ]
+}
+</script>
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
 </head>
 <body data-page="deals" data-nav="deals.html">
 <main id="main" class="wrap section">
-  <div class="section-head"><h2>All deals</h2><p>Every price we could verify dropped.</p></div>
+  <div class="section-head"><h1>All deals</h1><p>Every price we could verify dropped.</p></div>
 
   <div class="layout">
     <details class="filters" id="filters">
       <summary class="filters-summary">Filters <span class="fcount" id="filter-count"></span></summary>
+      <div class="filters-body">
       <div class="fgroup">
         <label for="q">Search</label>
-        <input id="q" type="search" placeholder="kurta, sneakers, bag…"
-               style="width:100%;padding:8px 10px;border:2px solid var(--line);border-radius:8px;background:var(--paper)">
+        <input class="field" id="q" type="search" placeholder="kurta, sneakers, bag…">
       </div>
-      <fieldset class="fgroup" style="border:0;padding:0;margin:0">
+      <fieldset class="fgroup">
         <legend>Vertical</legend>
         <div class="chips" id="vchips"></div>
       </fieldset>
-      <fieldset class="fgroup" style="border:0;padding:0;margin:0">
-        <legend>Category</legend>
-        <div class="chips" id="chips"></div>
-      </fieldset>
-      <div class="fgroup">
-        <label for="brand">Store</label>
-        <select id="brand"></select>
-      </div>
-      <div class="fgroup">
-        <label for="min">Minimum discount — <span id="min-out">Any</span></label>
-        <input id="min" type="range" min="0" max="80" step="10" value="0">
-      </div>
       <div class="fgroup">
         <label for="sort">Sort by</label>
-        <select id="sort">
+        <div class="select-wrap"><select class="field" id="sort">
           <option value="discount">Biggest discount</option>
           <option value="saving">Most rupees saved</option>
           <option value="cheap">Cheapest first</option>
           <option value="dear">Priciest first</option>
-        </select>
+        </select></div>
+      </div>
+      <div class="fgroup">
+        <label for="brand">Store</label>
+        <div class="select-wrap"><select class="field" id="brand"></select></div>
+      </div>
+      <div class="fgroup">
+        <label for="min">Minimum discount <span class="fval" id="min-out">Any</span></label>
+        <input id="min" type="range" min="0" max="80" step="10" value="0">
+      </div>
+      <fieldset class="fgroup">
+        <legend>Category</legend>
+        <div class="chips" id="chips"></div>
+      </fieldset>
       </div>
     </details>
 

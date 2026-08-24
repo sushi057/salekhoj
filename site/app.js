@@ -111,13 +111,20 @@ function initThemeToggle() {
 function chrome(page) {
   const nav = PAGES.map(([href, label]) =>
     `<a href="${href}"${href === page ? ' aria-current="page"' : ''}>${label}</a>`).join('');
-  // Second-level bar rather than cramming 4 more links into .nav — that's the row the
-  // playtest counts (`.nav a` === 4), and 8 links in one row doesn't fit at 360px anyway.
-  const currentV = new URLSearchParams(location.search).get('v') || '';
+
+  // The vertical bar is a filter control, so it only belongs on the page that filters.
+  // On the home page it was a second row of navigation that went to a different page —
+  // and it was the row whose 1px bottom border flashed on every load.
   const onDeals = page === 'deals.html';
-  const subnav = `<a href="deals.html"${onDeals && !currentV ? ' aria-current="page"' : ''}>All</a>` +
-    VERTICALS.map((v) => `<a href="deals.html?v=${encodeURIComponent(v)}"${onDeals && v === currentV
-      ? ' aria-current="page"' : ''}>${v}</a>`).join('');
+  const currentV = new URLSearchParams(location.search).get('v') || '';
+  const subnav = onDeals
+    ? `<div class="subnav-wrap"><nav class="subnav wrap" aria-label="Filter by vertical">` +
+      `<a href="deals.html"${!currentV ? ' aria-current="page"' : ''}>All</a>` +
+      VERTICALS.map((v) => `<a href="deals.html?v=${encodeURIComponent(v)}"${v === currentV
+        ? ' aria-current="page"' : ''}>${v}</a>`).join('') +
+      `</nav></div>`
+    : '';
+
   document.body.insertAdjacentHTML('afterbegin', `
     <a class="skip" href="#main">Skip to content</a>
     <header class="top"><div class="wrap top-in">
@@ -127,13 +134,15 @@ function chrome(page) {
       </form>
       <nav class="nav">${nav}</nav>
       <button class="theme-btn" id="theme-toggle" type="button" aria-label="Theme"></button>
-    </div></header>
-    <div class="subnav-wrap"><nav class="subnav wrap">${subnav}</nav></div>`);
+    </div></header>${subnav}`);
+
   document.body.insertAdjacentHTML('beforeend', `
     <footer class="foot"><div class="wrap foot-in">
-      <p>Prices pulled straight from each store. We link you there; we never take payment.</p>
-      <nav>${PAGES.map(([h, l]) => `<a href="${h}">${l}</a>`).join('')}</nav>
+      <nav class="foot-nav">${PAGES.map(([h, l]) => `<a href="${h}">${l}</a>`).join('')}</nav>
+      <p class="foot-legal">&copy; ${new Date().getFullYear()} SaleKhoj. Prices and availability
+        are set by the stores, not by us.</p>
     </div></footer>`);
+
   initThemeToggle();
 }
 
@@ -161,6 +170,72 @@ async function loadData() {
 
 /* ---------- pages ---------- */
 
+// Hand-picked stores given their own home-page slot. `domain` must match the `brand`
+// field in data.json. `name` overrides storeName(), which title-cases from the domain and
+// so can't know "MuscleBlaze" is camel-cased. A store with zero live deals is skipped, and
+// the whole section hides itself if none of them have any — a featured slot showing an
+// empty shelf is worse than no slot.
+const FEATURED = [
+  { domain: 'muscleblaze.com.np', name: 'MuscleBlaze', blurb: 'Sports nutrition, shakers and lifting gear.' },
+];
+
+const FEATURED_CARDS = 8;
+
+// One source of truth for the block's shape, used by both the skeleton and the real
+// render — they must produce identical geometry or the swap reintroduces the shift.
+function featShell(f, stats, cards) {
+  const name = esc(f.name || storeName(f.domain));
+  return `<div class="feat">
+    <div class="feat-head">
+      <div>
+        <h3 class="feat-name">${name}</h3>
+        ${f.blurb ? `<p class="feat-blurb">${esc(f.blurb)}</p>` : ''}
+      </div>
+      <div class="feat-stats">${stats}</div>
+      <a class="more" href="brand.html?b=${encodeURIComponent(f.domain)}">All ${name} &rarr;</a>
+    </div>
+    <div class="grid">${cards}</div>
+  </div>`;
+}
+
+/* Runs synchronously before data.json is fetched. The featured block sits at the top of
+   the home page, so revealing it after a 5 MB fetch shoved the whole page down — measured
+   at 0.26 CLS on its own. The store name and blurb are known from FEATURED without any
+   data, and .thumb has a fixed 3/4 aspect-ratio while .card-title is pinned to two lines,
+   so these placeholders occupy exactly the height the real cards will. */
+function renderFeaturedSkeleton() {
+  const section = document.querySelector('#featured-section');
+  if (!section || !FEATURED.length) return;
+  const skelCard = `<div class="card skeleton" aria-hidden="true">
+    <div class="thumb"></div>
+    <div class="card-body">
+      <span class="skel-line skel-title"></span>
+      <span class="skel-line skel-price"></span>
+    </div>
+  </div>`;
+  const skelStats = '<span class="feat-best skel-pill">&nbsp;</span>' +
+    '<span class="feat-count skel-pill">&nbsp;</span>';
+  document.querySelector('#featured').innerHTML = FEATURED
+    .map((f) => featShell(f, skelStats, skelCard.repeat(FEATURED_CARDS))).join('');
+}
+
+function renderFeatured(products) {
+  const section = document.querySelector('#featured-section');
+  if (!section) return;
+
+  const blocks = FEATURED.map((f) => {
+    const items = products.filter((p) => p.brand === f.domain)
+      .sort((a, b) => b.discount_pct - a.discount_pct);
+    if (!items.length) return '';
+    const stats = `<span class="feat-best">Up to ${items[0].discount_pct}% off</span>` +
+      `<span class="feat-count">${items.length} deal${items.length === 1 ? '' : 's'} live</span>`;
+    return featShell(f, stats, items.slice(0, FEATURED_CARDS).map(card).join(''));
+  }).filter(Boolean);
+
+  section.hidden = blocks.length === 0;
+  document.querySelector('#featured').innerHTML = blocks.join('');
+}
+
 function renderHome(db) {
   const { products, brands } = db;
   document.querySelector('#stat-deals').textContent = products.length.toLocaleString();
@@ -171,6 +246,8 @@ function renderHome(db) {
 
   const top = spread(products, 12);
   document.querySelector('#top-deals').innerHTML = top.map(card).join('');
+
+  renderFeatured(products);
 
   const counts = {};
   for (const p of products) counts[p.bucket] = (counts[p.bucket] || 0) + 1;
@@ -213,6 +290,18 @@ function initFiltersDetails() {
   sync();
 }
 
+// The native range track can't show how far along the thumb is without help; --pct drives
+// a two-stop gradient so the filled portion reads as a slider rather than a lone dot.
+function paintRange(min) {
+  const el = document.querySelector('#min');
+  const out = document.querySelector('#min-out');
+  if (!el || !out) return;
+  const pct = ((min - +el.min) / (+el.max - +el.min)) * 100;
+  el.style.setProperty('--pct', pct + '%');
+  out.textContent = min ? min + '%+' : 'Any';
+  out.classList.toggle('is-set', min > 0);
+}
+
 function renderDeals(db) {
   initFiltersDetails();
   const params = new URLSearchParams(location.search);
@@ -234,6 +323,7 @@ function renderDeals(db) {
     db.brands.map((b) => `<option value="${b}"${b === state.b ? ' selected' : ''}>${storeName(b)}</option>`).join('');
   document.querySelector('#sort').value = state.sort;
   document.querySelector('#min').value = state.min;
+  paintRange(state.min);
 
   // No vertical picked -> every bucket, same as before verticals existed. Pick one and the
   // chip list narrows to just its buckets — "Footwear, Phones, Skincare" together was noise.
@@ -303,11 +393,11 @@ function renderDeals(db) {
   document.querySelector('#sort').addEventListener('change', reset((e) => { state.sort = e.target.value; }));
   document.querySelector('#min').addEventListener('input', reset((e) => {
     state.min = +e.target.value;
-    document.querySelector('#min-out').textContent = state.min ? state.min + '%+' : 'Any';
+    paintRange(state.min);
   }));
   document.querySelector('#more').addEventListener('click', () => { state.shown += PAGE_SIZE; apply(); });
 
-  document.querySelector('#min-out').textContent = state.min ? state.min + '%+' : 'Any';
+  paintRange(state.min);
   apply();
 }
 
@@ -380,6 +470,7 @@ const RENDERERS = { home: renderHome, deals: renderDeals, brands: renderBrands, 
 document.addEventListener('DOMContentLoaded', async () => {
   const page = document.body.dataset.page;
   chrome(document.body.dataset.nav || 'index.html');
+  if (page === 'home') renderFeaturedSkeleton();
   loadGoatCounter();
   initOutboundTracking();
   const render = RENDERERS[page];
