@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 0,
-    "sample_title": "NIKE PRO 1/2 ZIP RUNNING HOODED JACKET",
+    "sample_variants": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Nike-Nike x Kobe Bryant Air Force 1 Low",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 0,
-    "sample_title": "NIKE PRO 1/2 ZIP RUNNING HOODED JACKET",
+    "sample_variants": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Nike-Nike x Kobe Bryant Air Force 1 Low",
     "vertical_hint": "Fashion"
   },
   {
@@ -27,9 +27,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 50,
-    "variants_with_compare_at": 50,
-    "sample_title": "Activa Men's Ultra Comfort Slides – Lightweight Cushioned Open-Toe Slides for Everyday Wear",
+    "sample_variants": 38,
+    "variants_with_compare_at": 38,
+    "sample_title": "Men's Adjustable Comfort Slides with Buckle Strap for Everyday Wear",
     "vertical_hint": "Fashion"
   },
   {
@@ -55,7 +55,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "ASUS TUF A15 FA506NCQ AMD Ryzen 7 170 RTX 3050 4GB 16GB DDR5 512GB SSD 15.6-inch FHD 144Hz Gaming Laptop",
+    "sample_title": "HP Victus 15 AMD Ryzen 7 8845HS RTX 4050 6GB 16GB DDR5 1TB SSD 15.6-inch FHD 144Hz Gaming Laptop",
     "vertical_hint": "Electronics"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 24,
-    "variants_with_compare_at": 0,
-    "sample_title": "HUAWEI WATCH FIT 5 Pro Smartwatch with 1.92\" AMOLED",
+    "sample_variants": 16,
+    "variants_with_compare_at": 1,
+    "sample_title": "UGREEN Nexode Pro 100W 5-Port GaN Desktop Charger",
     "vertical_hint": "Fashion"
   },
   {
@@ -311,7 +311,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Backless Contrast Lace Babydoll Nighty",
+    "sample_title": "High Quality Full B Cup Copa Bra",
     "vertical_hint": "Fashion"
   },
   {
@@ -518,7 +518,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Ryze 19″ LED Monitor RYZ-L190M (1440×900 | 75Hz | HDMI + VGA)",
+    "sample_title": "Acer Aspire C24 All in One 24” Desktop (Intel Core 5 120U Series 1 Processor | 16GB RAM | 512GB SSD  | Intel® Graphics | 23.8&#8243; FHD 120Hz IPS Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -557,9 +557,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 43,
+    "sample_variants": 52,
     "variants_with_compare_at": 0,
-    "sample_title": "S-STEP Classic Low-Top Casual Sneakers GS174",
+    "sample_title": "TBL Men’s Retro Sport-Casual Sneakers GS175",
     "vertical_hint": "Fashion"
   },
   {
@@ -598,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 32,
-    "variants_with_compare_at": 12,
-    "sample_title": "Hand Knit Wool Winter Beanie",
+    "sample_variants": 27,
+    "variants_with_compare_at": 14,
+    "sample_title": "Butterfly Boho Beaded Belt",
     "vertical_hint": "Fashion"
   },
   {
@@ -680,24 +680,9 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Lenovo LOQ 15IRX9 Gaming i5-13450HX 13th Gen/24GB RAM DDR5/512GB SSD/15.6&#8243; Full HD IPS 144Hz/NVIDIA® GeForce® RTX 3050 6GB/Backlit Keyboard (LUNA GREY)",
+    "variants_with_compare_at": 3,
+    "sample_title": "TRUSMI BH03-01 Wireless Head-Mounted Bluetooth Headset Black",
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "logo-madeinnepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.logo-madeinnepal.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Men&#8217;s Formal Pant",
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "maayus.com",
@@ -795,6 +780,21 @@
     "variants_with_compare_at": 3,
     "sample_title": "Dreamy World Walking Pad &#8211; 1.75HP Motor &#8211; 10KM/H Speed &#8211; 2 Level Manual Incline",
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "mheecha.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.mheecha.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Infinity Pack",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "muscleblaze.com.np",
@@ -989,7 +989,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Marcus Limitless Shiny Black Sunglass",
+    "sample_title": "Gun Black Metal Eyeglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -1037,8 +1037,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Canon imageCLASS MF284dw Wireless Duplex Monochrome Laser Multifunction Printer",
+    "variants_with_compare_at": 0,
+    "sample_title": "Dell ECT1250 Desktop Core i5-14400 Processor | 8GB RAM | 512GB SSD | Intel Integrated Graphics | DELL E2220 22&#8243; Monitor",
     "vertical_hint": "Electronics"
   },
   {
@@ -1169,9 +1169,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
-    "variants_with_compare_at": 0,
-    "sample_title": "Primadonna Pumps",
+    "sample_variants": 31,
+    "variants_with_compare_at": 8,
+    "sample_title": "Weekend Ankle Boots",
     "vertical_hint": "Fashion"
   },
   {
@@ -1198,21 +1198,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
-    "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Sol De Janerio 68 90ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -1296,7 +1281,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Siler Aviator Men Sunglasses",
+    "sample_title": "Skinn By Titan Celeste 100 ML Perfume For Women EDP FW02PFCIBD",
     "vertical_hint": "Fashion"
   },
   {
@@ -1350,9 +1335,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 9,
-    "variants_with_compare_at": 8,
-    "sample_title": "STOCK - Unisex Floral Print Baseball Cap",
+    "sample_variants": 19,
+    "variants_with_compare_at": 17,
+    "sample_title": "STOCK-Bone Conduction Bluetooth Speaker Waterproof 5.1",
     "vertical_hint": "Fashion"
   },
   {
@@ -2249,20 +2234,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "durbarmart.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://durbarmart.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "estore.com.np",
     "tier": "3",
     "platform": null,
@@ -2567,6 +2538,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: TimeoutError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2655,6 +2640,20 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2841,6 +2840,16 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "durbarmart.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 308: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nPermanent Redirect"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "imartnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2871,22 +2880,22 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "logo-madeinnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "mheecha.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 525: <none>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2899,16 +2908,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
@@ -2926,7 +2925,7 @@
     "platform": null,
     "notes": [
       "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nktmen.com'. (_ssl.c:1010)>"
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
   },
