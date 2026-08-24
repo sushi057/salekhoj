@@ -1,9 +1,13 @@
 /* SaleKhoj — visual language borrowed from Nepali shop-window sale signage:
    painted condensed caps, day-glo starburst stickers, receipt-mono prices. */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Space+Mono:wght@400;700&display=swap');
 
 :root {
+  /* Native widgets — the <select> popup list, scrollbars, the range track — are drawn by
+     the OS, not by our CSS. Without color-scheme Chrome draws them light on every theme,
+     which made the Store and Sort dropdowns unreadable in dark mode. */
+  color-scheme: light;
   --ink: #14100e;
   --paper: #f6f5f1;
   --card: #ffffff;
@@ -13,7 +17,7 @@
   --mute: #6e6862;
   --line: #e2ded6;
 
-  --display: 'Anton', 'Arial Narrow', sans-serif;
+  --display: 'Archivo Black', 'Instrument Sans', system-ui, sans-serif;
   --body: 'Instrument Sans', system-ui, -apple-system, sans-serif;
   --mono: 'Space Mono', ui-monospace, monospace;
 
@@ -27,17 +31,20 @@
    inline script in <head>; see theme-toggle below for the reverse (light-on-dark-OS). */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --ink: #f4f1ec; --paper: #131110; --card: #1c1917;
     --mute: #9d968d; --line: #302b27;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
   }
 }
 :root[data-theme="dark"] {
+  color-scheme: dark;
   --ink: #f4f1ec; --paper: #131110; --card: #1c1917;
   --mute: #9d968d; --line: #302b27;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.7);
 }
 :root[data-theme="light"] {
+  color-scheme: light;
   --ink: #14100e; --paper: #f6f5f1; --card: #ffffff;
   --mute: #6e6862; --line: #e2ded6;
   --shadow: 0 1px 2px rgba(20,16,14,.06), 0 8px 24px -12px rgba(20,16,14,.18);
@@ -57,6 +64,14 @@ button, input, select { font: inherit; color: inherit; }
 
 .wrap { max-width: 1240px; margin: 0 auto; padding-inline: var(--pad); }
 
+/* chrome() appends the footer at DOMContentLoaded, before the 5 MB data.json has parsed
+   and any card exists — so on a slow load the footer painted directly under the header
+   (a stray horizontal rule near the top) and was then shoved down the page as results
+   filled in. Reserving a viewport of height for <main> keeps the footer below the fold
+   from the very first paint, so it never appears high and then moves. Measured: this is
+   the largest single layout shift on deals and brands. */
+main { min-height: calc(100vh - 64px); }
+
 /* ---------- header ---------- */
 .top {
   position: sticky; top: 0; z-index: 50;
@@ -64,7 +79,7 @@ button, input, select { font: inherit; color: inherit; }
 }
 .top-in { display: flex; align-items: center; gap: 20px; height: 64px; }
 .mark {
-  font-family: var(--display); font-size: 26px; letter-spacing: .02em;
+  font-family: var(--display); font-size: 20px; letter-spacing: -.015em;
   text-decoration: none; text-transform: uppercase; white-space: nowrap;
 }
 .mark em { color: var(--sale); font-style: normal; }
@@ -130,7 +145,7 @@ button, input, select { font: inherit; color: inherit; }
   .chip { padding: 11px 14px; min-height: 44px; display: inline-flex; align-items: center; }
   .btn { padding: 14px 24px; min-height: 44px; }
   #more { min-height: 44px; }
-  .fgroup select { min-height: 44px; }
+  .field { height: 46px; }
   .top-search input { min-height: 44px; }
 }
 
@@ -140,7 +155,7 @@ button, input, select { font: inherit; color: inherit; }
 .hero { padding: clamp(40px, 8vw, 88px) 0 clamp(32px, 5vw, 56px); position: relative; }
 .hero h1 {
   font-family: var(--display); text-transform: uppercase; margin: 0;
-  font-size: clamp(44px, 11vw, 128px); line-height: .88; letter-spacing: -.01em;
+  font-size: clamp(30px, 7vw, 78px); line-height: .96; letter-spacing: -.025em;
 }
 .hero h1 .hl { color: var(--sale); }
 .hero p.lede {
@@ -172,7 +187,7 @@ button, input, select { font: inherit; color: inherit; }
   font-family: var(--display); background: var(--flash); color: #14100e;
   display: grid; place-items: center; text-align: center;
   width: 54px; height: 54px; border-radius: 50%; line-height: 1;
-  font-size: 17px; box-shadow: 0 2px 0 rgba(20,16,14,.25);
+  font-size: 13px; letter-spacing: -.01em; box-shadow: 0 2px 0 rgba(20,16,14,.25);
   clip-path: polygon(50% 0,61% 9%,75% 4%,80% 18%,95% 20%,93% 35%,105% 45%,95% 57%,
                      100% 72%,85% 76%,82% 92%,68% 88%,57% 100%,45% 90%,30% 96%,
                      25% 82%,10% 80%,14% 65%,2% 55%,12% 43%,5% 28%,20% 24%,24% 9%,38% 13%);
@@ -212,6 +227,9 @@ button, input, select { font: inherit; color: inherit; }
 .card-title {
   font-size: 14px; font-weight: 600; line-height: 1.3; margin: 0;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  /* Two lines whether the title needs them or not: makes every card a known height, which
+     is what lets the featured skeleton reserve exactly the right space. */
+  min-height: 2.6em;
 }
 .prices { margin-top: auto; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
 .now { font-family: var(--mono); font-weight: 700; font-size: 16px; }
@@ -220,15 +238,15 @@ button, input, select { font: inherit; color: inherit; }
 /* ---------- sections ---------- */
 .section { padding: clamp(36px, 6vw, 64px) 0; }
 .section-head { display: flex; align-items: end; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
-.section-head h2 {
+.section-head h1, .section-head h2 {
   font-family: var(--display); text-transform: uppercase; margin: 0;
-  font-size: clamp(26px, 4.5vw, 44px); line-height: 1; letter-spacing: -.01em;
+  font-size: clamp(21px, 3.2vw, 32px); line-height: 1.05; letter-spacing: -.02em;
 }
 .section-head p { margin: 0; color: var(--mute); font-size: 14px; }
 .section-head .more { margin-left: auto; font-size: 14px; font-weight: 700; text-decoration: none; }
 .section-head h3 {
   font-family: var(--display); text-transform: uppercase; margin: 0;
-  font-size: clamp(20px, 3vw, 28px); line-height: 1; letter-spacing: -.01em;
+  font-size: clamp(17px, 2.2vw, 21px); line-height: 1.1; letter-spacing: -.02em;
 }
 .v-rail { margin-bottom: clamp(28px, 5vw, 44px); }
 .v-rail:last-child { margin-bottom: 0; }
@@ -240,21 +258,40 @@ button, input, select { font: inherit; color: inherit; }
   transition: background .15s ease, color .15s ease;
 }
 .tile:hover { background: var(--flash); color: #14100e; }
-.tile b { font-family: var(--display); font-size: 24px; text-transform: uppercase; display: block; }
+.tile b { font-family: var(--display); font-size: 18px; letter-spacing: -.02em; text-transform: uppercase; display: block; }
 .tile span { font-family: var(--mono); font-size: 12px; color: var(--mute); }
 .tile:hover span { color: #14100e; }
 
 /* ---------- filters ---------- */
 .layout { display: grid; grid-template-columns: 240px 1fr; gap: 32px; align-items: start; }
 @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+/* An open <details> lays its contents out inside one anonymous content box, so a flex
+   `gap` set on .filters applied between <summary> and that box — never between the groups
+   themselves. The rhythm needs a real element to hang off, hence .filters-body. */
+/* The panel is taller than the viewport whenever every category chip is shown (24 of them
+   with no vertical selected: 1284px against a 900px window). Sticky alone left the tail
+   unreachable unless you scrolled to the very bottom of the results, so it scrolls itself. */
 .filters {
-  position: sticky; top: 84px; display: flex; flex-direction: column; gap: 22px;
-  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px;
+  position: sticky; top: 84px;
+  max-height: calc(100vh - 104px); overflow-y: auto; overscroll-behavior: contain;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px;
 }
-@media (max-width: 860px) { .filters { position: static; } }
+.filters::-webkit-scrollbar { width: 10px; }
+.filters::-webkit-scrollbar-thumb {
+  background: var(--line); border-radius: 999px;
+  border: 3px solid var(--card); background-clip: padding-box;
+}
+.filters::-webkit-scrollbar-track { background: transparent; }
+.filters-body { display: flex; flex-direction: column; gap: 26px; }
+/* Above 860px the summary is hidden, so the body needs no clearance under it. */
+@media (max-width: 860px) { .filters[open] .filters-body { margin-top: 16px; } }
+@media (max-width: 860px) {
+  .filters { position: static; max-height: none; overflow: visible; }
+}
 .filters-summary {
   font-family: var(--display); text-transform: uppercase; letter-spacing: -.01em;
-  font-size: 18px; cursor: pointer; list-style: none; display: flex;
+  font-size: 14px; cursor: pointer; list-style: none; display: flex;
   align-items: center; gap: 8px; min-height: 44px;
 }
 .filters-summary::-webkit-details-marker { display: none; }
@@ -265,25 +302,131 @@ button, input, select { font: inherit; color: inherit; }
 }
 /* Above 860px the summary control is redundant (app.js keeps the <details> open there). */
 @media (min-width: 861px) { .filters-summary { display: none; } }
+/* Every filter control shares one box model — same height, padding, border and radius —
+   so the search box, both selects and the slider line up on a single left edge. Previously
+   the search input carried its own inline styles and drifted from the selects. */
+.fgroup { border: 0; padding: 0; margin: 0; min-width: 0; }
 .fgroup > label, .fgroup > legend {
   font-family: var(--mono); font-size: 11px; text-transform: uppercase;
-  letter-spacing: .1em; color: var(--mute); display: block; margin-bottom: 8px;
+  letter-spacing: .1em; color: var(--mute); display: flex; align-items: baseline;
+  gap: 8px; padding: 0; margin-bottom: 9px; width: 100%;
 }
-.fgroup select, .fgroup input[type=range] { width: 100%; }
-.fgroup select {
-  padding: 8px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--paper);
+.fgroup > label .fval {
+  margin-left: auto; font-weight: 700; letter-spacing: .04em; color: var(--mute);
 }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.fgroup > label .fval.is-set { color: var(--sale); }
+
+.field {
+  width: 100%; height: 42px; padding: 0 12px;
+  border: 2px solid var(--line); border-radius: 8px;
+  background: var(--paper); color: var(--ink); font-size: 14px;
+  appearance: none; -webkit-appearance: none;
+}
+.field:hover { border-color: var(--mute); }
+.field:focus { border-color: var(--ink); outline: none; }
+
+/* Native select arrows differ per platform and ignore the border radius; draw our own. */
+.select-wrap { position: relative; }
+.select-wrap::after {
+  content: ''; position: absolute; right: 14px; top: 50%; width: 8px; height: 8px;
+  border-right: 2px solid var(--mute); border-bottom: 2px solid var(--mute);
+  transform: translateY(-70%) rotate(45deg); pointer-events: none;
+}
+.select-wrap .field { padding-right: 34px; cursor: pointer; }
+.select-wrap .field option { background: var(--card); color: var(--ink); }
+
+/* Range: the native widget is the one control that can't inherit .field, so track and
+   thumb are drawn explicitly. Both vendor prefixes are required — they cannot be
+   combined into one selector, an unknown pseudo-element voids the whole rule. */
+.fgroup input[type=range] {
+  width: 100%; height: 20px; margin: 0; padding: 0;
+  background: transparent; appearance: none; -webkit-appearance: none; cursor: pointer;
+}
+.fgroup input[type=range]:focus { outline: none; }
+.fgroup input[type=range]:focus-visible { outline: 3px solid var(--sale); outline-offset: 4px; }
+.fgroup input[type=range] { --pct: 0%; }
+.fgroup input[type=range]::-webkit-slider-runnable-track {
+  height: 6px; border-radius: 999px;
+  background: linear-gradient(to right, var(--ink) var(--pct), var(--line) var(--pct));
+}
+.fgroup input[type=range]::-moz-range-track {
+  height: 6px; border-radius: 999px;
+  background: linear-gradient(to right, var(--ink) var(--pct), var(--line) var(--pct));
+}
+.fgroup input[type=range]::-webkit-slider-thumb {
+  appearance: none; -webkit-appearance: none; width: 18px; height: 18px; margin-top: -6px;
+  border-radius: 50%; background: var(--ink); border: 3px solid var(--paper);
+  box-shadow: 0 0 0 2px var(--ink);
+}
+.fgroup input[type=range]::-moz-range-thumb {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--ink);
+  border: 3px solid var(--paper); box-shadow: 0 0 0 2px var(--ink);
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   border: 2px solid var(--line); background: transparent; border-radius: 999px;
-  padding: 5px 12px; font-size: 13px; font-weight: 600; cursor: pointer;
+  padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
+  transition: border-color .12s ease, background .12s ease;
 }
+.chip:hover { border-color: var(--mute); }
 .chip[aria-pressed=true] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .result-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }
 .count { font-family: var(--mono); font-size: 13px; color: var(--mute); }
 
 .empty { padding: 64px 20px; text-align: center; color: var(--mute); }
-.empty b { font-family: var(--display); font-size: 28px; color: var(--ink); display: block; text-transform: uppercase; }
+.empty b { font-family: var(--display); font-size: 21px; letter-spacing: -.02em; color: var(--ink); display: block; text-transform: uppercase; }
+
+/* ---------- featured stores ---------- */
+/* [hidden] needs the !important-free explicit rule because .feat's parent section is
+   display:block from .section — the UA sheet's [hidden]{display:none} would otherwise
+   still win, but being explicit survives future .section changes. */
+#featured-section[hidden] { display: none; }
+.feat {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 20px; margin-bottom: 20px;
+}
+.feat-head {
+  display: flex; align-items: center; gap: 16px 20px; flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.feat-name {
+  font-family: var(--display); text-transform: uppercase; letter-spacing: -.02em;
+  font-size: clamp(19px, 2.6vw, 26px); line-height: 1.05; margin: 0;
+}
+.feat-blurb { margin: 4px 0 0; color: var(--mute); font-size: 14px; }
+.feat-stats { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.feat-best {
+  font-family: var(--display); font-size: 12px; letter-spacing: -.01em;
+  background: var(--flash); color: #14100e; padding: 5px 10px; border-radius: 999px;
+  white-space: nowrap;
+}
+.feat-count {
+  font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--mute); white-space: nowrap;
+}
+.feat-head .more { margin-left: auto; }
+/* The block is already titled with the store — repeating it on all 8 cards is noise. */
+.feat .card-brand { display: none; }
+
+/* Placeholders shown until data.json lands. Same box as a real card, no interactivity. */
+.card.skeleton { pointer-events: none; }
+.card.skeleton:hover { transform: none; box-shadow: none; }
+.skel-line, .skel-pill { display: block; border-radius: 4px; background: var(--line); }
+.skel-title { height: 2.6em; }
+.skel-price { height: 16px; width: 60%; margin-top: auto; }
+.skel-pill { border-radius: 999px; color: transparent; }
+.feat-best.skel-pill { width: 96px; background: var(--line); }
+.feat-count.skel-pill { width: 74px; }
+@media (prefers-reduced-motion: no-preference) {
+  .skel-line, .skel-pill, .card.skeleton .thumb { animation: skel-pulse 1.4s ease-in-out infinite; }
+}
+@keyframes skel-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
+@media (max-width: 560px) {
+  .feat { padding: 14px; }
+  .feat-head { gap: 10px; margin-bottom: 14px; }
+  .feat-head .more { margin-left: 0; }
+}
 
 /* ---------- brands ---------- */
 .brand-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
@@ -295,7 +438,7 @@ button, input, select { font: inherit; color: inherit; }
 .brand-card:hover { border-color: var(--ink); }
 .brand-card b { font-size: 18px; }
 .brand-card .meta { font-family: var(--mono); font-size: 12px; color: var(--mute); }
-.brand-card .best { font-family: var(--display); font-size: 22px; color: var(--sale); }
+.brand-card .best { font-family: var(--display); font-size: 17px; letter-spacing: -.02em; color: var(--sale); }
 .v-tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .v-tags em {
   font-style: normal; font-family: var(--mono); font-size: 10px; text-transform: uppercase;
@@ -305,16 +448,20 @@ button, input, select { font: inherit; color: inherit; }
 
 /* ---------- prose ---------- */
 .prose { max-width: 62ch; }
-.prose h1 { font-family: var(--display); text-transform: uppercase; font-size: clamp(34px,6vw,64px); line-height: .95; margin: 0 0 20px; }
-.prose h2 { font-family: var(--display); text-transform: uppercase; font-size: 24px; margin: 36px 0 10px; }
+.prose h1 { font-family: var(--display); text-transform: uppercase; font-size: clamp(27px,4.4vw,44px); line-height: 1.02; letter-spacing: -.025em; margin: 0 0 20px; }
+.prose h2 { font-family: var(--display); text-transform: uppercase; font-size: 18px; letter-spacing: -.02em; margin: 36px 0 10px; }
 .prose p, .prose li { color: var(--mute); }
 .prose strong { color: var(--ink); }
 
 /* ---------- footer ---------- */
-.foot { border-top: 2px solid var(--ink); margin-top: 60px; padding: 32px 0 48px; }
-.foot-in { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
-.foot p { margin: 0; font-size: 13px; color: var(--mute); }
-.foot nav { margin-left: auto; display: flex; gap: 16px; font-size: 13px; }
+.foot { border-top: 1px solid var(--line); margin-top: 72px; padding: 32px 0 40px; }
+.foot-in {
+  display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center;
+}
+.foot-nav { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+.foot-nav a { font-size: 14px; text-decoration: none; color: var(--mute); }
+.foot-nav a:hover { color: var(--ink); text-decoration: underline; }
+.foot-legal { margin: 0; font-size: 13px; color: var(--mute); max-width: 60ch; line-height: 1.6; }
 
 .skip {
   position: absolute; left: -9999px; background: var(--ink); color: var(--paper);

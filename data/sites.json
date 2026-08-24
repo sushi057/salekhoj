@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Nike-Nike x Kobe Bryant Air Force 1 Low",
+    "sample_variants": 29,
+    "variants_with_compare_at": 0,
+    "sample_title": "Nike Winflo 11 Men's Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Nike-Nike x Kobe Bryant Air Force 1 Low",
+    "sample_variants": 29,
+    "variants_with_compare_at": 0,
+    "sample_title": "Nike Winflo 11 Men's Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 16,
+    "sample_variants": 9,
     "variants_with_compare_at": 1,
-    "sample_title": "UGREEN Nexode Pro 100W 5-Port GaN Desktop Charger",
+    "sample_title": "DJI Osmo Pocket 4P Handheld Gimbal Camera Details",
     "vertical_hint": "Fashion"
   },
   {
@@ -517,8 +517,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Acer Aspire C24 All in One 24” Desktop (Intel Core 5 120U Series 1 Processor | 16GB RAM | 512GB SSD  | Intel® Graphics | 23.8&#8243; FHD 120Hz IPS Display)",
+    "variants_with_compare_at": 2,
+    "sample_title": "Dell Latitude 3450 (Intel Core Ultra 7 155U Series 1 Processor | 16GB RAM | 512GB SSD | Intel® Graphics | 14&#8243; FHD IPS Display | 3 Year warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -680,9 +680,24 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "TRUSMI BH03-01 Wireless Head-Mounted Bluetooth Headset Black",
+    "variants_with_compare_at": 1,
+    "sample_title": "hp Victus Gaming 15-fb2082wm-Intel® Core™ i5-13420H 13th Gen/16GB RAM DDR4/1TB SSD/15.6&#8243; Full HD 144Hz/NVIDIA® GeForce RTX™ 4050 6GB/Backlit Keyboard/Windows 11 Home (MICA SILVER)",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "logo-madeinnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.logo-madeinnepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Men&#8217;s Formal Pant",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "maayus.com",
@@ -786,7 +801,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: TimeoutError"
     ],
     "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
@@ -819,7 +834,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "DermaArth Acnoderm Moisturizer",
+    "sample_title": "Eraderm Sunscreen Gel",
     "vertical_hint": "Beauty"
   },
   {
@@ -989,7 +1004,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Gun Black Metal Eyeglass",
+    "sample_title": "Grey PC Matte Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -1038,7 +1053,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Dell ECT1250 Desktop Core i5-14400 Processor | 8GB RAM | 512GB SSD | Intel Integrated Graphics | DELL E2220 22&#8243; Monitor",
+    "sample_title": "Dell XPS 13 | Core 5 320 Processor | 8GB LPDDR5X RAM | 512 SSD NVME | 13.4″ 2.5K (2560×1600) IPS Touch Display | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1112,7 +1127,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Women Diamond Rings &#8211; DLR13784",
+    "sample_title": "Wedding Necklaces &#8211; DNK1236",
     "vertical_hint": "Fashion"
   },
   {
@@ -1132,9 +1147,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 54,
-    "variants_with_compare_at": 54,
-    "sample_title": "Women's Chikankari Embroidered Ethnic Motif Sequined Kurti",
+    "sample_variants": 40,
+    "variants_with_compare_at": 40,
+    "sample_title": "Women's Navy Blue Blend Embellished Kurta With Trouser And Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1186,18 +1201,18 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "skinknepal.com",
+    "domain": "solehex.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://skinknepal.com",
+    "final_url": "https://solehex.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
+    "variants_with_compare_at": 0,
+    "sample_title": "Sol De Janerio 68 90ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -1394,7 +1409,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
+    "variants_with_compare_at": 3,
     "sample_title": "Asus Vivobook S 14 S5406 SA OLED | Intel Core Ultra 7 Processor 258V Processor, 32GB LPDDR5X, 1TB M.2 NVMe™ PCIe® 4.0 SSD, 14.0-inch, WUXGA (1920 x 1200) OLED 100% DCI-P3 Display, 47 Tops AI NPU, Full Metal Body, IR Camera (Neutral Black, 1.3KGs)",
     "vertical_hint": "Electronics"
   },
@@ -1455,20 +1470,6 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "chasmahub.com",
-    "tier": "2",
-    "platform": "nuxt/vue",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "choicemandu.com",
@@ -2642,20 +2643,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "swisstimepiecesnepal.com",
     "tier": "3",
     "platform": null,
@@ -2830,6 +2817,16 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "chasmahub.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "home: HTTPError: HTTP Error 522: <none>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2876,16 +2873,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "logo-madeinnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2958,6 +2945,16 @@
       "home: HTTPError: HTTP Error 500: Internal Server Error"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "skinknepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    ],
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "skmeinepal.com",

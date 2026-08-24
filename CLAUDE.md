@@ -8,12 +8,44 @@ framework, no build step for the frontend.
 
 ```sh
 ./build.sh                       # probe sites -> extract deals -> write site/data.json + coverage
-python3 -m http.server 8811 -d site
+python3 -m http.server 8811 -d site     # serve the site locally
 python3 scrapers/extract.py --check     # logic self-check, runs first inside build.sh
 ```
 
+There is no backend. The site is static files all the way down — any static host serves it.
+
 `build.sh` hits the live network and takes several minutes. Don't run it to test a frontend
 change — `site/data.json` is already there.
+
+**Price history was removed** (Aug 2026, user's call): `scrapers/archive.py` and `data/history/`
+are gone and `build.sh` no longer appends daily snapshots. This matches the long-standing
+"Price history" entry under Non-goals, which `archive.py` had been quietly contradicting.
+
+## Deploy and refresh
+
+Public repo -> free GitHub Pages at `https://sushi057.github.io/salekhoj/` (a **subpath**, so
+every link and asset reference must stay relative — no leading `/`).
+
+- `.github/workflows/refresh.yml` — daily at `00:17 UTC` (~06:00 Nepal, deliberately off the
+  hour; GitHub's scheduler congests at `:00`). Builds, gates, commits the small records,
+  deploys to Pages.
+- `scrapers/gate.py` — refuses to publish a collapsed build (floors: 70% of last-good deals,
+  80% of last-good contributing domains). `data/last-good.json` is the baseline. `--force`
+  overrides. Tested against simulated collapses; keep it that way.
+- **No `push` trigger, on purpose.** CI does not commit `site/data.json`, so a
+  push-triggered deploy would publish the frozen committed copy and roll live prices back
+  until the next nightly run. Re-scraping on every push would instead hammer 211 stores and
+  could retrigger itself, since the refresh commits to `master`. After a UI change, dispatch
+  the workflow manually: `gh workflow run refresh.yml`.
+
+Two traps worth knowing:
+
+- **`site/data.json` is never committed by CI.** 5 MB of single-line JSON daily is ~300 MB/year
+  of history. CI builds it and uploads it to Pages as an artifact. The committed copy is a
+  stale-but-usable fixture for local frontend work — refresh it by hand when it drifts.
+- **The gate step sets `shell: bash`.** That is load-bearing: GitHub's default `run` shell is
+  `bash -e` *without* pipefail, so `gate.py ... | tee` would swallow a non-zero exit and deploy
+  the collapsed build while reporting success. Verified: `bash -e -c 'false | tee' ` exits 0.
 
 ## Layout
 
@@ -21,8 +53,10 @@ change — `site/data.json` is already there.
 scrapers/all_sites.txt    domain<TAB>vertical, the input list
 scrapers/fingerprint.py   probe each domain -> tier 1/2/3/dead      -> data/sites.json
 scrapers/extract.py       tier-1 sites -> classified, priced deals  -> data/products.json
-scrapers/playtest.js      28 headless checks (puppeteer)
-site/                     5 static pages + app.js + style.css + data.json
+scrapers/playtest.js      60 headless checks (puppeteer)
+site/                     5 static pages + app.js + style.css + data.json + og.png/sitemap
+scrapers/gate.py          publish-or-refuse guard for the automated refresh
+.github/workflows/        refresh.yml — daily rebuild -> gate -> GitHub Pages
 data/coverage.md          generated every build — never hand-edit
 ```
 
@@ -96,8 +130,55 @@ Vanilla JS + CSS. `app.js` injects the shared header/footer via `chrome()` and d
   owns the entire homepage, since rails sort by discount.
 - Bucket chips are scoped to the selected vertical. Showing "Footwear, Phones, Skincare,
   Supplements" in one list is meaningless.
+- **SEO**: the site is client-rendered, so the raw HTML a crawler receives is exactly the head
+  tags — that is the whole on-page story until pages are prerendered. Every page carries title,
+  description, canonical, OG/Twitter, one `<h1>` and JSON-LD; `brand.html` is `noindex,follow`
+  because it serves `?b=<domain>` and every variant is a near-duplicate of `brands.html`.
+  `site/og.png` is generated from a template, not hand-drawn. Playtest asserts all of it.
 - A closed `<details>` makes its contents inert (unfocusable) — that's why the deals filter
   panel needs one line of JS to hold `open` in sync with viewport width.
+- **An open `<details>` lays its contents out in one anonymous content box.** A flex `gap` on
+  the `<details>` itself therefore applies between `<summary>` and that box — *not* between the
+  children you meant. The filter panel's group spacing silently did nothing for this reason;
+  the rhythm now hangs off an explicit `.filters-body`. Playtest asserts the gaps really render.
+- **`color-scheme` must be declared per theme.** The `<select>` popup list, scrollbars and
+  other native widgets are drawn by the OS, not by our CSS. Styling the closed `<select>` dark
+  is not enough — without `color-scheme: dark` Chrome drew the Store and Sort popups white on
+  a dark page, unreadable. Set alongside the colour tokens in all three `:root` blocks.
+- The filter panel is **taller than the viewport** whenever no vertical is selected (24 category
+  chips, 1284px against a 900px window), so `position: sticky` alone left its tail unreachable
+  unless you scrolled to the bottom of the results. It now caps at `calc(100vh - 104px)` and
+  scrolls itself, with the long Category list ordered last so every other filter is usable
+  without scrolling at all. Below 860px the cap is removed — there it's a static `<details>`
+  and an inner scroller would just trap the page scroll.
+- Filter controls share one `.field` class (same height, padding, border, radius). Before that
+  the search input carried inline styles and drifted out of alignment with the selects. The
+  panel must stay free of inline *layout* styles — playtest checks this; the range's inline
+  `--pct` is a live value and is allowed.
+- The vertical bar (Fashion/Electronics/…) is a **deals-page control only**. On other pages it
+  was a second nav row pointing somewhere else, and its 1px border was the line that flashed.
+- Featured stores are a hardcoded list, `FEATURED` in `app.js` — `{domain, name, blurb}`, where
+  `domain` matches the `brand` field in data.json and `name` overrides `storeName()` (which
+  title-cases from the domain and can't know "MuscleBlaze" is camel-cased). Zero-deal stores are
+  skipped; the section hides itself if none have deals.
+
+### Layout stability (don't regress this)
+
+Everything renders from a 5 MB `data.json` fetched after `DOMContentLoaded`, so anything
+`chrome()` appends paints *before* a single card exists. Two shifts came from that, both fixed
+and both now asserted by playtest (`CLS < 0.1` per page):
+
+- **The footer** was appended while `#results` was empty, so it painted just under the header —
+  a stray horizontal rule that then shot down the page. `main { min-height: calc(100vh - 64px) }`
+  keeps it below the fold from the first paint. Measured 0.145–0.183 of the shift on its own.
+- **The featured block** sits at the top of the home page, so revealing it after the fetch shoved
+  everything down (0.26 CLS by itself). `renderFeaturedSkeleton()` runs synchronously before the
+  fetch and reserves the exact space: store name and blurb come from `FEATURED` with no data
+  needed, `.thumb` is a fixed `aspect-ratio: 3/4`, and `.card-title` is pinned to two lines so
+  every card is a known height. `featShell()` is shared by the skeleton and the real render —
+  **if you change one, change the other, or the swap starts shifting again.**
+
+Before: index 0.307, deals 0.235, brands 0.145. After: 0.000–0.041.
 
 ## Verification — required, not optional
 
@@ -109,7 +190,7 @@ laptop discount.
 
 ```sh
 python3 -m http.server 8811 -d site &
-node scrapers/playtest.js        # 28 checks: desktop, mobile 360/390/430, dark mode
+node scrapers/playtest.js        # 60 checks: desktop, mobile, dark mode, layout stability
 ```
 
 Playwright MCP does not work here (no `/opt/google/chrome`). Use puppeteer-core with the cached
@@ -137,6 +218,13 @@ get. Keep `about.html` honest about this.
 
 ## Non-goals (deliberate)
 
-Price history, user accounts, notifications, mobile app, real-time scraping, a backend. All easy
-to add later; none needed yet. Don't add speculative abstraction — this codebase is small on
-purpose.
+Price history, user accounts, notifications, mobile app, a production backend. Don't add
+speculative abstraction — this codebase is small on purpose. The site is a list of current
+offers and nothing more.
+
+**Price comparison was built and then removed** (Aug 2026) along with `server.js` and
+`scrapers/marketplaces.js`. Cross-store matching worked, but a shopper can get the same answer
+from a Google search and its AI summary, so the feature carried a live-scraper dependency and a
+non-static backend for no real advantage. Don't rebuild it without a reason that survives that
+comparison. If you do, the matcher lives in git history (`CMP` in `site/app.js`, before this
+removal) and was precision-tuned against real data — recover it rather than re-deriving it.

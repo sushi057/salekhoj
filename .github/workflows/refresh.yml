@@ -1,24 +1,96 @@
+# Rebuild the deal data from the live stores and publish it to GitHub Pages.
+#
+# site/data.json is deliberately NOT committed by this workflow. It is ~5 MB of
+# single-line JSON; committing it daily would add ~300 MB/year of git history for a file
+# whose only consumer is the deployed site. CI builds it fresh and ships it straight to
+# Pages as an artifact. The copy in the repo is a stale-but-usable fixture for local
+# frontend work — refresh it by hand with ./build.sh when it drifts too far.
 name: Refresh deals
 
 on:
   schedule:
-    - cron: '30 0 * * *'   # 06:15 Nepal time, after stores post overnight changes
+    # 00:17 UTC ~= 06:02 Nepal time. Off the hour on purpose: GitHub's scheduler is
+    # congested at :00 and delays runs by 5-30 minutes there.
+    - cron: '17 0 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Publish even if the sanity gate reports a collapse'
+        type: boolean
+        default: false
+
+# Never let two refreshes race: they would fight over the Pages deployment and the
+# last-good baseline. A queued run waits; it does not cancel the one that is scraping.
+concurrency:
+  group: refresh-deals
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit coverage.md / sites.json / last-good.json
+  pages: write
+  id-token: write
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 45   # a normal run is a few minutes; this is the runaway backstop
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
-      - run: ./build.sh
-      - name: Commit if anything changed
+        with:
+          python-version: '3.12'   # scrapers are stdlib-only; nothing to install
+
+      - name: Build from live stores
+        run: ./build.sh
+
+      - name: Sanity gate
+        id: gate
+        # `shell: bash` is load-bearing: it selects `bash -eo pipefail`, whereas the default
+        # `run` shell is plain `bash -e`. Without pipefail the gate's exit 1 would be
+        # swallowed by `tee` and a collapsed build would deploy while reporting success.
+        shell: bash
         run: |
-          git config user.name  'salekhoj-bot'
-          git config user.email 'bot@users.noreply.github.com'
-          git add data/ site/data.json
-          git diff --staged --quiet || git commit -m "deals: daily refresh $(date -u +%F)"
-          git push
+          set -o pipefail
+          python3 scrapers/gate.py \
+            site/data.json data/last-good.json --update \
+            ${{ inputs.force && '--force' || '' }} | tee /tmp/gate.log
+          {
+            echo '## Refresh result'
+            echo
+            echo '```'
+            cat /tmp/gate.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the record
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          # data/coverage.md, data/sites.json and data/last-good.json only — all small and
+          # overwritten each run. site/data.json is intentionally left out; see the header.
+          git add data/coverage.md data/sites.json data/last-good.json
+          if git diff --staged --quiet; then
+            echo 'nothing changed'
+          else
+            git commit -m 'Refresh deal data [skip ci]'
+            # A human push landing during the scrape would otherwise reject this.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

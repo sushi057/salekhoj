@@ -4,7 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SaleKhoj — every Nepali sale, one page</title>
-<meta name="description" content="Live discounts across fashion, electronics, beauty and fitness from Nepali online stores. We check the tags so you don't have to.">
+<meta name="description" content="Live discounts from Nepali online stores — fashion, electronics, beauty and fitness. Every deal shows the real before-and-after price. No sign-up, no cart.">
+<link rel="canonical" href="https://sushi057.github.io/salekhoj/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SaleKhoj">
+<meta property="og:locale" content="en_NP">
+<meta property="og:title" content="SaleKhoj — every Nepali sale, one page">
+<meta property="og:description" content="Live discounts from Nepali online stores — fashion, electronics, beauty and fitness. Every deal shows the real before-and-after price. No sign-up, no cart.">
+<meta property="og:url" content="https://sushi057.github.io/salekhoj/">
+<meta property="og:image" content="https://sushi057.github.io/salekhoj/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SaleKhoj — every Nepali sale, one page">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131110" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="favicon.svg">
 <script>
 (function () {
@@ -21,6 +35,37 @@
   }
   document.documentElement.setAttribute('data-theme', resolve(choice));
 })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sushi057.github.io/salekhoj/#website",
+      "url": "https://sushi057.github.io/salekhoj/",
+      "name": "SaleKhoj",
+      "description": "Live discounts from Nepali online stores, with the real before-and-after price.",
+      "inLanguage": "en",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://sushi057.github.io/salekhoj/deals.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://sushi057.github.io/salekhoj/#org",
+      "name": "SaleKhoj",
+      "url": "https://sushi057.github.io/salekhoj/",
+      "logo": "https://sushi057.github.io/salekhoj/og.png",
+      "areaServed": { "@type": "Country", "name": "Nepal" }
+    }
+  ]
+}
 </script>
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
@@ -39,6 +84,14 @@
       <a class="btn" href="deals.html?sort=discount">See the biggest drops</a>
       <a class="btn ghost" href="brands.html">Browse by store</a>
     </div>
+  </section>
+
+  <section class="section wrap" id="featured-section">
+    <div class="section-head">
+      <h2>Featured stores</h2>
+      <p>Shops we think are worth a look right now.</p>
+    </div>
+    <div id="featured"></div>
   </section>
 
   <section class="section wrap">
