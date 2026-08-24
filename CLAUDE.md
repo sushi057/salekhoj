@@ -32,6 +32,14 @@ every link and asset reference must stay relative — no leading `/`).
 - `scrapers/gate.py` — refuses to publish a collapsed build (floors: 70% of last-good deals,
   80% of last-good contributing domains). `data/last-good.json` is the baseline. `--force`
   overrides. Tested against simulated collapses; keep it that way.
+- **Don't re-run the scrape back to back.** Three full runs in 11 hours on 2026-08-24, two
+  of them 30 minutes apart, got us throttled: 403s, a 429, and contributing domains halving
+  from 54 to 34. The gate correctly refused to publish the degraded build. The nightly
+  schedule never does this — but manual dispatches can, so space them out.
+- `workflow_dispatch` takes `skip_scrape: true` to deploy the committed `site/data.json`
+  without touching the stores. That is the bootstrap path (the gate would otherwise block
+  the very first deploy forever, since there is no live site to protect) and the right way
+  to ship a UI-only change without a fresh scrape.
 - **No `push` trigger, on purpose.** CI does not commit `site/data.json`, so a
   push-triggered deploy would publish the frozen committed copy and roll live prices back
   until the next nightly run. Re-scraping on every push would instead hammer 211 stores and

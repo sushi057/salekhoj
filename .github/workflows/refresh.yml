@@ -18,6 +18,10 @@ on:
         description: 'Publish even if the sanity gate reports a collapse'
         type: boolean
         default: false
+      skip_scrape:
+        description: 'Deploy the committed site/data.json without re-scraping (bootstrap / UI-only deploy)'
+        type: boolean
+        default: false
 
 # Never let two refreshes race: they would fight over the Pages deployment and the
 # last-good baseline. A queued run waits; it does not cancel the one that is scraping.
@@ -41,11 +45,17 @@ jobs:
         with:
           python-version: '3.12'   # scrapers are stdlib-only; nothing to install
 
+      # Skipped for a bootstrap or UI-only deploy. Re-running the full 211-domain scrape
+      # more than once in a short window gets us throttled (observed: 403s and a 429, and
+      # contributing domains halving from 54 to 34 within 30 minutes), so there has to be a
+      # way to publish without touching the stores again.
       - name: Build from live stores
+        if: ${{ !inputs.skip_scrape }}
         run: ./build.sh
 
       - name: Sanity gate
         id: gate
+        if: ${{ !inputs.skip_scrape }}
         # `shell: bash` is load-bearing: it selects `bash -eo pipefail`, whereas the default
         # `run` shell is plain `bash -e`. Without pipefail the gate's exit 1 would be
         # swallowed by `tee` and a collapsed build would deploy while reporting success.
@@ -64,6 +74,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit the record
+        if: ${{ !inputs.skip_scrape }}
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
