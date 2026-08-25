@@ -598,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 27,
-    "variants_with_compare_at": 14,
-    "sample_title": "Butterfly Boho Beaded Belt",
+    "sample_variants": 12,
+    "variants_with_compare_at": 2,
+    "sample_title": "Handmade Felt Horse Ornament",
     "vertical_hint": "Fashion"
   },
   {
@@ -700,21 +700,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maayus.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: JSONDecodeError"
-    ],
-    "final_url": "https://www.maayus.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Baby Casual Lace-Up Sneakers",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "makaluetraders.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -797,21 +782,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "mheecha.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: TimeoutError"
-    ],
-    "final_url": "https://www.mheecha.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Infinity Pack",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "muscleblaze.com.np",
     "tier": "1",
     "platform": "shopify",
@@ -871,7 +841,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Masterarts 24K Fully Gold Plated Yogini Statue 15\"H",
+    "sample_title": "Handpainted Gold Plated Nagakanya Statue",
     "vertical_hint": "Fashion"
   },
   {
@@ -1027,21 +997,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Simple Glow Facial Wash 150ml",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1147,9 +1102,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 40,
-    "variants_with_compare_at": 40,
-    "sample_title": "Women's Navy Blue Blend Embellished Kurta With Trouser And Dupatta",
+    "sample_variants": 31,
+    "variants_with_compare_at": 31,
+    "sample_title": "Women’s Elegant Dusty Rose Embroidered Straight Kurti",
     "vertical_hint": "Fashion"
   },
   {
@@ -1163,8 +1118,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Louis Vuitton 1.1 Evidence Square Sunglasses – Full Black Frame &#038; Lenses",
+    "variants_with_compare_at": 3,
+    "sample_title": "Oakley Splice Sunglasses in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -1199,6 +1154,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "Sky Blue Jacquard Silk Kurta Payjama Koti & Saree Couple Set",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "skinknepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://skinknepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "solehex.com",
@@ -1296,7 +1266,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Skinn By Titan Celeste 100 ML Perfume For Women EDP FW02PFCIBD",
+    "sample_title": "Titan Avant Garde Silver Dial Multi Stainless Steel Strap watch for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1350,9 +1320,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
-    "variants_with_compare_at": 17,
-    "sample_title": "STOCK-Bone Conduction Bluetooth Speaker Waterproof 5.1",
+    "sample_variants": 48,
+    "variants_with_compare_at": 48,
+    "sample_title": "STOCK-Men’s Hawaiian Floral Beach Casual Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1409,8 +1379,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Asus Vivobook S 14 S5406 SA OLED | Intel Core Ultra 7 Processor 258V Processor, 32GB LPDDR5X, 1TB M.2 NVMe™ PCIe® 4.0 SSD, 14.0-inch, WUXGA (1920 x 1200) OLED 100% DCI-P3 Display, 47 Tops AI NPU, Full Metal Body, IR Camera (Neutral Black, 1.3KGs)",
+    "variants_with_compare_at": 4,
+    "sample_title": "Samsung Galaxy Book4 Copilot+ AI Laptop (NP750XQB-KA2US) &#8211; Snapdragon X / 16GB RAM / 512GB eUFS / 15.6&#8243; FHD Price in Nepal",
     "vertical_hint": "Electronics"
   },
   {
@@ -1472,15 +1442,15 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
+    "domain": "chasmahub.com",
     "tier": "2",
-    "platform": "opencart",
+    "platform": "nuxt/vue",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://choicemandu.com",
+    "final_url": "https://chasmahub.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2363,20 +2333,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "hempplanetnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://hempplanetnepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "hubanepal.com",
     "tier": "3",
     "platform": "wix",
@@ -2545,7 +2501,7 @@
     "notes": [
       "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mystorenepal.com",
     "ldjson_types": [],
@@ -2817,12 +2773,12 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "chasmahub.com",
+    "domain": "choicemandu.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "home: HTTPError: HTTP Error 522: <none>"
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2843,6 +2799,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 308: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nPermanent Redirect"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "hempplanetnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2877,12 +2843,32 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maayus.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "mheecha.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 525: <none>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2917,6 +2903,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 304: Not Modified"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "plussizenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2945,16 +2941,6 @@
       "home: HTTPError: HTTP Error 500: Internal Server Error"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "skinknepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "skmeinepal.com",
