@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
+    "sample_variants": 36,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Winflo 11 Men's Road Running Shoes",
+    "sample_title": "Vans Authentic Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
+    "sample_variants": 36,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Winflo 11 Men's Road Running Shoes",
+    "sample_title": "Vans Authentic Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -170,8 +170,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Sheglam Complexion Booster Concealer 4.5g Shell",
+    "variants_with_compare_at": 3,
+    "sample_title": "Cosrx Low pH Niacinamide Micellar Cleansing Water &#8211; 400 ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -180,9 +180,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 5,
-    "sample_title": "FLOWER OF BROCADE BEIGE",
+    "sample_variants": 13,
+    "variants_with_compare_at": 0,
+    "sample_title": "RAKHI CARDS",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Hippie Boho Cotton Fleece Jacket – Patchwork Design with Warm Polar Fleece Lining",
+    "sample_title": "Nepal Handmade Mushroom Print Hippie Trousers Wholesale",
     "vertical_hint": "Fashion"
   },
   {
@@ -598,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
-    "variants_with_compare_at": 2,
-    "sample_title": "Handmade Felt Horse Ornament",
+    "sample_variants": 10,
+    "variants_with_compare_at": 0,
+    "sample_title": "Handmade Felt Reindeer Christmas Ornament",
     "vertical_hint": "Fashion"
   },
   {
@@ -680,7 +680,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
+    "variants_with_compare_at": 3,
     "sample_title": "hp Victus Gaming 15-fb2082wm-Intel® Core™ i5-13420H 13th Gen/16GB RAM DDR4/1TB SSD/15.6&#8243; Full HD 144Hz/NVIDIA® GeForce RTX™ 4050 6GB/Backlit Keyboard/Windows 11 Home (MICA SILVER)",
     "vertical_hint": "Electronics"
   },
@@ -697,6 +697,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Men&#8217;s Formal Pant",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "maayus.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: JSONDecodeError"
+    ],
+    "final_url": "https://www.maayus.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Baby Casual Lace-Up Sneakers",
     "vertical_hint": "Fashion"
   },
   {
@@ -762,8 +777,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "BA-149 &#8211; Classic Gold Plated Traditional Ethnic Bangle For Festive Occasion",
+    "variants_with_compare_at": 1,
+    "sample_title": "PS-391 &#8211; Traditional Festive Gold Plated Mandala Pendant Set with Matching Earrings &#038; Ring",
     "vertical_hint": "Fashion"
   },
   {
@@ -780,6 +795,21 @@
     "variants_with_compare_at": 3,
     "sample_title": "Dreamy World Walking Pad &#8211; 1.75HP Motor &#8211; 10KM/H Speed &#8211; 2 Level Manual Incline",
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "mheecha.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.mheecha.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Infinity Pack",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "muscleblaze.com.np",
@@ -997,6 +1027,21 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Simple Glow Facial Wash 150ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1007,8 +1052,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Dell XPS 13 | Core 5 320 Processor | 8GB LPDDR5X RAM | 512 SSD NVME | 13.4″ 2.5K (2560×1600) IPS Touch Display | 1 Year Warranty",
+    "variants_with_compare_at": 1,
+    "sample_title": "Canon imageCLASS MF284dw Wireless Duplex Monochrome Laser Multifunction Printer",
     "vertical_hint": "Electronics"
   },
   {
@@ -1082,7 +1127,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Wedding Necklaces &#8211; DNK1236",
+    "sample_title": "Diamond Pendant &#8211; DPSP5773",
     "vertical_hint": "Fashion"
   },
   {
@@ -1265,8 +1310,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Titan Avant Garde Silver Dial Multi Stainless Steel Strap watch for Men",
+    "variants_with_compare_at": 5,
+    "sample_title": "Fastrack Active with 4.64 cm UltraVU HD Display and Functional Crown Rugged Smartwatch with SingleSync BT Calling",
     "vertical_hint": "Fashion"
   },
   {
@@ -1320,9 +1365,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 48,
-    "variants_with_compare_at": 48,
-    "sample_title": "STOCK-Men’s Hawaiian Floral Beach Casual Shirt",
+    "sample_variants": 20,
+    "variants_with_compare_at": 20,
+    "sample_title": "STOCK - Men's Three Stripe Loose Fit Sports Shorts",
     "vertical_hint": "Fashion"
   },
   {
@@ -1451,6 +1496,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1698,8 +1757,8 @@
     "platform": null,
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://hardwarepasal.com",
     "ldjson_types": [],
@@ -2773,16 +2832,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2843,32 +2892,12 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maayus.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "mheecha.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 525: <none>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2901,16 +2930,6 @@
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 304: Not Modified"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "plussizenepal.com",
