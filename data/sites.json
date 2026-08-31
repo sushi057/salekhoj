@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
+    "sample_variants": 23,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Z.N.E. Tee",
+    "sample_title": "Adidas Questar 3 W Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
+    "sample_variants": 23,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Z.N.E. Tee",
+    "sample_title": "Adidas Questar 3 W Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -180,9 +180,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "SANDSTORM SHORTS",
+    "sample_title": "RAKHI CARDS",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,23 +192,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "ASUS V400 AiO 23.8-Inch All-In-One Desktop PC",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "calibershoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://calibershoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "VITTORIO 427G &#8211; Coffee Formal Shoes For Men &#8211; Caliber Shoes Nepal",
+    "variants_with_compare_at": 1,
+    "sample_title": "ASUS Vivobook 14 Flip (TP3407SA-SG157W) 2-in-1 Copilot+ PC",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +223,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Gheri Cotton Summer Jackets – Handmade in Nepal",
+    "sample_title": "Handmade Patchwork Cotton Dress – Nepalese Boho Summer Outfit",
     "vertical_hint": "Fashion"
   },
   {
@@ -281,21 +266,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -387,7 +357,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Canon LP-E6P",
+    "sample_title": "",
     "vertical_hint": "Electronics"
   },
   {
@@ -532,8 +502,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Asus Vivobook S14 Flip Copilot+PC 2026 (Intel Core Ultra 7 258V Series 2 Processor  | 32GB RAM | 1TB SSD | Intel® Arc™ Graphics | Backlit Keyboard | 14&#8243; WUXGA 100% DCI-P3 OLED x360 Touch Display)",
+    "variants_with_compare_at": 0,
+    "sample_title": "Asus TUF Gaming A15 (AMD Ryzen 7 7445HS Processor | 16GB RAM | 512GB SSD | NVIDIA Geforce RTX 3050 4GB Graphics | 1-Zone RGB Backlit Keyboard | 15.6&#8243; FHD WV IPS  144Hz Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -613,9 +583,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 22,
     "variants_with_compare_at": 18,
-    "sample_title": "Bohemian Kantha Open Half Duster",
+    "sample_title": "Colorful Patchwork Recycled Sari Garland",
     "vertical_hint": "Fashion"
   },
   {
@@ -775,7 +745,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Acer Predator Helios 18 AI | Intel Core Ultra 9 275HX | 64GB RAM | 1TB SSD | NVIDIA GeForce RTX 5080 16GB GDDR7 | 18″ WQXGA IPS Display | 3 Years Authorized Warranty",
+    "sample_title": "Thermaltake View 600 TG Full Tower Chassis | E-ATX | Tempered Glass | 420mm Radiator Support",
     "vertical_hint": "Electronics"
   },
   {
@@ -1022,24 +992,9 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Lattafa Asad Bourbon Eau de Parfum (100 ml)",
+    "variants_with_compare_at": 4,
+    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "onlineit.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://onlineit.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "M700 Extended Gaming Mouse Pad – Hydrangea Blue",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "primeemarket.com",
@@ -1212,7 +1167,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Sol De Janerio 68 90ML",
+    "sample_title": "Hawas for Him Rasasi  100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1296,7 +1251,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Avant Garde Silver Dial Multi Stainless Steel Strap watch for Men",
+    "sample_title": "Brown Trendy Women Sunglasses",
     "vertical_hint": "Fashion"
   },
   {
@@ -1350,9 +1305,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
-    "variants_with_compare_at": 29,
-    "sample_title": "STOCK-Women's Chinese Style Blue Pattern Loose Fit Short Sleeve",
+    "sample_variants": 10,
+    "variants_with_compare_at": 10,
+    "sample_title": "STOCK - Men's Slim Fit Visible Stitch Casual Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1486,20 +1441,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "cplanetnp.com",
     "tier": "2",
     "platform": null,
@@ -1558,20 +1499,6 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "epharmacy.com.np",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.epharmacy.com.np/",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "evanmens.com",
@@ -1644,23 +1571,6 @@
     ],
     "final_url": "https://fatafatsewa.com",
     "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "firstaidnepal.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.firstaidnepal.com/",
-    "ldjson_types": [
-      "Corporation",
-      "LocalBusiness"
-    ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
   },
@@ -2153,6 +2063,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "calibershoes.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://calibershoes.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "caravan.com.np",
     "tier": "3",
     "platform": null,
@@ -2215,7 +2139,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2393,20 +2317,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "hamroshringar.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.hamroshringar.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "hubanepal.com",
     "tier": "3",
     "platform": "wix",
@@ -2573,9 +2483,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: TimeoutError",
+      "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://mystorenepal.com",
     "ldjson_types": [],
@@ -2606,6 +2516,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://onin.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "onlineit.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: TimeoutError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://onlineit.com.np",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
@@ -2827,6 +2751,56 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "epharmacy.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 522: <none>"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "firstaidnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "home: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "hamroshringar.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Beauty"
   },
