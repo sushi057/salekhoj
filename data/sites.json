@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 18,
     "variants_with_compare_at": 0,
-    "sample_title": "ADIDAS RUN 70s 2.0 Shoes",
+    "sample_title": "Adidas Z.N.E. Long Sleeve Tee",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 18,
     "variants_with_compare_at": 0,
-    "sample_title": "ADIDAS RUN 70s 2.0 Shoes",
+    "sample_title": "Adidas Z.N.E. Long Sleeve Tee",
     "vertical_hint": "Fashion"
   },
   {
@@ -38,8 +38,8 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 40,
-    "variants_with_compare_at": 32,
+    "sample_variants": 45,
+    "variants_with_compare_at": 37,
     "sample_title": "9001 B Women's Bohemian Vintage Embroidered Pleated Mesh Embroidered Blouse",
     "vertical_hint": "Fashion"
   },
@@ -94,9 +94,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Retro Polka Dot Gamaguchi Pouch",
+    "sample_title": "Japanese Cedar 2027 Auspicious Calendar - 一粒万倍暦",
     "vertical_hint": "Fashion"
   },
   {
@@ -110,8 +110,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Anker Zolo Power Bank (10K, Built-In USB-C and Lightning Cable)",
+    "variants_with_compare_at": 1,
+    "sample_title": "Soundcore Pyro Mini",
     "vertical_hint": "Electronics"
   },
   {
@@ -170,8 +170,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Medicube &#8211; Deep Vita C Capsule Serum 30ml",
+    "variants_with_compare_at": 0,
+    "sample_title": "S SELECT DAMAGE CARE CONDITIONER &#8211; 1000 ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Dell 15 Laptop with FHD 120Hz Display and Intel Power",
+    "sample_variants": 8,
+    "variants_with_compare_at": 2,
+    "sample_title": "Blackview ZENO 5 4G LTE Tablet with 11\" Display",
     "vertical_hint": "Fashion"
   },
   {
@@ -208,7 +208,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "VITTORIO 427G &#8211; Coffee Formal Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "AUREO 574R &#8211; Black Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Handmade Patchwork Cotton Dress – Nepalese Boho Summer Outfit",
+    "sample_title": "Unisex Gheri Patchwork Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -337,7 +337,7 @@
     "sample_products": 5,
     "sample_variants": 12,
     "variants_with_compare_at": 12,
-    "sample_title": "Chaubandi Cholo Maroon",
+    "sample_title": "Yellow Jade Bracelet",
     "vertical_hint": "Fashion"
   },
   {
@@ -390,7 +390,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "These aren&#8217;t just jeans—they&#8217;re a work of art.  &#8211; Our Super Baggy Samurai Jeans feature 200K+ precision embroidery stitches, showcasing a striking Samurai design with Cherry &#038; Sakura Blossoms.",
+    "sample_title": "Brown Duo Toned Piping Jacket – Premium Streetwear",
     "vertical_hint": "Fashion"
   },
   {
@@ -517,8 +517,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Acer Gadget E10 ERBook Air 2026 (AMD Ryzen 7 8745HS Processor | 16GB RAM | 512GB SSD | AMD Radeon Graphics | Backlit Keyboard | 14&#8243; FHD Touch IPS Display)",
+    "variants_with_compare_at": 1,
+    "sample_title": "Lenovo Ideapad 1 15 (AMD Ryzen 5 7520U Processor  | 16GB RAM | 512GB SSD  | AMD Radeon Graphics | 15.6&#8243; FHD Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -598,9 +598,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 18,
-    "sample_title": "Patchwork Recycled Sari Curtain",
+    "sample_variants": 22,
+    "variants_with_compare_at": 20,
+    "sample_title": "Colorful Boho Patchwork Cotton Pennant Garland",
     "vertical_hint": "Fashion"
   },
   {
@@ -747,6 +747,23 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maxnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://maxnepal.com.np",
+    "ldjson_types": [
+      "ElectronicsStore"
+    ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Thermaltake View 600 TG Full Tower Chassis | E-ATX | Tempered Glass | 420mm Radiator Support",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "meesaa.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -824,7 +841,7 @@
     "sample_products": 5,
     "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Nepal Flood Relief",
+    "sample_title": "Handheld Tibetan Leather Prayer Wheel",
     "vertical_hint": "Fashion"
   },
   {
@@ -995,6 +1012,21 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "onlineit.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://onlineit.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Thermaltake MEKA PRO Cherry MX Mechanical Gaming Keyboard",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "primeemarket.com",
     "tier": "1",
     "platform": "shopify",
@@ -1074,9 +1106,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 9,
-    "variants_with_compare_at": 1,
-    "sample_title": "Teen Boy's Retro Sweater - Mohair & Wool V-neck by Bugatti, Classic Style",
+    "sample_variants": 11,
+    "variants_with_compare_at": 4,
+    "sample_title": "Men's Pastel Sweaters - Eyelash Sweaters with Striped Polo Neck Style",
     "vertical_hint": "Fashion"
   },
   {
@@ -1249,7 +1281,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Automatic Sectoral Black Dial Brown Leather Strap Watch for Men",
+    "sample_title": "Zoop By Titan Quartz Analog Multicoloured Dial PU Strap Watch for Kids",
     "vertical_hint": "Fashion"
   },
   {
@@ -1279,7 +1311,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Lenovo Lecoo DS151 USB Multimedia Wired Desktop Speaker",
+    "sample_title": "ASUS Vivobook Go 14 E410KA Celeron N4500 / 4GB RAM / 128GB SSD / 14&#8243; FHD Display",
     "vertical_hint": "Electronics"
   },
   {
@@ -1303,9 +1335,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 73,
-    "variants_with_compare_at": 73,
-    "sample_title": "Haibao City Smart Electronic Fingerprint & Password Lock",
+    "sample_variants": 29,
+    "variants_with_compare_at": 29,
+    "sample_title": "STOCK - Men's Solid Color Windproof Baseball Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -1445,7 +1477,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://choicemandu.com",
     "ldjson_types": [],
@@ -1809,22 +1841,6 @@
     "final_url": "https://www.makuratech.com/",
     "ldjson_types": [
       "Organization "
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "maxnepal.com.np",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://maxnepal.com.np",
-    "ldjson_types": [
-      "ElectronicsStore"
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
@@ -2385,10 +2401,7 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [
-      "LocalBusiness",
-      "WebSite"
-    ],
+    "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2543,7 +2556,7 @@
     "platform": null,
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "wc-store-api: TimeoutError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mystorenepal.com",
@@ -2575,34 +2588,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://onin.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "onlineit.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://onlineit.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "panchakanyamobile.com.np",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://panchakanyamobile.com.np",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
@@ -2922,6 +2907,16 @@
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "panchakanyamobile.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "plussizenepal.com",
