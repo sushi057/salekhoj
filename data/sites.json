@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Z.N.E. Long Sleeve Tee",
+    "sample_title": "PUMA TAD Essential AOP Woven Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Z.N.E. Long Sleeve Tee",
+    "sample_title": "PUMA TAD Essential AOP Woven Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -84,8 +84,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Seto Bagh (सेतो बाघ) by Diamond Shumsher Rana – Nepali Historical Novel",
+    "variants_with_compare_at": 0,
+    "sample_title": "लू (Loo) by Nayan Raj Pandey",
     "vertical_hint": "Fashion"
   },
   {
@@ -110,7 +110,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
+    "variants_with_compare_at": 2,
     "sample_title": "Soundcore Pyro Mini",
     "vertical_hint": "Electronics"
   },
@@ -170,8 +170,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "S SELECT DAMAGE CARE CONDITIONER &#8211; 1000 ml",
+    "variants_with_compare_at": 1,
+    "sample_title": "RASASI HAWAS FOR HIM MALIBU  EDP &#8211; 100ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -182,7 +182,7 @@
     "sample_products": 5,
     "sample_variants": 17,
     "variants_with_compare_at": 0,
-    "sample_title": "EXCLUSIVE MONARCH DENIM JEANS",
+    "sample_title": "FACULTY ZIP-UP",
     "vertical_hint": "Fashion"
   },
   {
@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 2,
-    "sample_title": "Blackview ZENO 5 4G LTE Tablet with 11\" Display",
+    "sample_variants": 10,
+    "variants_with_compare_at": 0,
+    "sample_title": "Blackview Table 10 23.8\" FHD (1920x1080) 100Hz Portable Monitor",
     "vertical_hint": "Fashion"
   },
   {
@@ -208,7 +208,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "AUREO 574R &#8211; Black Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "ELEVATE 764.W &#8211; Black Grey Sports Shoes For Women  &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Unisex Gheri Patchwork Jacket",
+    "sample_title": "Nepal Handmade Gheri Cotton Fleece Jacket – Traditional Himalayan Patchwork Winter Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -311,7 +311,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "High Quality Full B Cup Copa Bra",
+    "sample_title": "Seamless Light Padded Backless Bra",
     "vertical_hint": "Fashion"
   },
   {
@@ -335,9 +335,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
-    "variants_with_compare_at": 12,
-    "sample_title": "Yellow Jade Bracelet",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "Brooch Pin",
     "vertical_hint": "Fashion"
   },
   {
@@ -390,7 +390,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Brown Duo Toned Piping Jacket – Premium Streetwear",
+    "sample_title": "Black Zoro Inspired T-Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -469,12 +469,11 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://himalayanbagshop.com/en/",
     "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
     "sample_title": "Manang Hemp Backpack &#8211; Grey",
@@ -517,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Lenovo Ideapad 1 15 (AMD Ryzen 5 7520U Processor  | 16GB RAM | 512GB SSD  | AMD Radeon Graphics | 15.6&#8243; FHD Display)",
+    "variants_with_compare_at": 0,
+    "sample_title": "Acer Predator Helios Neo 16S AI 2026 (Intel Core Ultra 9 275HX Processor | 32GB RAM | 1TB SSD | NVIDIA GeForce RTX 5070Ti 12GB Graphics | 4-Zone RGB Keyboard | 16&#8243; WQXGA(2560 x 1600) 240Hz OLED Display | 1 Year Warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -598,9 +597,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
-    "variants_with_compare_at": 20,
-    "sample_title": "Colorful Boho Patchwork Cotton Pennant Garland",
+    "sample_variants": 13,
+    "variants_with_compare_at": 6,
+    "sample_title": "Handmade Felt Leaf & Berry Garland",
     "vertical_hint": "Fashion"
   },
   {
@@ -778,7 +777,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
-    "sample_title": "PS-391 &#8211; Traditional Festive Gold Plated Mandala Pendant Set with Matching Earrings &amp; Ring",
+    "sample_title": "BA-152 &#8211; Festive Floral Motif Gold Plated Kada Bangle for Special Occasions",
     "vertical_hint": "Fashion"
   },
   {
@@ -797,6 +796,21 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "mheecha.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.mheecha.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Maze Sleeve 13",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "muscleblaze.com.np",
     "tier": "1",
     "platform": "shopify",
@@ -804,7 +818,7 @@
     "sample_products": 5,
     "sample_variants": 11,
     "variants_with_compare_at": 11,
-    "sample_title": "MuscleBlaze EAA 8000",
+    "sample_title": "MB Biozorb Performance Whey",
     "vertical_hint": "Fitness"
   },
   {
@@ -823,6 +837,21 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "navigate.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://navigate.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Navigate Two Layer Waterproof Jacket for Men",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nenepal.com",
     "tier": "1",
     "platform": "shopify",
@@ -839,7 +868,7 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Handheld Tibetan Leather Prayer Wheel",
     "vertical_hint": "Fashion"
@@ -1186,21 +1215,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "solehex.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Hawas for Him Rasasi  100ml",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "sparshaclothing.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1281,7 +1295,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Zoop By Titan Quartz Analog Multicoloured Dial PU Strap Watch for Kids",
+    "sample_title": "Sonata Quartz Analog White Dial Leather Strap Unisex Watch",
     "vertical_hint": "Fashion"
   },
   {
@@ -1335,9 +1349,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
-    "variants_with_compare_at": 29,
-    "sample_title": "STOCK - Men's Solid Color Windproof Baseball Jacket",
+    "sample_variants": 57,
+    "variants_with_compare_at": 57,
+    "sample_title": "STOCK - Men's Ice Silk Stand Collar Casual Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1394,8 +1408,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Rapoo XR310 Wireless Presenter | Spotlight Pen with Green Laser &#038; Built-in Rechargeable Battery",
+    "variants_with_compare_at": 5,
+    "sample_title": "Acer Aspire 14 AI A14-52M-72S0 | Intel Core Ultra 7 258V Processor, 47 TOPS NPU AI PC, 16GB LPDDR5X RAM, 1TB NVMe SSD, 14.0&#8243; WUXGA IPS Display, Intel Arc Graphics, Best Laptop for BSc CSIT in Nepal (Steel Gray, 1.4 kg)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1803,7 +1817,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://koreanbeautypoint.com",
     "ldjson_types": [
@@ -2401,7 +2415,10 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [],
+    "ldjson_types": [
+      "LocalBusiness",
+      "WebSite"
+    ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2593,6 +2610,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "panchakanyamobile.com.np",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://panchakanyamobile.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "regencywatch.com.np",
     "tier": "3",
     "platform": null,
@@ -2623,6 +2654,20 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2859,16 +2904,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "mheecha.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 525: <none>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2889,16 +2924,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "navigate.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nktmen.com",
     "tier": "dead",
     "platform": null,
@@ -2907,16 +2932,6 @@
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "panchakanyamobile.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "plussizenepal.com",
