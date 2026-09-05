@@ -191,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 0,
-    "sample_title": "Blackview Table 10 23.8\" FHD (1920x1080) 100Hz Portable Monitor",
+    "sample_variants": 8,
+    "variants_with_compare_at": 1,
+    "sample_title": "UGREEN Nexode 20000mAh 130W Fast Charging Power Bank (PB723)",
     "vertical_hint": "Fashion"
   },
   {
@@ -208,7 +208,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "ELEVATE 764.W &#8211; Black Grey Sports Shoes For Women  &#8211; Caliber Shoes Nepal",
+    "sample_title": "JACK A273SN Black Boots For Men  &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -335,9 +335,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Brooch Pin",
+    "sample_variants": 7,
+    "variants_with_compare_at": 7,
+    "sample_title": "Stones for Mandel",
     "vertical_hint": "Fashion"
   },
   {
@@ -516,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Acer Predator Helios Neo 16S AI 2026 (Intel Core Ultra 9 275HX Processor | 32GB RAM | 1TB SSD | NVIDIA GeForce RTX 5070Ti 12GB Graphics | 4-Zone RGB Keyboard | 16&#8243; WQXGA(2560 x 1600) 240Hz OLED Display | 1 Year Warranty)",
+    "variants_with_compare_at": 5,
+    "sample_title": "Green Mag Booster 10000mAh MagSafe Powerbank with digital display",
     "vertical_hint": "Electronics"
   },
   {
@@ -699,21 +699,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maayus.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: JSONDecodeError"
-    ],
-    "final_url": "https://www.maayus.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Baby Casual Lace-Up Sneakers",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "makaluetraders.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -868,9 +853,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 13,
     "variants_with_compare_at": 0,
-    "sample_title": "Handheld Tibetan Leather Prayer Wheel",
+    "sample_title": "Naturally Handcrafted Nepalese Incense Sticks",
     "vertical_hint": "Fashion"
   },
   {
@@ -1052,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Thermaltake MEKA PRO Cherry MX Mechanical Gaming Keyboard",
+    "sample_title": "MSI Modern 15 H AI C2HMG | Ultra 9 285H | 16GB DDR5 RAM | 512GB NVMe SSD | 15.6&#8243; FHD (1920×1080) Display | Intel Arc Graphics | Windows (Copy)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1215,6 +1200,21 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Hawas for Him Rasasi  100ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "sparshaclothing.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1295,7 +1295,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Sonata Quartz Analog White Dial Leather Strap Unisex Watch",
+    "sample_title": "Skinn By Titan Pristine Perfume For Women 20 ML NEFW14PD1",
     "vertical_hint": "Fashion"
   },
   {
@@ -1349,9 +1349,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 57,
-    "variants_with_compare_at": 57,
-    "sample_title": "STOCK - Men's Ice Silk Stand Collar Casual Shirt",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "STOCK-PACK OF - 4 French Satin Seamless Panties – Ice Silk &",
     "vertical_hint": "Fashion"
   },
   {
@@ -1409,7 +1409,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Acer Aspire 14 AI A14-52M-72S0 | Intel Core Ultra 7 258V Processor, 47 TOPS NPU AI PC, 16GB LPDDR5X RAM, 1TB NVMe SSD, 14.0&#8243; WUXGA IPS Display, Intel Arc Graphics, Best Laptop for BSc CSIT in Nepal (Steel Gray, 1.4 kg)",
+    "sample_title": "HP Victus 15 Gaming Laptop | Intel Core i5-13420H Processor 13th Gen, 8GB RAM, 512GB Gen4 SSD, NVIDIA GeForce RTX 3050 6GB GDDR6, 15.6-inch FHD IPS 144Hz Display, Backlit Keyboard",
     "vertical_hint": "Electronics"
   },
   {
@@ -1480,20 +1480,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1817,7 +1803,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://koreanbeautypoint.com",
     "ldjson_types": [
@@ -2214,7 +2200,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2568,20 +2554,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2654,20 +2626,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2844,6 +2802,16 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2894,6 +2862,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maayus.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
@@ -2912,6 +2890,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
