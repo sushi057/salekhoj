@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 23,
     "variants_with_compare_at": 0,
-    "sample_title": "PUMA TAD Essential AOP Woven Jacket",
+    "sample_title": "The North Face M EXPLORE CAMP SHANDAL",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 23,
     "variants_with_compare_at": 0,
-    "sample_title": "PUMA TAD Essential AOP Woven Jacket",
+    "sample_title": "The North Face M EXPLORE CAMP SHANDAL",
     "vertical_hint": "Fashion"
   },
   {
@@ -39,7 +39,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 45,
-    "variants_with_compare_at": 37,
+    "variants_with_compare_at": 43,
     "sample_title": "9001 B Women's Bohemian Vintage Embroidered Pleated Mesh Embroidered Blouse",
     "vertical_hint": "Fashion"
   },
@@ -193,7 +193,7 @@
     "sample_products": 5,
     "sample_variants": 8,
     "variants_with_compare_at": 1,
-    "sample_title": "UGREEN Nexode 20000mAh 130W Fast Charging Power Bank (PB723)",
+    "sample_title": "HONOR X5d Plus Smartphone Features and Specifications",
     "vertical_hint": "Fashion"
   },
   {
@@ -335,9 +335,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
-    "variants_with_compare_at": 7,
-    "sample_title": "Stones for Mandel",
+    "sample_variants": 11,
+    "variants_with_compare_at": 11,
+    "sample_title": "Ember Khenja  for Kids",
     "vertical_hint": "Fashion"
   },
   {
@@ -504,21 +504,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Humtto Crew Socks Outdoor Athletic Wear",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Green Mag Booster 10000mAh MagSafe Powerbank with digital display",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "jirihealth.com",
@@ -699,6 +684,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maayus.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: JSONDecodeError"
+    ],
+    "final_url": "https://www.maayus.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Baby Casual Lace-Up Sneakers",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "makaluetraders.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -787,7 +787,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://www.mheecha.com/",
+    "final_url": "https://mheecha.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1011,21 +1011,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1131,9 +1116,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 37,
-    "variants_with_compare_at": 37,
-    "sample_title": "Women's Navy Blue Blend Embellished Kurta With Trouser And Dupatta",
+    "sample_variants": 40,
+    "variants_with_compare_at": 40,
+    "sample_title": "Women's Dark Brown Silk Blend Embellished Kurta with Trouser and Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1196,7 +1181,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "SOME BY MI 30 Days Miracle Clear Spot Patch",
+    "sample_title": "Abib Airy Sunstick Smoothing Bar 23g",
     "vertical_hint": "Beauty"
   },
   {
@@ -1294,7 +1279,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 0,
+    "variants_with_compare_at": 5,
     "sample_title": "Skinn By Titan Pristine Perfume For Women 20 ML NEFW14PD1",
     "vertical_hint": "Fashion"
   },
@@ -1349,9 +1334,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "STOCK-PACK OF - 4 French Satin Seamless Panties – Ice Silk &",
+    "sample_variants": 21,
+    "variants_with_compare_at": 21,
+    "sample_title": "Men's Pointed Toe Black Leather Business Dress Shoes Comfortable",
     "vertical_hint": "Fashion"
   },
   {
@@ -1409,7 +1394,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "HP Victus 15 Gaming Laptop | Intel Core i5-13420H Processor 13th Gen, 8GB RAM, 512GB Gen4 SSD, NVIDIA GeForce RTX 3050 6GB GDDR6, 15.6-inch FHD IPS 144Hz Display, Backlit Keyboard",
+    "sample_title": "Asus TUF Gaming A16 FA607NUQ Laptop | AMD Ryzen 7 170 Processor, 16GB DDR5 RAM, 512GB PCIe4 SSD, NVIDIA GeForce RTX 4050 6GB GDDR6, 16-inch WUXGA 144Hz IPS Display, Backlit Keyboard",
     "vertical_hint": "Electronics"
   },
   {
@@ -1480,6 +1465,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2423,6 +2422,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2554,6 +2567,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2566,6 +2593,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "obsessioncosmetics.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "onin.com.np",
@@ -2802,16 +2843,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "dronestorenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2862,16 +2893,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maayus.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
@@ -2890,16 +2911,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
