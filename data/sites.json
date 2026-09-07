@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
-    "variants_with_compare_at": 0,
-    "sample_title": "The North Face M EXPLORE CAMP SHANDAL",
+    "sample_variants": 32,
+    "variants_with_compare_at": 12,
+    "sample_title": "ADIDAS Italy 26 Home Jersey",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
-    "variants_with_compare_at": 0,
-    "sample_title": "The North Face M EXPLORE CAMP SHANDAL",
+    "sample_variants": 32,
+    "variants_with_compare_at": 12,
+    "sample_title": "ADIDAS Italy 26 Home Jersey",
     "vertical_hint": "Fashion"
   },
   {
@@ -145,21 +145,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "bishrom.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://bishrom.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Palermo Amber Sunglasses",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "bonjournp.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -180,9 +165,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
-    "variants_with_compare_at": 0,
-    "sample_title": "FACULTY ZIP-UP",
+    "sample_variants": 25,
+    "variants_with_compare_at": 5,
+    "sample_title": "INDUSTRIAL BOX JACKET",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,8 +177,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 8,
-    "variants_with_compare_at": 1,
-    "sample_title": "HONOR X5d Plus Smartphone Features and Specifications",
+    "variants_with_compare_at": 4,
+    "sample_title": "UGREEN HiTune S3 Open-Ear Wireless Earbuds",
     "vertical_hint": "Fashion"
   },
   {
@@ -447,21 +432,6 @@
     "sample_variants": 20,
     "variants_with_compare_at": 20,
     "sample_title": "OXFORD SUMMIT AUTUMN JACKET",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "hempinnepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.hempinnepal.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Hemp Herringbone Backpack — Wholesale from Nepal (Copy)",
     "vertical_hint": "Fashion"
   },
   {
@@ -787,7 +757,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -853,9 +823,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Naturally Handcrafted Nepalese Incense Sticks",
+    "sample_title": "Seven Himalayan Wellness Incense Sticks",
     "vertical_hint": "Fashion"
   },
   {
@@ -874,21 +844,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "nepaliculturalhouse.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.nepaliculturalhouse.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Blue mandala art boho tamang cultural coat",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalitshirt.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -901,21 +856,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Black Hoodies",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nepalknittingwear.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.nepalknittingwear.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Warm Handknitted Sherpa Wool Jumper for Winter",
     "vertical_hint": "Fashion"
   },
   {
@@ -958,9 +898,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Nepmart Teej  Celebration 2026 Ticket",
+    "sample_title": "Teej Gift  Special",
     "vertical_hint": "Fashion"
   },
   {
@@ -1022,7 +962,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "MSI Modern 15 H AI C2HMG | Ultra 9 285H | 16GB DDR5 RAM | 512GB NVMe SSD | 15.6&#8243; FHD (1920×1080) Display | Intel Arc Graphics | Windows (Copy)",
+    "sample_title": "Lenovo ThinkBook 14 G8 IAL | Ultra 5 225U processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ WUXGA (1920×1200) Display | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1181,7 +1121,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Abib Airy Sunstick Smoothing Bar 23g",
+    "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
     "vertical_hint": "Beauty"
   },
   {
@@ -1280,7 +1220,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Skinn By Titan Pristine Perfume For Women 20 ML NEFW14PD1",
+    "sample_title": "Titan AiRA Women Smartwatch 1.70\" inch AMOLED Display, AI Chat, Functional Crown, 24/7 Health Suite, Luna Wellness",
     "vertical_hint": "Fashion"
   },
   {
@@ -1334,9 +1274,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 21,
-    "sample_title": "Men's Pointed Toe Black Leather Business Dress Shoes Comfortable",
+    "sample_variants": 55,
+    "variants_with_compare_at": 55,
+    "sample_title": "STOCK-Summer color-blocked stripes, breathable mid-calf",
     "vertical_hint": "Fashion"
   },
   {
@@ -1394,7 +1334,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Asus TUF Gaming A16 FA607NUQ Laptop | AMD Ryzen 7 170 Processor, 16GB DDR5 RAM, 512GB PCIe4 SSD, NVIDIA GeForce RTX 4050 6GB GDDR6, 16-inch WUXGA 144Hz IPS Display, Backlit Keyboard",
+    "sample_title": "Lenovo LOQ 15 Gaming Laptop | Intel Core i5-12450HX Processor, 16GB DDR5 RAM, 512GB PCIe SSD, NVIDIA GeForce RTX 3050 6GB GDDR6, 15.6-inch FHD IPS 144Hz Display, White Backlit Keyboard",
     "vertical_hint": "Electronics"
   },
   {
@@ -2120,6 +2060,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2697,20 +2651,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "thebrandnepal.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.genesiswtech.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "thebuzznepal.com",
     "tier": "3",
     "platform": "wordpress",
@@ -2853,6 +2793,16 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "hempinnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2923,6 +2873,26 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nepaliculturalhouse.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "nepalknittingwear.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nktmen.com",
     "tier": "dead",
     "platform": null,
@@ -2969,6 +2939,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "thebrandnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
   },
