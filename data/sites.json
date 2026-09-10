@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Jordan Essentials Pro Hat",
+    "sample_title": "Nike Air Max Dn Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Jordan Essentials Pro Hat",
+    "sample_title": "Nike Air Max Dn Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -156,7 +156,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Hugo Boss Hugo XX Woman Eau de Toilette Women&#8217;s Perfume Spray (100ml)",
+    "sample_title": "Burberry Hero  Eau De Parfum 150ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -176,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 6,
-    "sample_title": "UGREEN Nexode 200W Portable Power Bank with Built-in Cables",
+    "sample_variants": 17,
+    "variants_with_compare_at": 15,
+    "sample_title": "iPhone 18 Pro Max & 17 Pro Max Anti-Drop Phone Case by WiWU AS-203",
     "vertical_hint": "Fashion"
   },
   {
@@ -193,7 +193,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "REGAL A418.SN &#8211; Coffee Formal Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "BEXLEY 582SK &#8211; White Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -223,7 +223,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Nepal Handmade Gheri Cotton Fleece Jacket – Traditional Himalayan Patchwork Winter Jacket",
+    "sample_title": "Hippie Mushroom Print Wide Leg Trouser",
     "vertical_hint": "Fashion"
   },
   {
@@ -266,21 +266,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -516,8 +501,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Optimum Nutrition Gold Standard 100% Whey Isolate 5lb – Double Rich Chocolate",
+    "variants_with_compare_at": 5,
+    "sample_title": "MuscleBlaze Biozyme Performance Whey Protein Powder 2kg– French Vanilla",
     "vertical_hint": "Fitness"
   },
   {
@@ -624,7 +609,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "AROMATICA Rosemary Root Enhancer Hair Spray 100ml KPG BEAUTY",
+    "sample_title": "VT Reedle Shot 700 30ml KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -635,7 +620,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "AROMATICA Rosemary Root Enhancer Hair Spray 100ml KPG BEAUTY",
+    "sample_title": "VT Reedle Shot 700 30ml KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -822,21 +807,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "navigate.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://navigate.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Navigate Two Layer Waterproof Jacket for Men",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nenepal.com",
     "tier": "1",
     "platform": "shopify",
@@ -893,12 +863,11 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: URLError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://nepalitshirt.com",
     "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Black Hoodies",
@@ -1023,7 +992,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lenovo ThinkBook 14 G8 IAL | Ultra 5 225U processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ WUXGA (1920×1200) Display | 1 Year Warranty",
+    "sample_title": "Lenovo ThinkBook 14 G8 IAL | Ultra 5 225U/Ultra 7 225U Processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ WUXGA (1920×1200) Display | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1097,7 +1066,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Women Diamond Rings &#8211; DLR14079",
+    "sample_title": "Women Diamond Earrings &#8211; DT6903",
     "vertical_hint": "Fashion"
   },
   {
@@ -1127,7 +1096,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: TimeoutError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://shadesout.com",
     "ldjson_types": [],
@@ -1154,9 +1123,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 26,
+    "sample_variants": 34,
     "variants_with_compare_at": 0,
-    "sample_title": "Jessica Simpson Pumps",
+    "sample_title": "Soda Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -1296,7 +1265,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Lenovo IdeaPad Slim 3 15AMN8 Ryzen 5 Laptop | 8GB | 512GB SSD | 15.6&#8243; FHD",
+    "sample_title": "Havit MS969SE Tri-Mode Wired + Wireless Rechargeable Mouse Price in Nepal",
     "vertical_hint": "Electronics"
   },
   {
@@ -1320,9 +1289,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 58,
-    "variants_with_compare_at": 58,
-    "sample_title": "STOCK - Women's High Waist Wide Leg Skirt Pants",
+    "sample_variants": 60,
+    "variants_with_compare_at": 60,
+    "sample_title": "Women's Zebra Pattern UV Protection Lightweight Windbreaker",
     "vertical_hint": "Fashion"
   },
   {
@@ -1398,22 +1367,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "aoneleathercraft.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://aoneleathercraft.com",
-    "ldjson_types": [
-      "LocalBusiness"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "beautyhubnepal.com",
     "tier": "2",
     "platform": null,
@@ -1451,20 +1404,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1965,7 +1904,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.madiranp.com/",
+    "final_url": "https://hotelpeacestupa.com/",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2017,6 +1956,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://affordablethriftstorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "aoneleathercraft.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aoneleathercraft.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2183,7 +2136,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2572,8 +2525,8 @@
     "platform": null,
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mystorenepal.com",
     "ldjson_types": [],
@@ -2667,6 +2620,20 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2843,6 +2810,26 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2913,6 +2900,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "navigate.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 404: Not Found"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nktmen.com",
     "tier": "dead",
     "platform": null,
@@ -2961,16 +2958,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "thewatchlounge.co",
