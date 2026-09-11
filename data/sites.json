@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 6,
+    "sample_variants": 32,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Air Max Dn Men's Shoes",
+    "sample_title": "Jordan Session Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 6,
+    "sample_variants": 32,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Air Max Dn Men's Shoes",
+    "sample_title": "Jordan Session Men's Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -55,7 +55,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "HP Notebook 15 AMD Ryzen 7 7730U 16GB RAM 512GB SSD 15.6-inch Laptop",
+    "sample_title": "Meetion MK01 Wired RGB Mechanical Gaming Keyboard",
     "vertical_hint": "Electronics"
   },
   {
@@ -85,7 +85,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Handcrafted Tibetan Buddha Singing Bowl with Wooden Mallet – Buddha Design | 8 Inch",
+    "sample_title": "Medium Round Stainless Steel Thali Plate – 20.5 cm Diameter",
     "vertical_hint": "Fashion"
   },
   {
@@ -94,9 +94,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "Japanese Cedar 2027 Auspicious Calendar - 一粒万倍暦",
+    "sample_title": "Japanese Floral Furisode Haori Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -156,7 +156,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Burberry Hero  Eau De Parfum 150ml",
+    "sample_title": "Bath and Body Works  A Thousands Wishes Lotion 236ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -192,8 +192,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "BEXLEY 582SK &#8211; White Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "variants_with_compare_at": 1,
+    "sample_title": "BRUNOX 577SN &#8211; White Casual Sneakers For Men  &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -320,9 +320,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 10,
-    "sample_title": "Rotating Keychain",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "Jhola for Lama, Monk",
     "vertical_hint": "Fashion"
   },
   {
@@ -491,6 +491,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "Inotek TEK-200 Portable Power Bank (20W Fast Charging | Crush-Resistant Design | Smart Chip Protection | Type-C Input &#038; Output | Overcurrent &#038; High-Voltage Protection)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -568,8 +583,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 13,
-    "variants_with_compare_at": 9,
-    "sample_title": "Handmade Felt Leaf & Berry Garland",
+    "variants_with_compare_at": 11,
+    "sample_title": "Patchwork Wool Blend Harem Pants",
     "vertical_hint": "Fashion"
   },
   {
@@ -746,8 +761,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "BA-152 &#8211; Festive Floral Motif Gold Plated Kada Bangle for Special Occasions",
+    "variants_with_compare_at": 2,
+    "sample_title": "PS-392 &#8211; Regal Mandala Motif Gold Plated Pendant Set with Earrings and Ring for Festive Occasions",
     "vertical_hint": "Fashion"
   },
   {
@@ -755,7 +770,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: TimeoutError"
     ],
     "final_url": "https://megashopnepal.com",
     "ldjson_types": [],
@@ -807,6 +822,21 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "navigate.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://navigate.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Navigate Two Layer Waterproof Jacket for Men",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nenepal.com",
     "tier": "1",
     "platform": "shopify",
@@ -823,9 +853,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 19,
     "variants_with_compare_at": 0,
-    "sample_title": "Seven Himalayan Wellness Incense Sticks",
+    "sample_title": "Handcrafted Copper Chenrezig (Avalokiteshvara) Statue with Stone Inlay",
     "vertical_hint": "Fashion"
   },
   {
@@ -958,7 +988,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Legacy Blue Polarized Sunglass",
+    "sample_title": "Black Pink Cat Eye Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -981,6 +1011,21 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -992,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lenovo ThinkBook 14 G8 IAL | Ultra 5 225U/Ultra 7 225U Processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ WUXGA (1920×1200) Display | 1 Year Warranty",
+    "sample_title": "ASUS Vivobook 14 X1404VA | Core 7 150U Processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ FHD (1920×1080) Display | Win 11",
     "vertical_hint": "Electronics"
   },
   {
@@ -1088,7 +1133,7 @@
     "sample_products": 5,
     "sample_variants": 40,
     "variants_with_compare_at": 40,
-    "sample_title": "Women's Cream Linen Embellished Kurta with Trouser Set",
+    "sample_title": "Teal Blue Dola Silk Position Print Sharara Suit Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -1152,6 +1197,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Hawas for Him Rasasi  100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1289,9 +1349,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 60,
-    "variants_with_compare_at": 60,
-    "sample_title": "Women's Zebra Pattern UV Protection Lightweight Windbreaker",
+    "sample_variants": 90,
+    "variants_with_compare_at": 90,
+    "sample_title": "STOCK-Men's Embroidered Polo Shirt Breathable Casual Short Sleeve",
     "vertical_hint": "Fashion"
   },
   {
@@ -1365,6 +1425,22 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "aoneleathercraft.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aoneleathercraft.com",
+    "ldjson_types": [
+      "LocalBusiness"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "beautyhubnepal.com",
@@ -1961,20 +2037,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "aoneleathercraft.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://aoneleathercraft.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "aroannepal.com",
     "tier": "3",
     "platform": null,
@@ -2032,7 +2094,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.bigapplenepal.com/",
     "ldjson_types": [
@@ -2375,20 +2437,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2548,20 +2596,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onin.com.np",
     "tier": "3",
     "platform": null,
@@ -2588,6 +2622,23 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "purnaa.com",
+    "tier": "3",
+    "platform": "wix",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://www.purnaa.com/",
+    "ldjson_types": [
+      "LocalBusiness",
+      "WebSite"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "regencywatch.com.np",
@@ -2620,20 +2671,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2900,16 +2937,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "navigate.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 404: Not Found"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nktmen.com",
     "tier": "dead",
     "platform": null,
@@ -2926,16 +2953,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "purnaa.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 429: Too Many Requests"
     ],
     "vertical_hint": "Fashion"
   },
