@@ -7,7 +7,7 @@
     "sample_products": 5,
     "sample_variants": 32,
     "variants_with_compare_at": 0,
-    "sample_title": "Jordan Session Men's Shoes",
+    "sample_title": "Nike Giannis Freak 7 EP Basketball Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -18,7 +18,7 @@
     "sample_products": 5,
     "sample_variants": 32,
     "variants_with_compare_at": 0,
-    "sample_title": "Jordan Session Men's Shoes",
+    "sample_title": "Nike Giannis Freak 7 EP Basketball Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -85,7 +85,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Medium Round Stainless Steel Thali Plate – 20.5 cm Diameter",
+    "sample_title": "Seven-Wick Brass Diya Plate – Traditional Nepali Aarti Lamp | 21.5cm",
     "vertical_hint": "Fashion"
   },
   {
@@ -165,9 +165,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 5,
-    "sample_title": "BROCADE ICYBLOOM FLORAL SHINE STUD EARRINGS",
+    "sample_variants": 25,
+    "variants_with_compare_at": 0,
+    "sample_title": "HORIZON SLEEVELESS",
     "vertical_hint": "Fashion"
   },
   {
@@ -176,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
-    "variants_with_compare_at": 15,
-    "sample_title": "iPhone 18 Pro Max & 17 Pro Max Anti-Drop Phone Case by WiWU AS-203",
+    "sample_variants": 29,
+    "variants_with_compare_at": 13,
+    "sample_title": "Redmi Note 17 Pro 5G smartphone with AMOLED Display",
     "vertical_hint": "Fashion"
   },
   {
@@ -266,6 +266,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -405,7 +420,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Gurkha Khukuri",
+    "sample_title": "Gurkha Black Field",
     "vertical_hint": "Fashion"
   },
   {
@@ -501,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Inotek TEK-200 Portable Power Bank (20W Fast Charging | Crush-Resistant Design | Smart Chip Protection | Type-C Input &#038; Output | Overcurrent &#038; High-Voltage Protection)",
+    "variants_with_compare_at": 5,
+    "sample_title": "HP NoteBook 14-ep (Intel Ultra 5 125H Processor | 8GB RAM | 512GB SSD | Integrated Intel® Graphics | 14&#8243; FHD Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -517,7 +532,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "MuscleBlaze Biozyme Performance Whey Protein Powder 2kg– French Vanilla",
+    "sample_title": "Linzhome 1.6L Large Sports Water Bottle – BPA-Free &#038; Leak-Proof",
     "vertical_hint": "Fitness"
   },
   {
@@ -582,9 +597,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
-    "variants_with_compare_at": 11,
-    "sample_title": "Patchwork Wool Blend Harem Pants",
+    "sample_variants": 32,
+    "variants_with_compare_at": 30,
+    "sample_title": "Bohemian Style Flowy Velvet Skirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -743,8 +758,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Thermaltake View 600 TG Full Tower Chassis | E-ATX | Tempered Glass | 420mm Radiator Support",
+    "variants_with_compare_at": 1,
+    "sample_title": "Prolink GD-620001-UK 200W 6-Port GaN USB Charger | 5× USB-C PD 3.0 + 1× USB-A QC 3.0",
     "vertical_hint": "Electronics"
   },
   {
@@ -770,7 +785,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: TimeoutError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://megashopnepal.com",
     "ldjson_types": [],
@@ -853,9 +868,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
+    "sample_variants": 12,
     "variants_with_compare_at": 0,
-    "sample_title": "Handcrafted Copper Chenrezig (Avalokiteshvara) Statue with Stone Inlay",
+    "sample_title": "Copper Machig Labdron Tantric Yogini Statue 12.75\"H",
     "vertical_hint": "Fashion"
   },
   {
@@ -988,7 +1003,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Black Pink Cat Eye Sunglass",
+    "sample_title": "Pink Cp Brown Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -1037,7 +1052,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "ASUS Vivobook 14 X1404VA | Core 7 150U Processor | 8GB RAM | 512GB SSD | Integrated Intel Graphics | 14.0″ FHD (1920×1080) Display | Win 11",
+    "sample_title": "Lenovo ThinkCentre Neo 50a 24 Gen 5 All-in-One Desktop | Core i5-13420H | 16GB DDR5 RAM | 512GB NVMe SSD | 23.8&#8243; FHD IPS Display | Intel UHD Graphics",
     "vertical_hint": "Electronics"
   },
   {
@@ -1110,8 +1125,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Women Diamond Earrings &#8211; DT6903",
+    "variants_with_compare_at": 4,
+    "sample_title": "Women Diamond Rings &#8211; DLR13721",
     "vertical_hint": "Fashion"
   },
   {
@@ -1197,21 +1212,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
-    "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Hawas for Him Rasasi  100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1349,9 +1349,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 90,
-    "variants_with_compare_at": 90,
-    "sample_title": "STOCK-Men's Embroidered Polo Shirt Breathable Casual Short Sleeve",
+    "sample_variants": 52,
+    "variants_with_compare_at": 52,
+    "sample_title": "STOCK - Men's Quartz Steel Band Business Watch",
     "vertical_hint": "Fashion"
   },
   {
@@ -1409,7 +1409,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Lenovo IdeaPad 1 15AMN7 Laptop | AMD Ryzen 5 7520U Processor, 16GB LPDDR5 RAM, 512GB SSD, AMD Radeon 610M Graphics, 15.6-inch FHD Display,",
+    "sample_title": "Acer Aspire 7 A715-59G-599P Gaming Laptop | Intel Core i5-13420H Processor, 16GB DDR4 RAM, 512GB NVMe SSD, NVIDIA GeForce RTX 3050 6GB GDDR6, 15.6-inch FHD IPS 144Hz Display, Backlit Keyboard",
     "vertical_hint": "Electronics"
   },
   {
@@ -2568,20 +2568,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2630,7 +2616,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.purnaa.com/",
     "ldjson_types": [
@@ -2671,6 +2657,20 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2857,16 +2857,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "dronestorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
-    ],
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2925,6 +2915,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
