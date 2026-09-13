@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 32,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Giannis Freak 7 EP Basketball Shoes",
+    "sample_title": "New Era 9FORTY Los Angeles Dodgers Cap",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 32,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Giannis Freak 7 EP Basketball Shoes",
+    "sample_title": "New Era 9FORTY Los Angeles Dodgers Cap",
     "vertical_hint": "Fashion"
   },
   {
@@ -57,21 +57,6 @@
     "variants_with_compare_at": 5,
     "sample_title": "Meetion MK01 Wired RGB Mechanical Gaming Keyboard",
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "allattar.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.allattar.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "LATTAFA FAKHAR PLATINUM 100ML | FOR HIM",
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "amaghar.com",
@@ -165,9 +150,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
+    "sample_variants": 23,
     "variants_with_compare_at": 0,
-    "sample_title": "HORIZON SLEEVELESS",
+    "sample_title": "Dino World Robbery",
     "vertical_hint": "Fashion"
   },
   {
@@ -176,9 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
-    "variants_with_compare_at": 13,
-    "sample_title": "Redmi Note 17 Pro 5G smartphone with AMOLED Display",
+    "sample_variants": 38,
+    "variants_with_compare_at": 10,
+    "sample_title": "Redmi Note 17 4G Smartphone",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,7 +177,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
+    "variants_with_compare_at": 5,
     "sample_title": "BRUNOX 577SN &#8211; White Casual Sneakers For Men  &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
@@ -504,21 +489,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Humtto Crew Socks Outdoor Athletic Wear",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "HP NoteBook 14-ep (Intel Ultra 5 125H Processor | 8GB RAM | 512GB SSD | Integrated Intel® Graphics | 14&#8243; FHD Display)",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "jirihealth.com",
@@ -1026,21 +996,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1277,6 +1232,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "thewatchlounge.co",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://thewatchlounge.co",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Casio MTP-VD03L-1AUDF Casio Black Dial Leather Strap Date Display Watch For Men",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "theyogibands.com",
     "tier": "1",
     "platform": "shopify",
@@ -1349,9 +1319,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 52,
-    "variants_with_compare_at": 52,
-    "sample_title": "STOCK - Men's Quartz Steel Band Business Watch",
+    "sample_variants": 48,
+    "variants_with_compare_at": 48,
+    "sample_title": "Men's Heavyweight Crew Neck T-Shirt American Style Short Sleeve",
     "vertical_hint": "Fashion"
   },
   {
@@ -1480,6 +1450,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2037,6 +2021,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "allattar.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://allattar.com/cgi-sys/suspendedpage.cgi",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "aroannepal.com",
     "tier": "3",
     "platform": null,
@@ -2437,6 +2435,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2568,6 +2580,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: TimeoutError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2580,6 +2606,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "obsessioncosmetics.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "onin.com.np",
@@ -2616,7 +2656,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://www.purnaa.com/",
     "ldjson_types": [
@@ -2847,16 +2887,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2917,16 +2947,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "naviforce-watch.com",
     "tier": "dead",
     "platform": null,
@@ -2968,16 +2988,6 @@
   },
   {
     "domain": "skmeinepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "thewatchlounge.co",
     "tier": "dead",
     "platform": null,
     "notes": [
