@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 12,
     "variants_with_compare_at": 0,
-    "sample_title": "New Era 9FORTY Los Angeles Dodgers Cap",
+    "sample_title": "Nike Initiator M Running Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 12,
     "variants_with_compare_at": 0,
-    "sample_title": "New Era 9FORTY Los Angeles Dodgers Cap",
+    "sample_title": "Nike Initiator M Running Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -57,6 +57,21 @@
     "variants_with_compare_at": 5,
     "sample_title": "Meetion MK01 Wired RGB Mechanical Gaming Keyboard",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "allattar.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.allattar.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "LATTAFA FAKHAR PLATINUM 100ML | FOR HIM",
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "amaghar.com",
@@ -150,9 +165,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "Dino World Robbery",
+    "sample_title": "Butwal EXC (Dark Beige)",
     "vertical_hint": "Fashion"
   },
   {
@@ -161,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 38,
-    "variants_with_compare_at": 10,
-    "sample_title": "Redmi Note 17 4G Smartphone",
+    "sample_variants": 31,
+    "variants_with_compare_at": 0,
+    "sample_title": "Samsung Galaxy S26 FE: 5G Smartphone with Dynamic AMOLED",
     "vertical_hint": "Fashion"
   },
   {
@@ -251,21 +266,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -357,7 +357,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "",
+    "sample_title": "Sony FX5 Body",
     "vertical_hint": "Electronics"
   },
   {
@@ -375,7 +375,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Grey White Zoro Inspired T-Shirt",
+    "sample_title": "Black Grey Zoro Inspired T-Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -491,6 +491,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "Lenovo LOQ 15 Gaming (Intel Core i5 13th Gen 13450HX Processor | 16GB RAM | 512GB SSD | NVIDIA Geforce RTX 3050 6GB Graphics | 15.6″ FHD IPS 144HZ Display | 2 Years Warranty)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -501,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Linzhome 1.6L Large Sports Water Bottle – BPA-Free &#038; Leak-Proof",
+    "variants_with_compare_at": 3,
+    "sample_title": "Sports Gloves – Black",
     "vertical_hint": "Fitness"
   },
   {
@@ -567,9 +582,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 32,
-    "variants_with_compare_at": 30,
-    "sample_title": "Bohemian Style Flowy Velvet Skirt",
+    "sample_variants": 65,
+    "variants_with_compare_at": 47,
+    "sample_title": "Flower Design Sterling Silver Ring, Crystal Silver Ring, Handmade Ring, Gift for Her, Gift for Mom, Statement Ring",
     "vertical_hint": "Fashion"
   },
   {
@@ -695,7 +710,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "LA Sportiva Prodigio Max",
+    "sample_title": "HotForge Screwgate Carabiner",
     "vertical_hint": "Fashion"
   },
   {
@@ -728,8 +743,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Prolink GD-620001-UK 200W 6-Port GaN USB Charger | 5× USB-C PD 3.0 + 1× USB-A QC 3.0",
+    "variants_with_compare_at": 0,
+    "sample_title": "Prolink PRO902-EL-2U 2KVA Long-Run Online UPS | LCD Display | 2× Universal Sockets",
     "vertical_hint": "Electronics"
   },
   {
@@ -996,6 +1011,21 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1007,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lenovo ThinkCentre Neo 50a 24 Gen 5 All-in-One Desktop | Core i5-13420H | 16GB DDR5 RAM | 512GB NVMe SSD | 23.8&#8243; FHD IPS Display | Intel UHD Graphics",
+    "sample_title": "Dell 27 EC27250 All-in-One PC | Core 7 150U | 32GB DDR5 RAM | 1TB NVMe SSD | 27&#8243; FHD (1920×1080) Display | Intel Graphics | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1243,7 +1273,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Casio MTP-VD03L-1AUDF Casio Black Dial Leather Strap Date Display Watch For Men",
+    "sample_title": "Casio MTP-V005D-7BUDF Classic Analog Silver Dial Stainless Steel Watch For Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1265,7 +1295,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Grey Navigator Men Sunglasses",
+    "sample_title": "Titan Raga Mother of Pearl Dial Metal Strap Analog Watch for Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -1299,29 +1329,14 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "tshirtnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://tshirtnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Dirtywash Sweatshirt",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "tudoholic.com",
     "tier": "1",
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 48,
-    "variants_with_compare_at": 48,
-    "sample_title": "Men's Heavyweight Crew Neck T-Shirt American Style Short Sleeve",
+    "sample_variants": 30,
+    "variants_with_compare_at": 30,
+    "sample_title": "Large-Capacity Multi-Layer Transparent Medicine Storage Box",
     "vertical_hint": "Fashion"
   },
   {
@@ -1378,8 +1393,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Acer Aspire 7 A715-59G-599P Gaming Laptop | Intel Core i5-13420H Processor, 16GB DDR4 RAM, 512GB NVMe SSD, NVIDIA GeForce RTX 3050 6GB GDDR6, 15.6-inch FHD IPS 144Hz Display, Backlit Keyboard",
+    "variants_with_compare_at": 2,
+    "sample_title": "Blackview Table 10 Portable Monitor | 23.8-inch FHD IPS Display, 100Hz Refresh Rate, USB-C Plug and Play, Built-in Speaker, VESA Mount Compatible",
     "vertical_hint": "Electronics"
   },
   {
@@ -1450,20 +1465,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1804,7 +1805,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://www.makuratech.com/",
     "ldjson_types": [
@@ -1961,7 +1962,7 @@
     "platform": "wordpress",
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://hotelpeacestupa.com/",
@@ -2019,20 +2020,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "allattar.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://allattar.com/cgi-sys/suspendedpage.cgi",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "aroannepal.com",
@@ -2143,20 +2130,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://caravan.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "citystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://citystorenepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2435,20 +2408,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2580,20 +2539,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: TimeoutError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2606,20 +2551,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "onin.com.np",
@@ -2839,6 +2770,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "tshirtnepal.com.np",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://tshirtnepal.com.np/cgi-sys/suspendedpage.cgi",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "yara.com.np",
     "tier": "3",
     "platform": "next.js",
@@ -2885,6 +2830,36 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "citystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 504: Gateway Time-out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "hempplanetnepal.com",
@@ -2945,6 +2920,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
