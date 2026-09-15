@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 35,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Initiator M Running Shoe",
+    "sample_title": "Nike Pegasus 42 M Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 35,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Initiator M Running Shoe",
+    "sample_title": "Nike Pegasus 42 M Road Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -84,8 +84,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Seven-Wick Brass Diya Plate – Traditional Nepali Aarti Lamp | 21.5cm",
+    "variants_with_compare_at": 1,
+    "sample_title": "Sarsarti Sansar (सरसर्ती संसार)by Jiba Lamichhane | Nepali Travel Memoir",
     "vertical_hint": "Fashion"
   },
   {
@@ -167,7 +167,7 @@
     "sample_products": 5,
     "sample_variants": 21,
     "variants_with_compare_at": 0,
-    "sample_title": "Butwal EXC (Dark Beige)",
+    "sample_title": "HELLBOUND TANK TOP",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,7 +192,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 0,
     "sample_title": "BRUNOX 577SN &#8211; White Casual Sneakers For Men  &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
@@ -375,7 +375,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Black Grey Zoro Inspired T-Shirt",
+    "sample_title": "Grey Zoro Printed Hoodie Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -470,7 +470,7 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 96,
     "variants_with_compare_at": 0,
     "sample_title": "Womens Eclipse Sun Tee Short Sleeve",
     "vertical_hint": "Fashion"
@@ -501,8 +501,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Lenovo LOQ 15 Gaming (Intel Core i5 13th Gen 13450HX Processor | 16GB RAM | 512GB SSD | NVIDIA Geforce RTX 3050 6GB Graphics | 15.6″ FHD IPS 144HZ Display | 2 Years Warranty)",
+    "variants_with_compare_at": 2,
+    "sample_title": "Dell XPS 13 2026 (Intel Core 5 320 Series 3 Processor | 8GB RAM | 512GB SSD | Intel® Graphics | Backlit Keyboard | 13.4″ WQXGA 2.5K 120Hz Touch Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -541,9 +541,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 52,
+    "sample_variants": 55,
     "variants_with_compare_at": 0,
-    "sample_title": "TBL Men’s Retro Sport-Casual Sneakers GS175",
+    "sample_title": "GoldStar Casual Court Sneakers for Men GS179",
     "vertical_hint": "Fashion"
   },
   {
@@ -611,9 +611,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 71,
-    "variants_with_compare_at": 71,
-    "sample_title": "Savedra Set",
+    "sample_variants": 39,
+    "variants_with_compare_at": 39,
+    "sample_title": "Maternity Top",
     "vertical_hint": "Fashion"
   },
   {
@@ -710,7 +710,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "HotForge Screwgate Carabiner",
+    "sample_title": "Cosmo 350-R Headlamp",
     "vertical_hint": "Fashion"
   },
   {
@@ -743,8 +743,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Prolink PRO902-EL-2U 2KVA Long-Run Online UPS | LCD Display | 2× Universal Sockets",
+    "variants_with_compare_at": 1,
+    "sample_title": "Prolink GMK-5007M Multi-Device Mini Wireless Keyboard &#038; Mouse Combo",
     "vertical_hint": "Electronics"
   },
   {
@@ -787,7 +787,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1037,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Dell 27 EC27250 All-in-One PC | Core 7 150U | 32GB DDR5 RAM | 1TB NVMe SSD | 27&#8243; FHD (1920×1080) Display | Intel Graphics | 1 Year Warranty",
+    "sample_title": "MSI PRO AP242P 14M All-in-One PC | Core i7-14700 | 8GB DDR5 RAM | 256GB SSD | 23.8&#8243; FHD 100Hz Display | Intel UHD Graphics",
     "vertical_hint": "Electronics"
   },
   {
@@ -1133,7 +1133,7 @@
     "sample_products": 5,
     "sample_variants": 40,
     "variants_with_compare_at": 40,
-    "sample_title": "Teal Blue Dola Silk Position Print Sharara Suit Set",
+    "sample_title": "Mehendi Green Floral Printed Kurta Pant Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1200,6 +1200,21 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Hawas for Him Rasasi  100ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "sparshaclothing.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1262,21 +1277,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "thewatchlounge.co",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://thewatchlounge.co",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Casio MTP-V005D-7BUDF Classic Analog Silver Dial Stainless Steel Watch For Men",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "theyogibands.com",
     "tier": "1",
     "platform": "shopify",
@@ -1295,7 +1295,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Titan Raga Mother of Pearl Dial Metal Strap Analog Watch for Women",
+    "sample_title": "Fastrack Purple Aviator Sunglasses for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1329,14 +1329,29 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "tshirtnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://tshirtnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Dirtywash Sweatshirt",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "tudoholic.com",
     "tier": "1",
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 30,
-    "variants_with_compare_at": 30,
-    "sample_title": "Large-Capacity Multi-Layer Transparent Medicine Storage Box",
+    "sample_variants": 112,
+    "variants_with_compare_at": 112,
+    "sample_title": "Men’s Mid-Length Wool Overcoat | Multi-Color Winter Coat",
     "vertical_hint": "Fashion"
   },
   {
@@ -1805,7 +1820,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.makuratech.com/",
     "ldjson_types": [
@@ -1962,7 +1977,7 @@
     "platform": "wordpress",
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://hotelpeacestupa.com/",
@@ -2130,6 +2145,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://caravan.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "citystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://citystorenepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2539,6 +2568,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2628,20 +2671,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2770,20 +2799,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "tshirtnepal.com.np",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://tshirtnepal.com.np/cgi-sys/suspendedpage.cgi",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "yara.com.np",
     "tier": "3",
     "platform": "next.js",
@@ -2838,16 +2853,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "citystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 504: Gateway Time-out"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2922,16 +2927,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "naviforce-watch.com",
     "tier": "dead",
     "platform": null,
@@ -2973,6 +2968,16 @@
   },
   {
     "domain": "skmeinepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "thewatchlounge.co",
     "tier": "dead",
     "platform": null,
     "notes": [
