@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 35,
+    "sample_variants": 24,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Giannis Immortality 5 EP White Black Volt Sjoes",
+    "sample_title": "Men's Project Rock Training Short Sleeve",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 35,
+    "sample_variants": 24,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Giannis Immortality 5 EP White Black Volt Sjoes",
+    "sample_title": "Men's Project Rock Training Short Sleeve",
     "vertical_hint": "Fashion"
   },
   {
@@ -27,9 +27,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 44,
-    "variants_with_compare_at": 44,
-    "sample_title": "Men's Ultra-Light EVA Flip-Flops | Comfortable Indoor & Outdoor Slippers",
+    "sample_variants": 51,
+    "variants_with_compare_at": 23,
+    "sample_title": "Men’s Textured Comfort Slides with Cushioned Footbed | Casual Slip-On Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -84,8 +84,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Lotus Pattern Tibetan Singing Bowl | 8inch",
+    "variants_with_compare_at": 0,
+    "sample_title": "Handmade Nepali Kusha Grass Aasan – Traditional Puja &#038; Meditation Mat",
     "vertical_hint": "Fashion"
   },
   {
@@ -176,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
-    "variants_with_compare_at": 1,
-    "sample_title": "UGREEN Revodok Pro 8-in-1 USB-C Docking Station Details",
+    "sample_variants": 13,
+    "variants_with_compare_at": 2,
+    "sample_title": "Vention 27000mAh Portable Power Bank for Fast Charging",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +238,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Loreal Professionnel Serie Expert Liss Unlimited Mask",
+    "sample_title": "Plum 5% Glycolic Acid &#038; Goji Berry Exfoliating Toner",
     "vertical_hint": "Beauty"
   },
   {
@@ -337,7 +337,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Dharma Mandala Wheel",
+    "sample_title": "Brooch Pin",
     "vertical_hint": "Fashion"
   },
   {
@@ -424,14 +424,29 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "handicraftsinnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://handicraftsinnepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "Singing Bowls: Sound Healing Collections #1 by Dharmapa",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "harringtonwear.com",
     "tier": "1",
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 20,
-    "sample_title": "OXFORD SUMMIT AUTUMN JACKET",
+    "sample_variants": 25,
+    "variants_with_compare_at": 25,
+    "sample_title": "POLO OXFORD",
     "vertical_hint": "Fashion"
   },
   {
@@ -582,9 +597,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 65,
-    "variants_with_compare_at": 47,
-    "sample_title": "Flower Design Sterling Silver Ring, Crystal Silver Ring, Handmade Ring, Gift for Her, Gift for Mom, Statement Ring",
+    "sample_variants": 39,
+    "variants_with_compare_at": 21,
+    "sample_title": "Handmade Recycled Sari Wide Leg Pants",
     "vertical_hint": "Fashion"
   },
   {
@@ -853,9 +868,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Copper Machig Labdron Tantric Yogini Statue 12.75\"H",
+    "sample_title": "Brown Kundalini Seven Chakra Tibetan Thangka Painting- Large",
     "vertical_hint": "Fashion"
   },
   {
@@ -1037,7 +1052,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "MSI PRO AP242P 14M All-in-One PC | Core i7-14700 | 8GB DDR5 RAM | 256GB SSD | 23.8&#8243; FHD 100Hz Display | Intel UHD Graphics",
+    "sample_title": "Brother DCP-L5510DN Monochrome Laser Multifunction Printer",
     "vertical_hint": "Electronics"
   },
   {
@@ -1064,6 +1079,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "rovekidswear.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://rovekidswear.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Weighted Vest (4 &#038; 5 Kg)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1170,6 +1200,36 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "skinknepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://skinknepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "solehex.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://solehex.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Hawas for Him Rasasi  100ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "sparshaclothing.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1249,8 +1309,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Fastrack Unisex Black Travel Duffle Bag",
+    "variants_with_compare_at": 0,
+    "sample_title": "Yellow Sporty Rimmed Sunglasses(P419YL5)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1280,7 +1340,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Rapoo GK500-87 Backlit Mechanical Gaming Keyboard US",
+    "sample_title": "Acer Aspire 5 AI PC A514-54H | Intel Core Ultra 5 125H | 16GB RAM | 512GB SSD | 14&#8243; WUXGA Display | 1 years warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1304,9 +1364,24 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 78,
-    "variants_with_compare_at": 78,
-    "sample_title": "STOCK-Men's Autumn-Winter Hooded Color-Block Three-Piece Set",
+    "sample_variants": 16,
+    "variants_with_compare_at": 16,
+    "sample_title": "STOCK - Men's Ice Silk Letter Printed Slim Fit Summer T-Shirt",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "ufonepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.ufonepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Front-Split Top",
     "vertical_hint": "Fashion"
   },
   {
@@ -1383,6 +1458,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "beautyhubnepal.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://beautyhubnepal.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "beautynpl.com",
     "tier": "2",
     "platform": null,
@@ -1395,6 +1484,20 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "chasmahub.com",
+    "tier": "2",
+    "platform": "nuxt/vue",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "choicemandu.com",
@@ -1779,7 +1882,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "http://www.neostore.com.np/",
     "ldjson_types": [],
@@ -2480,18 +2583,18 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "mystorenepal.com",
+    "domain": "mobilemandu.com",
     "tier": "3",
-    "platform": null,
+    "platform": "next.js",
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://mystorenepal.com",
+    "final_url": "https://mobilemandu.com",
     "ldjson_types": [],
     "price_in_html": false,
-    "vertical_hint": "Fashion"
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "nepalcan.com",
@@ -2583,20 +2686,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "solehex.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://solehex.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "swisstimepiecesnepal.com",
@@ -2757,20 +2846,10 @@
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 404: Not Found"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "beautyhubnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "caretobeauty.com",
@@ -2781,26 +2860,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "chasmahub.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "handicraftsinnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Permanently"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "hempplanetnepal.com",
@@ -2853,16 +2912,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "mobilemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2871,6 +2920,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
@@ -2903,16 +2962,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "rovekidswear.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "sastoprint.com",
     "tier": "dead",
     "platform": null,
@@ -2921,16 +2970,6 @@
       "home: HTTPError: HTTP Error 500: Internal Server Error"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "skinknepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "skmeinepal.com",
@@ -2949,16 +2988,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "ufonepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   }
