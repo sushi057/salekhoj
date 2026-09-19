@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 24,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Men's Project Rock Training Short Sleeve",
+    "sample_title": "New Balance Fresh Foam X 1080 v14 2E",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 24,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Men's Project Rock Training Short Sleeve",
+    "sample_title": "New Balance Fresh Foam X 1080 v14 2E",
     "vertical_hint": "Fashion"
   },
   {
@@ -27,9 +27,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 51,
-    "variants_with_compare_at": 23,
-    "sample_title": "Men’s Textured Comfort Slides with Cushioned Footbed | Casual Slip-On Sandals",
+    "sample_variants": 41,
+    "variants_with_compare_at": 0,
+    "sample_title": "Men’s Double Buckle Slides | Adjustable Strap Casual Slip-On Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -85,7 +85,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Handmade Nepali Kusha Grass Aasan – Traditional Puja &#038; Meditation Mat",
+    "sample_title": "Handcrafted Hammered Copper Teapot – Vintage Kettle with Brass Handle &#038; Spout",
     "vertical_hint": "Fashion"
   },
   {
@@ -94,9 +94,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
+    "sample_variants": 19,
     "variants_with_compare_at": 0,
-    "sample_title": "Japanese Floral Furisode Haori Jacket",
+    "sample_title": "KICHIJI YOSOI Kimono Like Dress",
     "vertical_hint": "Fashion"
   },
   {
@@ -145,6 +145,21 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://bishrom.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Palermo Amber Sunglasses",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "bonjournp.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -156,7 +171,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Bath and Body Works  A Thousands Wishes Lotion 236ml",
+    "sample_title": "Dove Sensitive Fragrance Free Deodorant &#8211; 40g",
     "vertical_hint": "Beauty"
   },
   {
@@ -176,9 +191,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
-    "variants_with_compare_at": 2,
-    "sample_title": "Vention 27000mAh Portable Power Bank for Fast Charging",
+    "sample_variants": 8,
+    "variants_with_compare_at": 3,
+    "sample_title": "Realme Note 80 4G Smartphone",
     "vertical_hint": "Fashion"
   },
   {
@@ -193,7 +208,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "BRUNOX 577SN &#8211; Black Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "ELVARO 321SN &#8211; Black Slides For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -311,7 +326,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Seamless Light Padded Backless Bra",
+    "sample_title": "Classic Cut-Out Mesh Babydoll Fishnet Lingerie",
     "vertical_hint": "Fashion"
   },
   {
@@ -335,9 +350,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Brooch Pin",
+    "sample_variants": 21,
+    "variants_with_compare_at": 21,
+    "sample_title": "Lepcha Traditional Sling Bag",
     "vertical_hint": "Fashion"
   },
   {
@@ -485,9 +500,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 96,
+    "sample_variants": 74,
     "variants_with_compare_at": 0,
-    "sample_title": "Womens Eclipse Sun Tee Short Sleeve",
+    "sample_title": "Womens Primaloft® Ascent Stretch Pants",
     "vertical_hint": "Fashion"
   },
   {
@@ -516,8 +531,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Dell XPS 13 2026 (Intel Core 5 320 Series 3 Processor | 8GB RAM | 512GB SSD | Intel® Graphics | Backlit Keyboard | 13.4″ WQXGA 2.5K 120Hz Touch Display)",
+    "variants_with_compare_at": 5,
+    "sample_title": "Gaming Combo Kit | Mr. Boss MB200 Laptop Cooler | T-WOLF TF-270 Keyboard &#038; Mouse | MISDE A66 Headset | X-7 Mouse Pad",
     "vertical_hint": "Electronics"
   },
   {
@@ -597,9 +612,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 39,
-    "variants_with_compare_at": 21,
-    "sample_title": "Handmade Recycled Sari Wide Leg Pants",
+    "sample_variants": 9,
+    "variants_with_compare_at": 0,
+    "sample_title": "Celestial Sun & Moon Lace Fringe Bag",
     "vertical_hint": "Fashion"
   },
   {
@@ -679,8 +694,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "hp Victus Gaming 15-fb2082wm-Intel® Core™ i5-13420H 13th Gen/16GB RAM DDR4/1TB SSD/15.6&#8243; Full HD 144Hz/NVIDIA® GeForce RTX™ 4050 6GB/Backlit Keyboard/Windows 11 Home (MICA SILVER)",
+    "variants_with_compare_at": 5,
+    "sample_title": "Lenovo LOQ 15IRX10 Gaming-i7-14700HX 14th Gen/16GB RAM DDR5/512GB SSD/15.6&#8243; Full HD IPS 144Hz/NVIDIA® GeForce RTX™ 5060 8GB Graphic/Backlit Keyboard (LUNA GREY) On Order",
     "vertical_hint": "Electronics"
   },
   {
@@ -724,8 +739,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Cosmo 350-R Headlamp",
+    "variants_with_compare_at": 4,
+    "sample_title": "Exped-Ridgeline 55",
     "vertical_hint": "Fashion"
   },
   {
@@ -1088,7 +1103,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://rovekidswear.com",
+    "final_url": "https://rovekids.com.np/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1097,18 +1112,18 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "samayawatch.com",
+    "domain": "sastoprint.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://samayawatch.com",
+    "final_url": "https://sastoprint.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Rangi",
+    "variants_with_compare_at": 2,
+    "sample_title": "Cotton Tshirt Print",
     "vertical_hint": "Fashion"
   },
   {
@@ -1183,9 +1198,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 34,
+    "sample_variants": 33,
     "variants_with_compare_at": 0,
-    "sample_title": "Soda Sandals",
+    "sample_title": "Soda Flat Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -1219,11 +1234,12 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://solehex.com",
     "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Hawas for Him Rasasi  100ml",
@@ -1234,11 +1250,12 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: TimeoutError"
     ],
     "final_url": "https://sparshaclothing.com",
     "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Henley Shirt Sky Blue",
@@ -1292,6 +1309,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "thewatchlounge.co",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://thewatchlounge.co",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Casio MTP-V005L-1B5UDF Simple Clean Design Roman Numerals Leather Strap",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "theyogibands.com",
     "tier": "1",
     "platform": "shopify",
@@ -1310,7 +1342,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Yellow Sporty Rimmed Sunglasses(P419YL5)",
+    "sample_title": "Titan Raga Glimmers Quartz Analog Mother of Pearl Dial Rose Gold Metal Strap Watch For Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -1340,7 +1372,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Acer Aspire 5 AI PC A514-54H | Intel Core Ultra 5 125H | 16GB RAM | 512GB SSD | 14&#8243; WUXGA Display | 1 years warranty",
+    "sample_title": "MSI PRO MP273Q E7 27&#8243; WQHD IPS Monitor | 75Hz | 1ms Response Time | 2 Years Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1364,9 +1396,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 16,
-    "variants_with_compare_at": 16,
-    "sample_title": "STOCK - Men's Ice Silk Letter Printed Slim Fit Summer T-Shirt",
+    "sample_variants": 62,
+    "variants_with_compare_at": 62,
+    "sample_title": "STOCK-Monocular HD Night Vision Telescope for Outdoor Observation",
     "vertical_hint": "Fashion"
   },
   {
@@ -2134,20 +2166,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "bishrom.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2597,6 +2615,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2665,6 +2697,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://regencywatch.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "samayawatch.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://samayawatch.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2922,16 +2968,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "naviforce-watch.com",
     "tier": "dead",
     "platform": null,
@@ -2962,27 +2998,7 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "sastoprint.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "skmeinepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "thewatchlounge.co",
     "tier": "dead",
     "platform": null,
     "notes": [
