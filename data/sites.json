@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "New Balance Fresh Foam X 1080 v14 2E",
+    "sample_title": "Calvin Klein CK Be Eau de Toilette",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "New Balance Fresh Foam X 1080 v14 2E",
+    "sample_title": "Calvin Klein CK Be Eau de Toilette",
     "vertical_hint": "Fashion"
   },
   {
@@ -145,31 +145,15 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "bishrom.com",
+    "domain": "bonjournp.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://bishrom.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Palermo Amber Sunglasses",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "bonjournp.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
     "final_url": "https://bonjournp.com",
     "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Dove Sensitive Fragrance Free Deodorant &#8211; 40g",
@@ -192,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
+    "sample_variants": 7,
     "variants_with_compare_at": 3,
-    "sample_title": "Realme Note 80 4G Smartphone",
+    "sample_title": "UGREEN Wireless On-Ear Headphones with ANC Technology",
     "vertical_hint": "Fashion"
   },
   {
@@ -209,7 +193,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "ELVARO 321SN &#8211; Black Slides For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "BLANC 572 &#8211; White/Bone Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -239,7 +223,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Hippie Mushroom Print Wide Leg Trouser",
+    "sample_title": "Fair trade Colorful Gheri &#038; Hippie Cotton Trousers – Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -331,6 +315,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "fashionlagoon.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://fashionlagoon.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Goldstar G10 Sunlite-04 Men&#8217;s Walking Shoes (Black) – Comfortable Sports &amp; Casual Wear (Copy)",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "folkbazar.com",
     "tier": "1",
     "platform": "shopify",
@@ -392,21 +391,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Grey Zoro Printed Hoodie Set",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "goldstarshoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://goldstarshoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "G10 L2102",
     "vertical_hint": "Fashion"
   },
   {
@@ -518,7 +502,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "M25 Portable Split Type 2-in-1 Magnetic Detachable Wireless Speakers",
+    "sample_title": "Inotek Tek-90 LED Speaker + TEK-260 30000mAh Power Bank + NeOne Purebeats Move Earbuds Combo",
     "vertical_hint": "Electronics"
   },
   {
@@ -640,7 +624,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "VT Reedle Shot 700 30ml KPG BEAUTY",
+    "sample_title": "LANEIGE Lip Glowy Balm [Berry] KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -651,7 +635,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "VT Reedle Shot 700 30ml KPG BEAUTY",
+    "sample_title": "LANEIGE Lip Glowy Balm [Berry] KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -726,7 +710,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Exped-Ridgeline 55",
+    "sample_title": "Bel-Sol Aluminium Portable, Adjustable Chair",
     "vertical_hint": "Fashion"
   },
   {
@@ -760,7 +744,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Prolink GD-530002 300W 5-Port GaN PD Charger",
+    "sample_title": "Prolink GCA-40-01 USB Type-A to Type-C Data Cable 40W, 480Mbps",
     "vertical_hint": "Electronics"
   },
   {
@@ -808,7 +792,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Maze Sleeve 13",
+    "sample_title": "Infinity Pack",
     "vertical_hint": "Fashion"
   },
   {
@@ -1053,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Brother DCP-L5510DN Monochrome Laser Multifunction Printer",
+    "sample_title": "Brother MFC-T920DW Wireless Ink Tank All-in-One Printer",
     "vertical_hint": "Electronics"
   },
   {
@@ -1342,7 +1326,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Raga Glimmers Quartz Analog Mother of Pearl Dial Rose Gold Metal Strap Watch For Women",
+    "sample_title": "Fastrack Yellow Wayfarer Sunglasses for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1396,9 +1380,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 102,
-    "variants_with_compare_at": 102,
-    "sample_title": "Women's Slim Suit Blazer Jacket for Commuter Style",
+    "sample_variants": 85,
+    "variants_with_compare_at": 85,
+    "sample_title": "Men's Mid-Tube Striped Sports Socks - Pack of 6",
     "vertical_hint": "Fashion"
   },
   {
@@ -2152,6 +2136,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2425,6 +2423,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "hamroshringar.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.hamroshringar.com/",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "hubanepal.com",
     "tier": "3",
     "platform": "wix",
@@ -2585,6 +2597,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: TimeoutError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "nepalcan.com",
@@ -2862,24 +2888,14 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "fashionlagoon.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "hamroshringar.com",
+    "domain": "goldstarshoes.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: TimeoutError",
       "home: TimeoutError: The read operation timed out"
     ],
-    "vertical_hint": "Beauty"
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "hempplanetnepal.com",
@@ -2940,16 +2956,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
