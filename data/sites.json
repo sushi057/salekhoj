@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Calvin Klein CK Be Eau de Toilette",
+    "sample_title": "Nike Air Jordan Nu Retro 1 Low 'Palomino'",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Calvin Klein CK Be Eau de Toilette",
+    "sample_title": "Nike Air Jordan Nu Retro 1 Low 'Palomino'",
     "vertical_hint": "Fashion"
   },
   {
@@ -94,9 +94,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
+    "sample_variants": 16,
     "variants_with_compare_at": 0,
-    "sample_title": "KICHIJI YOSOI Kimono Like Dress",
+    "sample_title": "Retro Polka Dot Foil Print Gamaguchi Clasp Handbag",
     "vertical_hint": "Fashion"
   },
   {
@@ -156,7 +156,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Dove Sensitive Fragrance Free Deodorant &#8211; 40g",
+    "sample_title": "CeraVe Renewing SA Cleanser &#8211; 355ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -176,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
-    "variants_with_compare_at": 3,
-    "sample_title": "UGREEN Wireless On-Ear Headphones with ANC Technology",
+    "sample_variants": 10,
+    "variants_with_compare_at": 2,
+    "sample_title": "Realme C85 5G Smartphone with Exceptional Features & EMI",
     "vertical_hint": "Fashion"
   },
   {
@@ -193,7 +193,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "BLANC 572 &#8211; White/Bone Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "JADE A518SN &#8211; Maroon Formal Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -223,7 +223,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Fair trade Colorful Gheri &#038; Hippie Cotton Trousers – Handmade in Nepal",
+    "sample_title": "Hippie Patchwork Ladies Short Pant – Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -394,6 +394,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "goldstarshoes.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://goldstarshoes.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "G10 L2102",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "gurkhawatch.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -429,9 +444,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
-    "variants_with_compare_at": 25,
-    "sample_title": "POLO OXFORD",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "SCOUT SLING BAG",
     "vertical_hint": "Fashion"
   },
   {
@@ -501,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Inotek Tek-90 LED Speaker + TEK-260 30000mAh Power Bank + NeOne Purebeats Move Earbuds Combo",
+    "variants_with_compare_at": 3,
+    "sample_title": "Apple iPhone 18 Pro 256GB (Hexa-core,2x GHz high performance + 4x GHz | 12GB RAM | 256GB Storage | Apple 7-core GPU | 6.3 inch 120Hz LTPO Super Retina XDR OLED | Apple A20 Pro 2nm Chipset | 48 MP Triple Camera)",
     "vertical_hint": "Electronics"
   },
   {
@@ -531,8 +546,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Teej Special Combo Offer",
+    "variants_with_compare_at": 5,
+    "sample_title": "Jiri Nutrition Whey Protein Fusion",
     "vertical_hint": "Fitness"
   },
   {
@@ -582,9 +597,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
-    "variants_with_compare_at": 0,
-    "sample_title": "Whimsical Butterfly Garden Duster with Ruffle Bell Sleeves",
+    "sample_variants": 14,
+    "variants_with_compare_at": 10,
+    "sample_title": "Hand Knitted Rainbow Convertible Gloves/Mitten",
     "vertical_hint": "Fashion"
   },
   {
@@ -744,7 +759,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Prolink GCA-40-01 USB Type-A to Type-C Data Cable 40W, 480Mbps",
+    "sample_title": "Prolink GCC-100-02 USB Type-C to C PD Cable with Digital Display – 100W, 5A, 2m",
     "vertical_hint": "Electronics"
   },
   {
@@ -855,7 +870,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Brown Kundalini Seven Chakra Tibetan Thangka Painting- Large",
+    "sample_title": "Deep Maroon Pure Pashmina Shawl",
     "vertical_hint": "Fashion"
   },
   {
@@ -1011,21 +1026,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1037,7 +1037,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Brother MFC-T920DW Wireless Ink Tank All-in-One Printer",
+    "sample_title": "Thermaltake Smart BX3 Bronze 750W Power Supply",
     "vertical_hint": "Electronics"
   },
   {
@@ -1135,9 +1135,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 11,
-    "variants_with_compare_at": 4,
-    "sample_title": "Men's Pastel Sweaters - Eyelash Sweaters with Striped Polo Neck Style",
+    "sample_variants": 9,
+    "variants_with_compare_at": 1,
+    "sample_title": "Fuzzy Open-Front Striped Cardigan Sweater",
     "vertical_hint": "Fashion"
   },
   {
@@ -1293,21 +1293,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "thewatchlounge.co",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://thewatchlounge.co",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Casio MTP-V005L-1B5UDF Simple Clean Design Roman Numerals Leather Strap",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "theyogibands.com",
     "tier": "1",
     "platform": "shopify",
@@ -1326,7 +1311,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Fastrack Yellow Wayfarer Sunglasses for Men",
+    "sample_title": "Skinn By Titan Nude 50 ML Perfume For Women EDP NEFW03PFL",
     "vertical_hint": "Fashion"
   },
   {
@@ -1356,7 +1341,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "MSI PRO MP273Q E7 27&#8243; WQHD IPS Monitor | 75Hz | 1ms Response Time | 2 Years Warranty",
+    "sample_title": "Rapoo V600SE Dual-Mode Gaming Controller | Wireless &#038; Wired | Hall Effect Joystick | PC &#038; Android",
     "vertical_hint": "Electronics"
   },
   {
@@ -1380,9 +1365,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 85,
-    "variants_with_compare_at": 85,
-    "sample_title": "Men's Mid-Tube Striped Sports Socks - Pack of 6",
+    "sample_variants": 55,
+    "variants_with_compare_at": 38,
+    "sample_title": "PU Colorblock Platinum Shoulder Crossbody Bag with Lock",
     "vertical_hint": "Fashion"
   },
   {
@@ -1397,7 +1382,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Front-Split Top",
+    "sample_title": "Rib Knit Top",
     "vertical_hint": "Fashion"
   },
   {
@@ -1516,6 +1501,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "cplanetnp.com",
     "tier": "2",
     "platform": null,
@@ -1530,6 +1529,22 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "dihho.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: TimeoutError"
+    ],
+    "final_url": "https://www.dihho.com/",
+    "ldjson_types": [
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "dreamskinnepal.com",
@@ -2265,22 +2280,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "dihho.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.dihho.com/",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "dslrcameranepal.com",
     "tier": "3",
     "platform": null,
@@ -2604,7 +2603,7 @@
     "platform": null,
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: TimeoutError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://mystorenepal.com",
@@ -2661,7 +2660,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.purnaa.com/",
     "ldjson_types": [
@@ -2878,26 +2877,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "goldstarshoes.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2978,6 +2957,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error timed out>"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "plussizenepal.com",
     "tier": "dead",
     "platform": null,
@@ -2989,6 +2978,16 @@
   },
   {
     "domain": "skmeinepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "thewatchlounge.co",
     "tier": "dead",
     "platform": null,
     "notes": [
