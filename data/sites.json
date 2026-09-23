@@ -11,28 +11,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "aadimanepal.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 6,
-    "variants_with_compare_at": 0,
-    "sample_title": "Nike Air Jordan Nu Retro 1 Low 'Palomino'",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "activafootwear.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 41,
-    "variants_with_compare_at": 0,
-    "sample_title": "Men’s Double Buckle Slides | Adjustable Strap Casual Slip-On Sandals",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "agantraders.com",
     "tier": "1",
     "platform": "shopify",
@@ -70,7 +48,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "LATTAFA FAKHAR PLATINUM 100ML | FOR HIM",
+    "sample_title": "LATTAFA MAYAR PINK 100ML |FOR HER",
     "vertical_hint": "Beauty"
   },
   {
@@ -86,17 +64,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Handcrafted Hammered Copper Teapot – Vintage Kettle with Brass Handle &#038; Spout",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "ametsuchicollection.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 16,
-    "variants_with_compare_at": 0,
-    "sample_title": "Retro Polka Dot Foil Print Gamaguchi Clasp Handbag",
     "vertical_hint": "Fashion"
   },
   {
@@ -176,9 +143,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
+    "sample_variants": 11,
     "variants_with_compare_at": 2,
-    "sample_title": "Realme C85 5G Smartphone with Exceptional Features & EMI",
+    "sample_title": "Redmi Buds 8 True Wireless Earbuds with ANC Feature",
     "vertical_hint": "Fashion"
   },
   {
@@ -193,7 +160,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "JADE A518SN &#8211; Maroon Formal Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "AVEN 604C &#8211; White Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -335,9 +302,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 21,
-    "sample_title": "Lepcha Traditional Sling Bag",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "Shivakhorla Butti",
     "vertical_hint": "Fashion"
   },
   {
@@ -446,7 +413,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "SCOUT SLING BAG",
+    "sample_title": "AMBASSADOR BUSINESS BAG",
     "vertical_hint": "Fashion"
   },
   {
@@ -516,8 +483,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Apple iPhone 18 Pro 256GB (Hexa-core,2x GHz high performance + 4x GHz | 12GB RAM | 256GB Storage | Apple 7-core GPU | 6.3 inch 120Hz LTPO Super Retina XDR OLED | Apple A20 Pro 2nm Chipset | 48 MP Triple Camera)",
+    "variants_with_compare_at": 1,
+    "sample_title": "Apple iPhone Duo 2TB (6‑core CPU with 2 super cores &#038; 4 efficiency cores | 12GB RAM | 2TB Storage | Apple 7-core GPU | 5.4” 1398 × 2034 pixels(Folded)/7.6” 1878 × 2670 pixels(Unfolded) | Apple A20 Pro 2nm Chipset | 48 MP Dual Camera)",
     "vertical_hint": "Electronics"
   },
   {
@@ -598,26 +565,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 14,
-    "variants_with_compare_at": 10,
+    "variants_with_compare_at": 12,
     "sample_title": "Hand Knitted Rainbow Convertible Gloves/Mitten",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "kobieu.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://kobieu.com",
-    "ldjson_types": [
-      "Organization"
-    ],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Kobieu Aero 30L cap – Ultra-Light Durable Hiking Backpack with High-Comfort Air-Mesh Padding",
     "vertical_hint": "Fashion"
   },
   {
@@ -626,32 +575,10 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 39,
-    "variants_with_compare_at": 39,
-    "sample_title": "Maternity Top",
+    "sample_variants": 65,
+    "variants_with_compare_at": 35,
+    "sample_title": "Tiny Tides Set",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "kpg-beauty.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "LANEIGE Lip Glowy Balm [Berry] KPG BEAUTY",
-    "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "kpgbeauty.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "LANEIGE Lip Glowy Balm [Berry] KPG BEAUTY",
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "lakhey.co",
@@ -777,7 +704,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
-    "sample_title": "PS-392 &#8211; Regal Mandala Motif Gold Plated Pendant Set with Earrings and Ring for Festive Occasions",
+    "sample_title": "PS-393 &#8211; Graceful Shimmering Pearl American Diamond Pendant Chain and Stud Earrings Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -802,7 +729,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://www.mheecha.com/",
+    "final_url": "https://mheecha.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -835,21 +762,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Eraderm Sunscreen Gel",
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "navigate.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://navigate.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Navigate Two Layer Waterproof Jacket for Men",
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "nenepal.com",
@@ -990,40 +902,19 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "newmew.com",
+    "domain": "obsessioncosmetics.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://www.newmew.com/",
-    "ldjson_types": [
-      "Store"
-    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Pink Cp Brown Sunglass",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nightvision.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://nightvision.com.np",
-    "ldjson_types": [
-      "LocalBusiness",
-      "Organization",
-      "Store"
-    ],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "NV Ratri G11 CCTV Camera",
-    "vertical_hint": "Electronics"
+    "variants_with_compare_at": 4,
+    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "onlineit.com.np",
@@ -1037,7 +928,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Thermaltake Smart BX3 Bronze 750W Power Supply",
+    "sample_title": "Thermaltake TPM-I27FUK 27-inch 4K UHD IPS Gaming Monitor | 160Hz | 1ms",
     "vertical_hint": "Electronics"
   },
   {
@@ -1126,7 +1017,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Men Diamond Rings &#8211; DGR2150",
+    "sample_title": "Women Diamond Rings &#8211; DLR13973",
     "vertical_hint": "Fashion"
   },
   {
@@ -1137,18 +1028,7 @@
     "sample_products": 5,
     "sample_variants": 9,
     "variants_with_compare_at": 1,
-    "sample_title": "Fuzzy Open-Front Striped Cardigan Sweater",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "seeratethnic.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 40,
-    "variants_with_compare_at": 40,
-    "sample_title": "Mehendi Green Floral Printed Kurta Pant Set with Dupatta",
+    "sample_title": "Fuzzy Cardigan Open-Front Striped Sweater",
     "vertical_hint": "Fashion"
   },
   {
@@ -1175,17 +1055,6 @@
     "sample_variants": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Tarcho Beanie  - Red",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "shoes4lessnepal.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 33,
-    "variants_with_compare_at": 0,
-    "sample_title": "Soda Flat Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -1311,7 +1180,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Skinn By Titan Nude 50 ML Perfume For Women EDP NEFW03PFL",
+    "sample_title": "Yellow Sporty Rimmed Sunglasses(P419YL5)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1341,7 +1210,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Rapoo V600SE Dual-Mode Gaming Controller | Wireless &#038; Wired | Hall Effect Joystick | PC &#038; Android",
+    "sample_title": "Havit GSC101-EU Gaming Monitor (27&#8243; (FHD, 1920 x 1080) VA Display | 200Hz Refresh Rate | 1ms | 99% sRGB | 16.7M Colors | 1 x HDMI, 1 x DP, 1 x USB | Tilt, Swivel, Pivot, Height Adjustable | Built-in Speaker | VESA Mount Compatibility | 1 Year Warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1365,9 +1234,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 55,
-    "variants_with_compare_at": 38,
-    "sample_title": "PU Colorblock Platinum Shoulder Crossbody Bag with Lock",
+    "sample_variants": 32,
+    "variants_with_compare_at": 32,
+    "sample_title": "Ergonomic Gaming Chair with Widened Seat, Lumbar Support",
     "vertical_hint": "Fashion"
   },
   {
@@ -1427,6 +1296,23 @@
     "variants_with_compare_at": 3,
     "sample_title": "Asus Vivobook Go 15 E1504FA | AMD Ryzen 5 7520U Processor, 16GB LPDDR5, 512GB M.2 NVMe™ PCIe® SSD, 15.6-inch FHD (1920 x 1080) 16:9 Anti-Glare Display, AMD Radeon™ 610M Graphics, Windows 11 Home, 42WHrs Battery, HD Camera with Privacy Shutter (Mixed Black, 1.63KGs)",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "activafootwear.com",
+    "tier": "2",
+    "platform": "shopify",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://activafootwear.com",
+    "ldjson_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "allureinternational.com.np",
@@ -1537,7 +1423,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.dihho.com/",
     "ldjson_types": [
@@ -1843,6 +1729,41 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "kpg-beauty.com",
+    "tier": "2",
+    "platform": "shopify",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://kpgbeauty.com/",
+    "ldjson_types": [
+      "BreadcrumbList",
+      "OnlineStore",
+      "Organization",
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "ktmcty.com",
+    "tier": "2",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://ktmcty.com",
+    "ldjson_types": [
+      "LocalBusiness"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "lookscart.com",
     "tier": "2",
     "platform": null,
@@ -1938,6 +1859,20 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "onin.com.np",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://onin.com.np",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "qualitycomputer.com.np",
@@ -2532,23 +2467,9 @@
     "platform": "shopify",
     "notes": [
       "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://www.koselly.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "ktmcty.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://ktmcty.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2612,6 +2533,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "navigate.com.np",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://navigate.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2626,18 +2561,18 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "onin.com.np",
+    "domain": "newmew.com",
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://onin.com.np",
+    "final_url": "https://newmew.com",
     "ldjson_types": [],
     "price_in_html": false,
-    "vertical_hint": "Electronics"
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2857,6 +2792,26 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "aadimanepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "ametsuchicollection.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2917,6 +2872,26 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "kobieu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "kpgbeauty.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
@@ -2947,6 +2922,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nightvision.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 404: Not Found"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "nktmen.com",
     "tier": "dead",
     "platform": null,
@@ -2957,22 +2942,32 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error timed out>"
-    ],
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "plussizenepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "seeratethnic.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "shoes4lessnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
     ],
     "vertical_hint": "Fashion"
   },
