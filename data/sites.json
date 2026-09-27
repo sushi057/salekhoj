@@ -176,9 +176,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
+    "sample_variants": 13,
     "variants_with_compare_at": 1,
-    "sample_title": "Nothing Ear (3a) True Wireless Noise-Cancelling Earbuds",
+    "sample_title": "Redmi Buds 8 Pro True Wireless Earbuds with ANC",
     "vertical_hint": "Fashion"
   },
   {
@@ -194,6 +194,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "AVEN 604C &#8211; White Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "clothinginnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.clothinginnepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Himalayan Handmade Wool Jacket with Fleece Lining – Wholesale Bohemian Hippie Winter Clothing",
     "vertical_hint": "Fashion"
   },
   {
@@ -305,9 +320,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Shivakhorla Butti",
+    "sample_variants": 8,
+    "variants_with_compare_at": 8,
+    "sample_title": "Lepcha Gada Damdyam",
     "vertical_hint": "Fashion"
   },
   {
@@ -474,21 +489,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Humtto Crew Socks Outdoor Athletic Wear",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Acer TravelMate P6 14 (Intel Core Ultra 5 125H Series 1 Processor | 16GB RAM | 1TB SSD |  Intel Arc Graphics  | 14” 2.8K 100% sRGB IPS 90Hz Display | 1 Year Warranty)",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "jirihealth.com",
@@ -900,7 +900,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Warm Handknitted Sherpa Wool Jumper for Winter",
+    "sample_title": "Himalayan Hand-Knit Wool Jacket – 100% New Zealand Wool",
     "vertical_hint": "Fashion"
   },
   {
@@ -977,19 +977,19 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "obsessioncosmetics.com",
+    "domain": "nktmen.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://obsessioncosmetics.com",
+    "final_url": "https://nktmen.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
-    "vertical_hint": "Beauty"
+    "variants_with_compare_at": 0,
+    "sample_title": "tailored straight fit Dark Navy Wash denim Jeans Pant",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "onlineit.com.np",
@@ -1112,9 +1112,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 20,
-    "sample_title": "Ivory Floral Yoke Kurta Set with Olive Green Dupatta",
+    "sample_variants": 40,
+    "variants_with_compare_at": 40,
+    "sample_title": "Women's Wine Floral Kurta Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1331,9 +1331,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 52,
-    "variants_with_compare_at": 52,
-    "sample_title": "STOCK-PACK OF 1-Women’s Lace Low-Waist Cotton Briefs Sexy Bow",
+    "sample_variants": 49,
+    "variants_with_compare_at": 49,
+    "sample_title": "Longan Red Dates Wolfberry Herbal Tea",
     "vertical_hint": "Fashion"
   },
   {
@@ -1391,7 +1391,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
-    "sample_title": "Asus Vivobook Go 15 E1504FA | AMD Ryzen 5 7520U Processor, 16GB LPDDR5, 512GB M.2 NVMe™ PCIe® SSD, 15.6-inch FHD (1920 x 1080) 16:9 Anti-Glare Display, AMD Radeon™ 610M Graphics, Windows 11 Home, 42WHrs Battery, HD Camera with Privacy Shutter (Mixed Black, 1.63KGs)",
+    "sample_title": "ASUS Zenbook 14 OLED UM3406KA | AMD Ryzen AI 7 350, 32GB RAM, 1TB SSD, 14” WUXGA OLED Display, 50 TOPS AI NPU, Jade Black (1.2KG)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1782,7 +1782,7 @@
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.khudra.com.np/",
@@ -2207,20 +2207,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "clothinginnepal.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: TimeoutError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: TimeoutError"
-    ],
-    "final_url": "https://www.clothinginnepal.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "craftnepal.com",
     "tier": "3",
     "platform": null,
@@ -2478,6 +2464,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2635,6 +2635,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "obsessioncosmetics.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2950,16 +2964,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nktmen.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
   },
