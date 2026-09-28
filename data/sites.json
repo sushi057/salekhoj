@@ -22,17 +22,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "activafootwear.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 45,
-    "variants_with_compare_at": 16,
-    "sample_title": "Men's Lightweight Comfort Slides – Soft EVA Insole & Durable PVC Upper for Everyday Wear",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "agantraders.com",
     "tier": "1",
     "platform": "shopify",
@@ -155,8 +144,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "CeraVe Renewing SA Cleanser &#8211; 355ml",
+    "variants_with_compare_at": 4,
+    "sample_title": "Anua Azelaic 10+ Hyaluron Redness Soothing Pad (90 pads) &#8211; 230ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -176,9 +165,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
+    "sample_variants": 11,
     "variants_with_compare_at": 1,
-    "sample_title": "Redmi Buds 8 Pro True Wireless Earbuds with ANC",
+    "sample_title": "Explore HMD T21 Tablet 2nd Edition Features",
     "vertical_hint": "Fashion"
   },
   {
@@ -491,6 +480,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 3,
+    "sample_title": "Dell 15 Essential Pro (Intel Core 3 100U Series 1 Processor | 8GB RAM | 512GB SSD | Intel UHD Graphics | 15.6&#8243; FHD IPS Display | 1 Year Warranty)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -772,7 +776,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -900,7 +904,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Hand-Knit Wool Jacket – 100% New Zealand Wool",
+    "sample_title": "Himalayan Handmade Wool Jacket Made in Nepal – Fair Trade Nepalese Artisan Winter Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -973,8 +977,27 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Louis Limitless Square Sunglass",
+    "sample_title": "Metal Silver Green Sunglass",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "nightvision.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://nightvision.com.np",
+    "ldjson_types": [
+      "LocalBusiness",
+      "Organization",
+      "Store"
+    ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "NV Ratri G11 CCTV Camera",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "nktmen.com",
@@ -992,6 +1015,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "LATTAFA Badee Al Oud Noble Blush 100 ML",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1003,7 +1041,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Dell Tower ECT1250 Desktop | 14th Gen Intel Core i5-14400 | 8GB DDR5 | 512GB SSD",
+    "sample_title": "ASUS ExpertBook B3 Flip B3402FV | Core 7 150U | 16GB DDR4 RAM | 512GB NVMe SSD | 14″ FHD Touch Display | Intel Graphics | Windows 11 Pro",
     "vertical_hint": "Electronics"
   },
   {
@@ -1277,7 +1315,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Titan Classique Suave Quartz Green Dial Golden Stainless Steel Mesh Strap Watch for Men",
+    "sample_title": "Fastrack Yellow Wayfarer Sunglasses for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1307,7 +1345,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Havit GSC101-EU Gaming Monitor (27&#8243; (FHD, 1920 x 1080) VA Display | 200Hz Refresh Rate | 1ms | 99% sRGB | 16.7M Colors | 1 x HDMI, 1 x DP, 1 x USB | Tilt, Swivel, Pivot, Height Adjustable | Built-in Speaker | VESA Mount Compatibility | 1 Year Warranty)",
+    "sample_title": "BenQ GW2486TC 23.8″ FHD IPS Monitor | 100Hz | USB-C | HDMI &#038; DisplayPort | Daisy Chain",
     "vertical_hint": "Electronics"
   },
   {
@@ -1331,9 +1369,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 49,
-    "variants_with_compare_at": 49,
-    "sample_title": "Longan Red Dates Wolfberry Herbal Tea",
+    "sample_variants": 52,
+    "variants_with_compare_at": 52,
+    "sample_title": "STOCK-Slim Knitted Turtleneck Sweater Dress Women Winter",
     "vertical_hint": "Fashion"
   },
   {
@@ -1922,20 +1960,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "onin.com.np",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://onin.com.np",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "qualitycomputer.com.np",
     "tier": "2",
     "platform": null,
@@ -2253,7 +2277,7 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
+      "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
@@ -2464,20 +2488,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2595,20 +2605,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2623,32 +2619,18 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "nightvision.com.np",
+    "domain": "onin.com.np",
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://nightvision.com.np/cgi-sys/suspendedpage.cgi",
+    "final_url": "https://onin.com.np",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2868,6 +2850,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "activafootwear.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno 111] Connection refused>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2956,6 +2948,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
