@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 42,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Charge Suede Men's Shoes",
+    "sample_title": "The Northface Men’s Offtrail Ultra Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,20 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 42,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Charge Suede Men's Shoes",
+    "sample_title": "The Northface Men’s Offtrail Ultra Shoes",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "activafootwear.com",
+    "tier": "1",
+    "platform": "shopify",
+    "notes": [],
+    "sample_products": 5,
+    "sample_variants": 45,
+    "variants_with_compare_at": 16,
+    "sample_title": "Men's Lightweight Comfort Slides – Soft EVA Insole & Durable PVC Upper for Everyday Wear",
     "vertical_hint": "Fashion"
   },
   {
@@ -74,7 +85,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
-    "sample_title": "Orange and Black Ring Pattern Nepali Bamboo Bansuri",
+    "sample_title": "Gaiko Gaut (Gomutra) – Traditional Cow Urine for Hindu Puja",
     "vertical_hint": "Fashion"
   },
   {
@@ -134,6 +145,21 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://bishrom.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Palermo Amber Sunglasses",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "bonjournp.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -144,8 +170,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Anua Azelaic 10+ Hyaluron Redness Soothing Pad (90 pads) &#8211; 230ml",
+    "variants_with_compare_at": 3,
+    "sample_title": "essence I Love Extreme Volume Mascara Waterproof &#8211; 12ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -154,9 +180,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 0,
-    "sample_title": "HELLBOUND TANK TOP",
+    "sample_variants": 22,
+    "variants_with_compare_at": 10,
+    "sample_title": "DENIM POCKET MAESTRO BLUE",
     "vertical_hint": "Fashion"
   },
   {
@@ -167,7 +193,7 @@
     "sample_products": 5,
     "sample_variants": 11,
     "variants_with_compare_at": 1,
-    "sample_title": "Explore HMD T21 Tablet 2nd Edition Features",
+    "sample_title": "HONOR CHOICE T10 Smartphone with AI-Powered Real-Time & Offline Translation",
     "vertical_hint": "Fashion"
   },
   {
@@ -197,7 +223,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Handmade Wool Jacket with Fleece Lining – Wholesale Bohemian Hippie Winter Clothing",
+    "sample_title": "Mushroom Print Hippie Cargo Pants – Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -238,7 +264,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Hilife Kurum Kurum Chiura - Crispy Beaten Rice 1kg",
+    "sample_title": "Haldiram Aloo Bhujia, 400 g",
     "vertical_hint": "Fashion"
   },
   {
@@ -311,7 +337,7 @@
     "sample_products": 5,
     "sample_variants": 8,
     "variants_with_compare_at": 8,
-    "sample_title": "Lepcha Gada Damdyam",
+    "sample_title": "Rotating Stand Mane",
     "vertical_hint": "Fashion"
   },
   {
@@ -490,8 +516,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Dell 15 Essential Pro (Intel Core 3 100U Series 1 Processor | 8GB RAM | 512GB SSD | Intel UHD Graphics | 15.6&#8243; FHD IPS Display | 1 Year Warranty)",
+    "variants_with_compare_at": 0,
+    "sample_title": "Vivo X300 Pro 512GB (Octa-core, 1x 4.21 GHz high performance + 3x 3.5 GHz + 4x 2.7 GHz | 16GB RAM | 512GB Storage | Arm G1-Ultra GPU | 6.78 inch 120Hz LTPO AMOLED | MediaTek Dimensity 9500 3nm Chipset | 200MP Triple Camera)",
     "vertical_hint": "Electronics"
   },
   {
@@ -530,9 +556,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 61,
-    "variants_with_compare_at": 0,
-    "sample_title": "GoldStar Casual Court Sneakers for Women LS006",
+    "sample_variants": 51,
+    "variants_with_compare_at": 5,
+    "sample_title": "PESPANDA Men's Orthopedic Rocker-Bottom Shoes GS184",
     "vertical_hint": "Fashion"
   },
   {
@@ -600,9 +626,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 65,
-    "variants_with_compare_at": 35,
-    "sample_title": "Tiny Tides Set",
+    "sample_variants": 87,
+    "variants_with_compare_at": 57,
+    "sample_title": "Button Blossom Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -613,7 +639,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 2,
-    "sample_title": "Burberry Hero Eau de Parfum 100ml KPG BEAUTY",
+    "sample_title": "Anua Rice 70 Glow Milky Toner Mini KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -624,7 +650,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 2,
-    "sample_title": "Burberry Hero Eau de Parfum 100ml KPG BEAUTY",
+    "sample_title": "Anua Rice 70 Glow Milky Toner Mini KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
   {
@@ -732,8 +758,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Acer Predator Helios 18 AI | Intel Core Ultra 9 275HX | 64GB RAM | 1TB SSD | NVIDIA GeForce RTX 5080 16GB GDDR7 | 18″ WQXGA IPS Display | 3 Years Authorized Warranty",
+    "variants_with_compare_at": 3,
+    "sample_title": "Thermaltake TPM-I27FUK 27&#8243; 4K UHD 160Hz Gaming Monitor",
     "vertical_hint": "Electronics"
   },
   {
@@ -904,22 +930,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Handmade Wool Jacket Made in Nepal – Fair Trade Nepalese Artisan Winter Jacket",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nepalvisitors.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.nepalvisitors.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Baba Adventure Tourist Bus",
+    "sample_title": "Unisex 100% Wool Winter Jacket | Fair Trade, Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -1150,9 +1161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 40,
-    "variants_with_compare_at": 40,
-    "sample_title": "Women's Wine Floral Kurta Set with Dupatta",
+    "sample_variants": 19,
+    "variants_with_compare_at": 19,
+    "sample_title": "Brown Embroidered Chanderi-Silk Anarkali Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1315,7 +1326,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Fastrack Yellow Wayfarer Sunglasses for Men",
+    "sample_title": "Fastrack VOX Neo Smartwatch 4.8CM Ultra Vu Display, Offline Voice Commands, Functional Crown, IP68, Multiple Menu Styles",
     "vertical_hint": "Fashion"
   },
   {
@@ -1344,8 +1355,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "BenQ GW2486TC 23.8″ FHD IPS Monitor | 100Hz | USB-C | HDMI &#038; DisplayPort | Daisy Chain",
+    "variants_with_compare_at": 4,
+    "sample_title": "",
     "vertical_hint": "Electronics"
   },
   {
@@ -1369,9 +1380,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 52,
-    "variants_with_compare_at": 52,
-    "sample_title": "STOCK-Slim Knitted Turtleneck Sweater Dress Women Winter",
+    "sample_variants": 39,
+    "variants_with_compare_at": 39,
+    "sample_title": "Z21 Multifunctional Hair Straightening Comb with Ceramic Plate",
     "vertical_hint": "Fashion"
   },
   {
@@ -1500,20 +1511,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2024,8 +2021,8 @@
     "tier": "2",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://sthree.tech",
@@ -2168,20 +2165,6 @@
       "LocalBusiness",
       "WebSite"
     ],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "bishrom.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
-    "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2850,16 +2833,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "activafootwear.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno 111] Connection refused>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2878,6 +2851,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "clothesnepal.com",
@@ -2954,7 +2937,7 @@
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: TimeoutError",
+      "products.json: JSONDecodeError",
       "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
@@ -2966,6 +2949,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "nepalvisitors.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 530: <none>"
     ],
     "vertical_hint": "Fashion"
   },
