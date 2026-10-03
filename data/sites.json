@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 11,
     "variants_with_compare_at": 0,
-    "sample_title": "New Balance Fresh Foam Arishi v4 W Shoes",
+    "sample_title": "EZwear Blue Ocean Life Pattern T-Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 11,
     "variants_with_compare_at": 0,
-    "sample_title": "New Balance Fresh Foam Arishi v4 W Shoes",
+    "sample_title": "EZwear Blue Ocean Life Pattern T-Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -38,9 +38,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 45,
-    "variants_with_compare_at": 43,
-    "sample_title": "9001 B Women's Bohemian Vintage Embroidered Pleated Mesh Embroidered Blouse",
+    "sample_variants": 38,
+    "variants_with_compare_at": 0,
+    "sample_title": "Round Neck Stripe Heavy Cotton Men's Thick Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -126,7 +126,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Embroidered Tamang Wrapper — Women&#8217;s Phariya Skirt",
+    "sample_title": "Lug-Sam Incense — Tibetan Herbal Sticks Pack of 2",
     "vertical_hint": "Fashion"
   },
   {
@@ -165,9 +165,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
-    "variants_with_compare_at": 0,
-    "sample_title": "AVIAN TROUSER",
+    "sample_variants": 25,
+    "variants_with_compare_at": 15,
+    "sample_title": "SCRIBBLE SKULL",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,8 +192,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "AVEN 604C &#8211; White Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "variants_with_compare_at": 5,
+    "sample_title": "ELEVATE 764 &#8211; White Sports Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -207,8 +207,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Handmade Patchwork Hippie Razor Cut Trouser",
+    "variants_with_compare_at": 1,
+    "sample_title": "Handloomed Himalayan Wool &#038; Cotton Shawl",
     "vertical_hint": "Fashion"
   },
   {
@@ -320,9 +320,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 8,
-    "sample_title": "Rotating Stand Mane",
+    "sample_variants": 17,
+    "variants_with_compare_at": 17,
+    "sample_title": "Lepcha Coat (Full sleeve)",
     "vertical_hint": "Fashion"
   },
   {
@@ -487,7 +487,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Humtto Crew Socks Outdoor Athletic Wear",
+    "sample_title": "Humtto Men&#8217;s Stand-Collar Short-Sleeve T-Shirt – Breathable Outdoor Tee",
     "vertical_hint": "Fashion"
   },
   {
@@ -502,7 +502,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Ronnie Coleman Yeah Buddy Pre Workout Powder 270g 30 Servings USA Brand",
+    "sample_title": "GNC Whey Protein Chocolate Fudge 2lb &#8211; Pro Performance",
     "vertical_hint": "Fitness"
   },
   {
@@ -526,9 +526,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 51,
-    "variants_with_compare_at": 41,
-    "sample_title": "PESPANDA Men's Orthopedic Rocker-Bottom Shoes GS184",
+    "sample_variants": 53,
+    "variants_with_compare_at": 43,
+    "sample_title": "Men's Leather Slip-On Sneakers GS185",
     "vertical_hint": "Fashion"
   },
   {
@@ -811,8 +811,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 6,
-    "variants_with_compare_at": 4,
-    "sample_title": "turquoise star amulet necklace",
+    "variants_with_compare_at": 6,
+    "sample_title": "Ray Handmade Eco Journal",
     "vertical_hint": "Fashion"
   },
   {
@@ -883,7 +883,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Wholesale Ladies’ Himalayan Long Wool Coat – Handmade in Nepal",
+    "sample_title": "Handmade Women’s Long Wool Winter Coat – Manufacturer &#038; Wholesaler Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -891,7 +891,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: URLError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://www.nepalvisitors.com/",
     "ldjson_types": [],
@@ -994,21 +994,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "onlineit.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://onlineit.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "ASUS ExpertBook B3 Flip B3402FV | Core 7 150U | 16GB DDR4 RAM | 512GB NVMe SSD | 14″ FHD Touch Display | Intel Graphics | Windows 11 Pro",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "primeemarket.com",
     "tier": "1",
     "platform": "shopify",
@@ -1061,7 +1046,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Rangi",
+    "sample_title": "Brihaspati Classic Forest",
     "vertical_hint": "Fashion"
   },
   {
@@ -1279,7 +1264,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Titan Workmode Quartz Analog Green Dial Stainless Steel Strap Watch For Women",
+    "sample_title": "Yellow Aviator Men Sunglasses",
     "vertical_hint": "Fashion"
   },
   {
@@ -1333,9 +1318,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 107,
-    "variants_with_compare_at": 107,
-    "sample_title": "Men's Canvas Tri-Fold Wallet with Zipper Coin Pocket",
+    "sample_variants": 41,
+    "variants_with_compare_at": 41,
+    "sample_title": "STOCK-Korean Style Cashmere Kids Coat Mid-Long",
     "vertical_hint": "Fashion"
   },
   {
@@ -1464,20 +1449,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1860,6 +1831,22 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "maxnepal.com.np",
+    "tier": "2",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://maxnepal.com.np",
+    "ldjson_types": [
+      "ElectronicsStore"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "nagmani.com.np",
     "tier": "2",
     "platform": "magento",
@@ -2237,11 +2224,11 @@
   {
     "domain": "dermaconceptnepal.com",
     "tier": "3",
-    "platform": null,
+    "platform": "woocommerce",
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://dermaconceptnepal.com",
     "ldjson_types": [],
@@ -2275,6 +2262,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "durbarmart.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://durbarmart.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "estore.com.np",
@@ -2519,6 +2520,22 @@
     ],
     "final_url": "https://lacosmeticsnepal.com",
     "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "mishisa.com",
+    "tier": "3",
+    "platform": "next.js",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mishisa.com",
+    "ldjson_types": [
+      "WebSite"
+    ],
     "price_in_html": false,
     "vertical_hint": "Beauty"
   },
@@ -2832,22 +2849,22 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "clothesnepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "durbarmart.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 522: <none>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2912,26 +2929,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "maxnepal.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
-    ],
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mishisa.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 502: Bad Gateway"
-    ],
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2950,6 +2947,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "onlineit.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "plussizenepal.com",
