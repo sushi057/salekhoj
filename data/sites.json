@@ -38,25 +38,10 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 38,
+    "sample_variants": 35,
     "variants_with_compare_at": 0,
     "sample_title": "Round Neck Stripe Heavy Cotton Men's Thick Shirt",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "alamtech.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://alamtech.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Meetion MK01 Wired RGB Mechanical Gaming Keyboard",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "allattar.com",
@@ -193,7 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "ELEVATE 764 &#8211; White Sports Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "ELEVATE 764 &#8211; Black Sports Shoes For Men &#8211; Caliber Shoes Nepal (Copy)",
     "vertical_hint": "Fashion"
   },
   {
@@ -207,8 +192,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Handloomed Himalayan Wool &#038; Cotton Shawl",
+    "variants_with_compare_at": 3,
+    "sample_title": "Women’s Handmade Mushroom Print Dungarees – Boho Festival Clothing",
     "vertical_hint": "Fashion"
   },
   {
@@ -375,7 +360,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Grey Zoro Printed Hoodie Set",
+    "sample_title": "Textured Patched Hoodie &#038; Baggy Trouser Set – Streetwear Outfit",
     "vertical_hint": "Fashion"
   },
   {
@@ -446,7 +431,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Hemp Herringbone Backpack — Wholesale from Nepal (Copy)",
+    "sample_title": "Himalayan Hemp Patchwork Mixed Print Sun Hats – Wholesale from Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -501,8 +486,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "GNC Whey Protein Chocolate Fudge 2lb &#8211; Pro Performance",
+    "variants_with_compare_at": 0,
+    "sample_title": "Himalayan Outfits Bodysuit",
     "vertical_hint": "Fitness"
   },
   {
@@ -716,6 +701,23 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "maxnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://maxnepal.com.np",
+    "ldjson_types": [
+      "ElectronicsStore"
+    ],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "Thermaltake TPM-I27FUK 27&#8243; 4K UHD 160Hz Gaming Monitor",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "meesaa.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -883,7 +885,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Handmade Women’s Long Wool Winter Coat – Manufacturer &#038; Wholesaler Nepal",
+    "sample_title": "Handmade In Nepal  Ladies’ Long Wool Coat – Handmade Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -992,6 +994,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "tailored straight fit Dark Navy Wash denim Jeans Pant",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "onlineit.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://onlineit.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "ASUS ExpertBook B3 Flip B3402FV | Core 7 150U | 16GB DDR4 RAM | 512GB NVMe SSD | 14″ FHD Touch Display | Intel Graphics | Windows 11 Pro",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "primeemarket.com",
@@ -1188,7 +1205,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: URLError"
     ],
     "final_url": "https://sparshaclothing.com",
     "ldjson_types": [],
@@ -1378,7 +1395,24 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
-    "sample_title": "ASUS Zenbook 14 OLED UM3406KA | AMD Ryzen AI 7 350, 32GB RAM, 1TB SSD, 14” WUXGA OLED Display, 50 TOPS AI NPU, Jade Black (1.2KG)",
+    "sample_title": "Acer Nitro V 16 ANV16-I31-70WA | Intel Core 7 240H Processor, 16GB DDR5, 512GB M.2 NVMe™ PCIe® 4.0 SSD, 16.0-inch WUXGA (1920 x 1200) IPS 165Hz Display, NVIDIA GeForce RTX 5060 8GB GDDR7, RGB 4-Zone Backlit Keyboard",
+    "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "alamtech.com.np",
+    "tier": "2",
+    "platform": "wordpress",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://alamtech.com.np",
+    "ldjson_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "price_in_html": true,
     "vertical_hint": "Electronics"
   },
   {
@@ -1449,6 +1483,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -1831,22 +1879,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "maxnepal.com.np",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://maxnepal.com.np",
-    "ldjson_types": [
-      "ElectronicsStore"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "nagmani.com.np",
     "tier": "2",
     "platform": "magento",
@@ -2129,7 +2161,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://bishrom.com/wp-admin/install.php",
+    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2220,20 +2252,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "dermaconceptnepal.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://dermaconceptnepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "dietnepal.com",
@@ -2340,9 +2358,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://gnextcom.com",
     "ldjson_types": [],
@@ -2401,10 +2419,7 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [
-      "LocalBusiness",
-      "WebSite"
-    ],
+    "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2576,7 +2591,7 @@
       "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.nepalcan.com/",
+    "final_url": "https://nepalcan.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
@@ -2594,20 +2609,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "panchakanyamobile.com.np",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://panchakanyamobile.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "purnaa.com",
@@ -2849,16 +2850,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "clothesnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2867,6 +2858,16 @@
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dermaconceptnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "gahanastores.com",
@@ -2949,12 +2950,12 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "onlineit.com.np",
+    "domain": "panchakanyamobile.com.np",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
     ],
     "vertical_hint": "Electronics"
   },
