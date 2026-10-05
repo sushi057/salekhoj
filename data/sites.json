@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 11,
+    "sample_variants": 15,
     "variants_with_compare_at": 0,
-    "sample_title": "EZwear Blue Ocean Life Pattern T-Shirt",
+    "sample_title": "UA Curry Series 7 Basketball Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 11,
+    "sample_variants": 15,
     "variants_with_compare_at": 0,
-    "sample_title": "EZwear Blue Ocean Life Pattern T-Shirt",
+    "sample_title": "UA Curry Series 7 Basketball Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -85,21 +85,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "ankernepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://ankernepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Anker Zolo Power Bank (5K, 15W)",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "bhutib.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -141,7 +126,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream-60ml",
+    "sample_title": "SKIN1004 Centella Madagascar Ampoule Facial Serum 30ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -151,8 +136,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 25,
-    "variants_with_compare_at": 15,
-    "sample_title": "SCRIBBLE SKULL",
+    "variants_with_compare_at": 0,
+    "sample_title": "SCARY FACE",
     "vertical_hint": "Fashion"
   },
   {
@@ -178,7 +163,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "ELEVATE 764 &#8211; Black Sports Shoes For Men &#8211; Caliber Shoes Nepal (Copy)",
+    "sample_title": "ELEVATE 764 &#8211; White/Black Sports Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,8 +177,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Women’s Handmade Mushroom Print Dungarees – Boho Festival Clothing",
+    "variants_with_compare_at": 2,
+    "sample_title": "Himalayan Wool &#038; Cotton Blend Shawl – Handloomed in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -360,7 +345,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Textured Patched Hoodie &#038; Baggy Trouser Set – Streetwear Outfit",
+    "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Black",
     "vertical_hint": "Fashion"
   },
   {
@@ -487,7 +472,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Himalayan Outfits Bodysuit",
+    "sample_title": "Himalayan Outfits Wrinkle Wind Cheater (Sleeveless)",
     "vertical_hint": "Fitness"
   },
   {
@@ -812,9 +797,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 6,
-    "variants_with_compare_at": 6,
-    "sample_title": "Ray Handmade Eco Journal",
+    "sample_variants": 9,
+    "variants_with_compare_at": 9,
+    "sample_title": "Jhyala Stud | Gold",
     "vertical_hint": "Fashion"
   },
   {
@@ -826,21 +811,6 @@
     "sample_variants": 6,
     "variants_with_compare_at": 0,
     "sample_title": "Handcrafted Wooden Circular Stick Incense Burner",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nepalfitness.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://nepalfitness.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Nepal Cricket World Cup Authentic Fans Jersey",
     "vertical_hint": "Fashion"
   },
   {
@@ -1007,7 +977,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "ASUS ExpertBook B3 Flip B3402FV | Core 7 150U | 16GB DDR4 RAM | 512GB NVMe SSD | 14″ FHD Touch Display | Intel Graphics | Windows 11 Pro",
+    "sample_title": "Thermaltake M900 XXL RGB Mouse Pad",
     "vertical_hint": "Electronics"
   },
   {
@@ -1181,7 +1151,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
+    "sample_title": "NUMBUZIN No.9 Sun Essence SPF50+ PA++++",
     "vertical_hint": "Beauty"
   },
   {
@@ -1205,7 +1175,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: URLError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://sparshaclothing.com",
     "ldjson_types": [],
@@ -1281,7 +1251,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Yellow Aviator Men Sunglasses",
+    "sample_title": "Siler Aviator Men Sunglasses",
     "vertical_hint": "Fashion"
   },
   {
@@ -1311,7 +1281,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "BenQ PD2706QN 27&#8243; QHD Designer Monitor | IPS, 100Hz, 100% sRGB, 95% DCI-P3, USB-C, KVM &#038; HDR10 | 1 Year Warranty",
+    "sample_title": "BenQ PD2706UA Designer Monitor (27″ 4K UHD IPS | 100% sRGB | 100% Rec.709 | 95% DCI-P3 | USB-C | HDR10 | DisplayHDR 400 | Ergo Arm Stand)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1335,9 +1305,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 41,
-    "variants_with_compare_at": 41,
-    "sample_title": "STOCK-Korean Style Cashmere Kids Coat Mid-Long",
+    "sample_variants": 23,
+    "variants_with_compare_at": 23,
+    "sample_title": "Men's Cologne Perfume Floral Fragrance 3-Year Shelf Life",
     "vertical_hint": "Fashion"
   },
   {
@@ -2161,7 +2131,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
+    "final_url": "https://bishrom.com/wp-admin/install.php",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2358,9 +2328,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://gnextcom.com",
     "ldjson_types": [],
@@ -2419,7 +2389,10 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [],
+    "ldjson_types": [
+      "LocalBusiness",
+      "WebSite"
+    ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2830,6 +2803,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "ankernepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2946,6 +2929,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "nepalfitness.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno -2] Name or service not known>"
     ],
     "vertical_hint": "Fashion"
   },
