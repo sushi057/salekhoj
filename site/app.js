@@ -55,7 +55,8 @@ function card(p) {
   return `<a class="card" href="${esc(p.url)}" data-brand="${esc(p.brand)}" target="_blank" rel="noopener nofollow sponsored">
     <span class="sticker ${p.discount_pct >= 40 ? 'hot' : ''}">${p.discount_pct}<small>% off</small></span>
     <div class="thumb">${p.image
-      ? `<img src="${esc(thumb(p.image))}" alt="" loading="lazy" decoding="async">` : ''}</div>
+      ? `<img src="${esc(thumb(p.image))}" alt="" loading="lazy" decoding="async"
+             onerror="this.remove()">` : ''}</div>
     <div class="card-body">
       <span class="card-brand">${esc(storeName(p.brand))}</span>
       <h3 class="card-title">${esc(p.title)}</h3>
@@ -177,9 +178,10 @@ async function loadData() {
 // empty shelf is worse than no slot.
 const FEATURED = [
   { domain: 'muscleblaze.com.np', name: 'MuscleBlaze', blurb: 'Sports nutrition, shakers and lifting gear.' },
+  { domain: 'obsessioncosmetics.com', name: 'Obsession Cosmetics', blurb: 'K-beauty skincare, makeup and suncare.' },
 ];
 
-const FEATURED_CARDS = 8;
+const FEATURED_CARDS = 6;
 
 // One source of truth for the block's shape, used by both the skeleton and the real
 // render — they must produce identical geometry or the swap reintroduces the shift.
@@ -226,7 +228,12 @@ function renderFeatured(products) {
   const blocks = FEATURED.map((f) => {
     const items = products.filter((p) => p.brand === f.domain)
       .sort((a, b) => b.discount_pct - a.discount_pct);
-    if (!items.length) return '';
+    if (!items.length) {
+      // Silently skipping is right for visitors, but whoever curates FEATURED needs to know:
+      // a store with a working feed can still have nothing on sale on a given day.
+      console.warn(`featured: ${f.domain} has no live deals today — block skipped`);
+      return '';
+    }
     const stats = `<span class="feat-best">Up to ${items[0].discount_pct}% off</span>` +
       `<span class="feat-count">${items.length} deal${items.length === 1 ? '' : 's'} live</span>`;
     return featShell(f, stats, items.slice(0, FEATURED_CARDS).map(card).join(''));

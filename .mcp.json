@@ -1,16 +1,11 @@
 {
   "mcpServers": {
     "goatcounter": {
-      "command": "uvx",
+      "command": "sh",
       "args": [
-        "--from", "goatcounter-mcp-server",
-        "--with", "fastmcp==2.2.6",
-        "goatcounter-mcp-server"
-      ],
-      "env": {
-        "GOATCOUNTER_CODE": "${GOATCOUNTER_CODE}",
-        "GOATCOUNTER_API_KEY": "${GOATCOUNTER_API_KEY}"
-      }
+        "-c",
+        "if [ -f .env ]; then set -a; . ./.env; set +a; fi; exec uvx --from goatcounter-mcp-server --with fastmcp==2.2.6 goatcounter-mcp-server"
+      ]
     }
   }
 }

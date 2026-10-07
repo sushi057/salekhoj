@@ -152,19 +152,19 @@ main { min-height: calc(100vh - 64px); }
 .approx { font-family: var(--mono); font-size: 11px; color: var(--mute); }
 
 /* ---------- hero ---------- */
-.hero { padding: clamp(40px, 8vw, 88px) 0 clamp(32px, 5vw, 56px); position: relative; }
-.hero h1 {
-  font-family: var(--display); text-transform: uppercase; margin: 0;
-  font-size: clamp(30px, 7vw, 78px); line-height: .96; letter-spacing: -.025em;
+.hero { padding: clamp(20px, 3vw, 36px) 0 clamp(18px, 2.5vw, 28px); position: relative; }
+/* No display-type slogan any more — the lede *is* the h1, so it has to shed the browser's
+   default h1 sizing and weight. */
+.hero .lede {
+  max-width: 54ch; margin: 0; font-weight: 400; line-height: 1.45;
+  font-size: clamp(15px, 1.7vw, 18px); color: var(--mute);
+  font-family: var(--body); text-transform: none; letter-spacing: 0;
 }
-.hero h1 .hl { color: var(--sale); }
-.hero p.lede {
-  max-width: 46ch; margin: 24px 0 0; font-size: clamp(16px, 2vw, 19px); color: var(--mute);
-}
+.hero .lede b { color: var(--ink); font-weight: 700; }
 .live {
   display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600;
   font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em;
-  color: var(--jade); margin-bottom: 20px;
+  color: var(--jade); margin-bottom: 10px;
 }
 .live::before {
   content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--jade);
@@ -172,7 +172,7 @@ main { min-height: calc(100vh - 64px); }
 }
 @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
 
-.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .btn {
   display: inline-block; text-decoration: none; font-weight: 700; font-size: 15px;
   padding: 13px 24px; border-radius: 999px; border: 2px solid var(--ink);
@@ -187,13 +187,13 @@ main { min-height: calc(100vh - 64px); }
   font-family: var(--display); background: var(--flash); color: #14100e;
   display: grid; place-items: center; text-align: center;
   width: 54px; height: 54px; border-radius: 50%; line-height: 1;
-  font-size: 13px; letter-spacing: -.01em; box-shadow: 0 2px 0 rgba(20,16,14,.25);
+  font-size: 19px; letter-spacing: -.02em; box-shadow: 0 2px 0 rgba(20,16,14,.25);
   clip-path: polygon(50% 0,61% 9%,75% 4%,80% 18%,95% 20%,93% 35%,105% 45%,95% 57%,
                      100% 72%,85% 76%,82% 92%,68% 88%,57% 100%,45% 90%,30% 96%,
                      25% 82%,10% 80%,14% 65%,2% 55%,12% 43%,5% 28%,20% 24%,24% 9%,38% 13%);
 }
 .sticker.hot { background: var(--sale); color: #fff; }
-.sticker small { display: block; font-size: 9px; letter-spacing: .06em; }
+.sticker small { display: block; font-size: 9px; letter-spacing: .06em; margin-top: 1px; }
 
 /* ---------- product grid ---------- */
 .grid {
@@ -236,7 +236,10 @@ main { min-height: calc(100vh - 64px); }
 .was { font-family: var(--mono); font-size: 12px; color: var(--mute); text-decoration: line-through; }
 
 /* ---------- sections ---------- */
-.section { padding: clamp(36px, 6vw, 64px) 0; }
+.section { padding: clamp(28px, 4vw, 44px) 0; }
+/* The first section sits right under the hero, which already has bottom padding —
+   stacking both left a dead band between the pitch and the first deal. */
+.hero + .section { padding-top: clamp(8px, 1.5vw, 16px); }
 .section-head { display: flex; align-items: end; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
 .section-head h1, .section-head h2 {
   font-family: var(--display); text-transform: uppercase; margin: 0;
@@ -408,6 +411,26 @@ main { min-height: calc(100vh - 64px); }
 .feat-head .more { margin-left: auto; }
 /* The block is already titled with the store — repeating it on all 8 cards is noise. */
 .feat .card-brand { display: none; }
+
+/* Featured blocks are a single row, not a wrapping grid — a rail that reflows into two
+   ragged rows stops reading as "a few picks from this store". Narrow screens scroll it
+   sideways rather than growing downward. */
+.feat .grid {
+  grid-template-columns: none;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(160px, 1fr);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+}
+.feat .grid > * { scroll-snap-align: start; }
+.feat .grid::-webkit-scrollbar { height: 8px; }
+.feat .grid::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
+.feat .grid::-webkit-scrollbar-track { background: transparent; }
+@media (max-width: 860px) { .feat .grid { grid-auto-columns: minmax(150px, 42%); } }
+@media (max-width: 560px) { .feat .grid { grid-auto-columns: minmax(140px, 46%); gap: 10px; } }
 
 /* Placeholders shown until data.json lands. Same box as a real card, no interactivity. */
 .card.skeleton { pointer-events: none; }

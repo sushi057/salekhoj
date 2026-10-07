@@ -71,12 +71,25 @@ Once the GoatCounter account exists (see above), a human must:
 2. Create a new API token. Grant it the **read-only** permission scope only — GoatCounter's
    token permissions are scoped per-section (e.g. "Read stats"/export); do not grant the
    write/count-import or site-settings scopes, the MCP server never needs them.
-3. Export the token and site code as env vars wherever you launch `claude` from this repo
-   (shell profile, or a project-root `.env` file — already covered by `.gitignore`'s `.env*`):
+3. Put the token and site code in a project-root `.env` file (already covered by
+   `.gitignore`'s `.env*`, so it is never committed):
    ```sh
-   export GOATCOUNTER_CODE=salekhoj          # the subdomain, no ".goatcounter.com"
-   export GOATCOUNTER_API_KEY=<the token>
+   GOATCOUNTER_CODE=salekhoj          # the subdomain, no ".goatcounter.com"
+   GOATCOUNTER_API_KEY=<the token>
    ```
+   `.mcp.json` sources `.env` itself before exec'ing the server, so **nothing needs to be
+   exported into your shell** and no secret goes in the tracked `.mcp.json`. Exported shell
+   vars still work as an override if you prefer them.
 4. Restart Claude Code in this project. Confirm it worked by asking Claude to call the
    `list_sites` or `get_me` MCP tool — it should return real account/site JSON instead of an
    env-var error.
+
+### Why `.mcp.json` shells out instead of using an `env` block
+
+The original config passed `"env": {"GOATCOUNTER_CODE": "${GOATCOUNTER_CODE}"}`. Claude Code
+expands `${...}` from *its own* environment and does not read `.env`, so launching `claude`
+normally left both vars empty and the server built the hostname `.goatcounter.com` — failing
+with a bare DNS error (`Name or service not known`) that looks like a network problem rather
+than a config one. Sourcing `.env` inside the launch command removes the dependency on how
+the shell was started. Verified end-to-end over stdio JSON-RPC: `initialize` returns
+`GoatcounterMCP 1.29.0` and `get_stats_total` returns real counts.
