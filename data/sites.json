@@ -7,7 +7,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour UA Left Chest Men's Long Sleeve",
+    "sample_title": "Under Armour Rival Fleece Men's Joggers",
     "vertical_hint": "Fashion"
   },
   {
@@ -18,7 +18,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour UA Left Chest Men's Long Sleeve",
+    "sample_title": "Under Armour Rival Fleece Men's Joggers",
     "vertical_hint": "Fashion"
   },
   {
@@ -141,7 +141,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Tsubaki Premium EX Repair Hair Mask 180g",
+    "sample_title": "Afnan Supremacy Collector&#8217;s Edition – Eau de Parfum 100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -161,9 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
+    "sample_variants": 19,
     "variants_with_compare_at": 1,
-    "sample_title": "OnePlus 13s 5G Flagship Smartphone with 50MP Cameras",
+    "sample_title": "Samsung Galaxy A08 LTE Smartphone with 6000mAh Battery",
     "vertical_hint": "Fashion"
   },
   {
@@ -178,7 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "SOPHIA 522C -Coffee/R  Formal Loafer Shoes For Women  -Caliber Shoes Nepal",
+    "sample_title": "JULIO 563.M -White Casual Mens Sneakers  -Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -210,21 +210,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Plum 5% Glycolic Acid &#038; Goji Berry Exfoliating Toner",
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "cosywearshop.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://cosywearshop.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Party Shoes",
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "dhakatopi.store",
@@ -567,9 +552,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
-    "variants_with_compare_at": 12,
-    "sample_title": "Reversible Velvet Embroidery Jacket",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "10 Inch Tibetan Singing Bowl",
     "vertical_hint": "Fashion"
   },
   {
@@ -597,7 +582,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 145,
-    "variants_with_compare_at": 97,
+    "variants_with_compare_at": 145,
     "sample_title": "Spring Onesies",
     "vertical_hint": "Fashion"
   },
@@ -728,8 +713,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Lenovo Ideapad 1 15AMN7 | AMD Ryzen 5 7520U | 8GB RAM | 256GB SSD | AMD Radeon Graphics | 15.6″ Inch FHD Display | DOS Laptop | 1 Year Warranty",
+    "variants_with_compare_at": 1,
+    "sample_title": "Lenovo V14 G4 IRU | Intel Core i5-13420H | 8GB DDR4 | 512GB SSD | Intel UHD Graphics | 14&#8243; FHD Display | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -746,8 +731,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "CH-422 &#8211; Devotional Divine Ganesha Idol Golden Chain Pendant with Subtle Sparkle",
+    "variants_with_compare_at": 5,
+    "sample_title": "PS-400 &#8211; Graceful Gold Plated Pave American Diamond Pendant Set for Evening Wear",
     "vertical_hint": "Fashion"
   },
   {
@@ -772,7 +757,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://www.mheecha.com/",
+    "final_url": "https://mheecha.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1007,7 +992,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Maybelline New York Super Stay Lumi-Matte Liquid Foundation 30H Longwear (35 ml)",
+    "sample_title": "Arencia NAD+ Booster Shot 30ML",
     "vertical_hint": "Beauty"
   },
   {
@@ -1196,7 +1181,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Sol De Janerio 68 90ML",
+    "sample_title": "Valentino Born in Roma Extradose Donna Valentino for women 100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1280,7 +1265,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "SF Digital Dial Silicone Strap Watch for Men",
+    "sample_title": "Grey Aviator Women Sunglasses",
     "vertical_hint": "Fashion"
   },
   {
@@ -1310,7 +1295,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Acer Aspire 3 A311-45 ( 8GB, 256GB, 11.6 inch)",
+    "sample_title": "BenQ PD3225U 32&#8243; 4K UHD Pro Designer Monitor | IPS | 98% P3 | 100% sRGB &#038; Rec.709 | Thunderbolt 3 | USB-C | Daisy Chain | Height Adjustable",
     "vertical_hint": "Electronics"
   },
   {
@@ -1334,9 +1319,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 68,
-    "variants_with_compare_at": 68,
-    "sample_title": "STOCK-Men Mesh Lightweight Running Sneakers Shock Absorbing Shoes",
+    "sample_variants": 52,
+    "variants_with_compare_at": 52,
+    "sample_title": "Unisex Baby Cotton Cartoon Hooded Cape Spring Autumn Cloak",
     "vertical_hint": "Fashion"
   },
   {
@@ -2255,11 +2240,11 @@
   {
     "domain": "dermaconceptnepal.com",
     "tier": "3",
-    "platform": null,
+    "platform": "woocommerce",
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://dermaconceptnepal.com",
     "ldjson_types": [],
@@ -2293,6 +2278,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "durbarmart.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://durbarmart.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "estore.com.np",
@@ -2848,12 +2847,12 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "durbarmart.com",
+    "domain": "cosywearshop.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 522: <none>"
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
