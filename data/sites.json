@@ -7,7 +7,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Rival Fleece Men's Joggers",
+    "sample_title": "Under Armour Legend Down Men's Vest",
     "vertical_hint": "Fashion"
   },
   {
@@ -18,7 +18,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Rival Fleece Men's Joggers",
+    "sample_title": "Under Armour Legend Down Men's Vest",
     "vertical_hint": "Fashion"
   },
   {
@@ -69,8 +69,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Aama Ko Achar Red Chilli, Timur &#038; Garlic Pickle 200g",
+    "variants_with_compare_at": 5,
+    "sample_title": "Aama Ko Achar Nepali Pickle and Fish Snack Combo – 3 Jars for £11.99",
     "vertical_hint": "Fashion"
   },
   {
@@ -79,9 +79,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 16,
+    "sample_variants": 10,
     "variants_with_compare_at": 0,
-    "sample_title": "Retro Polka Dot Foil Print Gamaguchi Clasp Handbag",
+    "sample_title": "2027 Handmade Calendar - Japanese Seasonal Events - NIPPON",
     "vertical_hint": "Fashion"
   },
   {
@@ -140,8 +140,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Afnan Supremacy Collector&#8217;s Edition – Eau de Parfum 100ml",
+    "variants_with_compare_at": 4,
+    "sample_title": "Medicube Deep Vita C Pad 70 Pads 150g",
     "vertical_hint": "Beauty"
   },
   {
@@ -151,8 +151,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 25,
-    "variants_with_compare_at": 0,
-    "sample_title": "WHAT IF",
+    "variants_with_compare_at": 5,
+    "sample_title": "METAL HEART TEE-BROWN",
     "vertical_hint": "Fashion"
   },
   {
@@ -161,9 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
-    "variants_with_compare_at": 1,
-    "sample_title": "Samsung Galaxy A08 LTE Smartphone with 6000mAh Battery",
+    "sample_variants": 20,
+    "variants_with_compare_at": 0,
+    "sample_title": "HONOR Watch X5 Play Smartwatch Features",
     "vertical_hint": "Fashion"
   },
   {
@@ -212,14 +212,18 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "dhakatopi.store",
+    "domain": "cosywearshop.com",
     "tier": "1",
-    "platform": "shopify",
-    "notes": [],
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://cosywearshop.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Chatta Sitan Chicken Sitan Kit – 200g",
+    "sample_title": "Party Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -471,8 +475,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Acer Aspire 3 A311-45(Intel Celeron N4500 Processor | 8GB RAM | 256 GB SSD | Intel UHD Graphics | 11.6&#8243; Anti Glare HD Display)",
+    "variants_with_compare_at": 3,
+    "sample_title": "Dell 15 DC15250 (Intel Core i7 13th Gen 1355U Processor | 16GB RAM | 512GB SSD | Intel UHD Graphics | 15.6&#8243; FHD Display | 1 Year Warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -552,9 +556,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "10 Inch Tibetan Singing Bowl",
+    "sample_variants": 10,
+    "variants_with_compare_at": 10,
+    "sample_title": "One-of-a-Kind Recycled Sari Tiered Maxi Skirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -757,7 +761,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -943,7 +947,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Limitless Gun Print Eyeglass",
+    "sample_title": "CP Black Shine Eyeglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -992,7 +996,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Arencia NAD+ Booster Shot 30ML",
+    "sample_title": "Purito Multi PDRN Collagen Real Glow Mask 100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1101,9 +1105,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 20,
-    "sample_title": "Champagne Gold Embroidered Pure Silk Suit Set",
+    "sample_variants": 36,
+    "variants_with_compare_at": 36,
+    "sample_title": "Beige Floral Embroidered Pure Silk Palazzo Suit Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -1181,7 +1185,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Valentino Born in Roma Extradose Donna Valentino for women 100ml",
+    "sample_title": "Marc Jacobs Daisy Dream Eau de Toilette 100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1264,8 +1268,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Grey Aviator Women Sunglasses",
+    "variants_with_compare_at": 4,
+    "sample_title": "Titan Evolution 4.6 cm Curved AMOLED Display, 390x450 Resolution, Cutting Edge Design Aluminium Case 90204AP02",
     "vertical_hint": "Fashion"
   },
   {
@@ -1295,7 +1299,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "BenQ PD3225U 32&#8243; 4K UHD Pro Designer Monitor | IPS | 98% P3 | 100% sRGB &#038; Rec.709 | Thunderbolt 3 | USB-C | Daisy Chain | Height Adjustable",
+    "sample_title": "BenQ PD3226G 31.5&#8243; 4K UHD 144Hz IPS Designer Monitor | 1ms | 95% DCI-P3 | Thunderbolt Connectivity | KVM Switch | Hotkey Puck G3 | Height Adjustable | 1 Year Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -1319,9 +1323,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 52,
-    "variants_with_compare_at": 52,
-    "sample_title": "Unisex Baby Cotton Cartoon Hooded Cape Spring Autumn Cloak",
+    "sample_variants": 61,
+    "variants_with_compare_at": 61,
+    "sample_title": "STOCK-Kids Soft Denim Long-Sleeve Shirt Spring 2026",
     "vertical_hint": "Fashion"
   },
   {
@@ -1472,20 +1476,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://choicemandu.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "cplanetnp.com",
     "tier": "2",
     "platform": null,
@@ -1500,22 +1490,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "dihho.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.dihho.com/",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "dreamskinnepal.com",
@@ -2252,6 +2226,24 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "dhakatopi.store",
+    "tier": "3",
+    "platform": "shopify",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://dhakatopi.store",
+    "ldjson_types": [
+      "BreadcrumbList",
+      "Store",
+      "WebSite"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "dietnepal.com",
     "tier": "3",
     "platform": null,
@@ -2264,6 +2256,22 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "dihho.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.dihho.com/",
+    "ldjson_types": [
+      "WebSite"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "dslrcameranepal.com",
@@ -2431,10 +2439,7 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [
-      "LocalBusiness",
-      "WebSite"
-    ],
+    "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2837,22 +2842,22 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "choicemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "clothesnepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "cosywearshop.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
