@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Legend Down Men's Vest",
+    "sample_title": "Vans Skate Curren Caples Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Legend Down Men's Vest",
+    "sample_title": "Vans Skate Curren Caples Shoe",
     "vertical_hint": "Fashion"
   },
   {
@@ -150,9 +150,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 25,
-    "variants_with_compare_at": 5,
-    "sample_title": "METAL HEART TEE-BROWN",
+    "sample_variants": 12,
+    "variants_with_compare_at": 0,
+    "sample_title": "LACE SCARF",
     "vertical_hint": "Fashion"
   },
   {
@@ -161,9 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "HONOR Watch X5 Play Smartwatch Features",
+    "sample_title": "Ai+ Pulse 2 Smartphone - Key Features and Specs",
     "vertical_hint": "Fashion"
   },
   {
@@ -192,8 +192,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Himalayan Wool &#038; Cotton Blend Shawl – Handloomed in Nepal",
+    "variants_with_compare_at": 0,
+    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
     "vertical_hint": "Fashion"
   },
   {
@@ -224,6 +224,17 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Party Shoes",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dhakatopi.store",
+    "tier": "1",
+    "platform": "shopify",
+    "notes": [],
+    "sample_products": 5,
+    "sample_variants": 8,
+    "variants_with_compare_at": 0,
+    "sample_title": "Ultimate Masala Combo | Nepali Spices Bundle USA",
     "vertical_hint": "Fashion"
   },
   {
@@ -475,8 +486,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Dell 15 DC15250 (Intel Core i7 13th Gen 1355U Processor | 16GB RAM | 512GB SSD | Intel UHD Graphics | 15.6&#8243; FHD Display | 1 Year Warranty)",
+    "variants_with_compare_at": 2,
+    "sample_title": "Acer Swift Go 16 SFG16 | Intel Core Ultra 5 125H | 8GB RAM | 512GB SSD | 16″ WQXGA+ OLED 120Hz Display",
     "vertical_hint": "Electronics"
   },
   {
@@ -506,7 +517,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Jiri Nutrition Whey Protein Fusion",
+    "sample_title": "Dashain Combo Offer &#8211;  Plant-based Mass Gainer 1kg Vanilla + Creatine 100g Unflavoured",
     "vertical_hint": "Fitness"
   },
   {
@@ -556,9 +567,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
-    "variants_with_compare_at": 10,
-    "sample_title": "One-of-a-Kind Recycled Sari Tiered Maxi Skirt",
+    "sample_variants": 12,
+    "variants_with_compare_at": 12,
+    "sample_title": "Patchwork Boho Wide Leg Harem Jumpsuit",
     "vertical_hint": "Fashion"
   },
   {
@@ -947,7 +958,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "CP Black Shine Eyeglass",
+    "sample_title": "Limitless Square Shining Eyeglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -996,7 +1007,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Purito Multi PDRN Collagen Real Glow Mask 100ml",
+    "sample_title": "SKIN1004 Tone Balancing Capsule Cream 75ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1105,9 +1116,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 36,
-    "variants_with_compare_at": 36,
-    "sample_title": "Beige Floral Embroidered Pure Silk Palazzo Suit Set",
+    "sample_variants": 24,
+    "variants_with_compare_at": 24,
+    "sample_title": "Rose Pink Striped Linen Suit Set with Floral Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1185,7 +1196,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Marc Jacobs Daisy Dream Eau de Toilette 100ml",
+    "sample_title": "Dolce &amp; Gabbana Devotion Eau de Parfum 100ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1268,8 +1279,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Titan Evolution 4.6 cm Curved AMOLED Display, 390x450 Resolution, Cutting Edge Design Aluminium Case 90204AP02",
+    "variants_with_compare_at": 5,
+    "sample_title": "Fastrack Cosmix Smartwatch 1.32\" inch AMOLED Display, Cosmic Drive Inspired Case Design, AI Watcface , AI Chat, IP68",
     "vertical_hint": "Fashion"
   },
   {
@@ -1298,8 +1309,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "BenQ PD3226G 31.5&#8243; 4K UHD 144Hz IPS Designer Monitor | 1ms | 95% DCI-P3 | Thunderbolt Connectivity | KVM Switch | Hotkey Puck G3 | Height Adjustable | 1 Year Warranty",
+    "variants_with_compare_at": 4,
+    "sample_title": "BenQ PhotoVue SW242Q 24.1&#8243; QHD IPS Monitor | HDR10 | 99% Adobe RGB | USB-C | Height Adjustable | Hardware Calibration",
     "vertical_hint": "Electronics"
   },
   {
@@ -1323,9 +1334,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 61,
-    "variants_with_compare_at": 61,
-    "sample_title": "STOCK-Kids Soft Denim Long-Sleeve Shirt Spring 2026",
+    "sample_variants": 78,
+    "variants_with_compare_at": 78,
+    "sample_title": "Bow-Shaped Reclining Office Chair with Footrest",
     "vertical_hint": "Fashion"
   },
   {
@@ -1471,6 +1482,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://chasmahub.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "choicemandu.com",
+    "tier": "2",
+    "platform": "opencart",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://choicemandu.com",
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Fashion"
@@ -2119,7 +2144,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://bishrom.com/wp-admin/install.php",
+    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2226,24 +2251,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "dhakatopi.store",
-    "tier": "3",
-    "platform": "shopify",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://dhakatopi.store",
-    "ldjson_types": [
-      "BreadcrumbList",
-      "Store",
-      "WebSite"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "dietnepal.com",
     "tier": "3",
     "platform": null,
@@ -2292,9 +2299,9 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://durbarmart.com",
     "ldjson_types": [],
@@ -2439,7 +2446,10 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.hubanepal.com/",
-    "ldjson_types": [],
+    "ldjson_types": [
+      "LocalBusiness",
+      "WebSite"
+    ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
   },
@@ -2559,34 +2569,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "mobilemandu.com",
-    "tier": "3",
-    "platform": "next.js",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mobilemandu.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://mystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "nepalcan.com",
@@ -2842,16 +2824,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "choicemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "clothesnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2912,6 +2884,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "mobilemandu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2920,6 +2902,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
