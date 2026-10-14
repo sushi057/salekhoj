@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 12,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Dunk Low Retro M Shoes",
+    "sample_title": "Under Armour Men's Rival Fleece Sweatpants",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 12,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Dunk Low Retro M Shoes",
+    "sample_title": "Under Armour Men's Rival Fleece Sweatpants",
     "vertical_hint": "Fashion"
   },
   {
@@ -85,6 +85,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "ankernepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://ankernepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Liberty 5 Pro | Noise Cancelling Earbuds for Clear Calls",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "bhutib.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -146,9 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 16,
+    "sample_variants": 14,
     "variants_with_compare_at": 6,
-    "sample_title": "WiWU Ai306 Multilingual Translation Earbuds for Easy Communication",
+    "sample_title": "HUAWEI WATCH GT 7 Pro Smart Watch Features and Benefits",
     "vertical_hint": "Fashion"
   },
   {
@@ -163,7 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "AVEN 604E &#8211; Cream Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "ALBERT A537SN-Black Lace Up Formal Shoes For Men  -Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -221,6 +236,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "Ultimate Masala Combo | Nepali Spices Bundle USA",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -331,21 +361,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Black",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "goldstarshoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://goldstarshoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "G10 L2102",
     "vertical_hint": "Fashion"
   },
   {
@@ -537,9 +552,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
-    "variants_with_compare_at": 17,
-    "sample_title": "Bohemian Fringe Crossbody Bag",
+    "sample_variants": 23,
+    "variants_with_compare_at": 23,
+    "sample_title": "Backless Boho Halter Maxi Dress",
     "vertical_hint": "Fashion"
   },
   {
@@ -566,9 +581,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 130,
-    "variants_with_compare_at": 130,
-    "sample_title": "Plain Pyjamas for Preschoolers (2-4y)",
+    "sample_variants": 115,
+    "variants_with_compare_at": 115,
+    "sample_title": "Bhoto Set For Toddlers",
     "vertical_hint": "Fashion"
   },
   {
@@ -797,9 +812,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Handmade Wool Felt Pom Pom Christmas Garland",
+    "sample_title": "Lotus  Necklace with pearls",
     "vertical_hint": "Fashion"
   },
   {
@@ -808,9 +823,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 6,
-    "variants_with_compare_at": 0,
-    "sample_title": "Handcrafted Wooden Circular Stick Incense Burner",
+    "sample_variants": 5,
+    "variants_with_compare_at": 1,
+    "sample_title": "Georgous Pink Shiney Water Pashmina Shawl",
     "vertical_hint": "Fashion"
   },
   {
@@ -856,21 +871,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Handmade In Nepal  Ladies’ Long Wool Coat – Handmade Nepal",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "nepalvisitors.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.nepalvisitors.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Baba Adventure Tourist Bus",
     "vertical_hint": "Fashion"
   },
   {
@@ -991,8 +991,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Acer Aspire Lite 15 R72J | Ryzen 7 7730U | 8GB DDR4 RAM | 512GB NVMe SSD | Radeon Graphics | 15.6″ FHD (1920×1080) IPS Display | Windows 11 Home",
+    "variants_with_compare_at": 4,
+    "sample_title": "Acer Aspire Go 14 59YK | Ultra 5 125H | 16GB DDR5 RAM | 512GB NVMe SSD | Intel Arc Graphics | 14″ WUXGA (1920×1200) IPS Display | Windows 11",
     "vertical_hint": "Electronics"
   },
   {
@@ -1289,9 +1289,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 47,
-    "variants_with_compare_at": 47,
-    "sample_title": "Snake Shaped Earrings Retro Rope Knot Unisex Fashion Jewelry",
+    "sample_variants": 100,
+    "variants_with_compare_at": 100,
+    "sample_title": "Polka Dot Magnetic Stand Case for iPhone 18 Pro and 17",
     "vertical_hint": "Fashion"
   },
   {
@@ -1355,7 +1355,7 @@
   {
     "domain": "alamtech.com.np",
     "tier": "2",
-    "platform": "wordpress",
+    "platform": null,
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
@@ -1382,22 +1382,6 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "aoneleathercraft.com",
-    "tier": "2",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://aoneleathercraft.com",
-    "ldjson_types": [
-      "LocalBusiness"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "beautyhubnepal.com",
@@ -1470,20 +1454,6 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "ekjor.com",
@@ -2042,6 +2012,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "aoneleathercraft.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aoneleathercraft.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "aroannepal.com",
     "tier": "3",
     "platform": null,
@@ -2189,7 +2173,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2501,6 +2485,20 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "marknepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://marknepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "mishisa.com",
     "tier": "3",
     "platform": "next.js",
@@ -2517,6 +2515,20 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "mobilemandu.com",
+    "tier": "3",
+    "platform": "next.js",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mobilemandu.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "nepalcan.com",
     "tier": "3",
     "platform": null,
@@ -2529,6 +2541,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "nepalvisitors.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://nepalvisitors.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "purnaa.com",
@@ -2750,16 +2776,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "ankernepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2810,6 +2826,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "goldstarshoes.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2848,26 +2874,6 @@
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "marknepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "mobilemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "mudita.com.np",
