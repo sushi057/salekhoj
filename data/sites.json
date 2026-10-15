@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 17,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Men's Rival Fleece Sweatpants",
+    "sample_title": "Adidas Supernova Rise 3 Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 12,
+    "sample_variants": 17,
     "variants_with_compare_at": 0,
-    "sample_title": "Under Armour Men's Rival Fleece Sweatpants",
+    "sample_title": "Adidas Supernova Rise 3 Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -162,8 +162,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 14,
-    "variants_with_compare_at": 6,
-    "sample_title": "HUAWEI WATCH GT 7 Pro Smart Watch Features and Benefits",
+    "variants_with_compare_at": 5,
+    "sample_title": "Insta360 X6 Essentials Bundle 8K 360° Action Camera for Creators",
     "vertical_hint": "Fashion"
   },
   {
@@ -178,7 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "ALBERT A537SN-Black Lace Up Formal Shoes For Men  -Caliber Shoes Nepal",
+    "sample_title": "RIDGE 573E &#8211; Cream Casual Sneakers For Men  -Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -364,6 +364,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "goldstarshoes.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://goldstarshoes.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "G10 L2102",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "gurkhawatch.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -471,8 +486,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Lenovo V14 G5 IRL (Intel Core i7 240H Processor | 16GB RAM | 1TB SSD | Intel® Graphics | FingerPrint Reader | 14&#8243; FHD IPS Display)",
+    "variants_with_compare_at": 3,
+    "sample_title": "Lenovo V14 G4 AMN (AMD Ryzen 5 7520U Processor | 16GB RAM | 512GB SSD | AMD Radeon Graphics | 14&#8243; FHD Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -581,8 +596,8 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 115,
-    "variants_with_compare_at": 115,
+    "sample_variants": 114,
+    "variants_with_compare_at": 114,
     "sample_title": "Bhoto Set For Toddlers",
     "vertical_hint": "Fashion"
   },
@@ -761,7 +776,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 0,
     "sample_title": "Shuffle Backpack",
     "vertical_hint": "Fashion"
   },
@@ -874,6 +889,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nepalvisitors.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.nepalvisitors.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Baba Adventure Tourist Bus",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nephot.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -882,9 +912,7 @@
     ],
     "final_url": "https://nephot.com",
     "ldjson_types": [
-      "OnlineStore",
-      "Organization",
-      "WebSite"
+      "OnlineStore"
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1086,9 +1114,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 24,
-    "variants_with_compare_at": 24,
-    "sample_title": "Orange Chanderi Silk Embroidered Anarkali Suit with Striped Dupatta",
+    "sample_variants": 32,
+    "variants_with_compare_at": 32,
+    "sample_title": "Peach Beige Floral Silk Blend Suit Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1289,9 +1317,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 100,
-    "variants_with_compare_at": 100,
-    "sample_title": "Polka Dot Magnetic Stand Case for iPhone 18 Pro and 17",
+    "sample_variants": 26,
+    "variants_with_compare_at": 26,
+    "sample_title": "Men Henley Neck T-shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1382,6 +1410,22 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "aoneleathercraft.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aoneleathercraft.com",
+    "ldjson_types": [
+      "LocalBusiness"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "beautyhubnepal.com",
@@ -1548,11 +1592,11 @@
     "tier": "2",
     "platform": "magento",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://eyemartnepal.com",
+    "final_url": "https://www.restauranteguarapotropical.com/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -2012,20 +2056,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "aoneleathercraft.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://aoneleathercraft.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "aroannepal.com",
     "tier": "3",
     "platform": null,
@@ -2247,7 +2277,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://durbarmart.com",
+    "final_url": "https://linkslot388.net/",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2485,20 +2515,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "marknepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://marknepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "mishisa.com",
     "tier": "3",
     "platform": "next.js",
@@ -2543,18 +2559,18 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "nepalvisitors.com",
+    "domain": "panchakanyamobile.com.np",
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://nepalvisitors.com",
+    "final_url": "https://panchakanyamobile.com.np",
     "ldjson_types": [],
     "price_in_html": false,
-    "vertical_hint": "Fashion"
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "purnaa.com",
@@ -2826,16 +2842,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "goldstarshoes.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2876,6 +2882,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "marknepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "mudita.com.np",
     "tier": "dead",
     "platform": null,
@@ -2891,7 +2907,7 @@
     "platform": null,
     "notes": [
       "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+      "home: URLError: <urlopen error timed out>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2914,16 +2930,6 @@
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "panchakanyamobile.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 503: Service Unavailable"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "plussizenepal.com",
