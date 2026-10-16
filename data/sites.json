@@ -69,8 +69,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Lapsi Mango Timur Pickle Combo | Aama Ko Achar",
+    "variants_with_compare_at": 3,
+    "sample_title": "Subin Bhattarai Books Collection – 5 Nepali Books Combo Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -140,7 +140,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
+    "variants_with_compare_at": 5,
     "sample_title": "Medicube Deep Vita C Pad 70 Pads 150g",
     "vertical_hint": "Beauty"
   },
@@ -178,7 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "RIDGE 573E &#8211; Cream Casual Sneakers For Men  -Caliber Shoes Nepal",
+    "sample_title": "BEXLEY 582SK &#8211; Navy Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -236,21 +236,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Ultimate Masala Combo | Nepali Spices Bundle USA",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dronestorenepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -487,7 +472,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 3,
-    "sample_title": "Lenovo V14 G4 AMN (AMD Ryzen 5 7520U Processor | 16GB RAM | 512GB SSD | AMD Radeon Graphics | 14&#8243; FHD Display)",
+    "sample_title": "Lenovo Legion 5 15 AI PC (Intel Core i9 14900HX Processor | 32GB RAM | 1TB SSD | RTX 5070 8GB Graphics | 24-Zone RGB Keyboard | 15.1&#8243; WQXGA 165Hz 100% DCI-P3 OLED Display | 2 Years Authorized Warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -567,9 +552,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
-    "variants_with_compare_at": 23,
-    "sample_title": "Backless Boho Halter Maxi Dress",
+    "sample_variants": 18,
+    "variants_with_compare_at": 18,
+    "sample_title": "Tibetan Meditation Singing Bowl",
     "vertical_hint": "Fashion"
   },
   {
@@ -706,9 +691,7 @@
       "products.json: HTTPError"
     ],
     "final_url": "https://marsyangde.com",
-    "ldjson_types": [
-      "Organization"
-    ],
+    "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
@@ -839,8 +822,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Georgous Pink Shiney Water Pashmina Shawl",
+    "variants_with_compare_at": 0,
+    "sample_title": "Copper Marpa Lotsawa Statue 7\"H",
     "vertical_hint": "Fashion"
   },
   {
@@ -1114,9 +1097,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 32,
-    "variants_with_compare_at": 32,
-    "sample_title": "Peach Beige Floral Silk Blend Suit Set with Dupatta",
+    "sample_variants": 24,
+    "variants_with_compare_at": 24,
+    "sample_title": "Royal Blue Floral Printed Silk Blend Suit Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -1140,9 +1123,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Tarcho Beanie  - Red",
+    "sample_variants": 20,
+    "variants_with_compare_at": 2,
+    "sample_title": "Nyano Pullover - Ivory",
     "vertical_hint": "Fashion"
   },
   {
@@ -1317,9 +1300,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 26,
-    "variants_with_compare_at": 26,
-    "sample_title": "Men Henley Neck T-shirt",
+    "sample_variants": 98,
+    "variants_with_compare_at": 98,
+    "sample_title": "Men's Thickened PU Leather Motorcycle Jacket, Plus Size - Regular",
     "vertical_hint": "Fashion"
   },
   {
@@ -1376,8 +1359,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Acer Aspire 14 AI A14-52MT-59DP | Intel Core Ultra 5 226V Processor, 16GB LPDDR5X, 1TB M.2 NVMe™ PCIe® 4.0 SSD, 14.0-inch WUXGA (1920 x 1200) IPS Touchscreen Display, 40 TOPS AI NPU, Intel Arc 130V Graphics, Copilot+ PC, Backlit Keyboard, Windows 11 Home",
+    "variants_with_compare_at": 5,
+    "sample_title": "Blackview MP20 Mini PC | Powerful Small PC with AMD Ryzen 3 3300U Processor, 16GB DDR4 RAM, 512GB M.2 SSD, AMD Radeon Vega 6 Graphics, Dual 4K Display (HDMI + DisplayPort), Wi-Fi 5, Bluetooth 4.2, Gigabit Ethernet, VESA Mount, Windows 11 Pro (Black, 265g)",
     "vertical_hint": "Electronics"
   },
   {
@@ -1500,6 +1483,20 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "dronestorenepal.com",
+    "tier": "2",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "ekjor.com",
     "tier": "2",
     "platform": null,
@@ -1596,7 +1593,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.restauranteguarapotropical.com/",
+    "final_url": "https://www.unidadpediatriaavanzada.com/especialidades/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -2197,20 +2194,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "dealayo.com",
-    "tier": "3",
-    "platform": "magento",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://dealayo.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "dermaconceptnepal.com",
     "tier": "3",
     "platform": "woocommerce",
@@ -2442,20 +2425,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "itechstore.com.np",
-    "tier": "3",
-    "platform": "nuxt/vue",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://itechstore.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "kathmanduclothing.com",
     "tier": "3",
     "platform": null,
@@ -2543,6 +2512,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "nepalcan.com",
@@ -2842,6 +2825,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "dealayo.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno 111] Connection refused>"
+    ],
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2860,6 +2853,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "itechstore.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "itti.com.np",
@@ -2900,16 +2903,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error timed out>"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
