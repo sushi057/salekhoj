@@ -69,8 +69,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Subin Bhattarai Books Collection – 5 Nepali Books Combo Set",
+    "variants_with_compare_at": 1,
+    "sample_title": "Small Nwaran Puja Samagri Kit – न्वारन पूजाको सामान",
     "vertical_hint": "Fashion"
   },
   {
@@ -178,22 +178,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "BEXLEY 582SK &#8211; Navy Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "clothinginnepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.clothinginnepal.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
+    "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -236,6 +221,21 @@
     "variants_with_compare_at": 0,
     "sample_title": "Ultimate Masala Combo | Nepali Spices Bundle USA",
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "dronestorenepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://dronestorenepal.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "K2 Max Optical 4k Hd Dual Camera Brushless  Drone Camera",
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "electromandu.com",
@@ -471,8 +471,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Lenovo Legion 5 15 AI PC (Intel Core i9 14900HX Processor | 32GB RAM | 1TB SSD | RTX 5070 8GB Graphics | 24-Zone RGB Keyboard | 15.1&#8243; WQXGA 165Hz 100% DCI-P3 OLED Display | 2 Years Authorized Warranty)",
+    "variants_with_compare_at": 4,
+    "sample_title": "Lenovo LOQ Essential 15 (AMD Ryzen 7 170 Processor | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 3050 6GB Graphics | White Backlit Keyboard | 15.6&#8243; FHD 144Hz 100% sRGB IPS Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -581,9 +581,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 114,
-    "variants_with_compare_at": 114,
-    "sample_title": "Bhoto Set For Toddlers",
+    "sample_variants": 161,
+    "variants_with_compare_at": 161,
+    "sample_title": "Balaclava Hat for Winter (2-6y)",
     "vertical_hint": "Fashion"
   },
   {
@@ -823,7 +823,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Copper Marpa Lotsawa Statue 7\"H",
+    "sample_title": "Fully Gold Plated Dzambhala Statue with Stone Inlays 7.5\"H",
     "vertical_hint": "Fashion"
   },
   {
@@ -939,7 +939,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Limitless Square Shining Eyeglass",
+    "sample_title": "Rimless Golden Black Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -996,11 +996,12 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://onlineit.com.np",
     "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Acer Aspire Go 14 59YK | Ultra 5 125H | 16GB DDR5 RAM | 512GB NVMe SSD | Intel Arc Graphics | 14″ WUXGA (1920×1200) IPS Display | Windows 11",
@@ -1209,7 +1210,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lopho Dhaka Tie Blue Corporate | Slim Nepali Tie Set",
+    "sample_title": "Bajra Singing Bowl – 7-Inch Handmade Himalayan Bowl with Om Mani Padme Hum Mantra, Hand-Etched by Swodeshi Artisans",
     "vertical_hint": "Fashion"
   },
   {
@@ -1300,9 +1301,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 98,
-    "variants_with_compare_at": 98,
-    "sample_title": "Men's Thickened PU Leather Motorcycle Jacket, Plus Size - Regular",
+    "sample_variants": 50,
+    "variants_with_compare_at": 41,
+    "sample_title": "STOCK-Redmi Note15 Pro Silicone Mobile Phone Case 5G",
     "vertical_hint": "Fashion"
   },
   {
@@ -1483,20 +1484,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "dronestorenepal.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://dronestorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "ekjor.com",
     "tier": "2",
     "platform": null,
@@ -1593,7 +1580,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.unidadpediatriaavanzada.com/especialidades/",
+    "final_url": "https://doublebarrelgrilldaytona.com/about-us/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -1985,20 +1972,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "suitnepal.com",
-    "tier": "2",
-    "platform": "wordpress",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://jarsingresort.com/",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "suluxcentre.com",
@@ -2425,6 +2398,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "itechstore.com.np",
+    "tier": "3",
+    "platform": "nuxt/vue",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://itechstore.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "kathmanduclothing.com",
     "tier": "3",
     "platform": null,
@@ -2825,6 +2812,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "clothinginnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "dealayo.com",
     "tier": "dead",
     "platform": null,
@@ -2853,16 +2850,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "itechstore.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "itti.com.np",
@@ -2963,6 +2950,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "suitnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "thewatchlounge.co",
