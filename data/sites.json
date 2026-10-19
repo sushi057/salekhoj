@@ -111,7 +111,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Lug-Sam Incense — Tibetan Herbal Sticks Pack of 2",
+    "sample_title": "Tibetan Honju and Bakhu Skirt Set for Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -179,6 +179,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "clothinginnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.clothinginnepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
     "vertical_hint": "Fashion"
   },
   {
@@ -281,7 +296,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Goldstar G10 Sunlite-04 Men&#8217;s Walking Shoes (Black) – Comfortable Sports &amp; Casual Wear (Copy)",
+    "sample_title": "AOKING MEDIUM DUFFLE TRAVEL BAG – BLACK/BLUE/NAVY | PQ2052-2 (DARK BLUE)",
     "vertical_hint": "Fashion"
   },
   {
@@ -290,9 +305,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 14,
-    "variants_with_compare_at": 14,
-    "sample_title": "Zee Necklace",
+    "sample_variants": 18,
+    "variants_with_compare_at": 18,
+    "sample_title": "Satin - Tibetan Vertical Prayer Flags (for Bamboo)",
     "vertical_hint": "Fashion"
   },
   {
@@ -1301,9 +1316,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 50,
-    "variants_with_compare_at": 41,
-    "sample_title": "STOCK-Redmi Note15 Pro Silicone Mobile Phone Case 5G",
+    "sample_variants": 106,
+    "variants_with_compare_at": 106,
+    "sample_title": "Unisex Color-Block Low-Top Casual Sports Sneakers",
     "vertical_hint": "Fashion"
   },
   {
@@ -1363,6 +1378,17 @@
     "variants_with_compare_at": 5,
     "sample_title": "Blackview MP20 Mini PC | Powerful Small PC with AMD Ryzen 3 3300U Processor, 16GB DDR4 RAM, 512GB M.2 SSD, AMD Radeon Vega 6 Graphics, Dual 4K Display (HDMI + DisplayPort), Wi-Fi 5, Bluetooth 4.2, Gigabit Ethernet, VESA Mount, Windows 11 Pro (Black, 265g)",
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "yatrisupply.com",
+    "tier": "1",
+    "platform": "shopify",
+    "notes": [],
+    "sample_products": 5,
+    "sample_variants": 11,
+    "variants_with_compare_at": 0,
+    "sample_title": "The 'Explore' Travel Journals",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "alamtech.com.np",
@@ -1514,7 +1540,7 @@
   {
     "domain": "evanmens.com",
     "tier": "2",
-    "platform": null,
+    "platform": "opencart",
     "notes": [
       "products.json: JSONDecodeError",
       "wc-store-api: JSONDecodeError",
@@ -1580,7 +1606,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://doublebarrelgrilldaytona.com/about-us/",
+    "final_url": "https://pizzeriacasa.com/meny/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -2167,6 +2193,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "dealayo.com",
+    "tier": "3",
+    "platform": "magento",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://dealayo.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "dermaconceptnepal.com",
     "tier": "3",
     "platform": "woocommerce",
@@ -2748,20 +2788,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "yatrisupply.com",
-    "tier": "3",
-    "platform": "shopify",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://yatrisupply.com/password",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2810,26 +2836,6 @@
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "clothinginnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "dealayo.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno 111] Connection refused>"
-    ],
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "hempplanetnepal.com",
