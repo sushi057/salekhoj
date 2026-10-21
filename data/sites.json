@@ -27,9 +27,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 45,
-    "variants_with_compare_at": 16,
-    "sample_title": "Men's Lightweight Comfort Slides – Soft EVA Insole & Durable PVC Upper for Everyday Wear",
+    "sample_variants": 92,
+    "variants_with_compare_at": 0,
+    "sample_title": "Women's Adjustable Double Strap Slides – Rexine Upper with Lightweight EVA Sole",
     "vertical_hint": "Fashion"
   },
   {
@@ -111,7 +111,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Tibetan Honju and Bakhu Skirt Set for Women",
+    "sample_title": "Yangtse Incense, Handmade Tibetan Agarbatti, Pack of 2",
     "vertical_hint": "Fashion"
   },
   {
@@ -179,6 +179,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "clothinginnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.clothinginnepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
     "vertical_hint": "Fashion"
   },
   {
@@ -461,6 +476,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "Lenovo LOQ Essential 15 (AMD Ryzen 7 170 Processor | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 3050 6GB Graphics | White Backlit Keyboard | 15.6&#8243; FHD 144Hz 100% sRGB IPS Display)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -537,9 +567,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
-    "variants_with_compare_at": 18,
-    "sample_title": "Octopus Wrap Cuff Adjustable  Bracelet",
+    "sample_variants": 14,
+    "variants_with_compare_at": 14,
+    "sample_title": "Handmade Stonewashed Cotton Wide Leg Pants",
     "vertical_hint": "Fashion"
   },
   {
@@ -740,7 +770,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://www.mheecha.com/",
+    "final_url": "https://mheecha.com",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -962,16 +992,30 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "SKIN1004 Tone Balancing Capsule Cream 75ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://onlineit.com.np",
     "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
     "sample_title": "Acer Aspire Go 14 59YK | Ultra 5 125H | 16GB DDR5 RAM | 512GB NVMe SSD | Intel Arc Graphics | 14″ WUXGA (1920×1200) IPS Display | Windows 11",
@@ -1068,9 +1112,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 40,
-    "variants_with_compare_at": 40,
-    "sample_title": "Royal Blue Silk Blend Floral Embroidered Kurta Trouser Set with Dupatta & Inner",
+    "sample_variants": 24,
+    "variants_with_compare_at": 24,
+    "sample_title": "Royal Blue Floral Printed Silk Blend Suit Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -1271,9 +1315,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 74,
-    "variants_with_compare_at": 74,
-    "sample_title": "Machen B12 ANC Wireless Bluetooth Headphones Heavy Bass Over-Ear",
+    "sample_variants": 90,
+    "variants_with_compare_at": 90,
+    "sample_title": "EPS PC Full-Edge Cycling Helmet with Large Brim, Lightweight L",
     "vertical_hint": "Fashion"
   },
   {
@@ -1575,7 +1619,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://www.cafemilanos.com/salads/",
+    "final_url": "https://www.cerealmarino.com/en/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -2134,20 +2178,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "clothinginnepal.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://www.clothinginnepal.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "craftnepal.com",
     "tier": "3",
     "platform": null,
@@ -2407,20 +2437,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2550,20 +2566,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
