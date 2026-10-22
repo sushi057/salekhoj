@@ -182,21 +182,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "clothinginnepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.clothinginnepal.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "colorpluscosmetics.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -527,7 +512,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 55,
-    "variants_with_compare_at": 55,
+    "variants_with_compare_at": 37,
     "sample_title": "TBL Trail Runner Sneakers GS186",
     "vertical_hint": "Fashion"
   },
@@ -567,9 +552,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 14,
-    "variants_with_compare_at": 14,
-    "sample_title": "Handmade Stonewashed Cotton Wide Leg Pants",
+    "sample_variants": 17,
+    "variants_with_compare_at": 17,
+    "sample_title": "Reversible Wrap Flowy Skirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -1315,9 +1300,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 90,
-    "variants_with_compare_at": 90,
-    "sample_title": "EPS PC Full-Edge Cycling Helmet with Large Brim, Lightweight L",
+    "sample_variants": 25,
+    "variants_with_compare_at": 25,
+    "sample_title": "Rapid-Dry Antimicrobial Running Sporty Jacket, Beige",
     "vertical_hint": "Fashion"
   },
   {
@@ -1609,25 +1594,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "eyemartnepal.com",
-    "tier": "2",
-    "platform": "magento",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.cerealmarino.com/en/",
-    "ldjson_types": [
-      "BreadcrumbList",
-      "FAQPage",
-      "Organization",
-      "Product"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "fatafatsewa.com",
@@ -2178,6 +2144,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "clothinginnepal.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: TimeoutError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://www.clothinginnepal.com/",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "craftnepal.com",
     "tier": "3",
     "platform": null,
@@ -2304,6 +2284,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "eyemartnepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.bravonypizza.com/menus.html",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "fitspectrumnepal.com",
@@ -2552,6 +2546,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "mystorenepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "nepalcan.com",
@@ -2885,16 +2893,6 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mystorenepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error timed out>"
-    ],
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "naviforce-watch.com",
