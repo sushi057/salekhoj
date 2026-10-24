@@ -161,24 +161,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 9,
-    "variants_with_compare_at": 8,
-    "sample_title": "Insta360 Ace Pro 2 8K Action Camera (Videography Bundle Limited Edition)",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "calibershoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://calibershoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
+    "sample_variants": 6,
     "variants_with_compare_at": 5,
-    "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "Insta360 GO 3S 4K Action Camera (Motorcycle In-Helmet POV Bundle)",
     "vertical_hint": "Fashion"
   },
   {
@@ -210,21 +195,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Plum 5% Glycolic Acid &#038; Goji Berry Exfoliating Toner",
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "cosywearshop.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://cosywearshop.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Party Shoes",
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "dhakatopi.store",
@@ -364,21 +334,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "goldstarshoes.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://goldstarshoes.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "G10 L2102",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "gurkhawatch.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -487,8 +442,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Lenovo LOQ 15 AI Gaming PC (AMD Ryzen 7 7445HS Processor | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 4050 6GB Graphics | White Backlit Keyboard | 15.6&#8243; FHD 144Hz 100% sRGB IPS Display)",
+    "variants_with_compare_at": 4,
+    "sample_title": "Lenovo LOQ 15 AI Gaming PC (AMD Ryzen 7 7445HS Processor | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 3050 6GB Graphics | White Backlit Keyboard | 15.6&#8243; FHD 144Hz 100% sRGB IPS Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -610,7 +565,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Coral Red Embroidered Crush Silk Saree",
+    "sample_title": "Rajniti Plum Purple Viscose Silk Jacquard Saree",
     "vertical_hint": "Fashion"
   },
   {
@@ -620,7 +575,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 2,
     "sample_title": "Anua Rice 70 Glow Milky Toner Mini KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
@@ -631,7 +586,7 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 2,
     "sample_title": "Anua Rice 70 Glow Milky Toner Mini KPG BEAUTY",
     "vertical_hint": "Beauty"
   },
@@ -1124,9 +1079,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 26,
-    "variants_with_compare_at": 26,
-    "sample_title": "Rust Orange Mul Chanderi Embroidered Kurta Pant Set with Dupatta",
+    "sample_variants": 23,
+    "variants_with_compare_at": 23,
+    "sample_title": "Maroon Embroidered Chanderi Silk Anarkali Suit Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1189,7 +1144,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "NUMBUZIN No.9 Sun Essence SPF50+ PA++++",
+    "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
     "vertical_hint": "Beauty"
   },
   {
@@ -1327,9 +1282,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 43,
-    "variants_with_compare_at": 43,
-    "sample_title": "STOCK-Baby Girls' Korean Style Rabbit Fur Long Sleeve Winter",
+    "sample_variants": 29,
+    "variants_with_compare_at": 29,
+    "sample_title": "IQ Men Urban Oxford Stain And Odor Resistant Shirt, Beige",
     "vertical_hint": "Fashion"
   },
   {
@@ -1621,6 +1576,25 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "eyemartnepal.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://besuitedaroma.com/about/",
+    "ldjson_types": [
+      "BreadcrumbList",
+      "FAQPage",
+      "OfferCatalog",
+      "Product"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "fatafatsewa.com",
@@ -2157,6 +2131,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "calibershoes.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://calibershoes.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "citystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2166,20 +2154,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://citystorenepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "craftnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://craftnepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2297,20 +2271,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "eyemartnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.bravonypizza.com/menus.html",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "fitspectrumnepal.com",
@@ -2817,6 +2777,36 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "cosywearshop.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "craftnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "goldstarshoes.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
