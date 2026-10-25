@@ -156,14 +156,18 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "brother-mart.com",
+    "domain": "calibershoes.com",
     "tier": "1",
-    "platform": "shopify",
-    "notes": [],
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://calibershoes.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "sample_variants": 6,
     "variants_with_compare_at": 5,
-    "sample_title": "Insta360 GO 3S 4K Action Camera (Motorcycle In-Helmet POV Bundle)",
+    "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -197,14 +201,29 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "cosywearshop.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://cosywearshop.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Party Shoes",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "dhakatopi.store",
     "tier": "1",
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Ultimate Masala Combo | Nepali Spices Bundle USA",
+    "sample_title": "Shan Ginger Garlic Paste – 700 g (24.69 oz)",
     "vertical_hint": "Fashion"
   },
   {
@@ -331,6 +350,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 5,
     "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Black",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "goldstarshoes.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://goldstarshoes.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 2,
+    "sample_title": "G10 L2102",
     "vertical_hint": "Fashion"
   },
   {
@@ -737,7 +771,7 @@
     "notes": [
       "products.json: HTTPError"
     ],
-    "final_url": "https://mheecha.com",
+    "final_url": "https://www.mheecha.com/",
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
@@ -1079,9 +1113,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 23,
-    "variants_with_compare_at": 23,
-    "sample_title": "Maroon Embroidered Chanderi Silk Anarkali Suit Set with Dupatta",
+    "sample_variants": 34,
+    "variants_with_compare_at": 34,
+    "sample_title": "Teal Blue Embroidered Silk Blend Kurta Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1191,7 +1225,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Bajra Singing Bowl – 7-Inch Handmade Himalayan Bowl with Om Mani Padme Hum Mantra, Hand-Etched by Swodeshi Artisans",
+    "sample_title": "Buddha Eye Mantra Singing Bowl – 5-Inch Hand-Etched Himalayan",
     "vertical_hint": "Fashion"
   },
   {
@@ -1282,9 +1316,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 29,
-    "variants_with_compare_at": 29,
-    "sample_title": "IQ Men Urban Oxford Stain And Odor Resistant Shirt, Beige",
+    "sample_variants": 21,
+    "variants_with_compare_at": 21,
+    "sample_title": "Bandhani Printed V-Neck Angrakha Pure Cotton Kurta, Blue",
     "vertical_hint": "Fashion"
   },
   {
@@ -1310,9 +1344,7 @@
       "products.json: HTTPError"
     ],
     "final_url": "https://vitaminepal.com",
-    "ldjson_types": [
-      "Organization"
-    ],
+    "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
@@ -1791,22 +1823,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "ktmcty.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://ktmcty.com",
-    "ldjson_types": [
-      "LocalBusiness"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "lookscart.com",
     "tier": "2",
     "platform": null,
@@ -1822,22 +1838,6 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "makuratech.com",
-    "tier": "2",
-    "platform": "opencart",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.makuratech.com/",
-    "ldjson_types": [
-      "Organization "
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "nagmani.com.np",
@@ -2131,20 +2131,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "calibershoes.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://calibershoes.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "citystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2154,6 +2140,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://citystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "craftnepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://craftnepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2751,6 +2751,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "brother-mart.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno -2] Name or service not known>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "caravan.com.np",
     "tier": "dead",
     "platform": null,
@@ -2777,36 +2787,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "cosywearshop.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "craftnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "goldstarshoes.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2859,6 +2839,26 @@
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "ktmcty.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "makuratech.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "marknepal.com",
