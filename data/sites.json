@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Supernova Rise 3 Running Shoes",
+    "sample_title": "Nike Quest 7 Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 17,
+    "sample_variants": 7,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Supernova Rise 3 Running Shoes",
+    "sample_title": "Nike Quest 7 Running Shoes",
     "vertical_hint": "Fashion"
   },
   {
@@ -30,17 +30,6 @@
     "sample_variants": 92,
     "variants_with_compare_at": 0,
     "sample_title": "Women's Adjustable Double Strap Slides – Rexine Upper with Lightweight EVA Sole",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "agantraders.com",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 35,
-    "variants_with_compare_at": 0,
-    "sample_title": "Round Neck Stripe Heavy Cotton Men's Thick Shirt",
     "vertical_hint": "Fashion"
   },
   {
@@ -171,6 +160,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "clothinginnepal.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.clothinginnepal.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "colorpluscosmetics.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -269,8 +273,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "AOKING MEDIUM DUFFLE TRAVEL BAG – BLACK/BLUE/NAVY | PQ2052-2 (DARK BLUE)",
+    "variants_with_compare_at": 1,
+    "sample_title": "90s Kurta Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -451,21 +455,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Lenovo LOQ 15 AI Gaming PC (AMD Ryzen 7 7445HS Processor | 16GB RAM | 512GB SSD | NVIDIA GeForce RTX 3050 6GB Graphics | White Backlit Keyboard | 15.6&#8243; FHD 144Hz 100% sRGB IPS Display)",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -542,9 +531,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
-    "variants_with_compare_at": 20,
-    "sample_title": "Unisex Ribbed Knit Winter Set",
+    "sample_variants": 19,
+    "variants_with_compare_at": 10,
+    "sample_title": "Boho Patchwork Ruffle Sleeve Long Duster",
     "vertical_hint": "Fashion"
   },
   {
@@ -572,8 +561,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 161,
-    "variants_with_compare_at": 161,
-    "sample_title": "Balaclava Hat for Winter (2-6y)",
+    "variants_with_compare_at": 149,
+    "sample_title": "Warm Pyjama Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -730,8 +719,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "NS-595 &#8211; Traditional Nepali Festive Heritage Gold Plated Mandala Necklace Set in Green Hydropotey",
+    "variants_with_compare_at": 1,
+    "sample_title": "RI-423 &#8211; Intricate Gold Plated Textured Mandala Adjustable Ring with Beaded Detailing",
     "vertical_hint": "Fashion"
   },
   {
@@ -978,21 +967,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "obsessioncosmetics.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "SKIN1004 Tone Balancing Capsule Cream 75ml",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1135,9 +1109,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 30,
-    "variants_with_compare_at": 30,
-    "sample_title": "Fioni Sandals",
+    "sample_variants": 44,
+    "variants_with_compare_at": 12,
+    "sample_title": "Marypaz Sandals",
     "vertical_hint": "Fashion"
   },
   {
@@ -1301,9 +1275,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 92,
-    "variants_with_compare_at": 92,
-    "sample_title": "STOCK-Boys' Plaid Denim Shirt Jacket Long Sleeve Casual Top",
+    "sample_variants": 45,
+    "variants_with_compare_at": 45,
+    "sample_title": "STOCK-Girls Strawberry Plaid Cake Dress Sleeveless Summer Outfit",
     "vertical_hint": "Fashion"
   },
   {
@@ -1808,22 +1782,6 @@
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "ktmcty.com",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://ktmcty.com",
-    "ldjson_types": [
-      "LocalBusiness"
-    ],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "lookscart.com",
     "tier": "2",
     "platform": null,
@@ -2049,6 +2007,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "agantraders.com",
+    "tier": "3",
+    "platform": "shopify",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://agantraders.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "aroannepal.com",
     "tier": "3",
     "platform": null,
@@ -2232,22 +2204,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "dihho.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.dihho.com/",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "dslrcameranepal.com",
     "tier": "3",
     "platform": null,
@@ -2260,20 +2216,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "durbarmart.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://linkslot388.net/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "estore.com.np",
@@ -2421,6 +2363,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2472,7 +2428,7 @@
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "wc-store-api: TimeoutError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://lacosmeticsnepal.com",
@@ -2537,6 +2493,20 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "obsessioncosmetics.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2808,12 +2778,22 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "clothinginnepal.com",
+    "domain": "dihho.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: TimeoutError",
+      "products.json: HTTPError",
       "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "durbarmart.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2864,6 +2844,16 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "ktmcty.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno 104] Connection reset by peer>"
     ],
     "vertical_hint": "Fashion"
   },

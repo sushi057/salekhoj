@@ -1,13 +1,13 @@
 # SaleKhoj coverage report
 
-Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never hand-edit.
+Generated 2026-10-27T05:22:50Z from a live run of `build.sh`. Regenerate, never hand-edit.
 
-- **12350 deals** kept from **59/211** contributing domains
-  - Fashion: 7766
-  - Electronics: 1847
-  - Beauty: 2524
+- **11189 deals** kept from **56/211** contributing domains
+  - Fashion: 7518
+  - Electronics: 1611
+  - Beauty: 1847
   - Fitness: 213
-- **152 domains yielded zero** deals
+- **155 domains yielded zero** deals
 
 ## Per-domain
 
@@ -17,7 +17,7 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | aadimanepal.com | Fashion | 1 | shopify | NP / NPR | 43 | 34 | 9 | - |
 | activafootwear.com | Fashion | 1 | shopify | NP / NPR | 40 | 40 | 0 | - |
 | affordablethriftstorenepal.com | Fashion | 3 | next.js | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
-| agantraders.com | Fashion | 1 | shopify | US / USD | 205 | 0 | 0 | not Nepal-based (country=US) |
+| agantraders.com | Fashion | 3 | shopify | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | alamtech.com.np | Electronics | 2 | - | NP / NPR | 14 | 7 | 7 | - |
 | allattar.com | Beauty | 1 | woocommerce-store-api | - / NPR | 515 | 344 | 171 | - |
 | allureinternational.com.np | Electronics | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
@@ -39,39 +39,39 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | brightsupplements.store | Fitness | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | brocadeofficial.com | Fashion | 1 | shopify | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | brother-mart.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
-| calibershoes.com | Fashion | 1 | woocommerce-store-api | - / NPR | 98 | 98 | 0 | - |
+| calibershoes.com | Fashion | 1 | woocommerce-store-api | - / NPR | 96 | 96 | 0 | - |
 | caravan.com.np | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | caretobeauty.com | Beauty | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | chasmahub.com | Fashion | 2 | nuxt/vue | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | choicemandu.com | Fashion | 2 | opencart | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | citystorenepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | clothesnepal.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
-| clothinginnepal.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
+| clothinginnepal.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | colorpluscosmetics.com | Beauty | 1 | woocommerce-store-api | - / NPR | 269 | 254 | 15 | - |
 | cosywearshop.com | Fashion | 1 | woocommerce-store-api | - / NPR | 6 | 5 | 1 | - |
-| cplanetnp.com | Electronics | 2 | - | NP / NPR | 234 | 169 | 65 | - |
+| cplanetnp.com | Electronics | 2 | - | NP / NPR | 231 | 165 | 66 | - |
 | craftnepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | creativehandnepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | dealayo.com | Electronics | 3 | magento | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | dermaconceptnepal.com | Beauty | 3 | woocommerce | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | dhakatopi.store | Fashion | 1 | shopify | US / USD | 74 | 0 | 0 | not Nepal-based (country=US) |
 | dietnepal.com | Fitness | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
-| dihho.com | Beauty | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
+| dihho.com | Beauty | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | dreamskinnepal.com | Beauty | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
-| dronestorenepal.com | Electronics | 1 | woocommerce-store-api | - / NPR | 73 | 66 | 7 | - |
+| dronestorenepal.com | Electronics | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | dslrcameranepal.com | Electronics | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
-| durbarmart.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
+| durbarmart.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | ekjor.com | Fashion | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | electromandu.com | Electronics | 1 | woocommerce-store-api | - / NPR | 624 | 424 | 200 | - |
 | elevelingerie.com | Fashion | 1 | woocommerce-store-api | - / NPR | 21 | 8 | 13 | - |
 | epharmacy.com.np | Beauty | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | estore.com.np | Electronics | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
-| evanmens.com | Fashion | 2 | - | NP / NPR | 41 | 36 | 5 | - |
+| evanmens.com | Fashion | 2 | - | NP / NPR | 35 | 30 | 5 | - |
 | evewomens.com | Fashion | 2 | - | NP / NPR | 57 | 50 | 7 | - |
-| evostore.com.np | Electronics | 2 | opencart | NP / NPR | 42 | 22 | 20 | - |
+| evostore.com.np | Electronics | 2 | opencart | NP / NPR | 41 | 21 | 20 | - |
 | exortstore.com | Electronics | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | eyemartnepal.com | Fashion | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
-| fashionlagoon.com | Fashion | 1 | woocommerce-store-api | - / NPR | 102 | 101 | 1 | - |
+| fashionlagoon.com | Fashion | 1 | woocommerce-store-api | - / NPR | 103 | 102 | 1 | - |
 | fatafatsewa.com | Electronics | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | firstaidnepal.com | Electronics | 2 | - | NP / NPR | 127 | 34 | 93 | - |
 | fitlifetraders.com | Fitness | 2 | - | NP / NPR | 1 | 0 | 1 | deals found but none in tracked verticals (dropped as other/unclassified) |
@@ -95,7 +95,7 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | handicraftsinnepal.com | Fashion | 1 | woocommerce-store-api | - / USD | 88 | 0 | 0 | non-NPR currency |
 | hardwarepasal.com | Electronics | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | harringtonwear.com | Fashion | 1 | shopify | NP / NPR | 643 | 546 | 97 | - |
-| healme.com.np | Beauty | 2 | - | NP / NPR | 101 | 72 | 29 | - |
+| healme.com.np | Beauty | 2 | - | NP / NPR | 101 | 76 | 25 | - |
 | hempinnepal.com | Fashion | 1 | woocommerce-store-api | - / USD | 5 | 0 | 0 | non-NPR currency |
 | hempplanetnepal.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | himalayanbagshop.com | Fashion | 1 | woocommerce-store-api | - / EUR | 2 | 0 | 0 | non-NPR currency |
@@ -104,7 +104,7 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | humanfitcraft.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | humttonepal.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | imartnepal.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
-| infotechsnepal.com.np | Electronics | 1 | woocommerce-store-api | - / NPR | 203 | 170 | 33 | - |
+| infotechsnepal.com.np | Electronics | 3 | woocommerce | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | instylenepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | itechstore.com.np | Electronics | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | itti.com.np | Electronics | dead | - | - | 0 | 0 | 0 | dead/unreachable |
@@ -115,18 +115,18 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | jutapasal.com | Fashion | 1 | shopify | NP / NPR | 76 | 72 | 4 | - |
 | kallistodesignsnepal.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | kapadaa.com | Fashion | 1 | woocommerce-store-api | - / USD | 16 | 0 | 0 | non-NPR currency |
-| karmanepalcrafts.com | Fashion | 1 | shopify | US / USD | 779 | 0 | 0 | not Nepal-based (country=US) |
+| karmanepalcrafts.com | Fashion | 1 | shopify | US / USD | 780 | 0 | 0 | not Nepal-based (country=US) |
 | kathmanduclothing.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | kbeautynp.com | Beauty | 2 | next.js | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
-| khudra.com.np | Electronics | 2 | - | NP / NPR | 5 | 4 | 1 | - |
+| khudra.com.np | Electronics | 2 | - | NP / NPR | 6 | 4 | 2 | - |
 | kinaun.com | Electronics | 3 | woocommerce | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | kobieu.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
-| kokroma.com | Fashion | 1 | shopify | NP / NPR | 97 | 91 | 6 | - |
+| kokroma.com | Fashion | 1 | shopify | NP / NPR | 96 | 90 | 6 | - |
 | koreanbeautypoint.com | Beauty | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | koselly.com | Fashion | 1 | shopify | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | kpg-beauty.com | Beauty | 1 | shopify | KR / NPR | 40 | 0 | 0 | not Nepal-based (country=KR) |
 | kpgbeauty.com | Beauty | 1 | shopify | KR / NPR | 40 | 0 | 0 | not Nepal-based (country=KR) |
-| ktmcty.com | Fashion | 2 | woocommerce | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
+| ktmcty.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | lacosmeticsnepal.com | Beauty | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | lakhey.co | Fashion | 1 | woocommerce-store-api | - / NPR | 10 | 7 | 3 | - |
 | lds.com.np | Electronics | 1 | woocommerce-store-api | - / NPR | 117 | 87 | 30 | - |
@@ -138,7 +138,7 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | marknepal.com | Fashion | dead | - | - | 0 | 0 | 0 | dead/unreachable |
 | marsyangde.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | maxnepal.com.np | Electronics | 1 | woocommerce-store-api | - / NPR | 155 | 141 | 14 | - |
-| meesaa.com | Fashion | 1 | woocommerce-store-api | - / NPR | 789 | 778 | 11 | - |
+| meesaa.com | Fashion | 1 | woocommerce-store-api | - / NPR | 777 | 766 | 11 | - |
 | megashopnepal.com | Fitness | 1 | woocommerce-store-api | - / NPR | 283 | 136 | 147 | - |
 | mheecha.com | Fashion | 1 | woocommerce-store-api | - / NPR | 3 | 0 | 3 | deals found but none in tracked verticals (dropped as other/unclassified) |
 | mishisa.com | Beauty | 3 | next.js | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
@@ -167,7 +167,7 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | newmew.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | nightvision.com.np | Electronics | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | nktmen.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
-| obsessioncosmetics.com | Beauty | 1 | woocommerce-store-api | - / NPR | 828 | 686 | 142 | - |
+| obsessioncosmetics.com | Beauty | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | onin.com.np | Electronics | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | onlineit.com.np | Electronics | 1 | woocommerce-store-api | - / NPR | 279 | 255 | 24 | - |
 | panchakanyamobile.com.np | Electronics | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
@@ -211,13 +211,13 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 | thriftko.com | Fashion | 2 | - | - | 0 | 0 | 0 | no sitemap, or no page carried both a structured price and a struck original |
 | thriftmandu.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | thriftstorenepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
-| titannepal.com | Fashion | 1 | shopify | NP / NPR | 1043 | 1013 | 30 | - |
+| titannepal.com | Fashion | 1 | shopify | NP / NPR | 1021 | 991 | 30 | - |
 | tnnleather.com | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
 | tronixspace.com | Electronics | 1 | woocommerce-store-api | - / NPR | 236 | 205 | 31 | - |
 | tsarmoire.com | Fashion | 3 | next.js | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | tshirtnepal.com | Fashion | 3 | - | - | 0 | 0 | 0 | JS-rendered or blocking (tier 3, extractor not built) |
 | tshirtnepal.com.np | Fashion | 1 | woocommerce-store-api | - | 0 | 0 | 0 | feed OK but zero discounts right now |
-| tudoholic.com | Fashion | 1 | shopify | NP / NPR | 2994 | 2903 | 91 | - |
+| tudoholic.com | Fashion | 1 | shopify | NP / NPR | 2995 | 2707 | 288 | - |
 | ufonepal.com | Fashion | 1 | woocommerce-store-api | - / NPR | 50 | 50 | 0 | - |
 | vitaminepal.com | Fitness | 1 | woocommerce-store-api | - / NPR | 18 | 18 | 0 | - |
 | woven-nepal.com | Fashion | 1 | shopify | DE / EUR | 55 | 0 | 0 | not Nepal-based (country=DE) |
@@ -229,14 +229,14 @@ Generated 2026-10-26T05:29:56Z from a live run of `build.sh`. Regenerate, never 
 
 Where the next engineering effort pays off.
 
-- **JS-rendered or blocking (tier 3, extractor not built)** (49): affordablethriftstorenepal.com, aroannepal.com, babyshopnepal.com, beautynepalshop.com, bigapplenepal.com, bishrom.com, brightsupplements.store, citystorenepal.com, craftnepal.com, creativehandnepal.com, dealayo.com, dermaconceptnepal.com, dietnepal.com, dihho.com, dslrcameranepal.com, durbarmart.com, estore.com.np, fitspectrumnepal.com, foreveryng.com, gahanastores.com, gnextcom.com, gorkhaathletic.com, gym-experts.com, hamroshringar.com, hubanepal.com, humanfitcraft.com, instylenepal.com, kathmanduclothing.com, kinaun.com, lacosmeticsnepal.com, mishisa.com, mobilemandu.com, mystorenepal.com, nepalcan.com, panchakanyamobile.com.np, purnaa.com, qualitycomputer.com.np, regencywatch.com.np, shoesnpl.com, swisstimepiecesnepal.com, thaili.com.np, thebrandnepal.com, thebuzznepal.com, thekickersnepal.com, thriftmandu.com, thriftstorenepal.com, tsarmoire.com, tshirtnepal.com, yara.com.np
-- **dead/unreachable** (21): basemark.com.np, brother-mart.com, caravan.com.np, caretobeauty.com, clothesnepal.com, clothinginnepal.com, hempplanetnepal.com, imartnepal.com, itechstore.com.np, itti.com.np, juju-wears.com, marknepal.com, mudita.com.np, naviforce-watch.com, nepalfitness.com, plussizenepal.com, sastoprint.com, skmeinepal.com, solehex.com, suitnepal.com, thewatchlounge.co
+- **JS-rendered or blocking (tier 3, extractor not built)** (50): affordablethriftstorenepal.com, agantraders.com, aroannepal.com, babyshopnepal.com, beautynepalshop.com, bigapplenepal.com, bishrom.com, brightsupplements.store, citystorenepal.com, craftnepal.com, creativehandnepal.com, dealayo.com, dermaconceptnepal.com, dietnepal.com, dslrcameranepal.com, estore.com.np, fitspectrumnepal.com, foreveryng.com, gahanastores.com, gnextcom.com, gorkhaathletic.com, gym-experts.com, hamroshringar.com, hubanepal.com, humanfitcraft.com, infotechsnepal.com.np, instylenepal.com, kathmanduclothing.com, kinaun.com, lacosmeticsnepal.com, mishisa.com, mobilemandu.com, mystorenepal.com, nepalcan.com, obsessioncosmetics.com, panchakanyamobile.com.np, purnaa.com, qualitycomputer.com.np, regencywatch.com.np, shoesnpl.com, swisstimepiecesnepal.com, thaili.com.np, thebrandnepal.com, thebuzznepal.com, thekickersnepal.com, thriftmandu.com, thriftstorenepal.com, tsarmoire.com, tshirtnepal.com, yara.com.np
+- **dead/unreachable** (23): basemark.com.np, brother-mart.com, caravan.com.np, caretobeauty.com, clothesnepal.com, dihho.com, durbarmart.com, hempplanetnepal.com, imartnepal.com, itechstore.com.np, itti.com.np, juju-wears.com, ktmcty.com, marknepal.com, mudita.com.np, naviforce-watch.com, nepalfitness.com, plussizenepal.com, sastoprint.com, skmeinepal.com, solehex.com, suitnepal.com, thewatchlounge.co
 - **deals found but none in tracked verticals (dropped as other/unclassified)** (5): fitlifetraders.com, ganapatijewellers.com, goldstarshoes.com, mheecha.com, mydermaearth.com
-- **feed OK but zero discounts right now** (19): ametsuchicollection.com, brocadeofficial.com, gndgadgets.com, humttonepal.com, kallistodesignsnepal.com, kobieu.com, koselly.com, marsyangde.com, nepaliculturalhouse.com, newmew.com, nightvision.com.np, nktmen.com, samayawatch.com, sublime.boutique, theprintfactorynepal.com, theyogibands.com, tnnleather.com, tshirtnepal.com.np, yatrisupply.com
-- **no sitemap, or no page carried both a structured price and a struck original** (32): allureinternational.com.np, aoneleathercraft.com, beautyhubnepal.com, beautynpl.com, chasmahub.com, choicemandu.com, dreamskinnepal.com, ekjor.com, epharmacy.com.np, exortstore.com, eyemartnepal.com, fatafatsewa.com, fragrancenepal.com, gadgetsinnepal.com.np, giftmandu.com, godamonline.com, hardwarepasal.com, jhoomkanepal.com, kbeautynp.com, koreanbeautypoint.com, ktmcty.com, lookscart.com, makuratech.com, nagmani.com.np, neostore.com.np, nepkids.com, neshop.com.np, onin.com.np, rhino-leathers.com, sajiloshop.com.np, socheko.com, thriftko.com
+- **feed OK but zero discounts right now** (21): ametsuchicollection.com, brocadeofficial.com, clothinginnepal.com, dronestorenepal.com, gndgadgets.com, humttonepal.com, kallistodesignsnepal.com, kobieu.com, koselly.com, marsyangde.com, nepaliculturalhouse.com, newmew.com, nightvision.com.np, nktmen.com, samayawatch.com, sublime.boutique, theprintfactorynepal.com, theyogibands.com, tnnleather.com, tshirtnepal.com.np, yatrisupply.com
+- **no sitemap, or no page carried both a structured price and a struck original** (31): allureinternational.com.np, aoneleathercraft.com, beautyhubnepal.com, beautynpl.com, chasmahub.com, choicemandu.com, dreamskinnepal.com, ekjor.com, epharmacy.com.np, exortstore.com, eyemartnepal.com, fatafatsewa.com, fragrancenepal.com, gadgetsinnepal.com.np, giftmandu.com, godamonline.com, hardwarepasal.com, jhoomkanepal.com, kbeautynp.com, koreanbeautypoint.com, lookscart.com, makuratech.com, nagmani.com.np, neostore.com.np, nepkids.com, neshop.com.np, onin.com.np, rhino-leathers.com, sajiloshop.com.np, socheko.com, thriftko.com
 - **non-NPR currency** (9): amaghar.com, bhutib.com, gurkhawatch.com, handicraftsinnepal.com, hempinnepal.com, himalayanbagshop.com, kapadaa.com, nepalknittingwear.com, nepalvisitors.com
 - **not Nepal-based (country=AU)** (1): nepmart.com
 - **not Nepal-based (country=DE)** (2): nepacrafts.com, woven-nepal.com
 - **not Nepal-based (country=IN)** (3): folkbazar.com, seeratethnic.com, shopgarb.com
 - **not Nepal-based (country=KR)** (2): kpg-beauty.com, kpgbeauty.com
-- **not Nepal-based (country=US)** (9): agantraders.com, dhakatopi.store, himali.com, karmanepalcrafts.com, nenepal.com, neunomads.com, primeemarket.com, scottssweaters.com, sherpaadventuregear.com
+- **not Nepal-based (country=US)** (8): dhakatopi.store, himali.com, karmanepalcrafts.com, nenepal.com, neunomads.com, primeemarket.com, scottssweaters.com, sherpaadventuregear.com
