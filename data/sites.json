@@ -100,7 +100,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Yangtse Incense, Handmade Tibetan Agarbatti, Pack of 2",
+    "sample_title": "Embroidered Velvet Tamang Topi for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -139,9 +139,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 15,
+    "sample_variants": 19,
     "variants_with_compare_at": 0,
-    "sample_title": "STACK SHIRT",
+    "sample_title": "brocade limited trouser",
     "vertical_hint": "Fashion"
   },
   {
@@ -155,8 +155,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "AVEN 604E -Coffe Casual Sneakers For Men &#8211; Caliber Shoes Nepal",
+    "variants_with_compare_at": 0,
+    "sample_title": "VELOX 767-WHITE/LT.GREY Slip-On Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -171,7 +171,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Unisex Patchwork Fleece-Lined Jacket – Handmade Hippie Boho Hoodie in Premium Cotton Canvas",
+    "sample_title": "Bohemian Gheri Patchwork Jacket with Polar Fleece Lining – Handmade Cotton Zip-Up Hoodie",
     "vertical_hint": "Fashion"
   },
   {
@@ -210,9 +210,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 6,
     "variants_with_compare_at": 0,
-    "sample_title": "Langur Burja / Jhandi Munda – Traditional Nepali Dice Game Set- Small",
+    "sample_title": "Laxmi Besan (Gram Flour) – 2 lb",
     "vertical_hint": "Fashion"
   },
   {
@@ -263,29 +263,14 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "fashionlagoon.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://fashionlagoon.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "90s Kurta Set",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "folkbazar.com",
     "tier": "1",
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
-    "variants_with_compare_at": 18,
-    "sample_title": "Satin - Tibetan Vertical Prayer Flags (for Bamboo)",
+    "sample_variants": 12,
+    "variants_with_compare_at": 12,
+    "sample_title": "Namcho Wongdi",
     "vertical_hint": "Fashion"
   },
   {
@@ -305,23 +290,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Lord Ganesh",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "gndgadgets.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://gndgadgets.com",
-    "ldjson_types": [
-      "BreadcrumbList"
-    ],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Sony FX5 Body",
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "gogetnepal.com",
@@ -455,6 +423,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Infinix Note 60 128GB (8GB RAM | 128GB Storage | Octa-core Processor | Mali-G615 MC2 GPU | 6.78” AMOLED, 1.5K Display)",
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -481,7 +464,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Dashain Combo Offer &#8211;  Plant-based Mass Gainer 1kg Vanilla + Creatine 100g Unflavoured",
+    "sample_title": "Tihar Combo Offer &#8211;  Plant-based Mass Gainer 1kg Vanilla + Creatine 100g Unflavored",
     "vertical_hint": "Fitness"
   },
   {
@@ -531,9 +514,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
-    "variants_with_compare_at": 10,
-    "sample_title": "Boho Patchwork Ruffle Sleeve Long Duster",
+    "sample_variants": 15,
+    "variants_with_compare_at": 14,
+    "sample_title": "Handmade Wool Felt Ball Placemat with Colorful Pom Poms",
     "vertical_hint": "Fashion"
   },
   {
@@ -641,21 +624,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Men&#8217;s Formal Pant",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "maayus.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: JSONDecodeError"
-    ],
-    "final_url": "https://www.maayus.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Baby Casual Lace-Up Sneakers",
     "vertical_hint": "Fashion"
   },
   {
@@ -967,6 +935,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "obsessioncosmetics.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://obsessioncosmetics.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 4,
+    "sample_title": "SKIN1004 Tone Balancing Capsule Cream 75ml",
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "onlineit.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1221,7 +1204,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Black Aviator Men Sunglasses",
+    "sample_title": "Sonata Quartz Analog White Dial Leather Strap Watch for Men",
     "vertical_hint": "Fashion"
   },
   {
@@ -1275,9 +1258,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 45,
-    "variants_with_compare_at": 45,
-    "sample_title": "STOCK-Girls Strawberry Plaid Cake Dress Sleeveless Summer Outfit",
+    "sample_variants": 83,
+    "variants_with_compare_at": 83,
+    "sample_title": "Men Croc-Texture Ankle-Length Regular Boots, Black",
     "vertical_hint": "Fashion"
   },
   {
@@ -1782,6 +1765,22 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "ktmcty.com",
+    "tier": "2",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://ktmcty.com",
+    "ldjson_types": [
+      "LocalBusiness"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "lookscart.com",
     "tier": "2",
     "platform": null,
@@ -2120,6 +2119,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "brother-mart.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://brother-mart.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "citystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2202,6 +2215,22 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
+  },
+  {
+    "domain": "dihho.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.dihho.com/",
+    "ldjson_types": [
+      "WebSite"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "dslrcameranepal.com",
@@ -2363,20 +2392,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2428,7 +2443,7 @@
     "platform": null,
     "notes": [
       "products.json: HTTPError",
-      "wc-store-api: TimeoutError",
+      "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://lacosmeticsnepal.com",
@@ -2493,20 +2508,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://obsessioncosmetics.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2738,16 +2739,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "brother-mart.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno -2] Name or service not known>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "caravan.com.np",
     "tier": "dead",
     "platform": null,
@@ -2778,16 +2769,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "dihho.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "durbarmart.com",
     "tier": "dead",
     "platform": null,
@@ -2796,6 +2777,26 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "fashionlagoon.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "gndgadgets.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Electronics"
   },
   {
     "domain": "hempplanetnepal.com",
@@ -2848,12 +2849,12 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "ktmcty.com",
+    "domain": "maayus.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
