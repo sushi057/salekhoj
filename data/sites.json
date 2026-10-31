@@ -1,16 +1,5 @@
 [
   {
-    "domain": "aadima.store",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 7,
-    "variants_with_compare_at": 0,
-    "sample_title": "COLUMBIA Mountaincap™ II 110 Snapback",
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "aadimanepal.com",
     "tier": "1",
     "platform": "shopify",
@@ -100,7 +89,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Embroidered Velvet Tamang Topi for Men",
+    "sample_title": "Kids Bakhu in Tash Kuchin Brocade, One Piece with Wonju",
     "vertical_hint": "Fashion"
   },
   {
@@ -129,8 +118,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Medicube Deep Vita C Pad 70 Pads 150g",
+    "variants_with_compare_at": 4,
+    "sample_title": "Medicube Azelaic Acid Niacinamide Deep Clean Foam Cleanser 120g",
     "vertical_hint": "Beauty"
   },
   {
@@ -156,7 +145,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "VELOX 767-WHITE/LT.GREY Slip-On Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "LIVO 766-BLACK Slip-On Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -171,7 +160,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Patchwork Cotton Hoodie : Unisex Hippie Stonewashed Pullover with Prints",
+    "sample_title": "Handmade Cotton Patchwork Hoodie – Fair Trade Bohemian Festival Wear for Men and Women",
     "vertical_hint": "Fashion"
   },
   {
@@ -210,9 +199,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 6,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Mana ko Aji Ko Achar – Timur ko  Chop",
+    "sample_title": "Rato Bhale Battisa Powder – Sutkeri Masala Ingredient",
     "vertical_hint": "Fashion"
   },
   {
@@ -455,21 +444,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "infotechsnepal.com.np",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://infotechsnepal.com.np",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Infinix Hot 70 128GB (8GB RAM | 128GB Storage | Octa-core Processor | Mali-G52 MC2 GPU | 6.78” IPS LCD, HD+ Display)",
-    "vertical_hint": "Electronics"
-  },
-  {
     "domain": "jirihealth.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -482,21 +456,6 @@
     "sample_products": 5,
     "variants_with_compare_at": 2,
     "sample_title": "Himalayan Outfits Bodysuit",
-    "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "jirinu.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://jirinu.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Tihar Combo Offer &#8211;  Plant-based Mass Gainer 1kg Vanilla + Creatine 100g Unflavored",
     "vertical_hint": "Fitness"
   },
   {
@@ -547,8 +506,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 15,
-    "variants_with_compare_at": 14,
-    "sample_title": "Handmade Wool Felt Ball Placemat with Colorful Pom Poms",
+    "variants_with_compare_at": 11,
+    "sample_title": "Whimsical Celestial Journal and Boho Notebook",
     "vertical_hint": "Fashion"
   },
   {
@@ -624,8 +583,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "oversized Polka dot shirt",
+    "variants_with_compare_at": 1,
+    "sample_title": "Rasi Sweater",
     "vertical_hint": "Fashion"
   },
   {
@@ -734,8 +693,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "RI-423 &#8211; Intricate Gold Plated Textured Mandala Adjustable Ring with Beaded Detailing",
+    "variants_with_compare_at": 0,
+    "sample_title": "CH-425 &#8211; Vibrant Multicolor Festive Beaded Gold Plated Mala Chain",
     "vertical_hint": "Fashion"
   },
   {
@@ -767,17 +726,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Shuffle Backpack",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "muscleblaze.com.np",
-    "tier": "1",
-    "platform": "shopify",
-    "notes": [],
-    "sample_products": 5,
-    "sample_variants": 11,
-    "variants_with_compare_at": 11,
-    "sample_title": "MB Biozorb Performance Whey",
-    "vertical_hint": "Fitness"
   },
   {
     "domain": "mydermaearth.com",
@@ -828,7 +776,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Fully Gold Plated Dzambhala Statue with Stone Inlays 7.5\"H",
+    "sample_title": "Handcarved Wooden Back  Fram of  Square Resin Buddha Mandala Wall Hanging",
     "vertical_hint": "Fashion"
   },
   {
@@ -859,6 +807,21 @@
     "sample_products": 5,
     "variants_with_compare_at": 3,
     "sample_title": "Black Hoodies",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "nepalknittingwear.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.nepalknittingwear.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Himalayan Handmade Wool Christmas Hat &#8211; Wholesale",
     "vertical_hint": "Fashion"
   },
   {
@@ -929,7 +892,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lumbini Lions Black Sunglass",
+    "sample_title": "Lumbini Lions Black Sporty Cricket Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -978,7 +941,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 4,
-    "sample_title": "Acer Aspire Go 14 59YK | Ultra 5 125H | 16GB DDR5 RAM | 512GB NVMe SSD | Intel Arc Graphics | 14″ WUXGA (1920×1200) IPS Display | Windows 11",
+    "sample_title": "Lenovo Legion 5 15IAX10 | Ultra 7 255HX Processor | 32GB DDR5 RAM | 512GB SSD | RTX 5060 8GB Graphics | 15.1&#8243; WQXGA (2560×1600) OLED Display | 1 Year Warranty | Win 11",
     "vertical_hint": "Electronics"
   },
   {
@@ -1203,6 +1166,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "thewatchlounge.co",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://thewatchlounge.co",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "SKMEI 2735 Fashion Quartz Leather Watch for Women &#8211; Silver/Black",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "theyogibands.com",
     "tier": "1",
     "platform": "shopify",
@@ -1221,7 +1199,7 @@
     "sample_products": 5,
     "sample_variants": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Titan Karishma Zing Quartz Analog Blue Dial Leather Strap Watch for Men",
+    "sample_title": "Titan Zero Hour Diver's Blue Dial Analog Watch",
     "vertical_hint": "Fashion"
   },
   {
@@ -1275,9 +1253,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 44,
-    "variants_with_compare_at": 44,
-    "sample_title": "STOCK-Men's Embossed Deer Head Leather Bifold Short Wallet",
+    "sample_variants": 88,
+    "variants_with_compare_at": 88,
+    "sample_title": "1:12 Alloy RC Bigfoot Car High Speed Climbing Off Road Toy",
     "vertical_hint": "Fashion"
   },
   {
@@ -1345,6 +1323,23 @@
     "sample_variants": 11,
     "variants_with_compare_at": 0,
     "sample_title": "The 'Explore' Travel Journal Set",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "aadima.store",
+    "tier": "2",
+    "platform": "shopify",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aadimanepal.com/",
+    "ldjson_types": [
+      "OnlineStore",
+      "WebSite"
+    ],
+    "price_in_html": true,
     "vertical_hint": "Fashion"
   },
   {
@@ -1895,6 +1890,22 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "qualitycomputer.com.np",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://qualitycomputer.com.np",
+    "ldjson_types": [
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "rhino-leathers.com",
     "tier": "2",
     "platform": "opencart",
@@ -2182,9 +2193,9 @@
     "tier": "3",
     "platform": "magento",
     "notes": [
-      "products.json: TimeoutError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: TimeoutError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2248,6 +2259,22 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "durbarmart.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://oakwood1444.com/",
+    "ldjson_types": [
+      "BreadcrumbList"
+    ],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "estore.com.np",
@@ -2395,6 +2422,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "infotechsnepal.com.np",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://infotechsnepal.com.np",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "instylenepal.com",
     "tier": "3",
     "platform": null,
@@ -2513,32 +2554,18 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "nepalcan.com",
+    "domain": "obsessioncosmetics.com",
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://nepalcan.com",
+    "final_url": "https://obsessioncosmetics.com",
     "ldjson_types": [],
     "price_in_html": false,
-    "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "nepalknittingwear.com",
-    "tier": "3",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: HTTPError"
-    ],
-    "final_url": "https://www.nepalknittingwear.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
+    "vertical_hint": "Beauty"
   },
   {
     "domain": "panchakanyamobile.com.np",
@@ -2570,22 +2597,6 @@
     ],
     "price_in_html": false,
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "qualitycomputer.com.np",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://qualitycomputer.com.np",
-    "ldjson_types": [
-      "WebSite"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Electronics"
   },
   {
     "domain": "regencywatch.com.np",
@@ -2732,6 +2743,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "tshirtnepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://tshirtnepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "yara.com.np",
     "tier": "3",
     "platform": "next.js",
@@ -2796,16 +2821,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "durbarmart.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2834,6 +2849,16 @@
       "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "jirinu.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "vertical_hint": "Fitness"
   },
   {
     "domain": "juju-wears.com",
@@ -2866,6 +2891,16 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "muscleblaze.com.np",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fitness"
+  },
+  {
     "domain": "naviforce-watch.com",
     "tier": "dead",
     "platform": null,
@@ -2876,6 +2911,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nepalcan.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 503: Service Unavailable"
+    ],
+    "vertical_hint": "Fitness"
+  },
+  {
     "domain": "nepalfitness.com",
     "tier": "dead",
     "platform": null,
@@ -2884,16 +2929,6 @@
       "home: URLError: <urlopen error [Errno -2] Name or service not known>"
     ],
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "obsessioncosmetics.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 304: Not Modified"
-    ],
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "plussizenepal.com",
@@ -2942,26 +2977,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 500: Internal Server Error"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "thewatchlounge.co",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "tshirtnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [Errno 111] Connection refused>"
     ],
     "vertical_hint": "Fashion"
   }
