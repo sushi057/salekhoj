@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 22,
     "variants_with_compare_at": 0,
-    "sample_title": "Columbia NEWTON NIMBLE™ LTR W",
+    "sample_title": "Nike Park Stadium Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 18,
+    "sample_variants": 22,
     "variants_with_compare_at": 0,
-    "sample_title": "Columbia NEWTON NIMBLE™ LTR W",
+    "sample_title": "Nike Park Stadium Jacket",
     "vertical_hint": "Fashion"
   },
   {
@@ -78,7 +78,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: TimeoutError"
     ],
     "final_url": "https://ankernepal.com",
     "ldjson_types": [],
@@ -108,11 +108,12 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError"
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError"
     ],
     "final_url": "https://bigbyte.com.np",
     "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Apple MacBook Pro 16-inch M5 Pro 24GB RAM 1TB SSD",
@@ -156,7 +157,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "LIVO 766-BLACK Slip-On Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "KNOX 507G-Black Chukka Boots For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -171,7 +172,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Handmade Cotton Patchwork Hoodie – Fair Trade Bohemian Festival Wear for Men and Women",
+    "sample_title": "Hippie Patchwork Mushroom Print Wide Leg Overalls &#8211; Wholesale",
     "vertical_hint": "Fashion"
   },
   {
@@ -186,8 +187,23 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Product",
+    "sample_title": "Plum 5% Glycolic Acid &#038; Goji Berry Exfoliating Toner",
     "vertical_hint": "Beauty"
+  },
+  {
+    "domain": "cosywearshop.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://cosywearshop.com",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Party Shoes",
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "dhakatopi.store",
@@ -195,9 +211,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 19,
     "variants_with_compare_at": 0,
-    "sample_title": "Rato Bhale Battisa Powder – Sutkeri Masala Ingredient",
+    "sample_title": "Fried corn Snack | Nepali Bhuteko makai",
     "vertical_hint": "Fashion"
   },
   {
@@ -323,7 +339,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Black",
+    "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Green",
     "vertical_hint": "Fashion"
   },
   {
@@ -450,8 +466,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Asus ExpertBook B1 B1503CVA 2026 (Intel Core 5 210H Series 2 Processor | 16GB RAM | 512GB SSD | Intel® Graphics | Backlit &#038; Fingerprint Sensor | 15.6&#8243; FHD Display)",
+    "variants_with_compare_at": 3,
+    "sample_title": "Lenovo Yoga 7 2-in-1 14 (AMD Ryzen AI 5 340 Processor | 16GB RAM | 512GB SSD | AMD Radeon 840M Graphics | Backlit Keyboard | 14&#8243; WUXGA OLED x360 Touch Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -465,8 +481,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Himalayan Outfits Bodysuit",
+    "variants_with_compare_at": 1,
+    "sample_title": "TEST — JIRI Shaker Bottle 400ml White",
     "vertical_hint": "Fitness"
   },
   {
@@ -532,8 +548,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 15,
-    "variants_with_compare_at": 11,
-    "sample_title": "Whimsical Celestial Journal and Boho Notebook",
+    "variants_with_compare_at": 4,
+    "sample_title": "Cute Baby Bear Ear Knit Beanie with Soft Cotton Lining",
     "vertical_hint": "Fashion"
   },
   {
@@ -929,7 +945,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lumbini Lions Black Sporty Cricket Sunglass",
+    "sample_title": "Matte Black Green Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -977,8 +993,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "SKIN1004 Tone Balancing Capsule Cream 75ml",
+    "variants_with_compare_at": 4,
+    "sample_title": "Benefit Cosmetics  Mini Beauty Bus Stop Cheek Palette",
     "vertical_hint": "Beauty"
   },
   {
@@ -992,8 +1008,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Lenovo Legion 5 15IAX10 | Ultra 7 255HX Processor | 32GB DDR5 RAM | 512GB SSD | RTX 5060 8GB Graphics | 15.1&#8243; WQXGA (2560×1600) OLED Display | 1 Year Warranty | Win 11",
+    "variants_with_compare_at": 1,
+    "sample_title": "Lenovo Legion Pro 5 16IAX10H | Ultra 9 275HX Processor | RTX 5070 Ti 12GB Graphics | 32GB DDR5 RAM | 1TB SSD | 16″ WQXGA OLED 165Hz Display | Windows 11 Home",
     "vertical_hint": "Electronics"
   },
   {
@@ -1229,7 +1245,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "SKMEI 2735 Fashion Quartz Leather Watch for Women &#8211; Silver/Black",
+    "sample_title": "NAVIFORCE NF9265 Dual Time Sports Fumed Silicon Strap Luminious Watch for Men &#8211;  Black/Silver",
     "vertical_hint": "Fashion"
   },
   {
@@ -1305,9 +1321,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 86,
-    "variants_with_compare_at": 86,
-    "sample_title": "STOCK-Compass Pendant Necklace for Men, Round Vintage Jewelry",
+    "sample_variants": 50,
+    "variants_with_compare_at": 50,
+    "sample_title": "Men's Twist Knit Polo Shirt, Business Casual Loose Fit",
     "vertical_hint": "Fashion"
   },
   {
@@ -1362,7 +1378,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
+    "variants_with_compare_at": 4,
     "sample_title": "Blackview MP20 Mini PC | Powerful Small PC with AMD Ryzen 3 3300U Processor, 16GB DDR4 RAM, 512GB M.2 SSD, AMD Radeon Vega 6 Graphics, Dual 4K Display (HDMI + DisplayPort), Wi-Fi 5, Bluetooth 4.2, Gigabit Ethernet, VESA Mount, Windows 11 Pro (Black, 265g)",
     "vertical_hint": "Electronics"
   },
@@ -2123,20 +2139,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "bishrom.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://bishrom.com/wp-admin/setup-config.php",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2802,6 +2804,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "caravan.com.np",
     "tier": "dead",
     "platform": null,
@@ -2838,16 +2850,6 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "cosywearshop.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
