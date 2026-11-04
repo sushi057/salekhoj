@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Park Stadium Jacket",
+    "sample_title": "Adidas Essentials Training Shoulder Bag",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
+    "sample_variants": 20,
     "variants_with_compare_at": 0,
-    "sample_title": "Nike Park Stadium Jacket",
+    "sample_title": "Adidas Essentials Training Shoulder Bag",
     "vertical_hint": "Fashion"
   },
   {
@@ -58,8 +58,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Jumla Nepali Kalo Simi Dal 1kg – Split Black Beans",
+    "variants_with_compare_at": 2,
+    "sample_title": "Laxmi Puja Pack | लक्ष्मी पूजा प्याक",
     "vertical_hint": "Fashion"
   },
   {
@@ -78,7 +78,7 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: TimeoutError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://ankernepal.com",
     "ldjson_types": [],
@@ -140,9 +140,20 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 19,
+    "sample_variants": 24,
     "variants_with_compare_at": 0,
-    "sample_title": "brocade limited trouser",
+    "sample_title": "SPIRAL YELLOW",
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "brother-mart.com",
+    "tier": "1",
+    "platform": "shopify",
+    "notes": [],
+    "sample_products": 5,
+    "sample_variants": 7,
+    "variants_with_compare_at": 3,
+    "sample_title": "UGREEN 10000mAh Power Bank with 20W PD Charging",
     "vertical_hint": "Fashion"
   },
   {
@@ -157,7 +168,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "KNOX 507G-Black Chukka Boots For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "TITAN 547SN &#8211; Black Formal Loafer Shoes For Men &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -286,7 +297,7 @@
     "sample_products": 5,
     "sample_variants": 8,
     "variants_with_compare_at": 8,
-    "sample_title": "Dhaka Saree with Blouse Piece",
+    "sample_title": "Dhaka Topi",
     "vertical_hint": "Fashion"
   },
   {
@@ -435,9 +446,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 63,
-    "variants_with_compare_at": 0,
-    "sample_title": "HIMALI Gift Card",
+    "sample_variants": 40,
+    "variants_with_compare_at": 5,
+    "sample_title": "Womens Peak 7 Down Jacket (Hooded)",
     "vertical_hint": "Fashion"
   },
   {
@@ -466,8 +477,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 3,
-    "sample_title": "Lenovo Yoga 7 2-in-1 14 (AMD Ryzen AI 5 340 Processor | 16GB RAM | 512GB SSD | AMD Radeon 840M Graphics | Backlit Keyboard | 14&#8243; WUXGA OLED x360 Touch Display)",
+    "variants_with_compare_at": 1,
+    "sample_title": "Acer Swift Go 16 AI  Copilot+ PC (AMD Ryzen AI 7 445 Series Processor | 16GB RAM | 1TB SSD | AMD Radeon Graphics | Backlit Keyboard | 16″ WUXGA IPS 120Hz Touch Display)",
     "vertical_hint": "Electronics"
   },
   {
@@ -481,8 +492,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "TEST — JIRI Shaker Bottle 400ml White",
+    "variants_with_compare_at": 2,
+    "sample_title": "Himalayan Outfits Bodysuit",
     "vertical_hint": "Fitness"
   },
   {
@@ -497,7 +508,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Jiri Nutrition Whey Protein Fusion",
+    "sample_title": "Jiri Nutrition Men&#8217;s Workout T-Shirt",
     "vertical_hint": "Fitness"
   },
   {
@@ -576,7 +587,7 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 104,
+    "sample_variants": 110,
     "variants_with_compare_at": 92,
     "sample_title": "Warm Pyjama Set",
     "vertical_hint": "Fashion"
@@ -1321,9 +1332,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 50,
-    "variants_with_compare_at": 50,
-    "sample_title": "Men's Twist Knit Polo Shirt, Business Casual Loose Fit",
+    "sample_variants": 58,
+    "variants_with_compare_at": 58,
+    "sample_title": "Men's Hollow Out Crochet V-Neck Knit Sweater",
     "vertical_hint": "Fashion"
   },
   {
@@ -2156,20 +2167,6 @@
     "vertical_hint": "Fitness"
   },
   {
-    "domain": "brother-mart.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://brother-mart.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "citystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2218,7 +2215,7 @@
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
-      "wc-store-api: TimeoutError"
+      "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://dealayo.com",
     "ldjson_types": [],
@@ -2282,22 +2279,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "durbarmart.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://oakwood1444.com/",
-    "ldjson_types": [
-      "BreadcrumbList"
-    ],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "estore.com.np",
@@ -2654,20 +2635,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "swisstimepiecesnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://swisstimepiecesnepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "thaili.com.np",
     "tier": "3",
     "platform": null,
@@ -2854,6 +2821,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "durbarmart.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 522: <none>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "hempplanetnepal.com",
     "tier": "dead",
     "platform": null,
@@ -2980,6 +2957,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: HTTPError: HTTP Error 500: Internal Server Error"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "swisstimepiecesnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 404: Not Found"
     ],
     "vertical_hint": "Fashion"
   }
