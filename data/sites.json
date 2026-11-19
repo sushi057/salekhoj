@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Essentials Training Shoulder Bag",
+    "sample_title": "Columbia PEAKFREAK™ TITANIUM™ OUTDRY™",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 20,
+    "sample_variants": 25,
     "variants_with_compare_at": 0,
-    "sample_title": "Adidas Essentials Training Shoulder Bag",
+    "sample_title": "Columbia PEAKFREAK™ TITANIUM™ OUTDRY™",
     "vertical_hint": "Fashion"
   },
   {
@@ -58,8 +58,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "Laxmi Puja Pack | लक्ष्मी पूजा प्याक",
+    "variants_with_compare_at": 3,
+    "sample_title": "Nepali Tapari Sal Leaf Plates (टपरी) – 22.5 cm, 26.5 cm &#038; 29.5 cm",
     "vertical_hint": "Fashion"
   },
   {
@@ -68,9 +68,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 10,
+    "sample_variants": 9,
     "variants_with_compare_at": 0,
-    "sample_title": "2027 Handmade Calendar - Japanese Seasonal Events - NIPPON",
+    "sample_title": "Japanese Peony Glitter Print Wide Pants",
     "vertical_hint": "Fashion"
   },
   {
@@ -84,8 +84,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Liberty 5 Pro | Noise Cancelling Earbuds for Clear Calls",
+    "variants_with_compare_at": 0,
+    "sample_title": "Soundcore H30i Wireless On-Ear Headphones",
     "vertical_hint": "Electronics"
   },
   {
@@ -100,7 +100,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Kids Bakhu in Tash Kuchin Brocade, One Piece with Wonju",
+    "sample_title": "Namdroling Tibetan Vegan Incense, Golden Temple",
     "vertical_hint": "Fashion"
   },
   {
@@ -108,12 +108,11 @@
     "tier": "1",
     "platform": "woocommerce-store-api",
     "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError"
+      "products.json: HTTPError"
     ],
     "final_url": "https://bigbyte.com.np",
     "ldjson_types": [],
-    "store_api_path": "/?rest_route=/wc/store/products&per_page=5",
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Apple MacBook Pro 16-inch M5 Pro 24GB RAM 1TB SSD",
@@ -130,8 +129,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Medicube Azelaic Acid Niacinamide Deep Clean Foam Cleanser 120g",
+    "variants_with_compare_at": 5,
+    "sample_title": "PURITO Oat In Gentle Exfoliating Face Cleanser (150 ml)",
     "vertical_hint": "Beauty"
   },
   {
@@ -140,9 +139,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 24,
+    "sample_variants": 22,
     "variants_with_compare_at": 0,
-    "sample_title": "SPIRAL YELLOW",
+    "sample_title": "WILD HORIZON BLACK HOODIE",
     "vertical_hint": "Fashion"
   },
   {
@@ -151,9 +150,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
-    "variants_with_compare_at": 3,
-    "sample_title": "UGREEN 10000mAh Power Bank with 20W PD Charging",
+    "sample_variants": 11,
+    "variants_with_compare_at": 11,
+    "sample_title": "Soundcore Liberty 5 Pro Max AI ANC Earbuds",
     "vertical_hint": "Fashion"
   },
   {
@@ -168,7 +167,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "TITAN 547SN &#8211; Black Formal Loafer Shoes For Men &#8211; Caliber Shoes Nepal",
+    "sample_title": "ESTELLE 475SN-Black Boots For Women &#8211; Caliber Shoes Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -183,7 +182,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Hippie Patchwork Mushroom Print Wide Leg Overalls &#8211; Wholesale",
+    "sample_title": "Women&#8217;s Hippie Clothing Wholesale – 100% Cotton Handmade in Nepal",
     "vertical_hint": "Fashion"
   },
   {
@@ -271,7 +270,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Classic Cut-Out Mesh Babydoll Fishnet Lingerie",
+    "sample_title": "Full Cup Single Padded B Cup Bra Panty Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -295,9 +294,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 8,
-    "variants_with_compare_at": 8,
-    "sample_title": "Dhaka Topi",
+    "sample_variants": 5,
+    "variants_with_compare_at": 5,
+    "sample_title": "Tibetan Kalachakra with Dragon Base",
     "vertical_hint": "Fashion"
   },
   {
@@ -350,7 +349,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "Cropped Insulated Denim Jacket – 100 GSM Fiber Warmth Green",
+    "sample_title": "Cropped Grunge Hoodie Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -446,9 +445,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 40,
+    "sample_variants": 17,
     "variants_with_compare_at": 5,
-    "sample_title": "Womens Peak 7 Down Jacket (Hooded)",
+    "sample_title": "Waffle Knit Beanie",
     "vertical_hint": "Fashion"
   },
   {
@@ -477,8 +476,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Acer Swift Go 16 AI  Copilot+ PC (AMD Ryzen AI 7 445 Series Processor | 16GB RAM | 1TB SSD | AMD Radeon Graphics | Backlit Keyboard | 16″ WUXGA IPS 120Hz Touch Display)",
+    "variants_with_compare_at": 4,
+    "sample_title": "Asus VivoBook 15 (Intel Core 5 120U Series 1 Processor | 8GB RAM | 512GB SSD | Intel UHD Graphics | 15.6&#8243; FHD IPS Display | 2 Year Warranty)",
     "vertical_hint": "Electronics"
   },
   {
@@ -489,7 +488,9 @@
       "products.json: HTTPError"
     ],
     "final_url": "https://jirihealth.com",
-    "ldjson_types": [],
+    "ldjson_types": [
+      "FAQPage"
+    ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 2,
@@ -558,9 +559,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 15,
-    "variants_with_compare_at": 4,
-    "sample_title": "Cute Baby Bear Ear Knit Beanie with Soft Cotton Lining",
+    "sample_variants": 11,
+    "variants_with_compare_at": 8,
+    "sample_title": "Multicolor Wool Felt Ball Table Mat",
     "vertical_hint": "Fashion"
   },
   {
@@ -587,9 +588,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 110,
-    "variants_with_compare_at": 92,
-    "sample_title": "Warm Pyjama Set",
+    "sample_variants": 92,
+    "variants_with_compare_at": 68,
+    "sample_title": "Newborn Warm Booties",
     "vertical_hint": "Fashion"
   },
   {
@@ -636,8 +637,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Rasi Sweater",
+    "variants_with_compare_at": 0,
+    "sample_title": "Rhinestone Cotton Jeans",
     "vertical_hint": "Fashion"
   },
   {
@@ -651,8 +652,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "ASUS Zenbook 14 OLED (UM3405GA-ZB)-AMD Ryzen™ AI 9-465/16GB RAM LPDDR5x/512GB SSD/14&#8243; WUXGA OLED Touch Screen/Backlit Keyboard/Windows 11 Home (Jasper Gray)",
+    "variants_with_compare_at": 3,
+    "sample_title": "ASUS VivoBook E1504FA-WS51-AMD Ryzen 5-40/8GB RAM LPDDR5/256GB SSD/15.6&#8243; Full HD IPS/Windows 11 Home (Mixed Black)",
     "vertical_hint": "Electronics"
   },
   {
@@ -667,7 +668,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Men&#8217;s Formal Pant",
+    "sample_title": "Women&#8217;s Bone Pocket Long Coat",
     "vertical_hint": "Fashion"
   },
   {
@@ -729,7 +730,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 1,
-    "sample_title": "Lenovo V14 G4 IRU | Intel Core i5-13420H | 8GB DDR4 | 512GB SSD | Intel UHD Graphics | 14&#8243; FHD Display | 1 Year Warranty",
+    "sample_title": "Dell 15 DC15250 Laptop | Intel Core i5 13th Gen | 8GB RAM | 512GB SSD | 15.6-inch Touchscreen Display | Windows 11 | 1 Years Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -746,8 +747,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "MA-144 &#8211; Minimalist &#038; Modern Black Bead Mangalsutra on Fine Gold Plated Chain",
+    "variants_with_compare_at": 1,
+    "sample_title": "PA-114 &#8211; Dainty Gold Plated Diamond-Cut Chain Anklet Pair with Tiny Bell Clasps",
     "vertical_hint": "Fashion"
   },
   {
@@ -803,7 +804,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Eraderm Sunscreen Lotion",
+    "sample_title": "Eraderm Moisturising Lotion",
     "vertical_hint": "Beauty"
   },
   {
@@ -827,9 +828,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Lotus  Necklace with pearls",
+    "sample_title": "Mato Teapot Gift Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -838,9 +839,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
+    "sample_variants": 14,
     "variants_with_compare_at": 0,
-    "sample_title": "Handcarved Wooden Back  Fram of  Square Resin Buddha Mandala Wall Hanging",
+    "sample_title": "Alloy Metal Double Dorjee & Auspicious Symbol Carved Wall Hanging",
     "vertical_hint": "Fashion"
   },
   {
@@ -926,9 +927,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 7,
+    "sample_variants": 11,
     "variants_with_compare_at": 0,
-    "sample_title": "Teej Gift  Special",
+    "sample_title": "Purple Silk Men Kurtha Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -956,7 +957,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Matte Black Green Sunglass",
+    "sample_title": "Orchid Black Square Sunglass",
     "vertical_hint": "Fashion"
   },
   {
@@ -1004,8 +1005,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 4,
-    "sample_title": "Benefit Cosmetics  Mini Beauty Bus Stop Cheek Palette",
+    "variants_with_compare_at": 5,
+    "sample_title": "PURITO SEOUL Hydro Wave Deep Sea Cream 50ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1019,8 +1020,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Lenovo Legion Pro 5 16IAX10H | Ultra 9 275HX Processor | RTX 5070 Ti 12GB Graphics | 32GB DDR5 RAM | 1TB SSD | 16″ WQXGA OLED 165Hz Display | Windows 11 Home",
+    "variants_with_compare_at": 0,
+    "sample_title": "Acer X1123HP DLP Projector",
     "vertical_hint": "Electronics"
   },
   {
@@ -1032,21 +1033,6 @@
     "sample_variants": 5,
     "variants_with_compare_at": 0,
     "sample_title": "Unlocked Apple Iphone 12 Pro Max 256gb Color: Generic  Condition: Used Very Good",
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "queensclosetnepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://queensclosetnepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Midi Dress With Asymmetric Neckline And Long Sleeve",
     "vertical_hint": "Fashion"
   },
   {
@@ -1114,9 +1100,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 22,
-    "variants_with_compare_at": 22,
-    "sample_title": "Beige Floral Embroidered Mul Chanderi Straight Kurta Trouser Set with Dupatta",
+    "sample_variants": 23,
+    "variants_with_compare_at": 23,
+    "sample_title": "Beige Mul Chanderi Floral Embroidered Kurta Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1151,9 +1137,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 13,
+    "sample_variants": 47,
     "variants_with_compare_at": 0,
-    "sample_title": "Mix No.6 Full Boots",
+    "sample_title": "Anne Klein Ankle Boots",
     "vertical_hint": "Fashion"
   },
   {
@@ -1179,7 +1165,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 5,
-    "sample_title": "NUMBUZIN No.9 NAD+ 9 Peptides Dewy Sun Essence SPF50+ PA++++",
+    "sample_title": "Manyo Pure Soybean Cleansing Foam 160ml",
     "vertical_hint": "Beauty"
   },
   {
@@ -1193,7 +1179,7 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 0,
+    "variants_with_compare_at": 5,
     "sample_title": "Henley Shirt Sky Blue",
     "vertical_hint": "Fashion"
   },
@@ -1256,7 +1242,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "NAVIFORCE NF9265 Dual Time Sports Fumed Silicon Strap Luminious Watch for Men &#8211;  Black/Silver",
+    "sample_title": "Casio CA-53WF-1BDF Vintage Digital Calculator Watch",
     "vertical_hint": "Fashion"
   },
   {
@@ -1277,8 +1263,8 @@
     "notes": [],
     "sample_products": 5,
     "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Titan Zero Hour Diver's Blue Dial Analog Watch",
+    "variants_with_compare_at": 0,
+    "sample_title": "Skinn by Titan Raw 20 ML Perfume for Men EDP",
     "vertical_hint": "Fashion"
   },
   {
@@ -1312,6 +1298,17 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "tsarmoire.com",
+    "tier": "1",
+    "platform": "shopify",
+    "notes": [],
+    "sample_products": 149,
+    "sample_variants": 530,
+    "variants_with_compare_at": 49,
+    "sample_title": null,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "tshirtnepal.com.np",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -1332,9 +1329,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 58,
-    "variants_with_compare_at": 58,
-    "sample_title": "Men's Hollow Out Crochet V-Neck Knit Sweater",
+    "sample_variants": 25,
+    "variants_with_compare_at": 25,
+    "sample_title": "Women's Half Turtleneck Knit Sweater",
     "vertical_hint": "Fashion"
   },
   {
@@ -1349,23 +1346,8 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "UFO Sleeveless Top",
+    "sample_title": "Collared Half Zip Sweater",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "vitaminepal.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://vitaminepal.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 0,
-    "sample_title": "Naptocare Glutathione 500mg- 30 Tablets",
-    "vertical_hint": "Fitness"
   },
   {
     "domain": "woven-nepal.com",
@@ -1582,7 +1564,7 @@
   {
     "domain": "evostore.com.np",
     "tier": "2",
-    "platform": "opencart",
+    "platform": null,
     "notes": [
       "products.json: HTTPError",
       "wc-store-api: HTTPError",
@@ -1620,7 +1602,7 @@
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
-    "final_url": "https://besuitedaroma.com/about/",
+    "final_url": "https://lagatamaulavermuteria.com/contacte/",
     "ldjson_types": [
       "BreadcrumbList",
       "FAQPage",
@@ -1783,7 +1765,7 @@
     "tier": "2",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError",
+      "products.json: JSONDecodeError",
       "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
@@ -1948,6 +1930,7 @@
     ],
     "final_url": "https://qualitycomputer.com.np",
     "ldjson_types": [
+      "ElectronicsStore",
       "WebSite"
     ],
     "price_in_html": true,
@@ -2016,6 +1999,20 @@
     "vertical_hint": "Electronics"
   },
   {
+    "domain": "suitnepal.com",
+    "tier": "2",
+    "platform": "wordpress",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://www.missuniversesl.com/",
+    "ldjson_types": [],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "suluxcentre.com",
     "tier": "2",
     "platform": null,
@@ -2052,6 +2049,42 @@
     ],
     "price_in_html": true,
     "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "thriftstorenepal.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://www.thriftstorenepal.com/",
+    "ldjson_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "vitaminepal.com",
+    "tier": "2",
+    "platform": "wordpress",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://vitaminepal.com",
+    "ldjson_types": [
+      "FAQPage",
+      "Organization",
+      "Store",
+      "WebSite"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fitness"
   },
   {
     "domain": "affordablethriftstorenepal.com",
@@ -2150,6 +2183,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "bishrom.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://bishrom.com/wp-admin/install.php",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2167,6 +2214,20 @@
     "vertical_hint": "Fitness"
   },
   {
+    "domain": "caravan.com.np",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: JSONDecodeError",
+      "wc-store-api: JSONDecodeError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://caravan.com.np/cgi-sys/suspendedpage.cgi",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "citystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2176,6 +2237,20 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://citystorenepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "clothesnepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://clothesnepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2534,7 +2609,7 @@
     "tier": "3",
     "platform": null,
     "notes": [
-      "products.json: JSONDecodeError",
+      "products.json: URLError",
       "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
@@ -2635,6 +2710,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "swisstimepiecesnepal.com",
+    "tier": "3",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://swisstimepiecesnepal.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "thaili.com.np",
     "tier": "3",
     "platform": null,
@@ -2644,20 +2733,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thaili.com.np",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "thebrandnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://thebrandnepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2677,20 +2752,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "thekickersnepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.thekickersnepal.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "thriftmandu.com",
     "tier": "3",
     "platform": null,
@@ -2700,34 +2761,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://thriftmandu.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "thriftstorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.thriftstorenepal.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "tsarmoire.com",
-    "tier": "3",
-    "platform": "next.js",
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://tsarmoire.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2751,7 +2784,7 @@
     "tier": "3",
     "platform": "next.js",
     "notes": [
-      "products.json: HTTPError",
+      "products.json: JSONDecodeError",
       "wc-store-api: HTTPError",
       "wc-store-api: JSONDecodeError"
     ],
@@ -2766,27 +2799,7 @@
     "platform": null,
     "notes": [
       "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "bishrom.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: TimeoutError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "caravan.com.np",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2807,16 +2820,6 @@
     "notes": [
       "products.json: HTTPError",
       "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "clothesnepal.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'clothesnepal.com'. (_ssl.c:1010)>"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2875,8 +2878,8 @@
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: URLError",
-      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+      "products.json: TimeoutError",
+      "home: TimeoutError: The read operation timed out"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2921,6 +2924,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "queensclosetnepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno 111] Connection refused>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "sastoprint.com",
     "tier": "dead",
     "platform": null,
@@ -2945,28 +2958,28 @@
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno 111] Connection refused>"
     ],
     "vertical_hint": "Beauty"
   },
   {
-    "domain": "suitnepal.com",
+    "domain": "thebrandnepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 500: Internal Server Error"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>"
     ],
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "swisstimepiecesnepal.com",
+    "domain": "thekickersnepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 404: Not Found"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
     ],
     "vertical_hint": "Fashion"
   }
