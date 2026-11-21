@@ -5,9 +5,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
+    "sample_variants": 18,
     "variants_with_compare_at": 0,
-    "sample_title": "ASICS ROAD SS TOP",
+    "sample_title": "ASICS GEL-1130 SHOES",
     "vertical_hint": "Fashion"
   },
   {
@@ -16,9 +16,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 21,
+    "sample_variants": 18,
     "variants_with_compare_at": 0,
-    "sample_title": "ASICS ROAD SS TOP",
+    "sample_title": "ASICS GEL-1130 SHOES",
     "vertical_hint": "Fashion"
   },
   {
@@ -31,21 +31,6 @@
     "variants_with_compare_at": 0,
     "sample_title": "Women's Double Buckle Slides – Rexine Upper with EVA Insole & Durable PU Sole",
     "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "allattar.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://www.allattar.com/",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "LATTAFA MAYAR PINK 100ML |FOR HER",
-    "vertical_hint": "Beauty"
   },
   {
     "domain": "amaghar.com",
@@ -119,21 +104,6 @@
     "vertical_hint": "Electronics"
   },
   {
-    "domain": "bonjournp.com",
-    "tier": "1",
-    "platform": "woocommerce-store-api",
-    "notes": [
-      "products.json: HTTPError"
-    ],
-    "final_url": "https://bonjournp.com",
-    "ldjson_types": [],
-    "store_api_path": "/wp-json/wc/store/products?per_page=5",
-    "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Rue Broca Ma Belle XOXO EDP &#8211; 100 ML",
-    "vertical_hint": "Beauty"
-  },
-  {
     "domain": "brocadeofficial.com",
     "tier": "1",
     "platform": "shopify",
@@ -152,7 +122,7 @@
     "sample_products": 5,
     "sample_variants": 6,
     "variants_with_compare_at": 5,
-    "sample_title": "Airmars ABS05 Portable Bluetooth Speaker with 12W Sound",
+    "sample_title": "Anker MagGo 10000mAh Slim Magnetic Power Bank",
     "vertical_hint": "Fashion"
   },
   {
@@ -294,9 +264,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "Tibetan Kalachakra with Dragon Base",
+    "sample_variants": 6,
+    "variants_with_compare_at": 6,
+    "sample_title": "Bangle",
     "vertical_hint": "Fashion"
   },
   {
@@ -476,8 +446,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 2,
-    "sample_title": "AMD Ryzen 5 9600X Tray (AMD Ryzen 9000 Series AM5 Desktop Processor | 6 Cores | 12 Threads | Up to 5.4 GHz Boost Clock)",
+    "variants_with_compare_at": 0,
+    "sample_title": "AMD Ryzen 5 5600 Tray (Socket AM4 65W Desktop Processor | 6core | 12threads | Zen 3)",
     "vertical_hint": "Electronics"
   },
   {
@@ -559,9 +529,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 11,
-    "variants_with_compare_at": 8,
-    "sample_title": "Multicolor Wool Felt Ball Table Mat",
+    "sample_variants": 10,
+    "variants_with_compare_at": 7,
+    "sample_title": "Witchy Boho Bell Sleeve Top and Wide Leg Pants Set",
     "vertical_hint": "Fashion"
   },
   {
@@ -638,7 +608,7 @@
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
     "variants_with_compare_at": 0,
-    "sample_title": "Rhinestone Cotton Jeans",
+    "sample_title": "Bejeweled Cotton Jeans",
     "vertical_hint": "Fashion"
   },
   {
@@ -729,8 +699,8 @@
     ],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 1,
-    "sample_title": "Lenovo ThinkCentre M70q Gen 5 Desktop | Intel Core i5 14th Gen | 8GB RAM | 512GB SSD | 18.5-inch Monitor | DOS | 1 Year Warranty",
+    "variants_with_compare_at": 0,
+    "sample_title": "Acer Aspire Lite 15 | AMD Ryzen 7 7730U | 8GB RAM | 512GB SSD | 15.6-inch FHD Display | 1 Years Warranty",
     "vertical_hint": "Electronics"
   },
   {
@@ -875,6 +845,21 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "nepalvisitors.com",
+    "tier": "1",
+    "platform": "woocommerce-store-api",
+    "notes": [
+      "products.json: HTTPError"
+    ],
+    "final_url": "https://www.nepalvisitors.com/",
+    "ldjson_types": [],
+    "store_api_path": "/wp-json/wc/store/products?per_page=5",
+    "sample_products": 5,
+    "variants_with_compare_at": 0,
+    "sample_title": "Baba Adventure Tourist Bus",
+    "vertical_hint": "Fashion"
+  },
+  {
     "domain": "nephot.com",
     "tier": "1",
     "platform": "woocommerce-store-api",
@@ -975,8 +960,8 @@
     "ldjson_types": [],
     "store_api_path": "/wp-json/wc/store/products?per_page=5",
     "sample_products": 5,
-    "variants_with_compare_at": 5,
-    "sample_title": "PURITO SEOUL Hydro Wave Deep Sea Cream 50ml",
+    "variants_with_compare_at": 3,
+    "sample_title": "HUDA BEAUTY  Mini Easy Bake Loose Baking &#038; Setting Powder -BANANA BREAD 6g",
     "vertical_hint": "Beauty"
   },
   {
@@ -1072,7 +1057,7 @@
     "sample_products": 5,
     "sample_variants": 20,
     "variants_with_compare_at": 20,
-    "sample_title": "Rani Pink Embroidered Silk Blend Suit Set with Dupatta",
+    "sample_title": "Ruby Red Embroidered Silk Blend Kurta Set with Dupatta",
     "vertical_hint": "Fashion"
   },
   {
@@ -1257,8 +1242,8 @@
     "tier": "1",
     "platform": "shopify",
     "notes": [],
-    "sample_products": 149,
-    "sample_variants": 530,
+    "sample_products": 150,
+    "sample_variants": 536,
     "variants_with_compare_at": 49,
     "sample_title": null,
     "vertical_hint": "Fashion"
@@ -1284,9 +1269,9 @@
     "platform": "shopify",
     "notes": [],
     "sample_products": 5,
-    "sample_variants": 120,
-    "variants_with_compare_at": 120,
-    "sample_title": "Men's Loose Fit Sports Track Pants",
+    "sample_variants": 105,
+    "variants_with_compare_at": 105,
+    "sample_title": "STOCK-Men's Breathable Solid Color Polo Shirt Short Sleeve Casual",
     "vertical_hint": "Fashion"
   },
   {
@@ -1371,6 +1356,22 @@
     "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Electronics"
+  },
+  {
+    "domain": "aoneleathercraft.com",
+    "tier": "2",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://aoneleathercraft.com",
+    "ldjson_types": [
+      "LocalBusiness"
+    ],
+    "price_in_html": true,
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "beautyhubnepal.com",
@@ -1478,7 +1479,7 @@
     "platform": null,
     "notes": [
       "products.json: JSONDecodeError",
-      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError",
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://evanmens.com",
@@ -1678,10 +1679,7 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://www.healme.com.np/",
-    "ldjson_types": [
-      "MedicalOrganization",
-      "WebSite"
-    ],
+    "ldjson_types": [],
     "price_in_html": true,
     "vertical_hint": "Beauty"
   },
@@ -1970,20 +1968,6 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "thewatchlounge.co",
-    "tier": "2",
-    "platform": "woocommerce",
-    "notes": [
-      "products.json: TimeoutError",
-      "wc-store-api: TimeoutError",
-      "wc-store-api: TimeoutError"
-    ],
-    "final_url": "https://thewatchlounge.co",
-    "ldjson_types": [],
-    "price_in_html": true,
-    "vertical_hint": "Fashion"
-  },
-  {
     "domain": "thriftko.com",
     "tier": "2",
     "platform": null,
@@ -2063,20 +2047,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://agantraders.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "aoneleathercraft.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://aoneleathercraft.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2164,6 +2134,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "bonjournp.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://bonjournp.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "brightsupplements.store",
     "tier": "3",
     "platform": null,
@@ -2190,20 +2174,6 @@
       "wc-store-api: JSONDecodeError"
     ],
     "final_url": "https://caravan.com.np/cgi-sys/suspendedpage.cgi",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
-  },
-  {
-    "domain": "citystorenepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: HTTPError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://citystorenepal.com",
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fashion"
@@ -2514,6 +2484,20 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "kinaun.com",
+    "tier": "3",
+    "platform": "woocommerce",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: HTTPError"
+    ],
+    "final_url": "https://www.kinaun.com/",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "lacosmeticsnepal.com",
     "tier": "3",
     "platform": null,
@@ -2526,20 +2510,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Beauty"
-  },
-  {
-    "domain": "marknepal.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: JSONDecodeError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://marknepal.com",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "megashopnepal.com",
@@ -2572,6 +2542,20 @@
     "vertical_hint": "Beauty"
   },
   {
+    "domain": "mobilemandu.com",
+    "tier": "3",
+    "platform": "next.js",
+    "notes": [
+      "products.json: HTTPError",
+      "wc-store-api: HTTPError",
+      "wc-store-api: JSONDecodeError"
+    ],
+    "final_url": "https://mobilemandu.com",
+    "ldjson_types": [],
+    "price_in_html": false,
+    "vertical_hint": "Electronics"
+  },
+  {
     "domain": "mystorenepal.com",
     "tier": "3",
     "platform": null,
@@ -2598,20 +2582,6 @@
     "ldjson_types": [],
     "price_in_html": false,
     "vertical_hint": "Fitness"
-  },
-  {
-    "domain": "nepalvisitors.com",
-    "tier": "3",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "wc-store-api: JSONDecodeError",
-      "wc-store-api: JSONDecodeError"
-    ],
-    "final_url": "https://www.nepalvisitors.com/",
-    "ldjson_types": [],
-    "price_in_html": false,
-    "vertical_hint": "Fashion"
   },
   {
     "domain": "onin.com.np",
@@ -2789,6 +2759,16 @@
     "vertical_hint": "Fashion"
   },
   {
+    "domain": "allattar.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: URLError",
+      "home: URLError: <urlopen error timed out>"
+    ],
+    "vertical_hint": "Beauty"
+  },
+  {
     "domain": "basemark.com.np",
     "tier": "dead",
     "platform": null,
@@ -2815,6 +2795,16 @@
     "notes": [
       "products.json: HTTPError",
       "home: TimeoutError: The read operation timed out"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "citystorenepal.com",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 500: Internal Server Error"
     ],
     "vertical_hint": "Fashion"
   },
@@ -2869,24 +2859,14 @@
     "vertical_hint": "Fashion"
   },
   {
-    "domain": "kinaun.com",
+    "domain": "marknepal.com",
     "tier": "dead",
     "platform": null,
     "notes": [
-      "products.json: HTTPError",
-      "home: HTTPError: HTTP Error 403: Forbidden"
+      "products.json: URLError",
+      "home: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
     ],
-    "vertical_hint": "Electronics"
-  },
-  {
-    "domain": "mobilemandu.com",
-    "tier": "dead",
-    "platform": null,
-    "notes": [
-      "products.json: HTTPError",
-      "home: TimeoutError: The read operation timed out"
-    ],
-    "vertical_hint": "Electronics"
+    "vertical_hint": "Fashion"
   },
   {
     "domain": "mudita.com.np",
@@ -2975,6 +2955,16 @@
     "notes": [
       "products.json: URLError",
       "home: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+    ],
+    "vertical_hint": "Fashion"
+  },
+  {
+    "domain": "thewatchlounge.co",
+    "tier": "dead",
+    "platform": null,
+    "notes": [
+      "products.json: HTTPError",
+      "home: HTTPError: HTTP Error 403: Forbidden"
     ],
     "vertical_hint": "Fashion"
   }
